@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KPSS Soru Programı</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app"><div class="yukleniyor">Sorular yükleniyor…</div></div>
+<script src="sorular/manifest.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  var files = window.KPSS_MANIFEST || [];
+  var kalan = files.length;
+  if (!kalan) { App.init(); return; }
+  files.forEach(function (f) {
+    var s = document.createElement("script");
+    s.src = "sorular/" + f;
+    s.onload = s.onerror = function () { if (--kalan === 0) App.init(); };
+    document.head.appendChild(s);
+  });
+})();
+</script>
+</body>
+</html>
