@@ -627,11 +627,9 @@ var App = (function () {
     var dersKartlari = Object.keys(DERSLER).map(function (dl) {
       var D = DERSLER[dl];
       var bankAdet = bank(dl).length;
-      var gorulen = (seen[dl] || []).length;
-      var yeni = Math.max(0, bankAdet - gorulen);
       var detay = bankAdet === 0
         ? "Soru bankası hazırlanıyor…"
-        : "Testte " + D.soru + " soru • Bankada " + bankAdet + " soru (" + yeni + " yeni)";
+        : "Bu oturumda " + D.soru + " soru vardır.";
       return '<div class="kart">' +
         '<div class="ikon">' + D.ikon + '</div>' +
         '<div class="ad">' + D.ad + '</div>' +
