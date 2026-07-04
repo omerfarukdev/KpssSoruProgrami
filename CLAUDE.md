@@ -14,7 +14,7 @@ Bu depo **3 kişinin ortak** KPSS Lisans (GY-GK) çalışma aracıdır. Bu dosya
 1. **Başkasının soru dosyasını düzenleme, silme, yeniden adlandırma.** Herkes yalnızca kendi dosyalarını yönetir.
 2. **Mevcut soru id'lerini asla değiştirme** — kullanıcıların ilerleme kayıtları id'lere bağlıdır; id değişirse çözülmüş soru "yeni" sanılır, yanlış defteri bozulur.
 3. **Soru silme.** Hatalı soru varsa düzeltilir (yalnızca sahibi ya da onun onayıyla), silinmez.
-4. Soru eklemek için `js/app.js`, `css/style.css`, `index.html` dosyalarına dokunmak GEREKMEZ; çekirdek uygulamayı yalnızca depo sahibi (omerfarukdev) değiştirir.
+4. Soru eklemek için `js/app.js`, `css/style.css`, `index.html` dosyalarına dokunmak GEREKMEZ; çekirdek uygulamayı yalnızca depo sahibi (omerfarukdev) değiştirir. (Not: çekirdek dosyalar değiştiğinde `index.html` içindeki `?v=...` sürüm damgaları da güncellenir — tarayıcı önbelleği için.)
 
 ## Soru Ekleme Prosedürü (sırayla, adım atlamadan)
 
