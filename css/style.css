@@ -211,8 +211,46 @@ select.filtre-sec {
 
 .geri-satir { margin-bottom: 18px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 
+/* ===== Günlük hedef ===== */
+.hedef-kutu {
+  background: var(--panel); border: 1px solid var(--cizgi);
+  border-radius: 14px; padding: 14px 16px; margin-bottom: 22px;
+}
+.hedef-ust {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 10px; font-size: 14.5px;
+}
+.hedef-ust input {
+  width: 70px; background: var(--panel2); color: var(--metin);
+  border: 1px solid var(--cizgi); border-radius: 8px; padding: 4px 8px;
+  font-family: inherit; font-size: 13.5px;
+}
+.hedef-ayar { color: var(--soluk); font-size: 13px; }
+.seri { color: var(--turuncu); font-weight: 700; }
+
+/* ===== Soru işaretleme ===== */
+.btn.isaret-aktif { background: var(--turuncu); color: #fff; }
+.harita button.isaretli { border-color: var(--turuncu); color: var(--turuncu); }
+.harita button.isaretli.cevapli { color: var(--metin); }
+.rozet.isaret { background: rgba(230, 126, 34, .15); color: var(--turuncu); }
+.kirmizi-metin { color: var(--kirmizi); }
+.sari-metin { color: var(--sari); }
+
+/* ===== Dokunmatik iyileştirmeleri ===== */
+.opt, .btn, .harita button { touch-action: manipulation; }
+
 @media (max-width: 640px) {
   #app { padding: 14px 10px 50px; }
   .soru-metin { font-size: 16px; }
-  .exam-ust { position: static; }
+  .exam-ust { position: static; padding: 10px 12px; gap: 8px; }
+  .exam-ust .baslik { font-size: 14px; }
+  .opt { padding: 13px 12px; }
+  .btn { min-height: 42px; }
+  .btn.kucuk { min-height: 34px; }
+  .harita { grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); }
+  .ozet-grid { grid-template-columns: repeat(3, 1fr); }
+  .ozet-kart .deger { font-size: 21px; }
+  .tablo { font-size: 13px; display: block; overflow-x: auto; }
+  .hedef-ust { font-size: 13px; }
+  h1 { font-size: 21px; }
 }

@@ -15,6 +15,9 @@ var App = (function () {
   var DENEME_SURE = 130 * 60; // saniye
   var HARFLER = ["A", "B", "C", "D", "E"];
   var VARSAYILAN_SINAV_TARIHI = "2026-09-12";
+  var VARSAYILAN_HEDEF = 120;
+  var ZAYIF_ESIK = 0.65;   // bu oranın altındaki konular zayıf sayılır
+  var ZAYIF_MIN_SORU = 4;  // bir konuda en az bu kadar soru çözülmüş olmalı
 
   // ================= Depolama =================
   var Store = {
@@ -51,17 +54,11 @@ var App = (function () {
     return d.toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit", year: "2-digit" }) +
       " " + d.toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" });
   }
+  function tarihKey(d) {
+    return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+  }
   function bank(ders) {
     return (window.KPSS_BANK && window.KPSS_BANK[ders]) || [];
-  }
-  function bankHaritasi() {
-    var m = {};
-    for (var d in DERSLER) {
-      bank(d).forEach(function (q) {
-        m[q.id] = Object.assign({}, q, { ders: d });
-      });
-    }
-    return m;
   }
   function render(html) {
     $("#app").innerHTML = html;
@@ -96,6 +93,23 @@ var App = (function () {
     return { sorular: sorular, tekrar: tekrar };
   }
 
+  // ================= Zayıf konu analizi =================
+  function zayifKonular() {
+    var ki = Store.get("konuIst", {});
+    var liste = [];
+    for (var dl in ki) {
+      for (var k in ki[dl]) {
+        var x = ki[dl][k];
+        var top = x.d + x.y + x.b;
+        if (top >= ZAYIF_MIN_SORU && x.d / top < ZAYIF_ESIK) {
+          liste.push({ ders: dl, konu: k, oran: x.d / top, top: top });
+        }
+      }
+    }
+    liste.sort(function (a, b) { return a.oran - b.oran; });
+    return liste;
+  }
+
   // ================= Sınav kurulumu =================
   function sinavKur(mod, sorular, dersKey, tekrar) {
     S = {
@@ -103,6 +117,8 @@ var App = (function () {
       ders: dersKey || null,
       sorular: sorular,
       cevaplar: new Array(sorular.length).fill(null),
+      isaret: new Array(sorular.length).fill(false),
+      sureler: new Array(sorular.length).fill(0),
       idx: 0,
       gecen: 0,
       auto: Store.get("settings", {}).otoIlerle !== false,
@@ -119,6 +135,7 @@ var App = (function () {
   function tik() {
     if (!S || ekran !== "exam") return;
     S.gecen++;
+    S.sureler[S.idx]++;
     var el = $("#timer");
     if (el) {
       if (S.mod === "deneme") {
@@ -161,10 +178,13 @@ var App = (function () {
 
   function yanlisBaslat(dersKey) {
     var wrong = Store.get("wrong", {});
-    var harita = bankHaritasi();
+    var harita = {};
+    for (var d in DERSLER) {
+      bank(d).forEach(function (q) { harita[q.id] = Object.assign({}, q, { ders: d }); });
+    }
     var idler = [];
     if (dersKey === "hepsi") {
-      for (var d in wrong) idler = idler.concat(wrong[d]);
+      for (var w in wrong) idler = idler.concat(wrong[w]);
     } else {
       idler = (wrong[dersKey] || []).slice();
     }
@@ -172,6 +192,31 @@ var App = (function () {
       .filter(function (q) { return !!q; })).slice(0, 30);
     if (sorular.length === 0) { alert("Yanlış defterinde soru yok. Harika!"); return; }
     sinavKur("yanlis", sorular, dersKey, false);
+  }
+
+  function zayifBaslat() {
+    var zk = zayifKonular();
+    if (zk.length === 0) {
+      alert("Henüz zayıf konu tespit edilmedi. Birkaç test çözdükçe analiz oluşur.");
+      return;
+    }
+    var set = {};
+    zk.forEach(function (z) { set[z.ders + "|" + z.konu] = true; });
+    var seenObj = Store.get("seen", {});
+    var yeni = [], eski = [];
+    for (var dl in DERSLER) {
+      var seen = {};
+      (seenObj[dl] || []).forEach(function (id) { seen[id] = true; });
+      bank(dl).forEach(function (q) {
+        if (set[dl + "|" + q.konu]) {
+          (seen[q.id] ? eski : yeni).push(Object.assign({}, q, { ders: dl }));
+        }
+      });
+    }
+    var sorular = shuffle(yeni).slice(0, 20);
+    if (sorular.length < 20) sorular = sorular.concat(shuffle(eski).slice(0, 20 - sorular.length));
+    if (sorular.length === 0) { alert("Zayıf konularına ait soru bulunamadı."); return; }
+    sinavKur("zayif", shuffle(sorular), null, false);
   }
 
   // ================= Sınav akışı =================
@@ -201,6 +246,12 @@ var App = (function () {
     renderExam();
   }
 
+  function isaretle() {
+    if (!S || ekran !== "exam") return;
+    S.isaret[S.idx] = !S.isaret[S.idx];
+    renderExam();
+  }
+
   function otoDegis(cb) {
     if (!S) return;
     S.auto = cb.checked;
@@ -220,9 +271,10 @@ var App = (function () {
     if (!S || ekran !== "exam") return;
     if (!otomatik) {
       var bosSayi = S.cevaplar.filter(function (c) { return c === null; }).length;
-      var msg = bosSayi > 0
-        ? bosSayi + " soru boş bırakıldı. Sınav bitirilsin mi?"
-        : "Sınav bitirilsin mi?";
+      var isaretliSayi = S.isaret.filter(Boolean).length;
+      var msg = (bosSayi > 0 ? bosSayi + " soru boş bırakıldı. " : "") +
+                (isaretliSayi > 0 ? "⚑ " + isaretliSayi + " işaretli sorun var. " : "") +
+                "Sınav bitirilsin mi?";
       if (!confirm(msg)) return;
     }
     clearInterval(S.timerId);
@@ -230,7 +282,7 @@ var App = (function () {
     var detay = S.sorular.map(function (q, i) {
       var c = S.cevaplar[i];
       var durum = c === null ? "bos" : (c === q.dogru ? "dogru" : "yanlis");
-      return { q: q, cevap: c, durum: durum };
+      return { q: q, cevap: c, durum: durum, isaret: S.isaret[i], sure: S.sureler[i] };
     });
     var d = 0, y = 0, b = 0;
     detay.forEach(function (x) {
@@ -261,10 +313,26 @@ var App = (function () {
     Store.set("seen", seen);
     Store.set("wrong", wrong);
 
-    // konu dökümü
+    // konu istatistiği (zayıf konu analizi için, tüm modlarda birikir)
+    var ki = Store.get("konuIst", {});
+    detay.forEach(function (x) {
+      var dl = x.q.ders;
+      ki[dl] = ki[dl] || {};
+      ki[dl][x.q.konu] = ki[dl][x.q.konu] || { d: 0, y: 0, b: 0 };
+      ki[dl][x.q.konu][x.durum === "dogru" ? "d" : x.durum === "yanlis" ? "y" : "b"]++;
+    });
+    Store.set("konuIst", ki);
+
+    // günlük çözülen soru sayacı (tüm modlar)
+    var gunluk = Store.get("gunluk", {});
+    var bugun = tarihKey(new Date());
+    gunluk[bugun] = (gunluk[bugun] || 0) + detay.length;
+    Store.set("gunluk", gunluk);
+
+    // konu dökümü (bu sınav için)
     var konular = {};
     detay.forEach(function (x) {
-      var key = (S.mod === "deneme" ? DERSLER[x.q.ders].ad + " • " : "") + x.q.konu;
+      var key = (S.mod === "deneme" || S.mod === "zayif" ? DERSLER[x.q.ders].ad + " • " : "") + x.q.konu;
       konular[key] = konular[key] || { d: 0, y: 0, b: 0 };
       konular[key][x.durum === "dogru" ? "d" : x.durum === "yanlis" ? "y" : "b"]++;
     });
@@ -275,8 +343,9 @@ var App = (function () {
       dersDok = {};
       detay.forEach(function (x) {
         var dl = x.q.ders;
-        dersDok[dl] = dersDok[dl] || { d: 0, y: 0, b: 0 };
+        dersDok[dl] = dersDok[dl] || { d: 0, y: 0, b: 0, sure: 0 };
         dersDok[dl][x.durum === "dogru" ? "d" : x.durum === "yanlis" ? "y" : "b"]++;
+        dersDok[dl].sure += x.sure;
       });
     }
 
@@ -287,6 +356,7 @@ var App = (function () {
         ts: Date.now(), mod: S.mod, ders: S.ders,
         toplam: detay.length, d: d, y: y, b: b,
         net: Math.round(net * 100) / 100, sure: sure,
+        ortSure: Math.round(sure / detay.length),
         dersDok: dersDok
       });
       Store.set("history", gecmis);
@@ -302,15 +372,18 @@ var App = (function () {
   }
 
   // ================= Ekran: Sınav =================
+  function modBaslik() {
+    var q = S.sorular[S.idx];
+    if (S.mod === "deneme") return "🎯 Tam Deneme — " + DERSLER[q.ders].ad;
+    if (S.mod === "yanlis") return "📕 Yanlış Defteri" + (S.ders !== "hepsi" ? " — " + DERSLER[S.ders].ad : "");
+    if (S.mod === "zayif") return "🧩 Zayıf Konular Testi — " + DERSLER[q.ders].ad;
+    return DERSLER[S.ders].ikon + " " + DERSLER[S.ders].ad + " Testi";
+  }
+
   function renderExam() {
     var q = S.sorular[S.idx];
     var n = S.sorular.length;
     var cevapli = S.cevaplar.filter(function (c) { return c !== null; }).length;
-
-    var baslik;
-    if (S.mod === "deneme") baslik = "🎯 Tam Deneme — " + DERSLER[q.ders].ad;
-    else if (S.mod === "yanlis") baslik = "📕 Yanlış Defteri" + (S.ders !== "hepsi" ? " — " + DERSLER[S.ders].ad : "");
-    else baslik = DERSLER[S.ders].ikon + " " + DERSLER[S.ders].ad + " Testi";
 
     var timerText = S.mod === "deneme"
       ? "⏳ " + fmtSure(DENEME_SURE - S.gecen)
@@ -324,13 +397,15 @@ var App = (function () {
     }).join("");
 
     var harita = S.sorular.map(function (_, i) {
-      var cls = (S.cevaplar[i] !== null ? "cevapli" : "") + (i === S.idx ? " aktif" : "");
+      var cls = (S.cevaplar[i] !== null ? "cevapli" : "") +
+                (i === S.idx ? " aktif" : "") +
+                (S.isaret[i] ? " isaretli" : "");
       return '<button class="' + cls + '" onclick="App.gitNo(' + i + ')">' + (i + 1) + '</button>';
     }).join("");
 
     render(
       '<div class="exam-ust">' +
-        '<div class="baslik">' + baslik + '</div>' +
+        '<div class="baslik">' + modBaslik() + '</div>' +
         '<div class="timer' + (S.mod === "deneme" && DENEME_SURE - S.gecen <= 600 ? " kritik" : "") + '" id="timer">' + timerText + '</div>' +
         '<label><input type="checkbox" ' + (S.auto ? "checked" : "") + ' onchange="App.otoDegis(this)"> Otomatik ilerle</label>' +
         '<button class="btn tehlike kucuk" onclick="App.iptal()">Çıkış</button>' +
@@ -340,6 +415,8 @@ var App = (function () {
         '<div class="soru-ust">' +
           '<span class="soru-no">Soru ' + (S.idx + 1) + ' / ' + n + '</span>' +
           '<span class="chip">' + esc(q.konu) + '</span>' +
+          '<span style="flex:1"></span>' +
+          '<button class="btn kucuk ' + (S.isaret[S.idx] ? "isaret-aktif" : "ikincil") + '" onclick="App.isaretle()">⚑ ' + (S.isaret[S.idx] ? "İşaretli" : "İşaretle") + '</button>' +
         '</div>' +
         '<div class="soru-metin">' + esc(q.soru) + '</div>' +
         siklar +
@@ -352,8 +429,6 @@ var App = (function () {
       '</div>' +
       '<div class="harita">' + harita + '</div>'
     );
-    // sayfayı en üste değil, soruya odakla
-    window.scrollTo(0, 0);
   }
 
   // ================= Ekran: Sonuç =================
@@ -361,16 +436,20 @@ var App = (function () {
     var r = S.sonuc;
     var n = r.detay.length;
     var yuzde = n > 0 ? Math.round(r.net / n * 100) : 0;
+    var isaretliSayi = r.detay.filter(function (x) { return x.isaret; }).length;
 
     var baslik;
     if (S.mod === "deneme") baslik = "🎯 Tam Deneme Sonucu";
     else if (S.mod === "yanlis") baslik = "📕 Yanlış Defteri Sonucu";
+    else if (S.mod === "zayif") baslik = "🧩 Zayıf Konular Test Sonucu";
     else baslik = DERSLER[S.ders].ikon + " " + DERSLER[S.ders].ad + " Test Sonucu";
 
     var html = '<div class="geri-satir">' +
       '<button class="btn ikincil" onclick="App.anaSayfa()">← Ana Sayfa</button>' +
       (S.mod === "ders" ? '<button class="btn" onclick="App.dersTestiBaslat(\'' + S.ders + '\')">Aynı Dersten Yeni Test</button>' : '') +
       (S.mod === "yanlis" ? '<button class="btn" onclick="App.yanlisBaslat(\'' + S.ders + '\')">Deftere Devam Et</button>' : '') +
+      (S.mod === "zayif" ? '<button class="btn" onclick="App.zayifBaslat()">Zayıf Konulardan Yeni Test</button>' : '') +
+      '<button class="btn ikincil" onclick="App.sonucKopyala()">📋 Sonucu Kopyala</button>' +
       '</div>' +
       '<h1>' + baslik + '</h1>';
 
@@ -387,18 +466,21 @@ var App = (function () {
       '<div class="ozet-kart"><div class="deger sari">' + r.b + '</div><div class="etiket">Boş</div></div>' +
       '<div class="ozet-kart"><div class="deger mor">' + (Math.round(r.net * 100) / 100) + '</div><div class="etiket">Net (%' + yuzde + ')</div></div>' +
       '<div class="ozet-kart"><div class="deger">' + fmtSure(r.sure) + '</div><div class="etiket">Süre</div></div>' +
+      '<div class="ozet-kart"><div class="deger">' + Math.round(r.sure / n) + '</div><div class="etiket">sn / soru</div></div>' +
     '</div>';
 
     // deneme: ders dökümü
     if (r.dersDok) {
-      html += '<h2>Ders Bazlı Sonuçlar</h2><table class="tablo"><tr><th>Ders</th><th class="sag">Doğru</th><th class="sag">Yanlış</th><th class="sag">Boş</th><th class="sag">Net</th></tr>';
+      html += '<h2>Ders Bazlı Sonuçlar</h2><table class="tablo"><tr><th>Ders</th><th class="sag">Doğru</th><th class="sag">Yanlış</th><th class="sag">Boş</th><th class="sag">Net</th><th class="sag">Ort. sn/soru</th></tr>';
       DENEME_SIRA.forEach(function (dl) {
         var x = r.dersDok[dl];
         if (!x) return;
+        var adet = x.d + x.y + x.b;
         var dnet = Math.round((x.d - x.y / 4) * 100) / 100;
         html += '<tr><td>' + DERSLER[dl].ikon + ' ' + DERSLER[dl].ad + '</td>' +
           '<td class="sag">' + x.d + '</td><td class="sag">' + x.y + '</td>' +
-          '<td class="sag">' + x.b + '</td><td class="sag"><b>' + dnet + '</b></td></tr>';
+          '<td class="sag">' + x.b + '</td><td class="sag"><b>' + dnet + '</b></td>' +
+          '<td class="sag">' + (adet > 0 ? Math.round(x.sure / adet) : "-") + '</td></tr>';
       });
       html += '</table>';
     }
@@ -422,12 +504,13 @@ var App = (function () {
     }
 
     // soru incelemesi
+    var filtreler = ['hepsi|Hepsi (' + n + ')', 'yanlis|Yanlışlar (' + r.y + ')', 'bos|Boşlar (' + r.b + ')', 'dogru|Doğrular (' + r.d + ')'];
+    if (isaretliSayi > 0) filtreler.push('isaret|⚑ İşaretliler (' + isaretliSayi + ')');
     html += '<h2>Soru İncelemesi</h2><div class="filtreler">' +
-      ['hepsi|Hepsi (' + n + ')', 'yanlis|Yanlışlar (' + r.y + ')', 'bos|Boşlar (' + r.b + ')', 'dogru|Doğrular (' + r.d + ')']
-        .map(function (f) {
-          var p = f.split("|");
-          return '<button class="btn kucuk ' + (S.filtre === p[0] ? "aktif" : "ikincil") + '" onclick="App.filtrele(\'' + p[0] + '\')">' + p[1] + '</button>';
-        }).join("") +
+      filtreler.map(function (f) {
+        var p = f.split("|");
+        return '<button class="btn kucuk ' + (S.filtre === p[0] ? "aktif" : "ikincil") + '" onclick="App.filtrele(\'' + p[0] + '\')">' + p[1] + '</button>';
+      }).join("") +
       '</div><div id="inceleme">' + incelemeHTML() + '</div>';
 
     render(html);
@@ -436,7 +519,9 @@ var App = (function () {
   function incelemeHTML() {
     var r = S.sonuc;
     var liste = r.detay.filter(function (x) {
-      return S.filtre === "hepsi" || x.durum === S.filtre;
+      if (S.filtre === "hepsi") return true;
+      if (S.filtre === "isaret") return x.isaret;
+      return x.durum === S.filtre;
     });
     if (liste.length === 0) return '<div class="bos-not">Bu filtrede soru yok.</div>';
     return liste.map(function (x) {
@@ -446,6 +531,7 @@ var App = (function () {
         : x.durum === "yanlis"
           ? '<span class="rozet yanlis">✗ Yanlış — senin cevabın: ' + HARFLER[x.cevap] + '</span>'
           : '<span class="rozet bos">○ Boş</span>';
+      if (x.isaret) rozet += '<span class="rozet isaret">⚑ İşaretli</span>';
       var siklar = x.q.secenekler.map(function (s, j) {
         var cls = "opt pasif";
         if (j === x.q.dogru) cls = "opt dogru-sik";
@@ -455,8 +541,9 @@ var App = (function () {
       }).join("");
       return '<div class="inceleme">' +
         '<div class="rozetler"><span class="soru-no">Soru ' + (i + 1) + '</span>' +
-        (S.mod === "deneme" ? '<span class="chip">' + DERSLER[x.q.ders].ad + '</span>' : '') +
-        '<span class="chip">' + esc(x.q.konu) + '</span>' + rozet + '</div>' +
+        (S.mod === "deneme" || S.mod === "zayif" ? '<span class="chip">' + DERSLER[x.q.ders].ad + '</span>' : '') +
+        '<span class="chip">' + esc(x.q.konu) + '</span>' +
+        '<span class="chip">⏱ ' + x.sure + ' sn</span>' + rozet + '</div>' +
         '<div class="soru-metin">' + esc(x.q.soru) + '</div>' + siklar +
         '<div class="aciklama-kutu"><b>💡 Açıklama:</b> ' + esc(x.q.aciklama) + '</div>' +
         '</div>';
@@ -468,7 +555,54 @@ var App = (function () {
     renderSonuc();
   }
 
+  function sonucKopyala() {
+    var r = S.sonuc;
+    var n = r.detay.length;
+    var ad = S.mod === "deneme" ? "Tam Deneme"
+      : S.mod === "yanlis" ? "Yanlış Defteri Turu"
+      : S.mod === "zayif" ? "Zayıf Konular Testi"
+      : DERSLER[S.ders].ad + " Testi";
+    var txt = "📊 KPSS " + ad + " Sonucum\n" +
+      "✅ " + r.d + " doğru  ❌ " + r.y + " yanlış  ⭕ " + r.b + " boş\n" +
+      "🎯 Net: " + (Math.round(r.net * 100) / 100) + " / " + n + "\n" +
+      "⏱ Süre: " + fmtSure(r.sure);
+    if (r.dersDok) {
+      txt += "\n— Ders netleri —";
+      DENEME_SIRA.forEach(function (dl) {
+        var x = r.dersDok[dl];
+        if (!x) return;
+        txt += "\n" + DERSLER[dl].ad + ": " + (Math.round((x.d - x.y / 4) * 100) / 100);
+      });
+    }
+    txt += "\n💪 KPSS Soru Programı";
+    function eskiYontem() {
+      var ta = document.createElement("textarea");
+      ta.value = txt;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); alert("Sonuç kopyalandı! WhatsApp'a yapıştırabilirsin."); }
+      catch (e) { alert("Kopyalama başarısız oldu."); }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(function () {
+        alert("Sonuç kopyalandı! WhatsApp'a yapıştırabilirsin.");
+      }).catch(eskiYontem);
+    } else eskiYontem();
+  }
+
   // ================= Ekran: Ana sayfa =================
+  function seriHesapla(gunluk) {
+    var s = 0;
+    var d = new Date();
+    if (!gunluk[tarihKey(d)]) d.setDate(d.getDate() - 1); // bugün henüz yoksa dünden say
+    while (gunluk[tarihKey(d)] > 0) {
+      s++;
+      d.setDate(d.getDate() - 1);
+    }
+    return s;
+  }
+
   function anaSayfa() {
     S = null;
     ekran = "home";
@@ -478,10 +612,17 @@ var App = (function () {
     var seen = Store.get("seen", {});
     var wrong = Store.get("wrong", {});
     var gecmis = Store.get("history", []);
+    var gunluk = Store.get("gunluk", {});
 
     var toplamYanlis = 0;
     for (var w in wrong) toplamYanlis += wrong[w].length;
     var toplamSoru = gecmis.reduce(function (a, g) { return a + g.toplam; }, 0);
+
+    var hedef = ayar.gunlukHedef || VARSAYILAN_HEDEF;
+    var bugunCozulen = gunluk[tarihKey(new Date())] || 0;
+    var seri = seriHesapla(gunluk);
+    var hedefYuzde = Math.min(100, Math.round(bugunCozulen / hedef * 100));
+    var zayifSayi = zayifKonular().length;
 
     var dersKartlari = Object.keys(DERSLER).map(function (dl) {
       var D = DERSLER[dl];
@@ -507,13 +648,25 @@ var App = (function () {
           '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)" title="Sınav tarihini değiştir">' +
         '</div>' +
       '</div>' +
-      '<p class="slogan">Ders seç, teste başla. Her test gerçek KPSS soru sayısıyla gelir.</p>' +
+      '<div class="hedef-kutu">' +
+        '<div class="hedef-ust">' +
+          '<span>📅 <b>Bugün: ' + bugunCozulen + ' / ' + hedef + ' soru</b>' + (bugunCozulen >= hedef ? ' — hedef tamam! 🎉' : '') + '</span>' +
+          '<span class="seri">🔥 ' + seri + ' gün seri</span>' +
+          '<span class="hedef-ayar">Günlük hedef: <input type="number" min="10" max="1000" step="10" value="' + hedef + '" onchange="App.hedefDegis(this.value)"></span>' +
+        '</div>' +
+        '<div class="progress"><div style="width:' + hedefYuzde + '%"></div></div>' +
+      '</div>' +
       '<div class="kart-grid">' + dersKartlari + '</div>' +
       '<div class="buyuk-grid">' +
         '<div class="kart ozel">' +
           '<div class="ikon">🎯</div><div class="ad">Tam Deneme</div>' +
           '<div class="detay">120 soru (60 GY + 60 GK) • 130 dakika geri sayım • gerçek sınav provası</div>' +
           '<button class="btn" onclick="App.denemeBaslat()">Denemeye Başla</button>' +
+        '</div>' +
+        '<div class="kart ozel">' +
+          '<div class="ikon">🧩</div><div class="ad">Zayıf Konularım</div>' +
+          '<div class="detay">' + (zayifSayi > 0 ? zayifSayi + " zayıf konu tespit edildi. Onlardan derlenen özel test seni bekliyor." : "Birkaç test çöz, zayıf konuların otomatik tespit edilsin.") + '</div>' +
+          '<button class="btn" onclick="App.zayifEkrani()" ' + (zayifSayi === 0 ? "disabled" : "") + '>Analizi Gör</button>' +
         '</div>' +
         '<div class="kart ozel">' +
           '<div class="ikon">📕</div><div class="ad">Yanlış Defterim</div>' +
@@ -543,6 +696,38 @@ var App = (function () {
     ayar.sinavTarihi = v;
     Store.set("settings", ayar);
     anaSayfa();
+  }
+
+  function hedefDegis(v) {
+    var n = parseInt(v, 10);
+    if (!n || n < 10) n = 10;
+    if (n > 1000) n = 1000;
+    var ayar = Store.get("settings", {});
+    ayar.gunlukHedef = n;
+    Store.set("settings", ayar);
+    anaSayfa();
+  }
+
+  // ================= Ekran: Zayıf konular =================
+  function zayifEkrani() {
+    ekran = "zayif";
+    var liste = zayifKonular();
+    var satirlar = liste.map(function (z) {
+      return '<tr><td>' + DERSLER[z.ders].ikon + ' ' + DERSLER[z.ders].ad + '</td>' +
+        '<td>' + esc(z.konu) + '</td>' +
+        '<td class="sag">' + z.top + ' soru</td>' +
+        '<td class="sag"><b class="' + (z.oran < 0.4 ? "kirmizi-metin" : "sari-metin") + '">%' + Math.round(z.oran * 100) + '</b></td></tr>';
+    }).join("");
+
+    render(
+      '<div class="geri-satir"><button class="btn ikincil" onclick="App.anaSayfa()">← Ana Sayfa</button></div>' +
+      '<h1>🧩 Zayıf Konularım</h1>' +
+      '<p class="slogan">Başarı oranın %65\'in altında kalan konular (en az ' + ZAYIF_MIN_SORU + ' soru çözülmüş olanlar). Çözdükçe liste güncellenir; bir konuda güçlenince listeden çıkar.</p>' +
+      (liste.length === 0
+        ? '<div class="bos-not">Zayıf konun yok ya da henüz yeterli veri birikmedi. Böyle devam! 🎉</div>'
+        : '<table class="tablo"><tr><th>Ders</th><th>Konu</th><th class="sag">Çözülen</th><th class="sag">Başarı</th></tr>' + satirlar + '</table>' +
+          '<button class="btn" onclick="App.zayifBaslat()">🧩 Zayıf Konulardan Test Çöz (20 soru)</button>')
+    );
   }
 
   // ================= Ekran: Yanlış defteri =================
@@ -577,22 +762,27 @@ var App = (function () {
     var veri = gecmis.filter(function (g) {
       if (statFiltre === "hepsi") return true;
       if (statFiltre === "deneme") return g.mod === "deneme";
+      if (statFiltre === "zayif") return g.mod === "zayif";
       return g.mod === "ders" && g.ders === statFiltre;
     });
 
     var secenekler = '<option value="hepsi"' + (statFiltre === "hepsi" ? " selected" : "") + '>Tüm Sınavlar</option>' +
       '<option value="deneme"' + (statFiltre === "deneme" ? " selected" : "") + '>Tam Denemeler</option>' +
+      '<option value="zayif"' + (statFiltre === "zayif" ? " selected" : "") + '>Zayıf Konu Testleri</option>' +
       Object.keys(DERSLER).map(function (dl) {
         return '<option value="' + dl + '"' + (statFiltre === dl ? " selected" : "") + '>' + DERSLER[dl].ad + '</option>';
       }).join("");
 
     var satirlar = veri.slice().reverse().map(function (g) {
-      var ad = g.mod === "deneme" ? "🎯 Tam Deneme" : DERSLER[g.ders].ikon + " " + DERSLER[g.ders].ad;
+      var ad = g.mod === "deneme" ? "🎯 Tam Deneme"
+        : g.mod === "zayif" ? "🧩 Zayıf Konu Testi"
+        : DERSLER[g.ders].ikon + " " + DERSLER[g.ders].ad;
       var yuzde = Math.round(g.net / g.toplam * 100);
       return '<tr><td>' + fmtTarih(g.ts) + '</td><td>' + ad + '</td>' +
         '<td class="sag">' + g.d + ' / ' + g.y + ' / ' + g.b + '</td>' +
         '<td class="sag"><b>' + g.net + '</b> (%' + yuzde + ')</td>' +
-        '<td class="sag">' + fmtSure(g.sure) + '</td></tr>';
+        '<td class="sag">' + fmtSure(g.sure) + '</td>' +
+        '<td class="sag">' + (g.ortSure ? g.ortSure + " sn" : "-") + '</td></tr>';
     }).join("");
 
     render(
@@ -602,7 +792,7 @@ var App = (function () {
       '<select class="filtre-sec" onchange="App.statSec(this.value)">' + secenekler + '</select>' +
       '<div class="grafik-kutu">' + grafikSVG(veri) + '</div>' +
       (veri.length > 0
-        ? '<table class="tablo"><tr><th>Tarih</th><th>Sınav</th><th class="sag">D / Y / B</th><th class="sag">Net</th><th class="sag">Süre</th></tr>' + satirlar + '</table>'
+        ? '<table class="tablo"><tr><th>Tarih</th><th>Sınav</th><th class="sag">D / Y / B</th><th class="sag">Net</th><th class="sag">Süre</th><th class="sag">Soru başına</th></tr>' + satirlar + '</table>'
         : '<div class="bos-not">Bu filtrede kayıt yok.</div>')
     );
   }
@@ -642,12 +832,14 @@ var App = (function () {
   // ================= Yedekleme =================
   function yedekAl() {
     var veri = {
-      surum: 1,
+      surum: 2,
       tarih: new Date().toISOString(),
       seen: Store.get("seen", {}),
       wrong: Store.get("wrong", {}),
       history: Store.get("history", []),
-      settings: Store.get("settings", {})
+      settings: Store.get("settings", {}),
+      konuIst: Store.get("konuIst", {}),
+      gunluk: Store.get("gunluk", {})
     };
     var blob = new Blob([JSON.stringify(veri, null, 2)], { type: "application/json" });
     var a = document.createElement("a");
@@ -669,6 +861,8 @@ var App = (function () {
         Store.set("wrong", veri.wrong || {});
         Store.set("history", veri.history || []);
         Store.set("settings", veri.settings || {});
+        Store.set("konuIst", veri.konuIst || {});
+        Store.set("gunluk", veri.gunluk || {});
         alert("Yedek başarıyla yüklendi.");
         anaSayfa();
       } catch (e) {
@@ -688,6 +882,7 @@ var App = (function () {
     if (k in map) secim(map[k]);
     else if (e.key === "ArrowRight") git(1);
     else if (e.key === "ArrowLeft") git(-1);
+    else if (k === "f" || k === "w") isaretle();
   }
 
   // ================= Başlatma =================
@@ -705,17 +900,22 @@ var App = (function () {
     denemeBaslat: denemeBaslat,
     yanlisBaslat: yanlisBaslat,
     yanlisEkrani: yanlisEkrani,
+    zayifBaslat: zayifBaslat,
+    zayifEkrani: zayifEkrani,
     statsEkrani: statsEkrani,
     statSec: statSec,
     secim: secim,
     git: git,
     gitNo: gitNo,
+    isaretle: isaretle,
     bitir: bitir,
     iptal: iptal,
     otoDegis: otoDegis,
     filtrele: filtrele,
+    sonucKopyala: sonucKopyala,
     anaSayfa: anaSayfa,
     tarihDegis: tarihDegis,
+    hedefDegis: hedefDegis,
     yedekAl: yedekAl,
     yedekYukle: yedekYukle
   };
