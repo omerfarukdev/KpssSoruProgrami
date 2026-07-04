@@ -18,6 +18,15 @@ var App = (function () {
   var VARSAYILAN_HEDEF = 120;
   var ZAYIF_ESIK = 0.65;   // bu oranın altındaki konular zayıf sayılır
   var ZAYIF_MIN_SORU = 4;  // bir konuda en az bu kadar soru çözülmüş olmalı
+  var ALINTILAR = [
+    "Yanlış defterin, en kıymetli hocandır.",
+    "Net, yetenek değil tekrar işidir.",
+    "Bugün üşenilen soru, yarın yanlış çıkar.",
+    "Küçük ama düzenli adımlar, büyük sıçramalardan güçlüdür.",
+    "Zor soru, en çok öğreten sorudur.",
+    "Rakiplerin de yorulur; fark, devam edende.",
+    "Her çözülen deneme, sınav gününden çalınmış bir provadır."
+  ];
 
   // ================= Depolama =================
   var Store = {
@@ -603,6 +612,23 @@ var App = (function () {
     return s;
   }
 
+  function haftaHTML(gunluk, hedef) {
+    var adlar = ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"];
+    var simdi = new Date();
+    var gunIdx = (simdi.getDay() + 6) % 7; // Pazartesi = 0
+    var html = "";
+    for (var i = 0; i < 7; i++) {
+      var d = new Date(simdi.getFullYear(), simdi.getMonth(), simdi.getDate() - gunIdx + i);
+      var adet = gunluk[tarihKey(d)] || 0;
+      var cls = adet >= hedef ? " dolu" : (adet > 0 ? " kismi" : "");
+      html += '<div class="gun-hucre">' +
+        '<div class="gun-kutu' + cls + '" title="' + adlar[i] + ': ' + adet + ' soru">' + (adet >= hedef ? "✓" : "") + '</div>' +
+        '<div class="gun-ad' + (i === gunIdx ? " bugun" : "") + '">' + adlar[i] + '</div>' +
+        '</div>';
+    }
+    return '<div class="hafta">' + html + '</div>';
+  }
+
   function anaSayfa() {
     S = null;
     ekran = "home";
@@ -646,6 +672,7 @@ var App = (function () {
           '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)" title="Sınav tarihini değiştir">' +
         '</div>' +
       '</div>' +
+      '<p class="slogan">“' + ALINTILAR[Math.floor(Date.now() / 86400000) % ALINTILAR.length] + '”</p>' +
       '<div class="hedef-kutu">' +
         '<div class="hedef-ust">' +
           '<span>📅 <b>Bugün: ' + bugunCozulen + ' / ' + hedef + ' soru</b>' + (bugunCozulen >= hedef ? ' — hedef tamam! 🎉' : '') + '</span>' +
@@ -653,6 +680,7 @@ var App = (function () {
           '<span class="hedef-ayar">Günlük hedef: <input type="number" min="10" max="1000" step="10" value="' + hedef + '" onchange="App.hedefDegis(this.value)"></span>' +
         '</div>' +
         '<div class="progress"><div style="width:' + hedefYuzde + '%"></div></div>' +
+        haftaHTML(gunluk, hedef) +
       '</div>' +
       '<div class="kart-grid">' + dersKartlari + '</div>' +
       '<div class="buyuk-grid">' +
@@ -811,19 +839,19 @@ var App = (function () {
     });
     var izgara = [0, 25, 50, 75, 100].map(function (v) {
       var y = H - P - (v / 100) * (H - 2 * P);
-      return '<line x1="' + P + '" y1="' + y + '" x2="' + (W - P) + '" y2="' + y + '" stroke="#2e3446" stroke-width="1"/>' +
-        '<text x="' + (P - 8) + '" y="' + (y + 4) + '" fill="#8d93a5" font-size="11" text-anchor="end">%' + v + '</text>';
+      return '<line x1="' + P + '" y1="' + y + '" x2="' + (W - P) + '" y2="' + y + '" stroke="#dde5e0" stroke-width="1"/>' +
+        '<text x="' + (P - 8) + '" y="' + (y + 4) + '" fill="#64766d" font-size="11" text-anchor="end">%' + v + '</text>';
     }).join("");
-    var cizgi = '<polyline fill="none" stroke="#6c5ce7" stroke-width="2.5" points="' +
+    var cizgi = '<polyline fill="none" stroke="#15603d" stroke-width="2.5" points="' +
       noktalar.map(function (p) { return p.x + "," + p.y; }).join(" ") + '"/>';
     var daireler = noktalar.map(function (p) {
-      return '<circle cx="' + p.x + '" cy="' + p.y + '" r="4.5" fill="#8b7cf0">' +
+      return '<circle cx="' + p.x + '" cy="' + p.y + '" r="4.5" fill="#1e7a4f">' +
         '<title>' + fmtTarih(p.ts) + " — %" + p.yuzde + '</title></circle>';
     }).join("");
     var ilkTarih = new Date(veri[0].ts).toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit" });
     var sonTarih = new Date(veri[veri.length - 1].ts).toLocaleDateString("tr-TR", { day: "2-digit", month: "2-digit" });
-    var etiketler = '<text x="' + P + '" y="' + (H - 12) + '" fill="#8d93a5" font-size="11">' + ilkTarih + '</text>' +
-      '<text x="' + (W - P) + '" y="' + (H - 12) + '" fill="#8d93a5" font-size="11" text-anchor="end">' + sonTarih + '</text>';
+    var etiketler = '<text x="' + P + '" y="' + (H - 12) + '" fill="#64766d" font-size="11">' + ilkTarih + '</text>' +
+      '<text x="' + (W - P) + '" y="' + (H - 12) + '" fill="#64766d" font-size="11" text-anchor="end">' + sonTarih + '</text>';
     return '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img">' + izgara + cizgi + daireler + etiketler + '</svg>';
   }
 
