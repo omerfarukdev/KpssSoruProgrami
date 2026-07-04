@@ -16,12 +16,14 @@ Gerçek KPSS soru dağılımıyla birebir aynı:
 
 | Ders | Testte Soru | Bankada Soru |
 |---|---|---|
-| 📖 Türkçe | 30 | 90 |
-| 🔢 Matematik | 30 | 90 |
-| 🏛️ Tarih | 27 | 81 |
-| 🌍 Coğrafya | 18 | 54 |
-| ⚖️ Vatandaşlık | 9 | 36 |
-| 📰 Güncel Bilgiler | 6 | 24 |
+| 📖 Türkçe | 30 | 180 |
+| 🔢 Matematik | 30 | 180 |
+| 🏛️ Tarih | 27 | 162 |
+| 🌍 Coğrafya | 18 | 108 |
+| ⚖️ Vatandaşlık | 9 | 72 |
+| 📰 Güncel Bilgiler | 6 | 36 |
+
+**Toplam: 738 soru** — banka düzenli olarak büyütülmektedir.
 
 Tüm sorular ÖSYM tarzında hazırlanmış ve çok aşamalı kalite denetiminden geçirilmiştir. Vatandaşlık soruları 2017 sonrası güncel mevzuata göredir.
 
@@ -35,6 +37,11 @@ Tüm sorular ÖSYM tarzında hazırlanmış ve çok aşamalı kalite denetiminde
 - **📕 Yanlış Defteri:** Yanlış yaptığın sorular birikir; doğru çözünce defterden düşer
 - **📈 Gelişim Grafiği:** Netlerinin zaman içindeki değişimini gösterir
 - **Soru tekrarı yok:** Çözdüğün sorular bir daha karşına gelmez
+- **📅 Günlük hedef ve seri:** "Bugün X/120 soru" ilerleme çubuğu + 🔥 üst üste çalışılan gün sayısı
+- **🧩 Zayıf Konularım:** Başarısı düşük konuları otomatik tespit eder, onlardan özel test derler
+- **⚑ Soru işaretleme:** Emin olmadığın soruyu işaretle (F tuşu), sonuç ekranında işaretlilere dön
+- **⏱ Süre analizi:** Soru başına ortalama süren, denemede ders ders hız dökümü
+- **📋 Sonucu kopyala:** Netini tek tıkla WhatsApp'a yapıştırılacak metne çevirir
 - **💾 Yedekleme:** İlerlemeni dosya olarak dışa/içe aktarabilirsin
 
 ## ❓ Sık Sorulanlar
@@ -45,6 +52,6 @@ Tüm sorular ÖSYM tarzında hazırlanmış ve çok aşamalı kalite denetiminde
 
 **Sınav tarihi yanlış görünüyor.** Ana sayfadaki tarih kutusundan değiştirebilirsin; tercihin kaydedilir.
 
-**Soru eklenebilir mi?** Evet — `sorular/` klasörüne aynı formatta yeni bir `.js` dosyası ekleyip `sorular/manifest.js` listesine adını yazman yeterli.
+**Soru eklenebilir mi?** Evet — adım adım rehber için [KATKI.md](KATKI.md) dosyasına bak. Yapay zekâ asistanı kullanıyorsan işi ona bırakabilirsin: depodaki kuralları (CLAUDE.md/AGENTS.md) otomatik okur, kopya üretmez, `node dogrula.js` ile kontrol eder.
 
 Bol netler! 💪
