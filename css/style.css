@@ -255,6 +255,9 @@ select.filtre-sec {
 .gun-ad { font-size: 12.5px; color: var(--soluk); margin-top: 5px; }
 .gun-ad.bugun { color: var(--vurgu); font-weight: 800; }
 
+/* ===== Pekiştirme ===== */
+.chip.tekrar-chip { background: #fdeecd; color: #a2691a; }
+
 /* ===== Soru işaretleme ===== */
 .btn.isaret-aktif { background: var(--turuncu); color: #fff; }
 .harita button.isaretli { border-color: var(--turuncu); color: var(--turuncu); }

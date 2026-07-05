@@ -79,26 +79,67 @@ var App = (function () {
   var ekran = "home";
   var statFiltre = "hepsi";
 
-  // ================= Soru seçimi =================
+  // ================= Soru seçimi (pekiştirme destekli) =================
   function sorulariSec(ders, adet) {
     var b = bank(ders);
     var seenObj = Store.get("seen", {});
     var seen = {};
     (seenObj[ders] || []).forEach(function (id) { seen[id] = true; });
 
-    var gorulmemis = shuffle(b.filter(function (q) { return !seen[q.id]; }));
-    var secim = gorulmemis.slice(0, adet);
-    var tekrar = false;
+    var wrongObj = Store.get("wrong", {});
+    var wrongIds = wrongObj[ders] || [];
+    var meta = Store.get("yanlisMeta", {});
+    var pekKonuObj = Store.get("pekKonu", {});
+    var pk = pekKonuObj[ders] || {};
 
-    if (secim.length < adet) {
-      var eskiler = shuffle(b.filter(function (q) { return seen[q.id]; }))
-        .slice(0, adet - secim.length);
+    var idMap = {};
+    b.forEach(function (q) { idMap[q.id] = q; });
+
+    var secilen = {};
+    var pekSorular = [];
+    var simdi = Date.now();
+
+    // 1) Tekrar zamanı gelen eski yanlışlar (~20 saatten eski) teste serpiştirilir
+    var tekrarAdaylari = wrongIds.filter(function (id) {
+      var m = meta[id];
+      return idMap[id] && (!m || simdi - m.ts >= 20 * 3600 * 1000);
+    });
+    var tekrarKota = Math.min(3, Math.max(1, Math.round(adet * 0.12)));
+    shuffle(tekrarAdaylari).slice(0, tekrarKota).forEach(function (id) {
+      pekSorular.push(Object.assign({}, idMap[id], { ders: ders, tekrarSoru: true }));
+      secilen[id] = true;
+    });
+
+    // 2) Yanlış yapılan konulardan pekiştirme soruları (görülmemişlerden)
+    if (Object.keys(pk).length > 0) {
+      var havuz = shuffle(b.filter(function (q) {
+        return !seen[q.id] && !secilen[q.id] && pk[q.konu] > 0;
+      }));
+      var ust = Math.max(2, Math.round(adet * 0.25));
+      for (var i = 0; i < havuz.length && pekSorular.length < ust; i++) {
+        var pq = havuz[i];
+        pekSorular.push(Object.assign({}, pq, { ders: ders }));
+        secilen[pq.id] = true;
+        pk[pq.konu]--;
+      }
+      pekKonuObj[ders] = pk;
+      Store.set("pekKonu", pekKonuObj);
+    }
+
+    // 3) Kalan yerler: önce hiç görülmemişler, yetmezse eskiler
+    var kalanAdet = Math.max(0, adet - pekSorular.length);
+    var gorulmemis = shuffle(b.filter(function (q) { return !seen[q.id] && !secilen[q.id]; }));
+    var secim = gorulmemis.slice(0, kalanAdet);
+    var tekrar = false;
+    if (secim.length < kalanAdet) {
+      var eskiler = shuffle(b.filter(function (q) { return seen[q.id] && !secilen[q.id]; }))
+        .slice(0, kalanAdet - secim.length);
       if (eskiler.length > 0) tekrar = true;
       secim = secim.concat(eskiler);
     }
-    var sorular = shuffle(secim).map(function (q) {
+    var sorular = shuffle(pekSorular.concat(secim.map(function (q) {
       return Object.assign({}, q, { ders: ders });
-    });
+    })));
     return { sorular: sorular, tekrar: tekrar };
   }
 
@@ -306,6 +347,7 @@ var App = (function () {
     var seen = Store.get("seen", {});
     var wrong = Store.get("wrong", {});
     var defterdenCikan = 0;
+    var duzeltilen = {};
     detay.forEach(function (x) {
       if (x.cevap === null) return; // boş bırakılan soru "görülmüş" sayılmaz, ileride tekrar gelebilir
       var dl = x.q.ders;
@@ -318,10 +360,29 @@ var App = (function () {
       } else if (x.durum === "dogru" && wi !== -1) {
         wrong[dl].splice(wi, 1);
         defterdenCikan++;
+        duzeltilen[x.q.id] = true;
       }
     });
     Store.set("seen", seen);
     Store.set("wrong", wrong);
+
+    // pekiştirme takibi: yanlış → aynı konudan 2 soru planla + tekrar zamanı kaydet;
+    // eski yanlışı düzeltme → tam pekişsin diye aynı konudan 2 soru daha planla
+    var yMeta = Store.get("yanlisMeta", {});
+    var pekKonuObj = Store.get("pekKonu", {});
+    detay.forEach(function (x) {
+      if (x.cevap === null) return;
+      var dl = x.q.ders;
+      pekKonuObj[dl] = pekKonuObj[dl] || {};
+      if (x.durum === "yanlis") {
+        yMeta[x.q.id] = { ts: Date.now(), sayi: ((yMeta[x.q.id] || {}).sayi || 0) + 1 };
+        pekKonuObj[dl][x.q.konu] = Math.min(6, (pekKonuObj[dl][x.q.konu] || 0) + 2);
+      } else if (duzeltilen[x.q.id]) {
+        pekKonuObj[dl][x.q.konu] = Math.min(6, (pekKonuObj[dl][x.q.konu] || 0) + 2);
+      }
+    });
+    Store.set("yanlisMeta", yMeta);
+    Store.set("pekKonu", pekKonuObj);
 
     // konu istatistiği (zayıf konu analizi için, tüm modlarda birikir)
     var ki = Store.get("konuIst", {});
@@ -426,6 +487,7 @@ var App = (function () {
         '<div class="soru-ust">' +
           '<span class="soru-no">Soru ' + (S.idx + 1) + ' / ' + n + '</span>' +
           '<span class="chip">' + esc(q.konu) + '</span>' +
+          (q.tekrarSoru ? '<span class="chip tekrar-chip">🔁 Tekrar</span>' : '') +
           '<span style="flex:1"></span>' +
           '<button class="btn kucuk ' + (S.isaret[S.idx] ? "isaret-aktif" : "ikincil") + '" onclick="App.isaretle()">⚑ ' + (S.isaret[S.idx] ? "İşaretli" : "İşaretle") + '</button>' +
         '</div>' +
@@ -586,20 +648,39 @@ var App = (function () {
       });
     }
     txt += "\n💪 KPSS Soru Programı";
+    panoyaKopyala(txt, "Sonuç kopyalandı! WhatsApp'a yapıştırabilirsin.");
+  }
+
+  function panoyaKopyala(txt, mesaj) {
     function eskiYontem() {
       var ta = document.createElement("textarea");
       ta.value = txt;
       document.body.appendChild(ta);
       ta.select();
-      try { document.execCommand("copy"); alert("Sonuç kopyalandı! WhatsApp'a yapıştırabilirsin."); }
+      try { document.execCommand("copy"); alert(mesaj); }
       catch (e) { alert("Kopyalama başarısız oldu."); }
       document.body.removeChild(ta);
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(txt).then(function () {
-        alert("Sonuç kopyalandı! WhatsApp'a yapıştırabilirsin.");
-      }).catch(eskiYontem);
+      navigator.clipboard.writeText(txt).then(function () { alert(mesaj); }).catch(eskiYontem);
     } else eskiYontem();
+  }
+
+  function pekRaporKopyala() {
+    var wrong = Store.get("wrong", {});
+    var satirlar = [];
+    for (var dl in DERSLER) {
+      var idMap = {};
+      bank(dl).forEach(function (q) { idMap[q.id] = q; });
+      (wrong[dl] || []).forEach(function (id) {
+        var q = idMap[id];
+        if (q) satirlar.push("- [" + DERSLER[dl].ad + " / " + q.konu + "] " + q.soru.slice(0, 110).replace(/\s+/g, " "));
+      });
+    }
+    if (satirlar.length === 0) { alert("Yanlış defterin boş — rapor oluşturulamadı."); return; }
+    var txt = "KPSS soru programında aşağıdaki sorularda yanlış yaptım. Bu soruların test ettiği kavramlarla ilgili, depodaki kurallara (CLAUDE.md) uygun BENZER ama YENİ sorular üretip bankaya ekler misin? Her yanlışım için 2-3 farklı soru olsun ki kavram iyice pekişsin.\n\n" +
+      satirlar.join("\n");
+    panoyaKopyala(txt, "Rapor kopyalandı! Yapay zekâna (Claude) yapıştırman yeterli — yanlışlarına özel yeni sorular üretecek.");
   }
 
   // ================= Ekran: Ana sayfa =================
@@ -775,11 +856,14 @@ var App = (function () {
     render(
       '<div class="geri-satir"><button class="btn ikincil" onclick="App.anaSayfa()">← Ana Sayfa</button></div>' +
       '<h1>📕 Yanlış Defterim</h1>' +
-      '<p class="slogan">Yanlış yaptığın sorular burada birikir. Doğru çözdüğünde defterden çıkar. (Her tur en fazla 30 soru getirir.)</p>' +
+      '<p class="slogan">Yanlış yaptığın sorular burada birikir ve 🔁 işaretiyle normal testlerine de otomatik serpiştirilir; yanlış yaptığın konulardan ekstra sorular gelir. Doğru çözünce defterden çıkar, pekişmesi için aynı konudan birkaç soru daha karşına çıkar.</p>' +
       (toplam === 0
         ? '<div class="bos-not">Defter bomboş. Böyle devam! 🎉</div>'
         : '<table class="tablo"><tr><th>Ders</th><th class="sag">Biriken</th><th class="sag"></th></tr>' + satirlar + '</table>' +
-          '<button class="btn" onclick="App.yanlisBaslat(\'hepsi\')">Hepsini Karışık Çöz (' + Math.min(30, toplam) + ' soru)</button>')
+          '<div class="geri-satir">' +
+          '<button class="btn" onclick="App.yanlisBaslat(\'hepsi\')">Hepsini Karışık Çöz (' + Math.min(30, toplam) + ' soru)</button>' +
+          '<button class="btn ikincil" onclick="App.pekRaporKopyala()">🤖 Yapay Zekâ Raporu Kopyala</button>' +
+          '</div>')
     );
   }
 
@@ -867,7 +951,9 @@ var App = (function () {
       history: Store.get("history", []),
       settings: Store.get("settings", {}),
       konuIst: Store.get("konuIst", {}),
-      gunluk: Store.get("gunluk", {})
+      gunluk: Store.get("gunluk", {}),
+      yanlisMeta: Store.get("yanlisMeta", {}),
+      pekKonu: Store.get("pekKonu", {})
     };
     var blob = new Blob([JSON.stringify(veri, null, 2)], { type: "application/json" });
     var a = document.createElement("a");
@@ -891,6 +977,8 @@ var App = (function () {
         Store.set("settings", veri.settings || {});
         Store.set("konuIst", veri.konuIst || {});
         Store.set("gunluk", veri.gunluk || {});
+        Store.set("yanlisMeta", veri.yanlisMeta || {});
+        Store.set("pekKonu", veri.pekKonu || {});
         alert("Yedek başarıyla yüklendi.");
         anaSayfa();
       } catch (e) {
@@ -941,6 +1029,7 @@ var App = (function () {
     otoDegis: otoDegis,
     filtrele: filtrele,
     sonucKopyala: sonucKopyala,
+    pekRaporKopyala: pekRaporKopyala,
     anaSayfa: anaSayfa,
     tarihDegis: tarihDegis,
     hedefDegis: hedefDegis,
