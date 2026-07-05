@@ -51,5 +51,6 @@ window.KPSS_MANIFEST = [
   "vatandaslik-7.js",
   "vatandaslik-8.js",
   "tarih-tufan-1.js",
-  "matematik-tufan-1.js"
+  "matematik-tufan-1.js",
+  "guncel-tufan-1.js"
 ];
