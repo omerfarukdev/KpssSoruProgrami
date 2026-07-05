@@ -1,6 +1,9 @@
 # Claude Code kişisel ayarları
 .claude/
 
+# Kişisel ilerleme verisi (yereldir, depoya girmez)
+veri/
+
 # İşletim sistemi çöp dosyaları
 Thumbs.db
 desktop.ini

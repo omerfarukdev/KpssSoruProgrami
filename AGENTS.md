@@ -8,6 +8,14 @@ Bu depo **3 kişinin ortak** KPSS Lisans (GY-GK) çalışma aracıdır. Bu dosya
 - Sorular: `sorular/*.js` dosyalarında, `window.KPSS_BANK["<ders>"]` dizisine push edilir
 - `sorular/manifest.js`: programın yükleyeceği dosyaların listesi — burada olmayan dosya görünmez
 - Kullanıcı verileri (netler, yanlış defteri) tarayıcı localStorage'ındadır; depoda veri YOKTUR
+- Yerel çalıştırmada (KPSS-Baslat.bat → localhost:8347, `sunucu.js`) ilerleme verisi `veri/ilerleme.json` dosyasına da yansıtılır (git'e girmez, kişiseldir)
+
+## Kişiselleştirilmiş Soru Üretimi (yapay zekâlar için)
+
+Kullanıcı "soru ekle / soru üret" dediğinde ÖNCE `veri/ilerleme.json` dosyasının olup olmadığına bak. Varsa oku:
+- `wrong`: ders → yanlış yapılan soru id'leri. Bu id'leri bankadaki sorularla eşleştir, hangi kavramların yanlış yapıldığını çıkar ve **o kavramları test eden benzer ama yeni sorular üret** (yanlış başına 2-3 varyasyon).
+- `konuIst`: ders → konu → {d,y,b}. Başarı oranı düşük konulara üretimde ağırlık ver.
+Dosya yoksa normal dengeli üretim yap. Kişiselleştirme, format ve kalite kurallarını değiştirmez.
 
 ## DOKUNMA Kuralları
 

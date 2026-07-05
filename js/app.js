@@ -440,6 +440,7 @@ var App = (function () {
     };
     S.filtre = y > 0 ? "yanlis" : "hepsi";
     ekran = "result";
+    sunucuyaKaydet();
     renderSonuc();
   }
 
@@ -941,6 +942,29 @@ var App = (function () {
     return '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img">' + izgara + cizgi + daireler + etiketler + '</svg>';
   }
 
+  // ================= Yerel sunucuya veri yansıtma =================
+  // Program localhost'tan çalışıyorsa (KPSS-Baslat.bat) ilerleme verisi
+  // veri/ilerleme.json dosyasına yazılır; yapay zekâ yanlışları oradan okur.
+  function sunucuyaKaydet() {
+    try {
+      if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") return;
+      var veri = {
+        guncelleme: new Date().toISOString(),
+        wrong: Store.get("wrong", {}),
+        yanlisMeta: Store.get("yanlisMeta", {}),
+        konuIst: Store.get("konuIst", {}),
+        pekKonu: Store.get("pekKonu", {}),
+        gunluk: Store.get("gunluk", {}),
+        history: Store.get("history", []).slice(-100)
+      };
+      fetch("/veri-kaydet", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(veri)
+      }).catch(function () {});
+    } catch (e) { /* sessizce geç — site/dosya modunda sunucu yoktur */ }
+  }
+
   // ================= Yedekleme =================
   function yedekAl() {
     var veri = {
@@ -1008,6 +1032,7 @@ var App = (function () {
       if (S && ekran === "exam") { e.preventDefault(); e.returnValue = ""; }
     });
     anaSayfa();
+    sunucuyaKaydet();
   }
 
   return {
