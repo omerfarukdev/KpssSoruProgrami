@@ -686,21 +686,98 @@ var App = (function () {
     return s;
   }
 
-  function haftaHTML(gunluk, hedef) {
+  function haftaVerisi(gunluk) {
     var adlar = ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"];
     var simdi = new Date();
     var gunIdx = (simdi.getDay() + 6) % 7; // Pazartesi = 0
-    var html = "";
+    var arr = [];
     for (var i = 0; i < 7; i++) {
       var d = new Date(simdi.getFullYear(), simdi.getMonth(), simdi.getDate() - gunIdx + i);
-      var adet = gunluk[tarihKey(d)] || 0;
-      var cls = adet >= hedef ? " dolu" : (adet > 0 ? " kismi" : "");
-      html += '<div class="gun-hucre">' +
-        '<div class="gun-kutu' + cls + '" title="' + adlar[i] + ': ' + adet + ' soru">' + (adet >= hedef ? "✓" : "") + '</div>' +
-        '<div class="gun-ad' + (i === gunIdx ? " bugun" : "") + '">' + adlar[i] + '</div>' +
-        '</div>';
+      arr.push({ ad: adlar[i], adet: gunluk[tarihKey(d)] || 0, bugun: i === gunIdx });
     }
-    return '<div class="hafta">' + html + '</div>';
+    return arr;
+  }
+
+  function enUzunSeri(gunluk) {
+    var gunler = Object.keys(gunluk).filter(function (k) { return gunluk[k] > 0; }).sort();
+    var enUzun = 0, mevcut = 0, onceki = null;
+    gunler.forEach(function (k) {
+      var ts = new Date(k + "T00:00:00").getTime();
+      mevcut = (onceki !== null && ts - onceki === 86400000) ? mevcut + 1 : 1;
+      if (mevcut > enUzun) enUzun = mevcut;
+      onceki = ts;
+    });
+    return enUzun;
+  }
+
+  function bugunDersIst(gecmis, dl) {
+    var bugun = tarihKey(new Date());
+    var d = 0, y = 0;
+    gecmis.forEach(function (g) {
+      if (g.mod === "ders" && g.ders === dl && tarihKey(new Date(g.ts)) === bugun) { d += g.d; y += g.y; }
+    });
+    var cevap = d + y;
+    return { cevap: cevap, dogru: d, pct: cevap > 0 ? Math.round(d / cevap * 100) : null };
+  }
+
+  function bugunDogruluk(gecmis) {
+    var bugun = tarihKey(new Date());
+    var d = 0, y = 0;
+    gecmis.forEach(function (g) {
+      if (tarihKey(new Date(g.ts)) === bugun) { d += g.d; y += g.y; }
+    });
+    return (d + y) > 0 ? Math.round(d / (d + y) * 100) : null;
+  }
+
+  function trendVerisi(gecmis) {
+    return gecmis.slice(-8).map(function (g) {
+      var cevap = g.d + g.y;
+      return cevap > 0 ? Math.round(g.d / cevap * 100) : 0;
+    });
+  }
+
+  function ringSVG(pct) {
+    var r = 52, c = 2 * Math.PI * r, off = c * (1 - Math.min(100, pct) / 100);
+    return '<svg class="ring" viewBox="0 0 130 130">' +
+      '<circle cx="65" cy="65" r="52" fill="none" stroke="#e3e9e5" stroke-width="12"/>' +
+      '<circle cx="65" cy="65" r="52" fill="none" stroke="#15603d" stroke-width="12" stroke-linecap="round" stroke-dasharray="' + c.toFixed(1) + '" stroke-dashoffset="' + off.toFixed(1) + '" transform="rotate(-90 65 65)"/>' +
+      '<text x="65" y="63" text-anchor="middle" font-size="27" font-weight="800" fill="#152a20">%' + pct + '</text>' +
+      '<text x="65" y="83" text-anchor="middle" font-size="10" letter-spacing="1" fill="#64766d">TAMAM</text>' +
+      '</svg>';
+  }
+
+  function aktiviteSVG(hafta, hedef) {
+    var W = 460, H = 150, P = 26, taban = H - 22, tavan = 18;
+    var maks = Math.max(hedef, 1);
+    hafta.forEach(function (h) { if (h.adet > maks) maks = h.adet; });
+    var bw = (W - 2 * P) / 7;
+    var barlar = hafta.map(function (h, i) {
+      var x = P + i * bw;
+      var yuk = (h.adet / maks) * (taban - tavan);
+      var y = taban - yuk;
+      var renk = h.bugun ? "#15603d" : "#7cc39a";
+      return (h.adet > 0 ? '<text x="' + (x + bw / 2).toFixed(0) + '" y="' + (y - 5).toFixed(0) + '" text-anchor="middle" font-size="11" font-weight="700" fill="#64766d">' + h.adet + '</text>' : '') +
+        '<rect x="' + (x + bw * 0.22).toFixed(0) + '" y="' + y.toFixed(0) + '" width="' + (bw * 0.56).toFixed(0) + '" height="' + Math.max(0, yuk).toFixed(0) + '" rx="5" fill="' + renk + '"/>' +
+        '<text x="' + (x + bw / 2).toFixed(0) + '" y="' + (H - 4) + '" text-anchor="middle" font-size="11" fill="' + (h.bugun ? "#15603d" : "#64766d") + '" font-weight="' + (h.bugun ? "800" : "400") + '">' + h.ad + '</text>';
+    }).join("");
+    var hy = taban - (hedef / maks) * (taban - tavan);
+    var hedefCizgi = '<line x1="' + P + '" y1="' + hy.toFixed(0) + '" x2="' + (W - P) + '" y2="' + hy.toFixed(0) + '" stroke="#c9a94a" stroke-width="1.5" stroke-dasharray="4 4"/>' +
+      '<text x="' + (W - P) + '" y="' + (hy - 5).toFixed(0) + '" text-anchor="end" font-size="10" fill="#b9820f" font-weight="700">HEDEF ' + hedef + '</text>';
+    return '<svg viewBox="0 0 ' + W + ' ' + H + '">' + hedefCizgi + barlar + '</svg>';
+  }
+
+  function trendSVG(pts) {
+    if (pts.length < 2) return '<div class="bos-mini">En az 2 test çözünce trend çizgisi oluşur.</div>';
+    var W = 300, H = 80, P = 8;
+    var noktalar = pts.map(function (v, i) {
+      return { x: P + i * (W - 2 * P) / (pts.length - 1), y: H - P - (v / 100) * (H - 2 * P) };
+    });
+    var cizgi = noktalar.map(function (p) { return p.x.toFixed(0) + "," + p.y.toFixed(0); }).join(" ");
+    var son = noktalar[noktalar.length - 1];
+    return '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" class="trend-svg">' +
+      '<polyline fill="none" stroke="#15603d" stroke-width="2.5" points="' + cizgi + '"/>' +
+      '<circle cx="' + son.x.toFixed(0) + '" cy="' + son.y.toFixed(0) + '" r="4" fill="#15603d"/>' +
+      '</svg>';
   }
 
   function anaSayfa() {
@@ -716,71 +793,128 @@ var App = (function () {
 
     var toplamYanlis = 0;
     for (var w in wrong) toplamYanlis += wrong[w].length;
-    var toplamSoru = gecmis.reduce(function (a, g) { return a + g.toplam; }, 0);
 
     var hedef = ayar.gunlukHedef || VARSAYILAN_HEDEF;
     var bugunCozulen = gunluk[tarihKey(new Date())] || 0;
-    var seri = seriHesapla(gunluk);
     var hedefYuzde = Math.min(100, Math.round(bugunCozulen / hedef * 100));
-    var zayifSayi = zayifKonular().length;
+    var kalan = Math.max(0, hedef - bugunCozulen);
+    var seri = seriHesapla(gunluk);
+    var enUzun = enUzunSeri(gunluk);
+    var hafta = haftaVerisi(gunluk);
+    var haftaTop = hafta.reduce(function (a, h) { return a + h.adet; }, 0);
+    var bugDog = bugunDogruluk(gecmis);
+    var zayif = zayifKonular();
+    var trend = trendVerisi(gecmis);
+    var trendOrt = trend.length ? Math.round(trend.reduce(function (a, b) { return a + b; }, 0) / trend.length) : null;
+    var trendDelta = trend.length >= 2 ? trend[trend.length - 1] - trend[0] : 0;
+    var sinavTarihMetni = new Date(sinavTarihi + "T09:00:00").toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
 
     var dersKartlari = Object.keys(DERSLER).map(function (dl) {
       var D = DERSLER[dl];
       var bankAdet = bank(dl).length;
-      var detay = bankAdet === 0
-        ? "Soru bankası hazırlanıyor…"
-        : "Bu oturumda " + D.soru + " soru vardır.";
-      return '<div class="kart">' +
-        '<div class="ikon">' + D.ikon + '</div>' +
-        '<div class="ad">' + D.ad + '</div>' +
-        '<div class="detay">' + detay + '</div>' +
-        '<button class="btn" onclick="App.dersTestiBaslat(\'' + dl + '\')" ' + (bankAdet === 0 ? "disabled" : "") + '>Teste Başla</button>' +
+      var ist = bugunDersIst(gecmis, dl);
+      var yapildi = ist.cevap > 0;
+      var barPct = Math.min(100, Math.round(ist.cevap / D.soru * 100));
+      var detay, durum = "", btn;
+      if (bankAdet === 0) {
+        detay = "Soru bankası hazırlanıyor…";
+        btn = '<button class="dk-btn" disabled>Hazırlanıyor</button>';
+      } else if (yapildi) {
+        detay = ist.cevap + " soru · %" + ist.pct + " doğru";
+        durum = barPct >= 100 ? '<span class="dk-durum bitti">✓ bugün</span>' : "";
+        btn = '<button class="dk-btn" onclick="App.dersTestiBaslat(\'' + dl + '\')">Yeni Test →</button>';
+      } else {
+        detay = D.soru + " soru hazır";
+        btn = '<button class="dk-btn" onclick="App.dersTestiBaslat(\'' + dl + '\')">Teste Başla →</button>';
+      }
+      return '<div class="ders-kart">' +
+        '<div class="dk-ust"><span class="dk-ikon">' + D.ikon + '</span>' + durum + '</div>' +
+        '<div class="dk-ad">' + D.ad + '</div>' +
+        '<div class="dk-detay">' + detay + '</div>' +
+        '<div class="dk-progress"><div style="width:' + (yapildi ? barPct : 0) + '%"></div></div>' +
+        btn +
         '</div>';
     }).join("");
 
+    var odakHTML;
+    if (zayif.length === 0) {
+      odakHTML = '<div class="bos-mini">Birkaç test çöz; doğruluğun düşük olduğu konular burada listelenir.</div>';
+    } else {
+      odakHTML = zayif.slice(0, 5).map(function (z) {
+        var p = Math.round(z.oran * 100);
+        var renk = z.oran < 0.5 ? "kirmizi" : "sari";
+        return '<div class="odak-satir" onclick="App.zayifEkrani()">' +
+          '<div class="odak-ust"><span>' + DERSLER[z.ders].ad + ' · ' + esc(z.konu) + '</span><b class="' + renk + '-metin">%' + p + '</b></div>' +
+          '<div class="odak-bar"><div class="' + renk + '" style="width:' + p + '%"></div></div>' +
+          '</div>';
+      }).join("");
+    }
+
+    var seriBars = hafta.map(function (h) {
+      var cls = h.adet >= hedef ? "dolu" : (h.adet > 0 ? "kismi" : "");
+      return '<span class="seri-bar ' + cls + '"></span>';
+    }).join("");
+
     render(
-      '<div class="ust-bar">' +
-        '<h1>🎓 KPSS SORU PROGRAMINA HOŞ GELDİN RAFIK</h1>' +
-        '<div class="sayac-kutu">' +
-          '<div class="sayac-gun">' + (kalanGun > 0 ? "Sınava " + kalanGun + " gün" : "Sınav günü geldi!") + '</div>' +
-          '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)" title="Sınav tarihini değiştir">' +
+      '<div class="panel-head">' +
+        '<div class="panel-head-sol">' +
+          '<div class="panel-brand"><span class="panel-brand-ikon">🎓</span>' +
+            '<div><div class="panel-kicker">KPSS ÇALIŞMA PANELİ</div><div class="panel-brand-alt">2026 · Genel Yetenek &amp; Kültür</div></div>' +
+          '</div>' +
+          '<h1 class="panel-baslik">Merhaba Rafık,<br><span>bugün de devam edelim.</span></h1>' +
+        '</div>' +
+        '<div class="geri-kart">' +
+          '<div class="gk-kicker">SINAVA KALAN</div>' +
+          '<div class="gk-gun">' + (kalanGun > 0 ? kalanGun : 0) + '<span>gün</span></div>' +
+          '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)">' +
+          '<div class="gk-alt">' + sinavTarihMetni + ' · sınav günü</div>' +
         '</div>' +
       '</div>' +
-      '<div class="cihaz-not">📱💻 <b>İlerlemen bu cihaza ve tarayıcıya özeldir.</b> Çözdüğün sorular, netlerin ve yanlış defterin yalnızca şu an kullandığın cihaz/tarayıcıda saklanır; telefon ile bilgisayar (ya da farklı bir tarayıcı) ayrı sayılır ve biri diğerine geçmez. Bu yüzden hep aynı yerden çalış. Cihaz değiştireceksen aşağıdaki <b>💾 Yedek Al</b> ile kaydını indir, yeni cihazda <b>📂 Yedek Yükle</b> ile geri yükle.</div>' +
-      '<div class="hedef-kutu">' +
-        '<div class="hedef-ust">' +
-          '<span>📅 <b>Bugün: ' + bugunCozulen + ' / ' + hedef + ' soru</b>' + (bugunCozulen >= hedef ? ' — hedef tamam! 🎉' : '') + '</span>' +
-          '<span class="seri">🔥 ' + seri + ' gün seri</span>' +
-          '<span class="hedef-ayar">Günlük hedef: <input type="number" min="10" max="1000" step="10" value="' + hedef + '" onchange="App.hedefDegis(this.value)"></span>' +
-        '</div>' +
-        '<div class="progress"><div style="width:' + hedefYuzde + '%"></div></div>' +
-        haftaHTML(gunluk, hedef) +
+      '<div class="bolum-baslik"><h2>Dersler</h2><span>Ders seç, teste başla</span></div>' +
+      '<div class="ders-grid">' + dersKartlari + '</div>' +
+      '<div class="aksiyon-bar">' +
+        '<button class="btn" onclick="App.denemeBaslat()">🎯 Tam Deneme</button>' +
+        '<button class="btn ikincil" onclick="App.zayifBaslat()"' + (zayif.length === 0 ? ' disabled' : '') + '>🧩 Zayıf Konu Testi</button>' +
+        '<button class="btn ikincil" onclick="App.yanlisEkrani()"' + (toplamYanlis === 0 ? ' disabled' : '') + '>📕 Yanlış Defterim' + (toplamYanlis ? ' (' + toplamYanlis + ')' : '') + '</button>' +
+        '<button class="btn ikincil" onclick="App.statsEkrani()"' + (gecmis.length === 0 ? ' disabled' : '') + '>📈 Gelişim</button>' +
       '</div>' +
-      '<div class="kart-grid">' + dersKartlari + '</div>' +
-      '<div class="buyuk-grid">' +
-        '<div class="kart ozel">' +
-          '<div class="ikon">🎯</div><div class="ad">Tam Deneme</div>' +
-          '<div class="detay">120 soru (60 GY + 60 GK) • 130 dakika geri sayım • gerçek sınav provası</div>' +
-          '<button class="btn" onclick="App.denemeBaslat()">Denemeye Başla</button>' +
+      '<div class="panel-grid">' +
+        '<div class="p-kart">' +
+          '<div class="p-kart-baslik"><h3>Bugünkü Hedef</h3><span class="p-rozet">🎯 ' + hedef + '</span></div>' +
+          '<div class="hedef-icerik">' + ringSVG(hedefYuzde) +
+            '<div class="hedef-yan">' +
+              '<div class="hy-buyuk"><b>' + bugunCozulen + '</b> / ' + hedef + ' soru</div>' +
+              '<div class="hy-kalan">' + (kalan > 0 ? kalan + ' soru kaldı' : 'Hedef tamam! 🎉') + '</div>' +
+              '<div class="mini-satir">' +
+                '<div class="mini-kutu"><span>DOĞRULUK</span><b>' + (bugDog !== null ? '%' + bugDog : '—') + '</b></div>' +
+                '<div class="mini-kutu"><span>BU HAFTA</span><b>' + haftaTop + '</b></div>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
         '</div>' +
-        '<div class="kart ozel">' +
-          '<div class="ikon">🧩</div><div class="ad">Zayıf Konularım</div>' +
-          '<div class="detay">' + (zayifSayi > 0 ? zayifSayi + " zayıf konu tespit edildi. Onlardan derlenen özel test seni bekliyor." : "Birkaç test çöz, zayıf konuların otomatik tespit edilsin.") + '</div>' +
-          '<button class="btn" onclick="App.zayifEkrani()" ' + (zayifSayi === 0 ? "disabled" : "") + '>Analizi Gör</button>' +
+        '<div class="p-kart">' +
+          '<div class="p-kart-baslik"><h3>Çalışma Serisi</h3></div>' +
+          '<div class="seri-icerik"><span class="seri-alev">🔥</span><div><div class="seri-buyuk">' + seri + ' <span>gün</span></div><div class="seri-alt">' + (seri > 0 ? 'Aralıksız çalışıyorsun' : 'Bugün başla, seriyi kur') + '</div></div></div>' +
+          '<div class="seri-bars">' + seriBars + '</div>' +
+          '<div class="seri-enuzun">En uzun seri <b>' + enUzun + ' gün</b></div>' +
         '</div>' +
-        '<div class="kart ozel">' +
-          '<div class="ikon">📕</div><div class="ad">Yanlış Defterim</div>' +
-          '<div class="detay">' + (toplamYanlis > 0 ? "Defterde " + toplamYanlis + " soru birikti. Doğru çözersen defterden çıkar." : "Defter boş — yanlış yaptıkça burada birikir.") + '</div>' +
-          '<button class="btn" onclick="App.yanlisEkrani()" ' + (toplamYanlis === 0 ? "disabled" : "") + '>Defteri Aç</button>' +
+        '<div class="p-kart genis">' +
+          '<div class="p-kart-baslik"><h3>Haftalık Aktivite</h3><span>' + haftaTop + ' soru · bu hafta</span></div>' +
+          '<div class="aktivite-kutu">' + aktiviteSVG(hafta, hedef) + '</div>' +
         '</div>' +
-        '<div class="kart ozel">' +
-          '<div class="ikon">📈</div><div class="ad">Gelişimim</div>' +
-          '<div class="detay">' + (gecmis.length > 0 ? gecmis.length + " sınav kaydı • net grafiğin ve geçmişin" : "Henüz sınav kaydı yok.") + '</div>' +
-          '<button class="btn" onclick="App.statsEkrani()" ' + (gecmis.length === 0 ? "disabled" : "") + '>Analizi Gör</button>' +
+        '<div class="p-kart">' +
+          '<div class="p-kart-baslik"><h3>Odaklanman Gerekenler</h3></div>' +
+          '<div class="odak-liste">' + odakHTML + '</div>' +
+        '</div>' +
+        '<div class="p-kart">' +
+          '<div class="p-kart-baslik"><h3>Doğruluk Trendi</h3>' + (trendDelta ? '<span class="p-rozet ' + (trendDelta > 0 ? 'yukari' : 'asagi') + '">' + (trendDelta > 0 ? '▲ +' + trendDelta : '▼ ' + Math.abs(trendDelta)) + '</span>' : '') + '</div>' +
+          '<div class="trend-buyuk">' + (trendOrt !== null ? '%' + trendOrt : '—') + ' <span>son testler ort.</span></div>' +
+          trendSVG(trend) +
         '</div>' +
       '</div>' +
+      '<div class="cihaz-not">📱💻 <b>İlerlemen bu cihaza ve tarayıcıya özeldir.</b> Çözdüğün sorular, netlerin ve yanlış defterin yalnızca şu an kullandığın cihaz/tarayıcıda saklanır; telefon ile bilgisayar (ya da farklı bir tarayıcı) ayrı sayılır. Cihaz değiştireceksen <b>💾 Yedek Al</b> ile indir, yeni cihazda <b>📂 Yedek Yükle</b> ile geri yükle.</div>' +
       '<div class="alt-satir">' +
-        '<span>' + (toplamSoru > 0 ? "Bugüne kadar <b>" + gecmis.length + "</b> sınavda <b>" + toplamSoru + "</b> soru çözdün. 💪" : "Hadi ilk testini çöz! 💪") + '</span>' +
+        '<span class="hedef-ayar">Günlük hedef: <input type="number" min="10" max="1000" step="10" value="' + hedef + '" onchange="App.hedefDegis(this.value)"></span>' +
         '<div class="butonlar">' +
           '<button class="btn ikincil kucuk" onclick="App.yedekAl()">💾 Yedek Al</button>' +
           '<button class="btn ikincil kucuk" onclick="document.getElementById(\'yedekDosya\').click()">📂 Yedek Yükle</button>' +
