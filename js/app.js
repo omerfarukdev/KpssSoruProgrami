@@ -307,6 +307,7 @@ var App = (function () {
     var wrong = Store.get("wrong", {});
     var defterdenCikan = 0;
     detay.forEach(function (x) {
+      if (x.cevap === null) return; // boş bırakılan soru "görülmüş" sayılmaz, ileride tekrar gelebilir
       var dl = x.q.ders;
       seen[dl] = seen[dl] || [];
       if (seen[dl].indexOf(x.q.id) === -1) seen[dl].push(x.q.id);
@@ -325,17 +326,18 @@ var App = (function () {
     // konu istatistiği (zayıf konu analizi için, tüm modlarda birikir)
     var ki = Store.get("konuIst", {});
     detay.forEach(function (x) {
+      if (x.cevap === null) return; // cevaplanmayan soru konu istatistiğini etkilemez
       var dl = x.q.ders;
       ki[dl] = ki[dl] || {};
       ki[dl][x.q.konu] = ki[dl][x.q.konu] || { d: 0, y: 0, b: 0 };
-      ki[dl][x.q.konu][x.durum === "dogru" ? "d" : x.durum === "yanlis" ? "y" : "b"]++;
+      ki[dl][x.q.konu][x.durum === "dogru" ? "d" : "y"]++;
     });
     Store.set("konuIst", ki);
 
-    // günlük çözülen soru sayacı (tüm modlar)
+    // günlük çözülen soru sayacı (tüm modlar) — yalnızca CEVAPLANAN sorular sayılır
     var gunluk = Store.get("gunluk", {});
     var bugun = tarihKey(new Date());
-    gunluk[bugun] = (gunluk[bugun] || 0) + detay.length;
+    gunluk[bugun] = (gunluk[bugun] || 0) + d + y;
     Store.set("gunluk", gunluk);
 
     // konu dökümü (bu sınav için)
