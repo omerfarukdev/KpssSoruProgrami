@@ -58,7 +58,8 @@ window.KPSS_BANK = window.KPSS_BANK || {};
 - **Güncel Bilgiler:** Yalnızca web'den doğrulanmış, son ~18 ayın olayları.
 - ÖSYM üslubu; çeldiriciler makul; doğru cevabın şık konumu dengeli dağıtılır (her şıkka ~%20).
 - **Zorluk karışımı (Temmuz 2026'dan itibaren): ~%10 kolay, %40 orta, %50 zor.** Zor = çok aşamalı akıl yürütme, öncüllü kurgular, birden fazla bilgiyi birleştirme, ince ama savunulabilir çeldiriciler. Zor olsun diye müfredat dışına çıkma veya belirsiz/tartışmalı soru yazma — tek savunulabilir doğru cevap kuralı her zorlukta geçerli.
-- Açıklama: doğru cevabın gerekçesi + en güçlü çeldiricinin neden yanlış olduğu (2-4 cümle).
+- Açıklama: doğru cevabın gerekçesi + en güçlü çeldiricinin neden yanlış olduğu (3-5 cümle).
+- **Açıklamada kavram öğretimi (zorunlu):** Soru bir kavramı/terimi test ediyorsa açıklama o kavramın 1 cümlelik TANIMINI da içermeli (ör. "Dönüşlü çatı, öznenin yaptığı işten yine kendisinin etkilendiği çatıdır: yıkandı, tarandı."). Kullanıcı kavramı hiç bilmiyorsa bile yanlışını incelerken açıklamadan öğrenebilmeli.
 
 ## Sık Yapılan Hatalar
 

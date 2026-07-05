@@ -40,7 +40,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Cumhurbaşkanının kanunları bir daha görüşülmek üzere geri gönderme yetkisi mutlak veto niteliğindedir."
   ],
   dogru: 2,
-  aciklama: "Anayasa m. 88-89'a göre kanun teklif etmeye yalnızca milletvekilleri yetkilidir; kanun tasarısı usulü 2017 değişikliğiyle kaldırılmıştır. Cumhurbaşkanı kanunları on beş gün içinde ya yayımlar ya da bir daha görüşülmek üzere geri gönderir; TBMM geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla (301) aynen kabul ederse Cumhurbaşkanı kanunu yayımlamak zorundadır. Bu nedenle yetki geciktirici veto niteliğindedir."
+  aciklama: "Anayasa m. 88-89'a göre kanun teklif etmeye yalnızca milletvekilleri yetkilidir; kanun tasarısı usulü 2017 değişikliğiyle kaldırılmıştır. Cumhurbaşkanı kanunları on beş gün içinde ya yayımlar ya da bir daha görüşülmek üzere geri gönderir; TBMM geri gönderilen kanunu üye tamsayısının salt çoğunluğuyla (301) aynen kabul ederse Cumhurbaşkanı kanunu yayımlamak zorundadır. Mutlak veto, devlet başkanının onaylamadığı kanunun kesin olarak yasalaşamaması demektir; Meclis geri gönderilen kanunu aynen kabul ederek yürürlüğe sokabildiğinden Cumhurbaşkanının yetkisi mutlak değil geciktirici veto niteliğindedir."
 },
 {
   id: "vat-022",
@@ -68,7 +68,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Genel görüşme sonucunda bakanların görevine son verilebilir."
   ],
   dogru: 3,
-  aciklama: "2017 değişikliği sonrasında Anayasa'nın 98. maddesinde TBMM'nin denetim yolları yazılı soru, genel görüşme, Meclis araştırması ve Meclis soruşturması olarak sayılmış; gensoru ve sözlü soru kaldırılmıştır. Yazılı soru, Cumhurbaşkanı yardımcıları ve bakanlara yöneltilir; Cumhurbaşkanına yöneltilemez. Meclis soruşturması ise Cumhurbaşkanı, Cumhurbaşkanı yardımcıları ve bakanların cezai sorumluluğunu Yüce Divan yolunu açarak işleten özel bir denetim aracıdır."
+  aciklama: "2017 değişikliği sonrasında Anayasa'nın 98. maddesinde TBMM'nin denetim yolları yazılı soru, genel görüşme, Meclis araştırması ve Meclis soruşturması olarak sayılmış; gensoru ve sözlü soru kaldırılmıştır. Gensoru, parlamenter sistemde hükûmetin veya bir bakanın siyasi sorumluluğunu harekete geçirip güven oylamasıyla düşürülmesine imkân veren denetim yoluydu. Yazılı soru, Cumhurbaşkanı yardımcıları ve bakanlara yöneltilir; Cumhurbaşkanına yöneltilemez. Meclis soruşturması ise Cumhurbaşkanı, Cumhurbaşkanı yardımcıları ve bakanların cezai sorumluluğunu Yüce Divan yolunu açarak işleten özel bir denetim aracıdır."
 },
 {
   id: "vat-024",
@@ -124,7 +124,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "II ve IV"
   ],
   dogru: 0,
-  aciklama: "Anayasa'nın 104. maddesinin 17. fıkrası, olağan dönem Cumhurbaşkanlığı kararnamelerinin sınırlarını çizmektedir ve dört ifade de bu fıkranın hükümleridir. Sosyal ve ekonomik haklar (üçüncü bölüm) ise kararname yasağı kapsamında sayılmadığından kararnameyle düzenlenebilir; kararname, kanuna göre ikincil konumdadır."
+  aciklama: "Cumhurbaşkanlığı kararnamesi, Cumhurbaşkanının yürütme yetkisine ilişkin konularda Meclisten yetki almaksızın çıkarabildiği düzenleyici işlemdir. Anayasa'nın 104. maddesinin 17. fıkrası, olağan dönem Cumhurbaşkanlığı kararnamelerinin sınırlarını çizmektedir ve dört ifade de bu fıkranın hükümleridir. Sosyal ve ekonomik haklar (üçüncü bölüm) ise kararname yasağı kapsamında sayılmadığından kararnameyle düzenlenebilir; kararname, kanuna göre ikincil konumdadır."
 },
 {
   id: "vat-028",
@@ -222,7 +222,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Barolar ile Yargıtay Cumhuriyet Başsavcısı"
   ],
   dogru: 2,
-  aciklama: "2017 değişikliği sonrasında Anayasa'nın 150. maddesine göre iptal davası açma hakkı Cumhurbaşkanına, TBMM'de en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki (120) milletvekiline aittir. Dava, iptali istenen normun Resmî Gazete'de yayımlanmasından itibaren altmış gün içinde açılmalıdır; iktidar-ana muhalefet ayrımı yerine en çok üyeli iki parti grubu ölçütü benimsenmiştir."
+  aciklama: "İptal davası, bir normun somut bir uyuşmazlıktan bağımsız olarak doğrudan Anayasa'ya aykırılığının denetlenmesini sağlayan soyut norm denetimi yoludur. 2017 değişikliği sonrasında Anayasa'nın 150. maddesine göre iptal davası açma hakkı Cumhurbaşkanına, TBMM'de en fazla üyeye sahip iki siyasi parti grubuna ve üye tamsayısının en az beşte biri tutarındaki (120) milletvekiline aittir. Dava, iptali istenen normun Resmî Gazete'de yayımlanmasından itibaren altmış gün içinde açılmalıdır; iktidar-ana muhalefet ayrımı yerine en çok üyeli iki parti grubu ölçütü benimsenmiştir."
 },
 {
   id: "vat-035",

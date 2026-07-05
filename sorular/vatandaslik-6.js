@@ -152,7 +152,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Bir ilin veya seçim çevresinin TBMM'de üyesinin kalmaması hâlinde, boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır."
   ],
   dogru: 3,
-  aciklama: "78. maddeye göre genel seçimlere bir yıl kala ara seçim yapılamaz; bu nedenle seçimlere altı ay kala ara seçim yapılabileceği ifadesi yanlıştır. Ara seçim her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe bu yola gidilemez; ancak boşalan üyelik sayısının üye tamsayısının yüzde beşini bulması hâlinde ara seçimin üç ay içinde yapılmasına karar verilir. Bir ilin veya seçim çevresinin Mecliste hiç üyesinin kalmaması hâlinde ise bu kurallardan ayrı olarak, boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır."
+  aciklama: "Ara seçim, iki genel seçim arasında ölüm, istifa gibi nedenlerle boşalan milletvekilliklerini doldurmak için yapılan seçimdir. 78. maddeye göre genel seçimlere bir yıl kala ara seçim yapılamaz; bu nedenle seçimlere altı ay kala ara seçim yapılabileceği ifadesi yanlıştır. Ara seçim her seçim döneminde bir defa yapılır ve genel seçimden otuz ay geçmedikçe bu yola gidilemez; ancak boşalan üyelik sayısının üye tamsayısının yüzde beşini bulması hâlinde ara seçimin üç ay içinde yapılmasına karar verilir. Bir ilin veya seçim çevresinin Mecliste hiç üyesinin kalmaması hâlinde ise bu kurallardan ayrı olarak, boşalmayı takip eden doksan günden sonraki ilk pazar günü ara seçim yapılır."
 },
 {
   id: "vat-102",
@@ -208,7 +208,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Kısmi seferberlik"
   ],
   dogru: 1,
-  aciklama: "2017 değişikliğiyle sıkıyönetim usulü Anayasa'dan tamamen çıkarılmış; olağanüstü yönetim, 119. maddede tek tip \"olağanüstü hâl\" olarak düzenlenmiştir. Aynı değişiklikle Askerî Yargıtay ve Askerî Yüksek İdare Mahkemesi de kaldırılmıştır; savaş, seferberlik ve olağanüstü hâller ise 15. maddedeki temel hak ve hürriyetlerin kullanılmasının durdurulması rejiminin sebepleri olarak varlığını korumaktadır."
+  aciklama: "Sıkıyönetim, kolluk yetkilerinin askerî makamlara geçtiği ve yargılamaların kısmen askerî mahkemelerce yapıldığı bir olağanüstü yönetim usulüydü. 2017 değişikliğiyle sıkıyönetim usulü Anayasa'dan tamamen çıkarılmış; olağanüstü yönetim, 119. maddede tek tip \"olağanüstü hâl\" olarak düzenlenmiştir. Aynı değişiklikle Askerî Yargıtay ve Askerî Yüksek İdare Mahkemesi de kaldırılmıştır; savaş, seferberlik ve olağanüstü hâller ise 15. maddedeki temel hak ve hürriyetlerin kullanılmasının durdurulması rejiminin sebepleri olarak varlığını korumaktadır."
 },
 {
   id: "vat-106",
@@ -250,6 +250,6 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "İdare, kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür."
   ],
   dogru: 2,
-  aciklama: "125. maddeye göre yürütmenin durdurulmasına; idari işlemin uygulanması hâlinde telafisi güç veya imkânsız zararların doğması ve işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda gerekçe gösterilerek karar verilebilir; şartlardan yalnızca birinin varlığı yeterli değildir. İdarenin her türlü eylem ve işlemine karşı yargı yolu açıktır, yerindelik denetimi yasaktır, dava süresi yazılı bildirimle başlar ve idare kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür."
+  aciklama: "Yürütmenin durdurulması, dava sonuçlanıncaya kadar idari işlemin uygulanmasının mahkemece geçici olarak askıya alınmasıdır; yerindelik denetimi ise yargının, işlemin hukuka uygunluğu yerine isabetli olup olmadığını değerlendirmesi anlamına gelir ve yasaktır. 125. maddeye göre yürütmenin durdurulmasına; idari işlemin uygulanması hâlinde telafisi güç veya imkânsız zararların doğması ve işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda gerekçe gösterilerek karar verilebilir; şartlardan yalnızca birinin varlığı yeterli değildir. İdarenin her türlü eylem ve işlemine karşı yargı yolu açıktır, yerindelik denetimi yasaktır, dava süresi yazılı bildirimle başlar ve idare kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür."
 }
 );

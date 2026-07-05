@@ -124,7 +124,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "I, II, III ve IV"
   ],
   dogru: 3,
-  aciklama: "38. maddeye göre ölüm cezası ve genel müsadere cezası verilemez; idare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz ve hiç kimse yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz. Vatandaşın suç sebebiyle yabancı bir ülkeye verilememesi kuralının istisnası ise Uluslararası Ceza Divanına taraf olmanın gerektirdiği yükümlülüklerdir; bu nedenle \"hiçbir durumda\" ifadesini içeren III numaralı yargı yanlıştır."
+  aciklama: "Genel müsadere, kişinin suçla ilgili olup olmadığına bakılmaksızın tüm malvarlığına devletçe el konulmasıdır. 38. maddeye göre ölüm cezası ve genel müsadere cezası verilemez; idare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz ve hiç kimse yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz. Vatandaşın suç sebebiyle yabancı bir ülkeye verilememesi kuralının istisnası ise Uluslararası Ceza Divanına taraf olmanın gerektirdiği yükümlülüklerdir; bu nedenle \"hiçbir durumda\" ifadesini içeren III numaralı yargı yanlıştır."
 },
 {
   id: "vat-064",

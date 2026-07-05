@@ -26,7 +26,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Yalnız II"
   ],
   dogru: 3,
-  aciklama: "Bir hakkın o ana kadar kimseye ait olmadan ilk kez bir kişinin şahsında doğması aslen kazanma (ihraz, işleme, kazandırıcı zamanaşımı); hakkın önceki sahibinden yeni sahibine geçmesi ise devren kazanmadır. Satımda hak, hukuki işlemle yaşayan bir kişiden; mirasta ise külli halefiyet gereği ölenden geçtiğinden her ikisi de devren kazanmadır. Bu nedenle üç yargı da doğrudur."
+  aciklama: "Bir hakkın o ana kadar kimseye ait olmadan ilk kez bir kişinin şahsında doğması aslen kazanma (ihraz, işleme, kazandırıcı zamanaşımı); hakkın önceki sahibinden yeni sahibine geçmesi ise devren kazanmadır. Külli halefiyet, mirasçının miras bırakanın ölümüyle onun hak ve borçlarına bir bütün hâlinde kendiliğinden halef olmasıdır. Satımda hak, hukuki işlemle yaşayan bir kişiden; mirasta ise külli halefiyet gereği ölenden geçtiğinden her ikisi de devren kazanmadır. Bu nedenle üç yargı da doğrudur."
 },
 {
   id: "vat-075",
@@ -40,7 +40,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Gaiplik kararı üzerine ölüme bağlı haklar, aynen gaibin ölümü ispatlanmış gibi kullanılır."
   ],
   dogru: 3,
-  aciklama: "TMK m. 32-35'e göre gaiplik, hakları ölüme bağlı olanların başvurusu üzerine mahkemece verilen bir karardır; idari bir işlem değildir. Ölüm karinesinde (TMK m. 31 ve m. 44) ise kişi, ölümüne kesin gözle bakılmayı gerektiren durumlar içinde kaybolmuşsa cesedi bulunamasa bile gerçekten ölmüş sayılır ve o yerin en büyük mülki amiri kütüğe ölüm kaydı düşülmesini emreder."
+  aciklama: "Gaiplik, ölüm tehlikesi içinde kaybolan veya kendisinden uzun süredir haber alınamayan ve ölümü hakkında kuvvetli olasılık bulunan kişinin mahkeme kararıyla ölmüş sayılmasıdır. TMK m. 32-35'e göre gaiplik, hakları ölüme bağlı olanların başvurusu üzerine mahkemece verilen bir karardır; idari bir işlem değildir. Ölüm karinesinde (TMK m. 31 ve m. 44) ise kişi, ölümüne kesin gözle bakılmayı gerektiren durumlar içinde kaybolmuşsa cesedi bulunamasa bile gerçekten ölmüş sayılır ve o yerin en büyük mülki amiri kütüğe ölüm kaydı düşülmesini emreder."
 },
 {
   id: "vat-076",
@@ -236,7 +236,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "1982 Anayasası'nda düzenlenen yüksek mahkemelerden biridir."
   ],
   dogru: 2,
-  aciklama: "Anayasa'nın 158. maddesine göre diğer mahkemelerle Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında Anayasa Mahkemesinin kararı esas alınır; bu uyuşmazlıklar Uyuşmazlık Mahkemesine gitmez. Uyuşmazlık Mahkemesi, adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili bir yüksek mahkemedir ve başkanlığını Anayasa Mahkemesinin kendi üyeleri arasından görevlendirdiği üye yürütür."
+  aciklama: "Anayasa'nın 158. maddesine göre diğer mahkemelerle Anayasa Mahkemesi arasındaki görev uyuşmazlıklarında Anayasa Mahkemesinin kararı esas alınır; bu uyuşmazlıklar Uyuşmazlık Mahkemesine gitmez. Uyuşmazlık Mahkemesi, adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümlemeye yetkili bir yüksek mahkemedir ve başkanlığını Anayasa Mahkemesinin kendi üyeleri arasından görevlendirdiği üye yürütür. Görev uyuşmazlığı bir davaya hangi yargı kolunun bakacağı konusundaki, hüküm uyuşmazlığı ise farklı yargı kollarının aynı konuda verdikleri çelişik kararlar nedeniyle hakkın yerine getirilememesinden doğan uyuşmazlıktır."
 },
 {
   id: "vat-090",
@@ -250,6 +250,6 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "İdarenin bütünlüğü ilkesi, mahallî idarelerin merkezî idareye hiyerarşik olarak bağlı olmasını ifade eder."
   ],
   dogru: 0,
-  aciklama: "123. maddeye göre idare, kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir; idarenin kuruluş ve görevleri merkezden yönetim ve yerinden yönetim esaslarına dayanır. 2017 değişikliğiyle kamu tüzel kişiliğinin kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulacağı kabul edilmiştir; merkezî idare ile mahallî idareler arasındaki ilişki ise hiyerarşi değil, idari vesayet ilişkisidir."
+  aciklama: "123. maddeye göre idare, kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir; idarenin kuruluş ve görevleri merkezden yönetim ve yerinden yönetim esaslarına dayanır. 2017 değişikliğiyle kamu tüzel kişiliğinin kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulacağı kabul edilmiştir; merkezî idare ile mahallî idareler arasındaki ilişki ise hiyerarşi değil, idari vesayet ilişkisidir. Hiyerarşi aynı tüzel kişilik içindeki ast-üst denetimini, idari vesayet ise merkezî idarenin ayrı tüzel kişiliğe sahip yerinden yönetim kuruluşları üzerindeki kanunla öngörülen denetim yetkisini ifade eder."
 }
 );

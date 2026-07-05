@@ -68,7 +68,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Demokratik devlet"
   ],
   dogru: 1,
-  aciklama: "Anayasa'nın 2. maddesine göre Türkiye Cumhuriyeti; toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik ve sosyal bir hukuk devletidir. Üniter (tekçi) devlet yapısı 2. maddede sayılmaz; bu özellik 3. maddedeki \"Devleti, ülkesi ve milletiyle bölünmez bir bütündür.\" hükmünden çıkarılır."
+  aciklama: "Anayasa'nın 2. maddesine göre Türkiye Cumhuriyeti; toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik ve sosyal bir hukuk devletidir. Üniter (tekçi) devlet yapısı 2. maddede sayılmaz; bu özellik 3. maddedeki \"Devleti, ülkesi ve milletiyle bölünmez bir bütündür.\" hükmünden çıkarılır. Üniter devlet, ülkede tek anayasa ile tek yasama, yürütme ve yargı örgütünün bulunduğu, federe birimlere ayrılmamış devlet modelidir."
 },
 {
   id: "vat-006",
@@ -110,7 +110,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "I, III ve IV"
   ],
   dogru: 3,
-  aciklama: "13. maddeye göre temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasa'nın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir; sınırlamalar Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz. Sınırlama aracı münhasıran kanun olduğundan Cumhurbaşkanlığı kararnamesiyle sınırlama yapılamaz; IV yanlıştır."
+  aciklama: "13. maddeye göre temel hak ve hürriyetler, özlerine dokunulmaksızın yalnızca Anayasa'nın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir; sınırlamalar Anayasa'nın sözüne ve ruhuna, demokratik toplum düzeninin ve laik Cumhuriyetin gereklerine ve ölçülülük ilkesine aykırı olamaz. Ölçülülük ilkesi, sınırlamanın öngörülen amaca ulaşmak için elverişli, gerekli ve orantılı olmasını ifade eder. Sınırlama aracı münhasıran kanun olduğundan Cumhurbaşkanlığı kararnamesiyle sınırlama yapılamaz; IV yanlıştır."
 },
 {
   id: "vat-009",
@@ -152,7 +152,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Kişilik, çocuğun sağ ve tam doğumuyla başlar; cenin, sağ doğmak koşuluyla ana rahmine düştüğü andan itibaren hak ehliyetini kazanır."
   ],
   dogru: 4,
-  aciklama: "TMK m. 28 uyarınca kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar ve ölümle sona erer; cenin sağ doğmak koşuluyla ana rahmine düştüğü andan başlayarak hak ehliyetine sahip olur. Ayırt etme gücü, erginlik ve kısıtlı olmama ise hak ehliyetinin değil fiil ehliyetinin koşullarıdır; hak ehliyeti bütün insanlara genel ve eşit biçimde tanınır."
+  aciklama: "TMK m. 28 uyarınca kişilik, çocuğun sağ olarak tamamıyla doğduğu anda başlar ve ölümle sona erer; cenin sağ doğmak koşuluyla ana rahmine düştüğü andan başlayarak hak ehliyetine sahip olur. Hak ehliyeti haklara ve borçlara sahip olabilme, fiil ehliyeti ise kişinin kendi fiilleriyle hak edinip borç altına girebilme yeteneğidir. Ayırt etme gücü, erginlik ve kısıtlı olmama ise hak ehliyetinin değil fiil ehliyetinin koşullarıdır; hak ehliyeti bütün insanlara genel ve eşit biçimde tanınır."
 },
 {
   id: "vat-012",
@@ -180,7 +180,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Yalnız III"
   ],
   dogru: 3,
-  aciklama: "1961 Anayasası, Anayasa Mahkemesini kurarak anayasanın üstünlüğünü yargısal güvenceye bağlamış, iki meclisli parlamento modelini benimsemiş ve temel hakları güçlendirerek çoğulcu demokrasi anlayışına geçmiştir. Üç yargı da doğrudur; iki meclisli yapı 1982 Anayasası ile terk edilmiştir."
+  aciklama: "1961 Anayasası, Anayasa Mahkemesini kurarak anayasanın üstünlüğünü yargısal güvenceye bağlamış, iki meclisli parlamento modelini benimsemiş ve temel hakları güçlendirerek çoğulcu demokrasi anlayışına geçmiştir. Çoğulcu demokrasi, çoğunluğun yönetme hakkını azınlıkta kalanların temel haklarını güvenceye alarak sınırlayan anlayıştır; çoğunlukçu anlayış ise çoğunluk iradesini mutlak üstün sayar. Üç yargı da doğrudur; iki meclisli yapı 1982 Anayasası ile terk edilmiştir."
 },
 {
   id: "vat-014",

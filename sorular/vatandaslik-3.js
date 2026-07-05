@@ -26,7 +26,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Yalnız III"
   ],
   dogru: 3,
-  aciklama: "Örf ve âdet hukuku yazısız asli kaynaktır; TMK m. 1'e göre hâkim, kanunda uygulanabilir bir hüküm yoksa örf ve âdet hukukuna göre karar verir. Doktrin ve içtihatlar kural olarak bağlayıcı olmayan yardımcı kaynaklardır; ancak Yargıtay içtihadı birleştirme kararları benzer hukuki konularda Yargıtay daire ve kurulları ile adliye mahkemelerini bağlar. Bu nedenle üç yargı da doğrudur."
+  aciklama: "Örf ve âdet hukuku yazısız asli kaynaktır; TMK m. 1'e göre hâkim, kanunda uygulanabilir bir hüküm yoksa örf ve âdet hukukuna göre karar verir. Doktrin ve içtihatlar kural olarak bağlayıcı olmayan yardımcı kaynaklardır; ancak içtihadı birleştirme kararı, Yargıtay'ın aynı konuda birbiriyle çelişen kararlarını ortak bir çözümde birleştirmek için verdiği karardır ve benzer hukuki konularda Yargıtay daire ve kurulları ile adliye mahkemelerini bağlar. Bu nedenle üç yargı da doğrudur."
 },
 {
   id: "vat-039",
@@ -138,7 +138,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
     "Meclisin kararı olmadıkça, suç işlediği ileri sürülen bir milletvekili tutulamaz, sorguya çekilemez, tutuklanamaz ve yargılanamaz."
   ],
   dogru: 2,
-  aciklama: "Yasama sorumsuzluğu mutlak bir güvencedir; Meclis kararıyla kaldırılamaz ve milletvekilliği sona erdikten sonra da devam eder. Kaldırılabilen güvence yasama dokunulmazlığıdır; ayrıca ağır cezayı gerektiren suçüstü hâli ile seçimden önce soruşturmasına başlanmış olmak kaydıyla Anayasa'nın 14. maddesindeki durumlar dokunulmazlığın kapsamı dışındadır (m. 83)."
+  aciklama: "Yasama sorumsuzluğu, milletvekilinin Meclis çalışmalarındaki oy, söz ve düşünce açıklamalarından dolayı hiçbir zaman sorumlu tutulamaması; yasama dokunulmazlığı ise görevi süresince Meclis kararı olmadıkça tutulamaması, sorgulanamaması, tutuklanamaması ve yargılanamamasıdır. Yasama sorumsuzluğu mutlak bir güvencedir; Meclis kararıyla kaldırılamaz ve milletvekilliği sona erdikten sonra da devam eder. Kaldırılabilen güvence yasama dokunulmazlığıdır; ayrıca ağır cezayı gerektiren suçüstü hâli ile seçimden önce soruşturmasına başlanmış olmak kaydıyla Anayasa'nın 14. maddesindeki durumlar dokunulmazlığın kapsamı dışındadır (m. 83)."
 },
 {
   id: "vat-047",
