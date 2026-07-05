@@ -910,6 +910,7 @@ var App = (function () {
     }).join("");
 
     render(
+      '<div class="panel-genis">' +
       '<div class="panel-head">' +
         '<div class="panel-head-sol">' +
           '<div class="panel-brand"><span class="panel-brand-ikon">🎓</span>' +
@@ -924,6 +925,7 @@ var App = (function () {
           '<div class="gk-alt">' + sinavTarihMetni + ' · sınav günü</div>' +
         '</div>' +
       '</div>' +
+      '<div class="cihaz-not">📱💻 <b>İlerlemen bu cihaza/tarayıcıya özeldir</b> — telefon ile bilgisayar ayrı sayılır, biri diğerine geçmez. Cihaz değiştireceksen aşağıdaki <b>💾 Yedek Al</b> / <b>📂 Yedek Yükle</b> ile taşı.</div>' +
       (aktif ? '<div class="devam-banner">' +
         '<div class="db-sol"><span class="db-ikon">⏸️</span><div><div class="db-ad">Yarım kalan test: ' + aktifAd + '</div><div class="db-alt">' + aktifCevap + ' / ' + aktif.sorular.length + ' soru işaretlenmiş · kaldığın yerden devam et</div></div></div>' +
         '<div class="db-btnlar"><button class="btn" onclick="App.devamEt()">▶ Devam Et</button><button class="btn ikincil kucuk" onclick="App.aktifSinavSil()">Sil</button></div>' +
@@ -970,7 +972,6 @@ var App = (function () {
           trendSVG(trend) +
         '</div>' +
       '</div>' +
-      '<div class="cihaz-not">📱💻 <b>İlerlemen bu cihaza ve tarayıcıya özeldir.</b> Çözdüğün sorular, netlerin ve yanlış defterin yalnızca şu an kullandığın cihaz/tarayıcıda saklanır; telefon ile bilgisayar (ya da farklı bir tarayıcı) ayrı sayılır. Cihaz değiştireceksen <b>💾 Yedek Al</b> ile indir, yeni cihazda <b>📂 Yedek Yükle</b> ile geri yükle.</div>' +
       '<div class="alt-satir">' +
         '<span class="hedef-ayar">Günlük hedef: <input type="number" min="10" max="1000" step="10" value="' + hedef + '" onchange="App.hedefDegis(this.value)"></span>' +
         '<div class="butonlar">' +
@@ -978,6 +979,7 @@ var App = (function () {
           '<button class="btn ikincil kucuk" onclick="document.getElementById(\'yedekDosya\').click()">📂 Yedek Yükle</button>' +
           '<input type="file" id="yedekDosya" accept=".json" style="display:none" onchange="App.yedekYukle(this)">' +
         '</div>' +
+      '</div>' +
       '</div>'
     );
   }

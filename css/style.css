@@ -260,17 +260,19 @@ select.filtre-sec {
   background: #eef4f0;
   border: 1px solid var(--cizgi);
   border-left: 3px solid var(--vurgu);
-  border-radius: 0 12px 12px 0;
-  padding: 11px 15px;
-  font-size: 13.5px;
-  line-height: 1.5;
+  border-radius: 0 10px 10px 0;
+  padding: 8px 14px;
+  font-size: 12.5px;
+  line-height: 1.45;
   color: #3c5348;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 .cihaz-not b { color: var(--metin); }
 
 /* ===== Çalışma Paneli (dashboard) ===== */
-.panel-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 22px; flex-wrap: wrap; margin-bottom: 20px; }
+/* Panel dar #app kutusundan taşıp geniş alana yayılır (tek bakışta düzen) */
+.panel-genis { width: min(1340px, 96vw); position: relative; left: 50%; transform: translateX(-50%); }
+.panel-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 22px; flex-wrap: wrap; margin-bottom: 14px; }
 .panel-head-sol { flex: 1; min-width: 260px; }
 .panel-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
 .panel-brand-ikon { width: 44px; height: 44px; border-radius: 13px; background: var(--vurgu); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 22px; flex: none; }
