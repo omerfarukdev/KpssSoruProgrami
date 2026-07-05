@@ -56,7 +56,8 @@ window.KPSS_BANK = window.KPSS_BANK || {};
 - **Vatandaşlık:** Yalnızca 2017 anayasa değişikliği SONRASI sistem (600 milletvekili, Cumhurbaşkanlığı Hükûmet Sistemi, CB kararnamesi, %7 baraj, HSK 13 üye, AYM 15 üye).
 - **Matematik:** Her soruyu yazdıktan sonra baştan çöz; cevabın şıklarda tam bir kez geçtiğini ve `dogru` indeksinin onu gösterdiğini doğrula. Açıklamalar adım adım öğretici yazılır.
 - **Güncel Bilgiler:** Yalnızca web'den doğrulanmış, son ~18 ayın olayları.
-- ÖSYM üslubu; çeldiriciler makul; doğru cevabın şık konumu dengeli dağıtılır (her şıkka ~%20); zorluk karışımı ~%30 kolay, %50 orta, %20 zor.
+- ÖSYM üslubu; çeldiriciler makul; doğru cevabın şık konumu dengeli dağıtılır (her şıkka ~%20).
+- **Zorluk karışımı (Temmuz 2026'dan itibaren): ~%10 kolay, %40 orta, %50 zor.** Zor = çok aşamalı akıl yürütme, öncüllü kurgular, birden fazla bilgiyi birleştirme, ince ama savunulabilir çeldiriciler. Zor olsun diye müfredat dışına çıkma veya belirsiz/tartışmalı soru yazma — tek savunulabilir doğru cevap kuralı her zorlukta geçerli.
 - Açıklama: doğru cevabın gerekçesi + en güçlü çeldiricinin neden yanlış olduğu (2-4 cümle).
 
 ## Sık Yapılan Hatalar
