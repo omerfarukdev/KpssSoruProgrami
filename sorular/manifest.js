@@ -61,5 +61,6 @@ window.KPSS_MANIFEST = [
   "cografya-tufan-2.js",
   "vatandaslik-tufan-2.js",
   "guncel-tufan-2.js",
-  "turkce-tufan-2.js"
+  "turkce-tufan-2.js",
+  "matematik-tufan-3.js"
 ];
