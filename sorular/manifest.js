@@ -30,13 +30,18 @@ window.KPSS_MANIFEST = [
   "cografya-4.js",
   "cografya-5.js",
   "cografya-6.js",
+  "cografya-7.js",
+  "cografya-8.js",
   "guncel-1.js",
   "guncel-2.js",
   "guncel-3.js",
+  "guncel-4.js",
   "vatandaslik-1.js",
   "vatandaslik-2.js",
   "vatandaslik-3.js",
   "vatandaslik-4.js",
   "vatandaslik-5.js",
-  "vatandaslik-6.js"
+  "vatandaslik-6.js",
+  "vatandaslik-7.js",
+  "vatandaslik-8.js"
 ];
