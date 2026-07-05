@@ -57,7 +57,7 @@ window.KPSS_BANK = window.KPSS_BANK || {};
 - **Matematik:** Her soruyu yazdıktan sonra baştan çöz; cevabın şıklarda tam bir kez geçtiğini ve `dogru` indeksinin onu gösterdiğini doğrula. Açıklamalar adım adım öğretici yazılır.
 - **Güncel Bilgiler:** Yalnızca web'den doğrulanmış, son ~18 ayın olayları.
 - ÖSYM üslubu; çeldiriciler makul; doğru cevabın şık konumu dengeli dağıtılır (her şıkka ~%20).
-- **Zorluk karışımı (Temmuz 2026'dan itibaren): ~%10 kolay, %40 orta, %50 zor.** Zor = çok aşamalı akıl yürütme, öncüllü kurgular, birden fazla bilgiyi birleştirme, ince ama savunulabilir çeldiriciler. Zor olsun diye müfredat dışına çıkma veya belirsiz/tartışmalı soru yazma — tek savunulabilir doğru cevap kuralı her zorlukta geçerli.
+- **Zorluk: gerçek KPSS çıkmış soru seviyesi.** Karışım ~%20 kolay, %55 orta, %25 zor. Ne aşırı kolay ne aşırı zor — ölçüt, ÖSYM'nin çıkmış sorularında ortalama bir adayın zorlanma düzeyidir. Zor sorularda bile müfredat dışına çıkma veya belirsiz/tartışmalı soru yazma — tek savunulabilir doğru cevap kuralı her zorlukta geçerli.
 - Açıklama: doğru cevabın gerekçesi + en güçlü çeldiricinin neden yanlış olduğu (3-5 cümle).
 - **Açıklamada kavram öğretimi (zorunlu):** Soru bir kavramı/terimi test ediyorsa açıklama o kavramın 1 cümlelik TANIMINI da içermeli (ör. "Dönüşlü çatı, öznenin yaptığı işten yine kendisinin etkilendiği çatıdır: yıkandı, tarandı."). Kullanıcı kavramı hiç bilmiyorsa bile yanlışını incelerken açıklamadan öğrenebilmeli.
 
