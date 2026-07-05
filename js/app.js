@@ -668,7 +668,7 @@ var App = (function () {
 
     render(
       '<div class="ust-bar">' +
-        '<h1>🎓 KPSS Soru Programı</h1>' +
+        '<h1>🎓 KPSS SORU PROGRAMINA HOŞ GELDİN RAFIK</h1>' +
         '<div class="sayac-kutu">' +
           '<div class="sayac-gun">' + (kalanGun > 0 ? "Sınava " + kalanGun + " gün" : "Sınav günü geldi!") + '</div>' +
           '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)" title="Sınav tarihini değiştir">' +
