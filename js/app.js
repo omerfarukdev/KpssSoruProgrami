@@ -18,16 +18,6 @@ var App = (function () {
   var VARSAYILAN_HEDEF = 120;
   var ZAYIF_ESIK = 0.65;   // bu oranın altındaki konular zayıf sayılır
   var ZAYIF_MIN_SORU = 4;  // bir konuda en az bu kadar soru çözülmüş olmalı
-  var ALINTILAR = [
-    "Yanlış defterin, en kıymetli hocandır.",
-    "Net, yetenek değil tekrar işidir.",
-    "Bugün üşenilen soru, yarın yanlış çıkar.",
-    "Küçük ama düzenli adımlar, büyük sıçramalardan güçlüdür.",
-    "Zor soru, en çok öğreten sorudur.",
-    "Rakiplerin de yorulur; fark, devam edende.",
-    "Her çözülen deneme, sınav gününden çalınmış bir provadır."
-  ];
-
   // ================= Depolama =================
   var Store = {
     get: function (k, def) {
@@ -756,7 +746,7 @@ var App = (function () {
           '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)" title="Sınav tarihini değiştir">' +
         '</div>' +
       '</div>' +
-      '<p class="slogan">“' + ALINTILAR[Math.floor(Date.now() / 86400000) % ALINTILAR.length] + '”</p>' +
+      '<div class="cihaz-not">📱💻 <b>İlerlemen bu cihaza ve tarayıcıya özeldir.</b> Çözdüğün sorular, netlerin ve yanlış defterin yalnızca şu an kullandığın cihaz/tarayıcıda saklanır; telefon ile bilgisayar (ya da farklı bir tarayıcı) ayrı sayılır ve biri diğerine geçmez. Bu yüzden hep aynı yerden çalış. Cihaz değiştireceksen aşağıdaki <b>💾 Yedek Al</b> ile kaydını indir, yeni cihazda <b>📂 Yedek Yükle</b> ile geri yükle.</div>' +
       '<div class="hedef-kutu">' +
         '<div class="hedef-ust">' +
           '<span>📅 <b>Bugün: ' + bugunCozulen + ' / ' + hedef + ' soru</b>' + (bugunCozulen >= hedef ? ' — hedef tamam! 🎉' : '') + '</span>' +
