@@ -300,10 +300,46 @@ var App = (function () {
     Store.set("settings", ayar);
   }
 
-  function iptal() {
-    if (!confirm("Sınavdan çıkılsın mı? Bu test kaydedilmeyecek.")) return;
-    clearInterval(S.timerId);
+  // ================= Duraklat / Devam Et =================
+  function aktifSinavGetir() {
+    var a = Store.get("aktifSinav", null);
+    return (a && a.sorular && a.sorular.length) ? a : null;
+  }
+
+  function aktifSinavKaydet() {
+    if (!S || ekran !== "exam") return;
+    Store.set("aktifSinav", {
+      mod: S.mod, ders: S.ders, sorular: S.sorular, cevaplar: S.cevaplar,
+      isaret: S.isaret, sureler: S.sureler, idx: S.idx, gecen: S.gecen,
+      auto: S.auto, tekrar: S.tekrar, ts: Date.now()
+    });
+  }
+
+  function duraklat() {
+    aktifSinavKaydet();
+    if (S) clearInterval(S.timerId);
     S = null;
+    anaSayfa();
+  }
+
+  function devamEt() {
+    var a = aktifSinavGetir();
+    if (!a) { anaSayfa(); return; }
+    S = {
+      mod: a.mod, ders: a.ders, sorular: a.sorular,
+      cevaplar: a.cevaplar, isaret: a.isaret, sureler: a.sureler,
+      idx: Math.min(a.idx || 0, a.sorular.length - 1),
+      gecen: a.gecen || 0, auto: a.auto !== false, tekrar: !!a.tekrar,
+      timerId: null, sonuc: null, filtre: "hepsi"
+    };
+    ekran = "exam";
+    renderExam();
+    S.timerId = setInterval(tik, 1000);
+  }
+
+  function aktifSinavSil() {
+    if (!confirm("Yarım kalan test silinsin mi? (İlerlemesi kaydedilmez)")) return;
+    Store.set("aktifSinav", null);
     anaSayfa();
   }
 
@@ -430,6 +466,7 @@ var App = (function () {
     };
     S.filtre = y > 0 ? "yanlis" : "hepsi";
     ekran = "result";
+    Store.set("aktifSinav", null); // test tamamlandı, yarım kayıt varsa temizlenir
     sunucuyaKaydet();
     renderSonuc();
   }
@@ -471,7 +508,7 @@ var App = (function () {
         '<div class="baslik">' + modBaslik() + '</div>' +
         '<div class="timer' + (S.mod === "deneme" && DENEME_SURE - S.gecen <= 600 ? " kritik" : "") + '" id="timer">' + timerText + '</div>' +
         '<label><input type="checkbox" ' + (S.auto ? "checked" : "") + ' onchange="App.otoDegis(this)"> Otomatik ilerle</label>' +
-        '<button class="btn tehlike kucuk" onclick="App.iptal()">Çıkış</button>' +
+        '<button class="btn tehlike kucuk" onclick="App.duraklat()">⏸ Kaydet &amp; Çık</button>' +
       '</div>' +
       '<div class="progress"><div style="width:' + Math.round(cevapli / n * 100) + '%"></div></div>' +
       '<div class="soru-kart">' +
@@ -809,6 +846,16 @@ var App = (function () {
     var trendDelta = trend.length >= 2 ? trend[trend.length - 1] - trend[0] : 0;
     var sinavTarihMetni = new Date(sinavTarihi + "T09:00:00").toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
 
+    var aktif = aktifSinavGetir();
+    var aktifAd = "", aktifCevap = 0;
+    if (aktif) {
+      aktifAd = aktif.mod === "deneme" ? "🎯 Tam Deneme"
+        : aktif.mod === "yanlis" ? "📕 Yanlış Defteri"
+        : aktif.mod === "zayif" ? "🧩 Zayıf Konular Testi"
+        : (DERSLER[aktif.ders].ikon + " " + DERSLER[aktif.ders].ad + " Testi");
+      aktifCevap = aktif.cevaplar.filter(function (c) { return c !== null; }).length;
+    }
+
     var dersKartlari = Object.keys(DERSLER).map(function (dl) {
       var D = DERSLER[dl];
       var bankAdet = bank(dl).length;
@@ -816,7 +863,14 @@ var App = (function () {
       var yapildi = ist.cevap > 0;
       var barPct = Math.min(100, Math.round(ist.cevap / D.soru * 100));
       var detay, durum = "", btn;
-      if (bankAdet === 0) {
+      if (aktif && aktif.mod === "ders" && aktif.ders === dl) {
+        var ac = aktif.cevaplar.filter(function (c) { return c !== null; }).length;
+        detay = "yarım kaldı · " + ac + " / " + aktif.sorular.length + " soru";
+        durum = '<span class="dk-durum devam">⏸ devam</span>';
+        barPct = Math.round(ac / aktif.sorular.length * 100);
+        yapildi = true;
+        btn = '<button class="dk-btn" onclick="App.devamEt()">Devam Et →</button>';
+      } else if (bankAdet === 0) {
         detay = "Soru bankası hazırlanıyor…";
         btn = '<button class="dk-btn" disabled>Hazırlanıyor</button>';
       } else if (yapildi) {
@@ -870,6 +924,10 @@ var App = (function () {
           '<div class="gk-alt">' + sinavTarihMetni + ' · sınav günü</div>' +
         '</div>' +
       '</div>' +
+      (aktif ? '<div class="devam-banner">' +
+        '<div class="db-sol"><span class="db-ikon">⏸️</span><div><div class="db-ad">Yarım kalan test: ' + aktifAd + '</div><div class="db-alt">' + aktifCevap + ' / ' + aktif.sorular.length + ' soru işaretlenmiş · kaldığın yerden devam et</div></div></div>' +
+        '<div class="db-btnlar"><button class="btn" onclick="App.devamEt()">▶ Devam Et</button><button class="btn ikincil kucuk" onclick="App.aktifSinavSil()">Sil</button></div>' +
+        '</div>' : '') +
       '<div class="bolum-baslik"><h2>Dersler</h2><span>Ders seç, teste başla</span></div>' +
       '<div class="ders-grid">' + dersKartlari + '</div>' +
       '<div class="aksiyon-bar">' +
@@ -1153,7 +1211,7 @@ var App = (function () {
   function init() {
     document.addEventListener("keydown", klavye);
     window.addEventListener("beforeunload", function (e) {
-      if (S && ekran === "exam") { e.preventDefault(); e.returnValue = ""; }
+      if (S && ekran === "exam") { aktifSinavKaydet(); e.preventDefault(); e.returnValue = ""; }
     });
     anaSayfa();
     sunucuyaKaydet();
@@ -1174,7 +1232,9 @@ var App = (function () {
     gitNo: gitNo,
     isaretle: isaretle,
     bitir: bitir,
-    iptal: iptal,
+    duraklat: duraklat,
+    devamEt: devamEt,
+    aktifSinavSil: aktifSinavSil,
     otoDegis: otoDegis,
     filtrele: filtrele,
     sonucKopyala: sonucKopyala,
