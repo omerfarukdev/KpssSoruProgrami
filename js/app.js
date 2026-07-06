@@ -14,7 +14,8 @@ var App = (function () {
   var DENEME_SIRA = ["turkce", "matematik", "tarih", "cografya", "vatandaslik", "guncel"];
   var DENEME_SURE = 130 * 60; // saniye
   var HARFLER = ["A", "B", "C", "D", "E"];
-  var VARSAYILAN_SINAV_TARIHI = "2026-09-12";
+  var VARSAYILAN_SINAV_TARIHI = "2026-09-12";          // KPSS Lisans GY-GK
+  var VARSAYILAN_SINAV_TARIHI_ONLISANS = "2026-10-04"; // KPSS Önlisans
   var VARSAYILAN_HEDEF = 120;
   var ZAYIF_ESIK = 0.65;   // bu oranın altındaki konular zayıf sayılır
   var ZAYIF_MIN_SORU = 4;  // bir konuda en az bu kadar soru çözülmüş olmalı
@@ -823,6 +824,8 @@ var App = (function () {
     var ayar = Store.get("settings", {});
     var sinavTarihi = ayar.sinavTarihi || VARSAYILAN_SINAV_TARIHI;
     var kalanGun = Math.ceil((new Date(sinavTarihi + "T09:00:00") - new Date()) / 86400000);
+    var sinavTarihiOn = ayar.sinavTarihiOnlisans || VARSAYILAN_SINAV_TARIHI_ONLISANS;
+    var kalanGunOn = Math.ceil((new Date(sinavTarihiOn + "T09:00:00") - new Date()) / 86400000);
     var seen = Store.get("seen", {});
     var wrong = Store.get("wrong", {});
     var gecmis = Store.get("history", []);
@@ -845,6 +848,7 @@ var App = (function () {
     var trendOrt = trend.length ? Math.round(trend.reduce(function (a, b) { return a + b; }, 0) / trend.length) : null;
     var trendDelta = trend.length >= 2 ? trend[trend.length - 1] - trend[0] : 0;
     var sinavTarihMetni = new Date(sinavTarihi + "T09:00:00").toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
+    var sinavTarihMetniOn = new Date(sinavTarihiOn + "T09:00:00").toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });
 
     var aktif = aktifSinavGetir();
     var aktifAd = "", aktifCevap = 0;
@@ -918,11 +922,19 @@ var App = (function () {
           '</div>' +
           '<h1 class="panel-baslik">Merhaba Rafık</h1>' +
         '</div>' +
-        '<div class="geri-kart">' +
-          '<div class="gk-kicker">SINAVA KALAN</div>' +
-          '<div class="gk-gun">' + (kalanGun > 0 ? kalanGun : 0) + '<span>gün</span></div>' +
-          '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value)">' +
-          '<div class="gk-alt">' + sinavTarihMetni + ' · sınav günü</div>' +
+        '<div class="geri-kartlar">' +
+          '<div class="geri-kart">' +
+            '<div class="gk-kicker">🎓 LİSANS · SINAVA KALAN</div>' +
+            '<div class="gk-gun">' + (kalanGun > 0 ? kalanGun : 0) + '<span>gün</span></div>' +
+            '<input type="date" value="' + sinavTarihi + '" onchange="App.tarihDegis(this.value, \'lisans\')">' +
+            '<div class="gk-alt">' + sinavTarihMetni + ' · Lisans</div>' +
+          '</div>' +
+          '<div class="geri-kart onlisans">' +
+            '<div class="gk-kicker">📗 ÖNLİSANS · SINAVA KALAN</div>' +
+            '<div class="gk-gun">' + (kalanGunOn > 0 ? kalanGunOn : 0) + '<span>gün</span></div>' +
+            '<input type="date" value="' + sinavTarihiOn + '" onchange="App.tarihDegis(this.value, \'onlisans\')">' +
+            '<div class="gk-alt">' + sinavTarihMetniOn + ' · Önlisans</div>' +
+          '</div>' +
         '</div>' +
       '</div>' +
       '<div class="cihaz-not">📱💻 <b>İlerlemen bu cihaza/tarayıcıya özeldir</b> — telefon ile bilgisayar ayrı sayılır, biri diğerine geçmez. Cihaz değiştireceksen aşağıdaki <b>💾 Yedek Al</b> / <b>📂 Yedek Yükle</b> ile taşı.</div>' +
@@ -984,10 +996,11 @@ var App = (function () {
     );
   }
 
-  function tarihDegis(v) {
+  function tarihDegis(v, tur) {
     if (!v) return;
     var ayar = Store.get("settings", {});
-    ayar.sinavTarihi = v;
+    if (tur === "onlisans") ayar.sinavTarihiOnlisans = v;
+    else ayar.sinavTarihi = v;
     Store.set("settings", ayar);
     anaSayfa();
   }

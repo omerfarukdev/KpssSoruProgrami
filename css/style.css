@@ -280,9 +280,11 @@ select.filtre-sec {
 .panel-brand-alt { font-size: 14px; font-weight: 700; }
 .panel-baslik { font-size: 33px; line-height: 1.15; font-weight: 800; letter-spacing: .2px; }
 .panel-baslik span { color: var(--vurgu); }
-.geri-kart { background: #12261c; color: #fff; border-radius: 18px; padding: 16px 22px; min-width: 220px; box-shadow: var(--golge); }
-.gk-kicker { font-size: 11px; letter-spacing: 1.5px; color: #8fb7a1; font-weight: 700; }
-.gk-gun { font-size: 50px; font-weight: 800; line-height: 1; margin: 2px 0 10px; }
+.geri-kartlar { display: flex; gap: 12px; flex-wrap: wrap; }
+.geri-kart { background: #12261c; color: #fff; border-radius: 18px; padding: 15px 20px; min-width: 195px; flex: 1; box-shadow: var(--golge); }
+.geri-kart.onlisans { background: #14202c; }
+.gk-kicker { font-size: 11px; letter-spacing: 1px; color: #8fb7a1; font-weight: 700; white-space: nowrap; }
+.gk-gun { font-size: 44px; font-weight: 800; line-height: 1; margin: 2px 0 10px; }
 .gk-gun span { font-size: 17px; font-weight: 600; color: #8fb7a1; margin-left: 6px; }
 .geri-kart input[type="date"] { background: #1d3a2b; color: #fff; border: 1px solid #2c4a3a; border-radius: 10px; padding: 6px 10px; font-family: inherit; font-size: 14px; color-scheme: dark; width: 100%; }
 .gk-alt { font-size: 12px; color: #8fb7a1; margin-top: 8px; }
