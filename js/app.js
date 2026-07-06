@@ -916,7 +916,7 @@ var App = (function () {
           '<div class="panel-brand"><span class="panel-brand-ikon">🎓</span>' +
             '<div><div class="panel-kicker">KPSS ÇALIŞMA PANELİ</div><div class="panel-brand-alt">2026 · Genel Yetenek &amp; Kültür</div></div>' +
           '</div>' +
-          '<h1 class="panel-baslik">Merhaba Rafık,<br><span>bugün de devam edelim.</span></h1>' +
+          '<h1 class="panel-baslik">Merhaba Rafık</h1>' +
         '</div>' +
         '<div class="geri-kart">' +
           '<div class="gk-kicker">SINAVA KALAN</div>' +

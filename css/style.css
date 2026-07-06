@@ -257,15 +257,15 @@ select.filtre-sec {
 
 /* ===== Cihaz bilgilendirme notu ===== */
 .cihaz-not {
-  background: #eef4f0;
-  border: 1px solid var(--cizgi);
-  border-left: 3px solid var(--vurgu);
-  border-radius: 0 10px 10px 0;
-  padding: 8px 14px;
-  font-size: 12.5px;
-  line-height: 1.45;
-  color: #3c5348;
-  margin-bottom: 16px;
+  background: #e7f1eb;
+  border: 1px solid #cfe1d6;
+  border-left: 4px solid var(--vurgu);
+  border-radius: 0 12px 12px 0;
+  padding: 12px 16px;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #294036;
+  margin-bottom: 18px;
 }
 .cihaz-not b { color: var(--metin); }
 
