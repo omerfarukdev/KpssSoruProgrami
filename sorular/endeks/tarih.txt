@@ -1,0 +1,564 @@
+tar-001 | İslamiyet Öncesi Türk Tarihi | Orhun Yazıtları ile ilgili, I. Türk tarihinin bilinen ilk yazılı belgeleridir, II. II. Kök Türk (Kutluk) Devl… | ✓I ve II
+tar-002 | Osmanlı Kuruluş ve Yükselme | İstanbul'un fethinin sonuçları arasında, I. Orta Çağ'ın kapanıp Yeni Çağ'ın başlaması, II. Bizans İmparatorlu… | ✓I, II ve III
+tar-003 | Osmanlı Dağılma ve Islahatlar | Tanzimat Fermanı'nda yer alan 'Herkes kanun önünde eşittir.' ve 'Hiç kimse yargılanmadan cezalandırılamayacak… | ✓Hukukun üstünlüğü ilkesinin benimsendiğ…
+tar-004 | Millî Mücadele Hazırlık Dönemi | Amasya Genelgesi'nde yer alan 'Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.' ifadesiyl… | ✓Kurtuluşun ulusal iradeye dayanılarak g…
+tar-005 | İlk Türk-İslam Devletleri | Aşağıdaki eser-yazar eşleştirmelerinden hangisi yanlıştır? | ✓Siyasetname - Yusuf Has Hacib
+tar-006 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'ndeki Yeniçeri Ocağı ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Geçimlerini tımar topraklarının gelirle…
+tar-007 | Atatürk İlke ve İnkılapları | Aşağıdaki inkılap-tarih eşleştirmelerinden hangisi yanlıştır? | ✓Harf İnkılabı - 1925
+tar-008 | Kurtuluş Savaşı | TBMM Hükûmeti'nin uluslararası alanda kazandığı ilk askerî ve siyasi başarı olan, Ermenistan ile imzalanan an… | ✓Gümrü Antlaşması
+tar-009 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk devletlerinde ülkeyi yönetme yetkisinin Gök Tanrı tarafından hükümdara verildiğine inan… | ✓Taht kavgalarının yaşanmasına ve devlet…
+tar-010 | Osmanlı Kuruluş ve Yükselme | Aşağıdaki padişah-savaş eşleştirmelerinden hangisi yanlıştır? | ✓Yavuz Sultan Selim - Mohaç Meydan Muhar…
+tar-011 | Osmanlı Dağılma ve Islahatlar | Osmanlı tarihinde padişahın otoritesinin ilk kez sınırlandırıldığı ve âyanların varlığının hukuken tanındığı … | ✓Sened-i İttifak
+tar-012 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi doğrudan halkçılık ilkesi doğrultusunda yapılan bir düzenlemedir? | ✓Aşar vergisinin kaldırılması
+tar-013 | Millî Mücadele Hazırlık Dönemi | Erzurum Kongresi ile ilgili, I. Toplanış amacı ve şekli bakımından bölgesel, aldığı kararlar bakımından ulusa… | ✓I ve II
+tar-014 | İlk Türk-İslam Devletleri | 1071 Malazgirt Zaferi'nden sonra Anadolu'da kurulan ilk Türk beylikleri arasında aşağıdakilerden hangisi yer … | ✓Karamanoğulları
+tar-015 | Osmanlı Kültür ve Medeniyeti | Divan-ı Hümayun üyeleri ve görevleriyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Nişancı - Devletin gelir ve gider kayıt…
+tar-016 | Kurtuluş Savaşı | Sakarya Meydan Muharebesi'nin kazanılmasından sonra, I. Mustafa Kemal'e mareşallik rütbesi ve gazilik unvanı … | ✓I ve II
+tar-017 | Atatürk Dönemi İç ve Dış Politika | 1936'da imzalanan Montrö Boğazlar Sözleşmesi ile aşağıdakilerden hangisi gerçekleşmiştir? | ✓Boğazlar Komisyonu kaldırılarak Boğazla…
+tar-018 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'nde Vezir Nizamülmülk'ün öncülüğünde kurulan Nizamiye medreseleriyle ilgili aşağıdakil… | ✓Eğitim ve bilim dili olarak Türkçenin k…
+tar-019 | Osmanlı Kuruluş ve Yükselme | Aşağıdakilerden hangisi 1402 Ankara Savaşı'nın sonuçlarından biri değildir? | ✓Anadolu'da Türk siyasi birliğinin güçle…
+tar-020 | Osmanlı Dağılma ve Islahatlar | III. Selim dönemiyle ilgili aşağıdakilerden hangisi söylenemez? | ✓Yeniçeri Ocağı kaldırılarak yerine Asak…
+tar-021 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkes Antlaşması'nın 'İtilaf Devletleri, güvenliklerini tehdit eden bir durum ortaya çıkarsa herhan… | ✓Yapılacak işgallere hukuki zemin hazırl…
+tar-022 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi Türkiye'de laik düzene geçiş aşamalarından biri olarak gösterilemez? | ✓Kabotaj Kanunu'nun çıkarılması
+tar-023 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde tımar sisteminin uygulanmasıyla, I. hazineden para harcanmadan asker yetiştirilmesi, II. … | ✓I, II ve III
+tar-024 | Osmanlı Dağılma ve Islahatlar | 1877-1878 Osmanlı-Rus Savaşı (93 Harbi) sonunda imzalanan Berlin Antlaşması ile ilgili, I. Sırbistan, Karadağ… | ✓I ve II
+tar-025 | Kurtuluş Savaşı | Lozan Barış Antlaşması görüşmelerinde çözüme kavuşturulamayarak Türkiye ile İngiltere arasında yapılacak ikil… | ✓Musul'un statüsü
+tar-026 | Atatürk İlke ve İnkılapları | Cumhuriyet Döneminde Türk kadınına tanınan aşağıdaki haklardan hangisi en son gerçekleşmiştir? | ✓Milletvekili seçme ve seçilme hakkı
+tar-027 | Çağdaş Türk ve Dünya Tarihi | Türkiye'nin 1952'de NATO'ya üye olarak kabul edilmesinde aşağıdaki gelişmelerden hangisi etkili olmuştur? | ✓Kore Savaşı'na asker göndermesi
+tar-028 | İlk Türk-İslam Devletleri | 751 Talas Savaşı'nın sonuçlarıyla ilgili, I. Türkler ile Araplar arasında yakınlaşma süreci başlamıştır, II. … | ✓I ve II
+tar-029 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde toplum, 'millet sistemi' adı verilen bir anlayışla örgütlenmiştir. Bu sistemde toplulukla… | ✓İnanılan din ve mezhep
+tar-030 | Osmanlı Dağılma ve Islahatlar | Aşağıdakilerden hangisi II. Mahmut dönemi gelişmelerinden biri değildir? | ✓Nizam-ı Cedit ordusunun kurulması
+tar-031 | Millî Mücadele Hazırlık Dönemi | Sivas Kongresi'nde ulusal güçleri birleştirme yolunda atılan en önemli adım aşağıdakilerden hangisidir? | ✓Millî cemiyetlerin Anadolu ve Rumeli Mü…
+tar-032 | İslamiyet Öncesi Türk Tarihi | Uygur Devleti ile ilgili, I. Yerleşik hayata geçen ilk Türk topluluğu olmuşlardır, II. Bögü Kağan döneminde M… | ✓I, II ve III
+tar-033 | Osmanlı Kuruluş ve Yükselme | Kanuni Sultan Süleyman'ın 1535'te Fransa'ya kapitülasyonlar vermesinin temel amacı aşağıdakilerden hangisidir? | ✓Şarlken'e karşı kurulmak istenen Avrupa…
+tar-034 | Atatürk İlke ve İnkılapları | 1929 Dünya Ekonomik Bunalımı'nın etkileri ve özel sermaye birikiminin yetersizliği, Türkiye'de temel yatırıml… | ✓Devletçilik
+tar-035 | Kurtuluş Savaşı | I. İnönü Zaferi'nden sonra, I. İtilaf Devletleri'nin TBMM Hükûmeti'ni Londra Konferansı'na davet etmesi, II. … | ✓I ve III
+tar-036 | İlk Türk-İslam Devletleri | 'Sultan' unvanını kullanan ilk Türk hükümdarı olan ve Hindistan'a düzenlediği on yedi seferle İslamiyet'in bu… | ✓Gazneli Mahmut
+tar-037 | Osmanlı Kültür ve Medeniyeti | Aşağıdakilerden hangisi Osmanlı şehirlerindeki esnaf örgütü olan lonca teşkilatının işlevlerinden biri değild… | ✓Devlet adına vergi oranlarını belirleyi…
+tar-038 | Osmanlı Dağılma ve Islahatlar | I. Meşrutiyet'in ilanı (1876) ile ilgili, I. Osmanlı halkı ilk kez seçme ve seçilme hakkı elde ederek yönetim… | ✓I ve II
+tar-039 | Millî Mücadele Hazırlık Dönemi | Son Osmanlı Mebusan Meclisi'nin Misak-ı Millî kararlarını kabul etmesine (28 Ocak 1920) İtilaf Devletleri'nin… | ✓İstanbul'u resmen işgal edip Mebusan Me…
+tar-040 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi 17 Şubat 1926'da kabul edilen Türk Medeni Kanunu ile kadınlara tanınan haklardan biri… | ✓Milletvekili seçme ve seçilme
+tar-041 | Kurtuluş Savaşı | 11 Ekim 1922'de imzalanan Mudanya Ateşkes Antlaşması ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Osmanlı Devleti'nin hukuken sona erdiği
+tar-042 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk devletlerine ait aşağıdaki kavram eşleştirmelerinden hangisi yanlıştır? | ✓Balbal - Hükümdarın eşine verilen unvan
+tar-043 | Osmanlı Kuruluş ve Yükselme | Yavuz Sultan Selim'in Mısır Seferi (1516-1517) sonucunda, I. Halifelik Osmanlı hanedanına geçmiştir, II. Meml… | ✓I, II ve III
+tar-044 | Atatürk Dönemi İç ve Dış Politika | Cumhuriyet Döneminin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası'nın kapatılmasına yol açan g… | ✓Şeyh Sait İsyanı
+tar-045 | Osmanlı Dağılma ve Islahatlar | I. Balkan Savaşı sırasında bağımsızlığını ilan ederek Osmanlı Devleti'nden ayrılan son Balkan devleti aşağıda… | ✓Arnavutluk
+tar-046 | Millî Mücadele Hazırlık Dönemi | Aşağıdakilerden hangisi Millî Mücadele'yi destekleyen yararlı cemiyetlerden biri değildir? | ✓İngiliz Muhipleri Cemiyeti
+tar-047 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi doğrudan milliyetçilik ilkesi doğrultusunda yapılan bir düzenlemedir? | ✓Kabotaj Kanunu'nun çıkarılması
+tar-048 | Kurtuluş Savaşı | Ordunun ihtiyaçlarını halkın katkısıyla karşılamak amacıyla Başkomutan Mustafa Kemal Paşa tarafından yayımlan… | ✓Sakarya Meydan Muharebesi
+tar-049 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde devşirme kökenli gençlerin üst düzey yönetici, komutan ve sanatkâr olarak yetiştirildiği … | ✓Enderun Mektebi
+tar-050 | İlk Türk-İslam Devletleri | 1176 Miryokefalon Savaşı'nın Türk tarihi açısından en önemli sonucu aşağıdakilerden hangisidir? | ✓Anadolu'nun kesin olarak Türk yurdu old…
+tar-051 | Osmanlı Dağılma ve Islahatlar | 1856 Islahat Fermanı'nı 1839 Tanzimat Fermanı'ndan ayıran temel özellik aşağıdakilerden hangisidir? | ✓Ağırlıklı olarak gayrimüslimlere yöneli…
+tar-052 | Atatürk İlke ve İnkılapları | 3 Mart 1924'te kabul edilen Tevhid-i Tedrisat Kanunu ile, I. ülkedeki bütün eğitim kurumları Maarif Vekaletin… | ✓I, II ve III
+tar-053 | Atatürk Dönemi İç ve Dış Politika | Lozan'da çözülemeyen Musul sorunu, aşağıdaki antlaşmalardan hangisiyle Musul'un Irak'a bırakılması kabul edil… | ✓1926 Ankara Antlaşması
+tar-054 | Osmanlı Kuruluş ve Yükselme | Aşağıdakilerden hangisi Osmanlı Devleti'nin Balkanlarda uyguladığı iskân politikasının amaçlarından biri deği… | ✓Balkan halklarını zorla Müslümanlaştırm…
+tar-055 | Osmanlı Dağılma ve Islahatlar | 1774 Küçük Kaynarca Antlaşması ile ilgili, I. Kırım'a bağımsızlık verilmiştir, II. Rusya, Karadeniz'de donanm… | ✓I ve II
+tar-056 | İslamiyet Öncesi Türk Tarihi | Tarihte bilinen ilk düzenli Türk ordusunu 'onlu sistem'e göre teşkilatlandıran Asya Hun hükümdarı aşağıdakile… | ✓Mete Han
+tar-057 | Osmanlı Kuruluş ve Yükselme | Orhan Bey döneminde, I. divan teşkilatının kurulması, II. yaya ve müsellem adıyla ilk düzenli ordunun oluştur… | ✓I, II ve III
+tar-058 | Millî Mücadele Hazırlık Dönemi | 23 Nisan 1920'de açılan Birinci TBMM ile ilgili, I. Yasama, yürütme ve yargı yetkilerini kendinde toplayarak … | ✓I, II ve III
+tar-059 | Atatürk İlke ve İnkılapları | Atatürk ilkeleri ve onları bütünleyen ilkelerle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Çağdaşlaşma ve Batılılaşma - Devletçilik
+tar-060 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'ndeki vergilerle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Cülus - Halktan düzenli olarak alınan a…
+tar-061 | Kurtuluş Savaşı | TBMM Hükûmeti ile Sovyet Rusya arasında 16 Mart 1921'de imzalanan Moskova Antlaşması ile ilgili, I. Sovyet Ru… | ✓I, II ve III
+tar-062 | İlk Türk-İslam Devletleri | Mısır'da kurulan ilk Türk-İslam devleti aşağıdakilerden hangisidir? | ✓Tolunoğulları
+tar-063 | Osmanlı Dağılma ve Islahatlar | Aşağıdakilerden hangisi Lale Devri'nde (1718-1730) yapılan yeniliklerden biri değildir? | ✓Yeniçeri Ocağı'nın kaldırılması
+tar-064 | Atatürk İlke ve İnkılapları | Cumhuriyet Döneminde miladi takvimin, uluslararası saat ve rakamların, metre-kilogram gibi ölçü birimlerinin … | ✓Batılı devletlerle ticari ve ekonomik i…
+tar-065 | Osmanlı Kuruluş ve Yükselme | Barbaros Hayrettin Paşa komutasındaki Osmanlı donanmasının Haçlı donanmasını yendiği 1538 Preveze Deniz Zafer… | ✓Akdeniz'de deniz üstünlüğünün Osmanlıla…
+tar-066 | Millî Mücadele Hazırlık Dönemi | Temsil Heyeti ile İstanbul Hükûmeti temsilcisi Salih Paşa arasında yapılan Amasya Görüşmeleri'nin (20-22 Ekim… | ✓İstanbul Hükûmeti'nin Temsil Heyeti'ni …
+tar-067 | Osmanlı Kültür ve Medeniyeti | Anadolu'da 13. yüzyılda Ahi Evran öncülüğünde örgütlenen, esnaf ve zanaatkârlara hem mesleki eğitim hem de ah… | ✓Ahilik teşkilatı
+tar-068 | Kurtuluş Savaşı | Aşağıdakilerden hangisi Kütahya-Eskişehir Muharebeleri'nden (Temmuz 1921) sonra görülen gelişmelerden biri de… | ✓İtilaf Devletleri'nin işgal ettikleri A…
+tar-069 | İslamiyet Öncesi Türk Tarihi | Kök Türk (Göktürk) Devleti ile ilgili, I. Tarihte Türk adıyla kurulan ilk devlettir, II. Kendilerine özgü 38 … | ✓I ve II
+tar-070 | Osmanlı Dağılma ve Islahatlar | Aşağıdakilerden hangisi I. Dünya Savaşı'ndaki Çanakkale Cephesi'nin sonuçları arasında yer almaz? | ✓Osmanlı Devleti'nin savaştan çekilmesi
+tar-071 | Atatürk İlke ve İnkılapları | Cumhuriyetin ilanıyla (29 Ekim 1923), I. kabine sistemine geçilmesi, II. devlet başkanlığı sorununun çözülmes… | ✓I ve II
+tar-072 | Osmanlı Kuruluş ve Yükselme | Aşağıdakilerden hangisi II. Mehmet'in (Fatih) İstanbul'un fethi için yaptığı hazırlıklardan biri değildir? | ✓Anadolu Hisarı'nın inşa ettirilmesi
+tar-073 | Millî Mücadele Hazırlık Dönemi | Son Osmanlı Mebusan Meclisi'nde Müdafaa-i Hukuk hareketini destekleyen milletvekillerinin oluşturduğu grup aş… | ✓Felah-ı Vatan Grubu
+tar-074 | Osmanlı Kültür ve Medeniyeti | Mimar Sinan'ın 'ustalık eserim' dediği, Edirne'de II. Selim adına yaptırdığı eser aşağıdakilerden hangisidir? | ✓Selimiye Camii
+tar-075 | İlk Türk-İslam Devletleri | Büyük Selçuklularda ülke toprağının vergi geliri karşılığında hizmet erbabına bırakıldığı ikta sisteminin, Os… | ✓Tımar (dirlik) sistemi
+tar-076 | Kurtuluş Savaşı | Kurtuluş Savaşı'nda Güney Cephesi ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Mücadelenin İtalyan işgal kuvvetlerine …
+tar-077 | Osmanlı Dağılma ve Islahatlar | Trablusgarp Savaşı sonunda İtalya ile imzalanan 1912 Uşi Antlaşması'yla ilgili, I. Trablusgarp İtalya'ya bıra… | ✓I, II ve III
+tar-078 | Atatürk İlke ve İnkılapları | Aşağıdaki gelişme-tarih eşleştirmelerinden hangisi yanlıştır? | ✓Kadınlara milletvekili seçme ve seçilme…
+tar-079 | Atatürk Dönemi İç ve Dış Politika | Lozan Antlaşması'nda kararlaştırılan Türkiye-Yunanistan nüfus mübadelesinin uygulanmasında iki ülke arasında … | ✓İstanbul'daki Rumların 'yerleşik' (etab…
+tar-080 | Atatürk Dönemi İç ve Dış Politika | 1937'de Türkiye, İran, Irak ve Afganistan arasında imzalanan ve Türkiye'nin doğu sınırlarının güvenliğini ama… | ✓Sadabat Paktı
+tar-081 | Çağdaş Türk ve Dünya Tarihi | II. Dünya Savaşı'ndan sonra ABD'nin, SSCB'nin yayılmacı politikalarına karşı Türkiye ve Yunanistan'a askerî v… | ✓Truman Doktrini
+tar-082 | İslamiyet Öncesi Türk Tarihi | 375 yılında Hunların batıya yönelerek önlerindeki kavimleri harekete geçirmesiyle başlayan Kavimler Göçü'nün … | ✓I, II ve III
+tar-083 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk devletlerinde toplum hayatını düzenleyen sözlü hukuk kurallarına 'töre' denirdi ve hükü… | ✓Hükümdarın yetkilerinin sınırsız olmadı…
+tar-084 | İlk Türk-İslam Devletleri | Karahanlı Devleti ile ilgili, I. İslamiyet'i resmî din olarak benimseyen ilk Türk devletidir, II. Türkçeyi re… | ✓I ve II
+tar-085 | İlk Türk-İslam Devletleri | 1040 yılında Selçuklular ile Gazneliler arasında yapılan Dandanakan Savaşı'nın en önemli sonucu aşağıdakilerd… | ✓Büyük Selçuklu Devleti'nin kuruluşunun …
+tar-086 | İlk Türk-İslam Devletleri | Türk-İslam dünyasında yetişen bilginler ve çalışma alanlarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanl… | ✓Uluğ Bey - Hadis biliminde çalışmalar y…
+tar-087 | Osmanlı Kuruluş ve Yükselme | Osmanlı Beyliği'nin kısa sürede büyüyerek devletleşmesinde, I. Bizans sınırında bir uç beyliği olarak gaza ve… | ✓I ve II
+tar-088 | Osmanlı Kuruluş ve Yükselme | I. Murat döneminde 'Ülke, hanedanın ortak malıdır.' anlayışı yerine 'Ülke, padişah ve oğullarınındır.' anlayı… | ✓Taht kavgalarını azaltarak merkezî otor…
+tar-089 | Osmanlı Kuruluş ve Yükselme | Aşağıdakilerden hangisi Kanuni Sultan Süleyman dönemi gelişmelerinden biri değildir? | ✓İnebahtı Deniz Savaşı'nın yaşanması
+tar-090 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'ndeki miri (devlete ait) arazi türleriyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Paşmaklık - Geliri sınır boylarını koru…
+tar-091 | Osmanlı Kültür ve Medeniyeti | Aşağıdakilerden hangisi Osmanlı Devleti'nde kadıların görevlerinden biri değildir? | ✓Tımar topraklarını dirlik sahiplerine d…
+tar-092 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde bazı toprakların vergi gelirlerinin açık artırma yoluyla mültezim adı verilen kişilere be… | ✓Devletin vergi gelirlerini peşin ve nak…
+tar-093 | Osmanlı Dağılma ve Islahatlar | 1699 tarihli Karlofça Antlaşması ile ilgili, I. Osmanlı Devleti'nin batıda ilk kez büyük çapta toprak kaybett… | ✓I, II ve III
+tar-094 | Osmanlı Dağılma ve Islahatlar | Fransız İhtilali'nin yaydığı milliyetçilik akımının etkisiyle Osmanlı Devleti'nde ayaklanan ilk topluluk aşağ… | ✓Sırplar
+tar-095 | Osmanlı Dağılma ve Islahatlar | Mısır Valisi Kavalalı Mehmet Ali Paşa'nın isyanı sırasında ordusu yenilgiye uğrayan II. Mahmut'un 'Denize düş… | ✓Hünkâr İskelesi Antlaşması
+tar-096 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'ni dağılmaktan kurtarmak amacıyla ortaya atılan, 'Hangi din, dil ve ırktan olursa olsun devle… | ✓Osmanlıcılık
+tar-097 | Millî Mücadele Hazırlık Dönemi | Paris Barış Konferansı'nda, gizli antlaşmalarla İtalya'ya bırakılmış olan İzmir ve çevresinin Yunanistan'a ve… | ✓İngiltere'nin Doğu Akdeniz'de güçlü bir…
+tar-098 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal'in 28 Mayıs 1919'da yayımladığı Havza Genelgesi'nde yer alan, işgallerin protesto edilmesi ve ü… | ✓İşgallere karşı ulusal bilinci uyandırm…
+tar-099 | Millî Mücadele Hazırlık Dönemi | Son Osmanlı Mebusan Meclisi'nin kabul ettiği Misak-ı Millî kararları arasında, I. Mondros Ateşkesi imzalandığ… | ✓I, II ve III
+tar-100 | Kurtuluş Savaşı | TBMM'nin Kuvay-ı Millîye birlikleri yerine düzenli orduyu kurmasında, I. Kuvay-ı Millîye birliklerinin işgall… | ✓I ve II
+tar-101 | Kurtuluş Savaşı | Mustafa Kemal'in 'Siz orada yalnız düşmanı değil, milletin makûs talihini de yendiniz.' sözünü, II. İnönü Zaf… | ✓İsmet İnönü
+tar-102 | Kurtuluş Savaşı | TBMM Hükûmeti'nin, Sevr Antlaşması'nı yumuşatılmış biçimde kabul ettirmek amacıyla toplanan Londra Konferansı… | ✓Misak-ı Millî'yi dünya kamuoyuna duyurm…
+tar-103 | Atatürk İlke ve İnkılapları | Halifeliğin 3 Mart 1924'te kaldırılmasında, I. Halifenin, cumhuriyet rejimine karşı olan eski düzen yanlıları… | ✓I, II ve III
+tar-104 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi 3 Mart 1924'te gerçekleştirilen düzenlemelerden biri değildir? | ✓Türk Medeni Kanunu'nun kabul edilmesi
+tar-105 | Atatürk İlke ve İnkılapları | 20 Ocak 1921'de kabul edilen Teşkilat-ı Esasiye Kanunu (1921 Anayasası) ile ilgili, I. 'Egemenlik kayıtsız şa… | ✓I ve II
+tar-106 | Atatürk İlke ve İnkılapları | Şubat 1923'te toplanan İzmir İktisat Kongresi ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Yabancı sermayenin ülkeye girişinin tüm…
+tar-107 | Atatürk Dönemi İç ve Dış Politika | Fethi Okyar tarafından kurulan Serbest Cumhuriyet Fırkası'nın kısa sürede rejim karşıtlarının toplandığı bir … | ✓Menemen (Kubilay) Olayı
+tar-108 | Çağdaş Türk ve Dünya Tarihi | 1991'de Sovyetler Birliği'nin dağılmasıyla bağımsızlığını kazanan aşağıdaki devletlerden hangisi Türk cumhuri… | ✓Tacikistan
+tar-109 | İslamiyet Öncesi Türk Tarihi | Yönetici kesimi Museviliği benimseyen ve bu yönüyle diğer Türk devletlerinden ayrılan, Hazar Denizi ile Karad… | ✓Hazarlar
+tar-110 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk topluluklarının büyük bölümünün konar-göçer bir yaşam sürmesinin sonuçları arasında aşa… | ✓Kalıcı ve anıtsal mimarinin gelişme gös…
+tar-111 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti ile Bizans İmparatorluğu arasında 1048'de yapılan ve Selçukluların Bizans'a karşı kaza… | ✓Pasinler Savaşı
+tar-112 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'nde meliklerin (şehzadelerin) yetiştirilmesiyle görevlendirilen deneyimli devlet adaml… | ✓Atabeylerin merkezî otorite zayıfladığı…
+tar-113 | İlk Türk-İslam Devletleri | Anadolu Selçuklu Devleti'nde, I. Ticaret yolları üzerinde kervansaraylar yaptırılması, II. Zarara uğrayan tüc… | ✓Anadolu'yu uluslararası ticaretin merke…
+tar-114 | Osmanlı Kuruluş ve Yükselme | Osman Bey komutasındaki Osmanlı kuvvetlerinin Bizans ile yaptığı ilk savaş aşağıdakilerden hangisidir? | ✓Koyunhisar (Bafeus) Savaşı
+tar-115 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet döneminde 1475'te Gedik Ahmet Paşa komutasındaki donanmayla Kırım'ın Osmanlı egemenliğine… | ✓İpek Yolu'nun Karadeniz'e ulaşan kuzey …
+tar-116 | Osmanlı Kuruluş ve Yükselme | Kanuni döneminde Portekizlilere karşı düzenlenen Hint Deniz Seferleri'nden istenen sonucun alınamamasında, I.… | ✓I, II ve III
+tar-117 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde savaş ilanı gibi önemli devlet kararlarının uygulanmadan önce şeyhülislamdan fetva alınma… | ✓Devlet yönetiminde dinî kuralların etki…
+tar-118 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde şehzadelerin 'lala' adı verilen deneyimli devlet adamları eşliğinde sancaklara yönetici o… | ✓Şehzadelere devlet yönetiminde bilgi ve…
+tar-119 | Osmanlı Kültür ve Medeniyeti | Osmanlı el sanatlarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Tezhip - Mermer ve taş yüzeylere kabart…
+tar-120 | Osmanlı Dağılma ve Islahatlar | 1838'de İngiltere ile imzalanan Balta Limanı Ticaret Antlaşması'nın Osmanlı ekonomisine etkisi aşağıdakilerde… | ✓Gümrük vergilerinin düşürülmesi ve iç g…
+tar-121 | Osmanlı Dağılma ve Islahatlar | 1853-1856 Kırım Savaşı ve sonrasındaki gelişmelerle ilgili, I. Osmanlı Devleti tarihinde ilk kez dış borç alm… | ✓I ve II
+tar-122 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nin dış borçlarını ödeyememesi üzerine 1881'de Muharrem Kararnamesi'yle kurulan ve devletin b… | ✓Osmanlı maliyesinin yabancı denetimine …
+tar-123 | Osmanlı Dağılma ve Islahatlar | 1908'de II. Meşrutiyet'in ilanıyla oluşan karışıklık ortamını fırsat bilen devletlerin gerçekleştirdiği geliş… | ✓I, II ve III
+tar-124 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal Paşa'nın 19 Mayıs 1919'da Samsun'a çıkarken İstanbul Hükûmeti tarafından kendisine verilen resm… | ✓9. Ordu Müfettişi olarak bölgedeki asay…
+tar-125 | Millî Mücadele Hazırlık Dönemi | İşgaller karşısında halkın kendiliğinden oluşturduğu silahlı direniş güçleri olan Kuvay-ı Millîye ile ilgili … | ✓Tek merkezden yönetilen düzenli birlikl…
+tar-126 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkesi'nden sonra kurulan millî varlığa düşman cemiyetlerden aşağıdakilerin hangisi azınlıklar tara… | ✓Mavri Mira Cemiyeti
+tar-127 | Kurtuluş Savaşı | Kurtuluş Savaşı'ndaki muharebeler ve sonuçlarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓II. İnönü Muharebesi - Fransa ile Ankar…
+tar-128 | Kurtuluş Savaşı | Türkiye'nin doğu sınırı, Sovyet Rusya'ya bağlı Azerbaycan, Ermenistan ve Gürcistan cumhuriyetleriyle 13 Ekim … | ✓Kars Antlaşması
+tar-129 | Kurtuluş Savaşı | 26 Ağustos 1922'de başlayan Büyük Taarruz ve Başkomutanlık Meydan Muharebesi'nin sonuçları arasında, I. Batı … | ✓I, II ve III
+tar-130 | Atatürk İlke ve İnkılapları | Aşağıdaki gelişmelerden, I. Saltanatın kaldırılması, II. Cumhuriyetin ilan edilmesi, III. Tekke ve zaviyeleri… | ✓I ve II
+tar-131 | Atatürk İlke ve İnkılapları | Cumhuriyet Döneminde hukuk alanında kabul edilen kanunlar ve yararlanılan ülkelerle ilgili aşağıdaki eşleştir… | ✓Ticaret Kanunu - İngiltere
+tar-132 | Atatürk İlke ve İnkılapları | 1933 yılında yükseköğretim alanında gerçekleştirilen üniversite reformu kapsamında yapılan düzenleme aşağıdak… | ✓Darülfünunun kapatılarak yerine İstanbu…
+tar-133 | Atatürk İlke ve İnkılapları | Özel girişimi sanayi yatırımlarına özendirmek amacıyla 1927'de çıkarılan Teşvik-i Sanayi Kanunu'ndan beklenen… | ✓I, II ve III
+tar-134 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin 1932'de Milletler Cemiyeti'ne üye oluşuyla ilgili aşağıdakilerden hangisi doğrudur? | ✓Cemiyetin daveti üzerine üye olmuştur
+tar-135 | Atatürk Dönemi İç ve Dış Politika | İtalya ve Almanya'nın yayılmacı politikalarına karşı Balkanlarda sınırların güvenliğini sağlamak amacıyla 193… | ✓Bulgaristan
+tar-136 | İslamiyet Öncesi Türk Tarihi | Emevi ordularıyla mücadele ederek Orta Asya'nın Araplaşmasını önleyen ve hükümdarı Baga Tarkan adına para bas… | ✓Türgişler
+tar-137 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi dönemde Türk devletleri ile Çin arasında yüzyıllarca süren mücadelenin temel nedeni aşağıdak… | ✓İpek Yolu ticaretinin sağladığı gelirle…
+tar-138 | İlk Türk-İslam Devletleri | Anadolu Selçuklu Devleti'nin 1243'te Moğollara yenildiği Kösedağ Savaşı'nın sonuçları arasında, I. Anadolu Se… | ✓I, II ve III
+tar-139 | İlk Türk-İslam Devletleri | Aşağıdakilerden hangisi 1096-1270 yılları arasında düzenlenen Haçlı Seferleri'nin sonuçları arasında yer alma… | ✓Türklerin Anadolu'dan tamamen çıkarılma…
+tar-140 | Osmanlı Kuruluş ve Yükselme | Aşağıdakilerden hangisi Osmanlı Devleti'nin Balkanlarda kısa sürede ilerlemesini kolaylaştıran etkenlerden bi… | ✓Balkan halklarının tümünün gönüllü olar…
+tar-141 | Osmanlı Kuruluş ve Yükselme | II. Murat döneminde Haçlı ordusuna karşı kazanılan 1448 II. Kosova Savaşı'nın en önemli sonucu aşağıdakilerde… | ✓Balkanların kesin olarak Türk yurdu hâl…
+tar-142 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet döneminde hazırlanan Kanunname-i Ali Osman ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Padişahın yetkilerini bir meclisle payl…
+tar-143 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'ndeki devşirme sistemiyle ilgili aşağıdakilerden hangisi söylenemez? | ✓Devşirilen çocukların ailelerinin yanın…
+tar-144 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'ndeki vakıf sisteminin işlevleri arasında, I. Eğitim, sağlık ve sosyal yardım hizmetlerinin y… | ✓I, II ve III
+tar-145 | Osmanlı Kültür ve Medeniyeti | Osmanlı bilim ve kültür insanlarıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Ali Kuşçu - Keşfü'z-Zünun adlı bibliyog…
+tar-146 | Osmanlı Dağılma ve Islahatlar | Sanayi İnkılabı'nın Osmanlı Devleti'ne etkileriyle ilgili, I. Ucuz ve bol fabrika ürünleri karşısında el tezg… | ✓I ve II
+tar-147 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nin I. Dünya Savaşı'na fiilen girmesine yol açan gelişme aşağıdakilerden hangisidir? | ✓Almanya'dan satın alındığı açıklanan Ya…
+tar-148 | Osmanlı Dağılma ve Islahatlar | I. Dünya Savaşı'ndaki Kafkas Cephesi ile ilgili, I. Osmanlı Devleti'nin taarruz amacıyla açtığı bir cephedir,… | ✓I, II ve III
+tar-149 | Osmanlı Dağılma ve Islahatlar | 13 Nisan 1909'da İstanbul'da meşrutiyet yönetimine karşı çıkan ve 'rejime yönelik ilk büyük ayaklanma' olarak… | ✓Hareket Ordusu
+tar-150 | Millî Mücadele Hazırlık Dönemi | Haziran-Ağustos 1919'da toplanan Balıkesir ve Alaşehir Kongrelerinin temel amacı aşağıdakilerden hangisidir? | ✓Batı Anadolu'daki Yunan ilerleyişine ka…
+tar-151 | Millî Mücadele Hazırlık Dönemi | 10 Ağustos 1920'de imzalanan Sevr Antlaşması ile ilgili, I. Son Osmanlı Mebusan Meclisi kapatılmış olduğundan… | ✓I, II ve III
+tar-152 | Millî Mücadele Hazırlık Dönemi | Aşağıdakilerden hangisi TBMM'nin kendisine karşı çıkan ayaklanmaları bastırmak için aldığı önlemlerden biri d… | ✓Tekalif-i Milliye Emirlerini yayımlamak
+tar-153 | Kurtuluş Savaşı | Saltanatın 1 Kasım 1922'de kaldırılmasında aşağıdaki gelişmelerden hangisi doğrudan etkili olmuştur? | ✓İtilaf Devletleri'nin Lozan Konferansı'…
+tar-154 | Kurtuluş Savaşı | Kurtuluş Savaşı'nda Batı Cephesi'nde yaşanan aşağıdaki muharebelerin kronolojik sıralaması hangisinde doğru v… | ✓I. İnönü - II. İnönü - Kütahya-Eskişehi…
+tar-155 | Kurtuluş Savaşı | 24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nda Misak-ı Millî hedeflerinden ödün verilen konular arası… | ✓I, II ve III
+tar-156 | Atatürk İlke ve İnkılapları | Laikleşme sürecinde 'Devletin dini, din-i İslam'dır.' hükmü anayasadan hangi yıl çıkarılmıştır? | ✓1928
+tar-157 | Atatürk İlke ve İnkılapları | Aşağıdaki inkılap-ilke eşleştirmelerinden hangisi yanlıştır? | ✓Türk Tarih Kurumunun kurulması - Devlet…
+tar-158 | Atatürk İlke ve İnkılapları | 1934'te Soyadı Kanunu'nun kabulünün ardından ağa, hacı, hoca, molla, bey, paşa gibi toplumsal ayrıcalık belir… | ✓Halkçılık
+tar-159 | Atatürk İlke ve İnkılapları | Türk toplumunu çağdaş uygarlık düzeyinin üzerine çıkarmayı hedefleyen, kurumların çağın gereklerine ve bilimi… | ✓İnkılapçılık
+tar-160 | Atatürk Dönemi İç ve Dış Politika | Fransa'nın 1936'da manda yönetimindeki Suriye'ye bağımsızlık vereceğini açıklaması üzerine Türkiye'nin gündem… | ✓Hatay sorunu
+tar-161 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin, yabancı okullarda Türkçe, tarih ve coğrafya derslerinin Türk öğretmenlerce okutulması ve bu okul… | ✓Konunun bir iç sorun sayılarak tam bağı…
+tar-162 | Çağdaş Türk ve Dünya Tarihi | Soğuk Savaş döneminde ortaya çıkan aşağıdaki oluşumlardan hangisi Doğu Bloku'na değil, Batı Bloku'na aittir? | ✓Marshall Planı
+tar-163 | İslamiyet Öncesi Türk Tarihi | Aşağıdaki destan-Türk topluluğu eşleştirmelerinden hangisi yanlıştır? | ✓Manas Destanı - Uygurlar
+tar-164 | İslamiyet Öncesi Türk Tarihi | Avrupa Hun Devleti ile ilgili, I. Kavimler Göçü'nün ardından Balamir öncülüğünde kurulmuştur, II. En güçlü dö… | ✓I, II ve III
+tar-165 | İlk Türk-İslam Devletleri | Tuğrul Bey'in 1055'te Bağdat Seferi'ne çıkarak Abbasi halifesini Şii Büveyhoğullarının baskısından kurtarması… | ✓İslam dünyasının siyasi liderliğinin ve…
+tar-166 | İlk Türk-İslam Devletleri | 1071 Malazgirt Zaferi'nin sonuçları arasında, I. Anadolu'nun kapılarının Türklere açılması, II. Anadolu'da il… | ✓I, II ve III
+tar-167 | İlk Türk-İslam Devletleri | 1187 Hittin Savaşı'yla Kudüs'ü Haçlılardan geri alarak III. Haçlı Seferi'nin düzenlenmesine yol açan hükümdar… | ✓Selahaddin Eyyubi
+tar-168 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'nin Rumeli'ye geçişte üs olarak kullandığı, 1353'te Orhan Bey döneminde elde edilen ilk topra… | ✓Çimpe Kalesi
+tar-169 | Osmanlı Kuruluş ve Yükselme | I. Murat döneminde, I. Rumeli Beylerbeyliği'nin kurulması, II. Yeniçeri Ocağı'nın temellerinin atılması, III.… | ✓I, II ve III
+tar-170 | Osmanlı Kuruluş ve Yükselme | 1396 Niğbolu Zaferi'nden sonra Mısır'daki Abbasi halifesinin 'Sultan-ı İklim-i Rum' (Anadolu topraklarının su… | ✓Yıldırım Bayezid
+tar-171 | Osmanlı Kültür ve Medeniyeti | Topkapı Sarayı'nın bölümleriyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Kubbealtı - Şehzadelerin askerî eğitim …
+tar-172 | Osmanlı Kültür ve Medeniyeti | Osmanlı yönetici sınıfları ve bu sınıflara mensup görevlilerle ilgili aşağıdaki eşleştirmelerden hangisi yanl… | ✓Kalemiye - Kazasker
+tar-173 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde ilk altın parayı (sultani) bastıran padişah aşağıdakilerden hangisidir? | ✓Fatih Sultan Mehmet
+tar-174 | Osmanlı Dağılma ve Islahatlar | 17. yüzyılda Anadolu'da çıkan Celali İsyanlarının nedenleri arasında, I. Tımar sisteminin bozulması ve toprağ… | ✓I, II ve III
+tar-175 | Osmanlı Dağılma ve Islahatlar | Hotin Seferi'nde Yeniçeri Ocağı'nın disiplinsizliğini görerek ocağı kaldırmayı planlayan, ancak bu düşüncesin… | ✓II. Osman (Genç Osman)
+tar-176 | Osmanlı Dağılma ve Islahatlar | Devletin duraklamasının nedenlerini ve çözüm önerilerini içeren raporunu (risalesini) padişaha sunan Koçi Bey… | ✓IV. Murat
+tar-177 | Osmanlı Dağılma ve Islahatlar | 1768-1774 Osmanlı-Rus Savaşı sırasında Baltık Denizi'nden yola çıkarak Akdeniz'e ulaşan donanmasıyla 1770'te … | ✓Rusya
+tar-178 | Millî Mücadele Hazırlık Dönemi | 15 Mayıs 1919'da İzmir'in Yunanlar tarafından işgali sırasında işgalcilere ilk kurşunu atarak Millî Mücadele'… | ✓Gazeteci Hasan Tahsin
+tar-179 | Millî Mücadele Hazırlık Dönemi | İzmir'in işgalinden sonra bölgede incelemeler yapan Amiral Bristol başkanlığındaki uluslararası araştırma kom… | ✓İşgalin haksız olduğu, olaylardan Yunan…
+tar-180 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkesi'nden sonra kurulan millî (yararlı) cemiyetlerin ortak özellikleri arasında, I. Bulundukları … | ✓I, II ve III
+tar-181 | Kurtuluş Savaşı | İstiklal Marşı'nın kabulüyle ilgili aşağıdakilerden hangisi yanlıştır? | ✓Sakarya Zaferi'nin kazanılmasından sonr…
+tar-182 | Kurtuluş Savaşı | Komutasındaki Kuvay-ı Seyyare birlikleriyle TBMM'ye bağlı düzenli orduya katılmayı reddederek ayaklanan ve is… | ✓Çerkez Ethem
+tar-183 | Kurtuluş Savaşı | Mustafa Kemal Paşa'nın 'Hattı müdafaa yoktur, sathı müdafaa vardır. O satıh bütün vatandır.' emrini verdiği m… | ✓Sakarya Meydan Muharebesi
+tar-184 | Atatürk İlke ve İnkılapları | 1930 yılında kurulan ve banknot basma (emisyon) yetkisine sahip olan kurum aşağıdakilerden hangisidir? | ✓Türkiye Cumhuriyet Merkez Bankası
+tar-185 | Atatürk İlke ve İnkılapları | Cumhuriyet Döneminde izlenen demiryolu politikasıyla, I. Yurdun dört bir yanını birbirine bağlayarak ekonomik… | ✓I, II ve III
+tar-186 | Atatürk İlke ve İnkılapları | Türkiye Cumhuriyeti'nde ilk genel nüfus sayımı hangi yıl yapılmıştır? | ✓1927
+tar-187 | Atatürk İlke ve İnkılapları | Yapılacak hukuk inkılabını uygulayacak çağdaş hukukçuları yetiştirmek amacıyla 1925'te açılan ve Cumhuriyet D… | ✓Ankara Hukuk Mektebi
+tar-188 | Atatürk Dönemi İç ve Dış Politika | Mustafa Kemal'in 'Benim naçiz vücudum elbet bir gün toprak olacaktır fakat Türkiye Cumhuriyeti ilelebet payid… | ✓İzmir Suikastı girişiminin ortaya çıkar…
+tar-189 | Atatürk Dönemi İç ve Dış Politika | Şeyh Sait İsyanı'nın çıkması üzerine 4 Mart 1925'te kabul edilen ve hükûmete olağanüstü yetkiler vererek isya… | ✓Takrir-i Sükûn Kanunu
+tar-190 | İslamiyet Öncesi Türk Tarihi | 840 yılında Ötüken'i ele geçirerek Uygur Devleti'ne son veren ve Manas Destanı'na sahip olan Türk topluluğu a… | ✓Kırgızlar
+tar-191 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk topluluklarının dinî hayatıyla ilgili aşağıdakilerden hangisi söylenemez? | ✓Ölümden sonraki yaşama inanılmadığı
+tar-192 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'ndeki divan teşkilatıyla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Divan-ı İnşa (Tuğra) - Ordunun maaş ve …
+tar-193 | İlk Türk-İslam Devletleri | 1081'de İzmir ve çevresini ele geçirerek beylik kuran, inşa ettirdiği donanmayla Ege'deki adalara seferler dü… | ✓Çaka Bey
+tar-194 | İlk Türk-İslam Devletleri | Anadolu Selçuklu Devleti'nin en parlak dönemini yaşatan; Alanya'yı (Alaiye) fethederek burada tersane kurdura… | ✓I. Alaeddin Keykubat
+tar-195 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'nin Balkanlarda Haçlı ittifakına karşı yaptığı ilk savaş olan ve Hacı İlbey'in gece baskınıyl… | ✓Sırpsındığı Savaşı
+tar-196 | Osmanlı Kuruluş ve Yükselme | II. Murat'ın Macar Krallığı ve müttefikleriyle imzaladığı, ardından tahtı 12 yaşındaki oğlu II. Mehmet'e bıra… | ✓Edirne-Segedin Antlaşması
+tar-197 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet'in İstanbul'un fethinden sonra 1460'ta Mora Despotluğu'na, 1461'de Trabzon Rum İmparatorl… | ✓Bizans'ın yeniden diriltilmesi umutları…
+tar-198 | Osmanlı Kültür ve Medeniyeti | Dönemin en yüksek eğitim kurumu kabul edilen Sahn-ı Seman medreselerini İstanbul'da kurduran padişah aşağıdak… | ✓Fatih Sultan Mehmet
+tar-199 | Osmanlı Kültür ve Medeniyeti | Aşağıdakilerden hangisi merkezde bulunan ve devletten maaş alan Kapıkulu Ocakları içinde yer almaz? | ✓Akıncılar
+tar-200 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde önemli olayları günü gününe kaydetmekle görevli resmî devlet tarihçisine verilen ad aşağı… | ✓Vakanüvis
+tar-201 | Osmanlı Dağılma ve Islahatlar | 17. yüzyılda sadrazamlığı, ileri sürdüğü şartların kabul edilmesi karşılığında üstlenen ve bu yönüyle Osmanlı… | ✓Köprülü Mehmet Paşa
+tar-202 | Osmanlı Dağılma ve Islahatlar | Osmanlı tarihinde Lale Devri (1718-1730), aşağıdaki antlaşmalardan hangisinin imzalanmasıyla başlamıştır? | ✓Pasarofça Antlaşması
+tar-203 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nde 'kaime' adı verilen ilk kâğıt para hangi padişah döneminde çıkarılmıştır? | ✓Abdülmecid
+tar-204 | Osmanlı Dağılma ve Islahatlar | II. Abdülhamit döneminde İstanbul'dan Mekke ve Medine'ye ulaşmak üzere Hicaz Demiryolu'nun yaptırılması ve ya… | ✓İslamcılık (Ümmetçilik)
+tar-205 | Millî Mücadele Hazırlık Dönemi | Doğu Anadolu'da incelemeler yaparak bölgede Ermenilerin nüfus çoğunluğuna sahip olmadığını ve Türklerden Erme… | ✓General Harbord Raporu
+tar-206 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal'in 7-8 Temmuz 1919'da askerlik görevinden ve 9. Ordu Müfettişliği'nden istifa ederek mücadeleye… | ✓Millî Mücadele'nin bundan sonra resmî s…
+tar-207 | Millî Mücadele Hazırlık Dönemi | İstanbul Hükûmeti tarafından Kuvay-ı Millîye'yi ve Anadolu hareketini bastırmak amacıyla kurulan ve halk aras… | ✓Kuvay-ı İnzibatiye
+tar-208 | Kurtuluş Savaşı | 5 Ağustos 1921 tarihli Başkomutanlık Kanunu ile ilgili, I. Mustafa Kemal'e TBMM'nin yetkilerini üç ay süreyle… | ✓I, II ve III
+tar-209 | Kurtuluş Savaşı | Mustafa Kemal'in cepheden gelerek açılış konuşmasını yaptığı, savaşın en bunalımlı günlerinde Ankara'da topla… | ✓Kütahya-Eskişehir Muharebeleri
+tar-210 | Kurtuluş Savaşı | Mudanya Ateşkes Antlaşması'nın ardından Doğu Trakya'yı Yunan yönetiminden teslim almakla görevlendirilen ve T… | ✓Refet Bele
+tar-211 | Atatürk İlke ve İnkılapları | Toplumun çağdaş bir görünüm kazanmasını amaçlayan Şapka Kanunu'nun kabulü ve kılık kıyafet alanında yapılan d… | ✓İnkılapçılık
+tar-212 | Atatürk İlke ve İnkılapları | 1 Ocak 1929'da açılan Millet Mekteplerinin temel amacı aşağıdakilerden hangisidir? | ✓Yeni Türk harfleriyle okuma yazmayı yed…
+tar-213 | Atatürk İlke ve İnkılapları | 1932'de kurulan Türk Dili Tetkik Cemiyetinin (Türk Dil Kurumu) temel amacı aşağıdakilerden hangisidir? | ✓Türkçeyi yabancı dillerin boyunduruğund…
+tar-214 | Atatürk İlke ve İnkılapları | 20 Nisan 1924'te kabul edilen 1924 Anayasası ile ilgili, I. Egemenliğin kayıtsız şartsız millete ait olduğu h… | ✓I, II ve III
+tar-215 | Atatürk Dönemi İç ve Dış Politika | İspanya İç Savaşı sırasında Akdeniz'de kimliği belirsiz (İtalyan) denizaltıların ticaret gemilerine saldırmas… | ✓Nyon Konferansı
+tar-216 | Atatürk Dönemi İç ve Dış Politika | Milletler Cemiyeti'nin Musul'u Irak'a bırakan kararının hemen ardından, Türkiye'nin Batılı devletlere karşı b… | ✓Türk-Sovyet Dostluk ve Tarafsızlık Antl…
+tar-217 | İslamiyet Öncesi Türk Tarihi | 619 ve 626 yıllarında Sasanilerle iş birliği yaparak İstanbul'u kuşatan ve bu yönüyle 'İstanbul'u kuşatan ilk… | ✓Avarlar
+tar-218 | İslamiyet Öncesi Türk Tarihi | 1071 Malazgirt Savaşı sırasında Bizans ordusunda paralı asker olarak bulunan ve savaşın seyrini değiştirecek … | ✓Peçenekler ve Uzlar (Oğuzlar)
+tar-219 | İlk Türk-İslam Devletleri | 1230 Yassıçemen Savaşı'nda Harzemşahların Anadolu Selçuklu Devleti'ne yenilmesinin en önemli sonucu aşağıdaki… | ✓Harzemşahların yıkılış sürecine girmesi…
+tar-220 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'nin yıkılışında, I. 1141 Katvan Savaşı'nda Karahitaylara yenilmesi, II. Devlete küstür… | ✓I, II ve III
+tar-221 | Osmanlı Kuruluş ve Yükselme | Yavuz Sultan Selim'in 1514'te Safevi hükümdarı Şah İsmail üzerine Çaldıran Seferi'ne çıkmasının temel nedeni … | ✓Şah İsmail'in Anadolu'da Şiilik propaga…
+tar-222 | Osmanlı Kuruluş ve Yükselme | Sokullu Mehmet Paşa'nın sadrazamlığı döneminde gündeme gelen Don-Volga Kanal Projesi ile, I. Rusya'nın güneye… | ✓I, II ve III
+tar-223 | Osmanlı Kuruluş ve Yükselme | Kanuni Sultan Süleyman'ın ordusunun başında çıktığı ve kuşatma sürerken vefat ettiği son seferi aşağıdakilerd… | ✓Zigetvar Seferi
+tar-224 | Osmanlı Kültür ve Medeniyeti | Osmanlı toplum yapısında yönetenler (askerî) sınıfını yönetilenlerden (reaya) ayıran temel ölçüt aşağıdakiler… | ✓Devlet hizmetinde bulunmaları karşılığı…
+tar-225 | Osmanlı Kültür ve Medeniyeti | Aşağıdaki mimari eserlerden hangisi Osmanlı dönemine ait değildir? | ✓Divriği Ulu Camii ve Darüşşifası
+tar-226 | Osmanlı Kültür ve Medeniyeti | Osmanlı şehirlerinde cami merkez olmak üzere medrese, imaret, darüşşifa, kütüphane ve hamam gibi yapıların ol… | ✓Külliye
+tar-227 | Osmanlı Dağılma ve Islahatlar | Boğazların ilk kez uluslararası bir statüye bağlandığı ve barış zamanında bütün yabancı savaş gemilerine kapa… | ✓Londra Boğazlar Sözleşmesi
+tar-228 | Osmanlı Dağılma ve Islahatlar | İttihat ve Terakki Cemiyeti'nin, I. Balkan Savaşı'ndaki yenilgiler sürerken hükûmeti silah zoruyla devirerek … | ✓Bab-ı Ali Baskını
+tar-229 | Osmanlı Dağılma ve Islahatlar | Aşağıdakilerden hangisi Osmanlı Devleti'nin I. Dünya Savaşı'nda kendi sınırları dışında, müttefiklerine yardı… | ✓Galiçya Cephesi
+tar-230 | Osmanlı Dağılma ve Islahatlar | Aşağıdakilerden hangisi İtilaf Devletleri'nin I. Dünya Savaşı sırasında Osmanlı topraklarını paylaşmak amacıy… | ✓Berlin Antlaşması
+tar-231 | Millî Mücadele Hazırlık Dönemi | Temsil Heyeti'nin 27 Aralık 1919'da Ankara'ya gelmesinde, I. Batı Cephesi'ne yakın olması, II. Demiryolu ve t… | ✓I, II ve III
+tar-232 | Millî Mücadele Hazırlık Dönemi | Aşağıdakilerden hangisi Son Osmanlı Mebusan Meclisi'nce kabul edilen Misak-ı Millî kararları arasında yer alm… | ✓Saltanatın kaldırılarak millet egemenli…
+tar-233 | Millî Mücadele Hazırlık Dönemi | Millî Mücadele'nin haklılığını iç ve dış kamuoyuna doğru haberlerle duyurmak amacıyla 6 Nisan 1920'de kurulan… | ✓Anadolu Ajansı
+tar-234 | Kurtuluş Savaşı | Lozan Barış Konferansı'nda TBMM Hükûmeti'ni temsil eden heyetin başkanlığına getirilen devlet adamı aşağıdaki… | ✓İsmet (İnönü) Paşa
+tar-235 | Kurtuluş Savaşı | Sakarya Zaferi'nden sonra Fransa ile imzalanan 20 Ekim 1921 tarihli Ankara Antlaşması ile ilgili, I. Fransa, … | ✓I ve II
+tar-236 | Kurtuluş Savaşı | Lozan Barış Konferansı'nda Fener Rum Patrikhanesi konusunda varılan sonuç aşağıdakilerden hangisidir? | ✓Dünya Ortodokslarının liderliği (ekümen…
+tar-237 | Atatürk İlke ve İnkılapları | Mustafa Kemal'in 1925'te Kastamonu'da söylediği 'Türkiye Cumhuriyeti şeyhler, dervişler, müritler ve meczupla… | ✓Tekke, zaviye ve türbelerin kapatılması
+tar-238 | Atatürk İlke ve İnkılapları | 1929 Dünya Ekonomik Bunalımı'nın etkilerine karşı yerli malı kullanımını ve tasarrufu özendirmek amacıyla Ara… | ✓Millî İktisat ve Tasarruf Cemiyeti
+tar-239 | Atatürk İlke ve İnkılapları | Atatürk'ün 1925'te Ankara'da kurdurduğu; modern tarım tekniklerinin uygulanarak çiftçiye örnek olmasını amaçl… | ✓Atatürk Orman Çiftliği
+tar-240 | Atatürk İlke ve İnkılapları | 1928'de kurulan; aşı ve serum üreterek salgın hastalıklarla mücadelede koruyucu sağlık hizmetlerinin temelini… | ✓Merkez Hıfzıssıhha Enstitüsü
+tar-241 | Atatürk Dönemi İç ve Dış Politika | 1933'te yabancı bir yataklı vagon şirketinin İstanbul'daki müdürünün, telefonda Türkçe konuştuğu için Türk me… | ✓Vagon-Li Olayı
+tar-242 | Çağdaş Türk ve Dünya Tarihi | 1962 Küba Buhranı'nın sonuçlarından Türkiye'yi doğrudan ilgilendiren gelişme aşağıdakilerden hangisidir? | ✓ABD'nin, SSCB ile vardığı uzlaşma çerçe…
+tar-243 | Çağdaş Türk ve Dünya Tarihi | Türkiye'nin, Kıbrıs'ta Yunan cuntası destekli Nikos Sampson darbesinin ardından 20 Temmuz 1974'te başlattığı … | ✓1960 Garanti Antlaşması'nın Türkiye'ye …
+tar-244 | İslamiyet Öncesi Türk Tarihi | Asya Hun hükümdarı Mete Han, Çin'i defalarca yenilgiye uğratıp vergiye bağlamasına rağmen Çin topraklarına ye… | ✓Kalabalık Çin nüfusu içinde Türklerin m…
+tar-245 | İslamiyet Öncesi Türk Tarihi | Yaklaşık elli yıl süren Çin egemenliğine karşı verilen bağımsızlık mücadelesini başarıya ulaştırarak 682'de I… | ✓Kutluk (İlteriş) Kağan
+tar-246 | İlk Türk-İslam Devletleri | Memlûk ordusunun 1260 yılında Moğolları yenilgiye uğrattığı Ayn Calut Savaşı'nın Türk-İslam tarihi açısından … | ✓Moğol ordularının yenilmezliği inancını…
+tar-247 | İlk Türk-İslam Devletleri | Mısır'da kurulan Memlûk Devleti'ni diğer Türk-İslam devletlerinden ayıran yönetim özelliği aşağıdakilerden ha… | ✓Saltanatın belirli bir hanedana ait olm…
+tar-248 | İlk Türk-İslam Devletleri | Malazgirt Zaferi'nden sonra Anadolu'da kurulan ilk Türk beylikleri ve merkezleriyle ilgili aşağıdaki eşleştir… | ✓Çaka Beyliği - Trabzon
+tar-249 | Osmanlı Kuruluş ve Yükselme | Orhan Bey döneminde Osmanlı Devleti'ne katılan ilk beylik olan ve donanması Osmanlı deniz gücünün çekirdeğini… | ✓Karesioğulları
+tar-250 | Osmanlı Kuruluş ve Yükselme | Fetret Devri'nin ardından Çelebi Mehmet döneminde çıkan, Osmanlı tarihindeki dinî ve toplumsal nitelikli ilk … | ✓Şeyh Bedreddin İsyanı
+tar-251 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet'in İstanbul'un fethinden sonra Ortodoks Patrikhanesi'nin varlığını sürdürmesine izin verm… | ✓Katolik ve Ortodoks kiliselerinin birle…
+tar-252 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde ölen ya da görevden alınan üst düzey devlet adamlarının mallarına devlet tarafından el ko… | ✓Yönetici sınıf için servetin ve özel mü…
+tar-253 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nin taşra teşkilatındaki yönetim birimlerinin büyükten küçüğe doğru sıralanışı ve yöneticiler… | ✓Eyalet-Sancak-Kaza / Beylerbeyi-Sancakb…
+tar-254 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde dirlik topraklarının has, zeamet ve tımar olarak üçe ayrılmasında temel alınan ölçüt aşağ… | ✓Toprağın sağladığı yıllık vergi gelirin…
+tar-255 | Osmanlı Dağılma ve Islahatlar | 17. yüzyılda IV. Murat, Kuyucu Murat Paşa ve Köprülüler tarafından yürütülen ıslahat çalışmalarıyla ilgili aş… | ✓Avrupa'nın bilim ve tekniği örnek alına…
+tar-256 | Osmanlı Dağılma ve Islahatlar | Merzifonlu Kara Mustafa Paşa komutasındaki Osmanlı ordusunun 1683 II. Viyana Kuşatması'nda başarısız olmasınd… | ✓I, II ve III
+tar-257 | Osmanlı Dağılma ve Islahatlar | 1711 Prut Antlaşması'nın Osmanlı Devleti açısından en önemli sonucu aşağıdakilerden hangisidir? | ✓Azak Kalesi'nin geri alınmasıyla Karlof…
+tar-258 | Osmanlı Dağılma ve Islahatlar | Yunan isyanı sürerken 1827'de Navarin Limanı'ndaki Osmanlı ve Mısır donanmasını yakan devletler aşağıdakileri… | ✓İngiltere - Fransa - Rusya
+tar-259 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal Paşa'nın 'Geldikleri gibi giderler!' sözünü söylemesine yol açan gelişme aşağıdakilerden hangis… | ✓Mondros Ateşkesi'nin ardından 13 Kasım …
+tar-260 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkes Antlaşması'nın imzalanmasından sonra İtilaf Devletleri'nin işgal ettiği ilk Osmanlı toprağı a… | ✓Musul
+tar-261 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkes Antlaşması'nda yer alan 'Osmanlı ordusu, sınırların korunması ve iç güvenliğin sağlanması içi… | ✓Osmanlı Devleti'ni savunmasız bırakarak…
+tar-262 | Kurtuluş Savaşı | TBMM'nin Kurtuluş Savaşı'nda Doğu Cephesi'ni açmasında, I. Ermenistan'ın Doğu Anadolu'daki Türk köylerine sal… | ✓I, II ve III
+tar-263 | Kurtuluş Savaşı | TBMM Hükûmeti'ni tanıyan ve 1 Mart 1921'de Moskova'da dostluk antlaşması imzalanan ilk Müslüman devlet aşağıd… | ✓Afganistan
+tar-264 | Kurtuluş Savaşı | TBMM'nin, Karadeniz bölgesindeki Pontus Rum çetelerinin faaliyetlerini ve iç ayaklanmaları bastırmak amacıyla… | ✓Merkez Ordusu
+tar-265 | Atatürk İlke ve İnkılapları | Atatürk ilkeleriyle ilgili, I. Türk toplumunun ihtiyaçlarından ve gerçeklerinden doğmuştur, II. Akla ve bilim… | ✓I, II ve III
+tar-266 | Atatürk İlke ve İnkılapları | Mustafa Kemal Atatürk'ün 1927'de Cumhuriyet Halk Fırkası kurultayında okuduğu Nutuk, hangi tarihler arasındak… | ✓19 Mayıs 1919'da Samsun'a çıkıştan 1927…
+tar-267 | Atatürk İlke ve İnkılapları | Ankara'nın başkent ilan edilmesi (13 Ekim 1923), aşağıdaki gelişmelerden hangisinden kısa bir süre önce gerçe… | ✓Cumhuriyetin ilanı
+tar-268 | Atatürk İlke ve İnkılapları | Ekim 1923'te Fethi Okyar Hükûmeti'nin istifasının ardından meclis hükûmeti sistemi gereği tek tek seçilmesi g… | ✓Cumhuriyetin ilan edilerek kabine siste…
+tar-269 | Atatürk Dönemi İç ve Dış Politika | Cumhuriyet Döneminin ilk siyasi partisi olan ve 9 Eylül 1923'te Mustafa Kemal tarafından kurulan parti aşağıd… | ✓Halk Fırkası (Cumhuriyet Halk Fırkası)
+tar-270 | Çağdaş Türk ve Dünya Tarihi | Türkiye'nin 23 Şubat 1945'te Almanya ve Japonya'ya savaş ilan etmesinin temel amacı aşağıdakilerden hangisidi… | ✓San Francisco Konferansı'na katılarak B…
+tar-271 | İslamiyet Öncesi Türk Tarihi | Eski Türk ordularının, savaş sırasında kaçıyormuş gibi geri çekilerek düşmanı pusu kurulan bölgeye çekip yanl… | ✓Turan (kurt kapanı) taktiği
+tar-272 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk toplum yapısındaki birimlerin küçükten büyüğe doğru sıralanışı aşağıdakilerin hangisind… | ✓Oguş - Urug - Boy - Budun - İl
+tar-273 | İlk Türk-İslam Devletleri | Cengiz Han'ın gönderdiği ticaret kervanının 1218'de Otrar şehrinde yağmalanması ve tacirlerin öldürülmesi üze… | ✓Harzemşahlar
+tar-274 | İlk Türk-İslam Devletleri | Gazneli Devleti'nin, Dandanakan yenilgisinin ardından kısa sürede dağılma sürecine girmesinde etkili olan iç … | ✓Türk, Fars, Hint ve Afgan gibi farklı t…
+tar-275 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'nde küçük yaşta toplanan veya satın alınan çocukların özel eğitimle yetiştirilerek doğ… | ✓Gulam sistemi
+tar-276 | Osmanlı Kuruluş ve Yükselme | II. Bayezid ile kardeşi Cem Sultan arasındaki taht mücadelesinin Osmanlı tarihi açısından en önemli sonucu aş… | ✓Cem Sultan'ın önce Memlûklere ardından …
+tar-277 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti ile Safeviler arasında imzalanan ilk resmî antlaşma aşağıdakilerden hangisidir? | ✓Amasya Antlaşması
+tar-278 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet'in 1473 Otlukbeli Savaşı'nda yenilgiye uğrattığı devlet ve hükümdarı aşağıdakilerin hangi… | ✓Akkoyunlular - Uzun Hasan
+tar-279 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde Mısır, Bağdat, Yemen, Tunus ve Cezayir gibi merkeze uzak eyaletler 'saliyaneli eyalet' st… | ✓Gelirlerinin iltizam yoluyla toplanarak…
+tar-280 | Osmanlı Kültür ve Medeniyeti | Osmanlı şehirlerinde kadı adına çarşı ve pazarları denetleyen; satılan malların fiyatını, kalitesini, ölçü ve… | ✓Muhtesip
+tar-281 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde fethedilen bölgelerin nüfusunun, arazisinin ve gelir kaynaklarının kaydedildiği, dirlik d… | ✓Tahrir defterleri
+tar-282 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nin Avusturya ve Rusya ile imzaladığı, Belgrad'ın geri alındığı ve devletin 18. yüzyılda batı… | ✓Belgrad Antlaşması
+tar-283 | Osmanlı Dağılma ve Islahatlar | 1867'de Fransa İmparatoru III. Napolyon'un davetiyle Paris'e, ardından Londra ve Viyana'ya giderek barışçıl b… | ✓Abdülaziz
+tar-284 | Osmanlı Dağılma ve Islahatlar | Tanzimat Döneminde Ahmet Cevdet Paşa başkanlığındaki bir komisyon tarafından İslam hukuku esas alınarak hazır… | ✓Mecelle
+tar-285 | Osmanlı Dağılma ve Islahatlar | II. Balkan Savaşı'nın çıkmasında aşağıdakilerden hangisi etkili olmuştur? | ✓I. Balkan Savaşı'nda en büyük payı alan…
+tar-286 | Millî Mücadele Hazırlık Dönemi | Amasya Genelgesi'ni Mustafa Kemal ile birlikte imzalayan ya da telgrafla onaylayarak destekleyen komutanlar a… | ✓Fevzi Çakmak
+tar-287 | Millî Mücadele Hazırlık Dönemi | İzmir'in Yunanlara verileceği haberleri üzerine işgalden bir gün önce kurulan, düzenlediği mitinglerle ve kon… | ✓İzmir Redd-i İlhak Cemiyeti
+tar-288 | Millî Mücadele Hazırlık Dönemi | 23 Nisan 1920'de açılan TBMM'nin kabul ettiği ilk kanun aşağıdakilerden hangisidir? | ✓Ağnam vergisinin (hayvan vergisi) eskid…
+tar-289 | Kurtuluş Savaşı | Lozan Barış Antlaşması'nda Osmanlı Devleti'nden kalan dış borçlar konusunda, I. Genel Borçlar İdaresi'nin (Dü… | ✓I, II ve III
+tar-290 | Kurtuluş Savaşı | Millî Mücadele döneminde görev yapan İstiklal Mahkemeleri ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Üyelerinin İstanbul Hükûmeti tarafından…
+tar-291 | Kurtuluş Savaşı | Saltanatın kaldırılmasının ardından son padişah Vahdettin'in ülkeyi terk etmesi üzerine TBMM'nin halifeliğe g… | ✓Abdülmecit Efendi
+tar-292 | Atatürk İlke ve İnkılapları | Atatürk'ün Onuncu Yıl Nutku'nda yer alan 'Ne mutlu Türk'üm diyene!' sözü, doğrudan aşağıdaki ilkelerden hangi… | ✓Milliyetçilik
+tar-293 | Atatürk İlke ve İnkılapları | 1932'de açılan; kütüphane, tiyatro, spor ve kurslar yoluyla halkın kültür düzeyini yükseltmeyi ve inkılapları… | ✓Halkevleri
+tar-294 | Atatürk İlke ve İnkılapları | İzmir İktisat Kongresi kararları doğrultusunda 1924'te kurulan, özel girişimcilere kredi sağlayarak millî tic… | ✓Türkiye İş Bankası
+tar-295 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi 1 Kasım 1928'de gerçekleştirilen Harf İnkılabı'nın amaçlarından biri değildir? | ✓Arap harfleriyle yazılmış eserlerin kul…
+tar-296 | Atatürk Dönemi İç ve Dış Politika | 1926'da Fransız Lotus gemisi ile Türk Bozkurt gemisinin Ege'de çarpışması üzerine ortaya çıkan yargı yetkisi … | ✓Mahmut Esat Bozkurt
+tar-297 | Atatürk Dönemi İç ve Dış Politika | Atatürk dönemi Türk dış politikasının temel özellikleri arasında, I. Gerçekçi olması ve ulaşılamayacak hedefl… | ✓I, II ve III
+tar-298 | İslamiyet Öncesi Türk Tarihi | 6. yüzyılda Sasanilerle iş birliği yaparak Bizans'a karşı savaşan, Anadolu'ya Kayseri, Ankara ve Konya yörele… | ✓Sibirler (Sabarlar)
+tar-299 | İslamiyet Öncesi Türk Tarihi | Tuna boylarına yerleşen Bulgarların Boris Han döneminde Hristiyanlığı kabul ettikten sonra zamanla Slavlaşara… | ✓Benimsenen dinin, toplumların millî kim…
+tar-300 | İlk Türk-İslam Devletleri | 13. yüzyılda Moğol istilasından kaçan kalabalık Türkmen kitlelerinin Anadolu'ya göç etmesinin en önemli sonuc… | ✓Anadolu'daki Türk nüfusun artması, Türk…
+tar-301 | İlk Türk-İslam Devletleri | Türk-İslam devletlerindeki kurum ve yapılara ilişkin aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Ribat - Donanma gemilerinin yapıldığı t…
+tar-302 | Osmanlı Kuruluş ve Yükselme | Doğu Akdeniz ticaret yollarının güvenliğini tehdit eden korsanların barındığı Kıbrıs Adası, hangi Osmanlı pad… | ✓II. Selim
+tar-303 | Osmanlı Kuruluş ve Yükselme | II. Bayezid döneminde Osmanlı Devleti ile Memlûkler arasında yapılan ve kesin sonuç alınamayan savaşların (14… | ✓I, II ve III
+tar-304 | Osmanlı Kuruluş ve Yükselme | Kanuni döneminde Avusturya ile imzalanan 1533 tarihli İstanbul (İbrahim Paşa) Antlaşması'nda Avusturya arşidü… | ✓Osmanlı Devleti'nin Orta Avrupa'daki si…
+tar-305 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde ana yollar üzerinde kurulan; devlet haberleşmesini yürüten ulakların dinlendiği, at değiş… | ✓Menzil teşkilatı
+tar-306 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde kadıların verdiği kararların, yaptığı nikâh, vakıf ve alım satım işlemlerinin ve merkezde… | ✓Şer'iye sicilleri
+tar-307 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde Divan-ı Hümayun kâtiplerinin şefi iken zamanla devletin dış yazışmalarını ve diplomasi iş… | ✓Reisülküttab
+tar-308 | Osmanlı Dağılma ve Islahatlar | Doğu Anadolu'da Ermenilerin yaşadığı vilayetlerde ıslahat yapılması hükmünün önce 1878 Ayastefanos, ardından … | ✓Ermeni meselesinin uluslararası bir sor…
+tar-309 | Osmanlı Dağılma ve Islahatlar | I. Dünya Savaşı'nda Osmanlı ordusunun, kuşattığı İngiliz birliklerini General Townshend ile birlikte 29 Nisan… | ✓Irak Cephesi
+tar-310 | Osmanlı Dağılma ve Islahatlar | ABD Başkanı Wilson'un Ocak 1918'de yayımladığı ilkelerin Osmanlı Devleti'ni doğrudan ilgilendiren 12. maddesi… | ✓I, II ve III
+tar-311 | Osmanlı Dağılma ve Islahatlar | 19. yüzyıl Avrupa diplomasisinde sıkça kullanılan 'Şark Meselesi' (Doğu Sorunu) kavramı aşağıdakilerden hangi… | ✓Avrupa devletlerinin, zayıflayan Osmanl…
+tar-312 | Millî Mücadele Hazırlık Dönemi | Erzurum Kongresi'nde oluşturulan ve Sivas Kongresi'nde yetki alanı bütün yurdu kapsayacak biçimde genişletile… | ✓TBMM'nin açılmasıyla
+tar-313 | Millî Mücadele Hazırlık Dönemi | TBMM'ye karşı çıkan ayaklanmalardan hangisi azınlıklar tarafından çıkarılmıştır? | ✓Pontus Rum Ayaklanması
+tar-314 | Millî Mücadele Hazırlık Dönemi | 10 Ağustos 1920'de imzalanan Sevr Antlaşması'nın hükümleriyle ilgili aşağıdakilerden hangisi söylenemez? | ✓Doğu Karadeniz kıyılarının Rusya'ya bır…
+tar-315 | Kurtuluş Savaşı | 20 Kasım 1922'de başlayan Lozan görüşmelerinin 4 Şubat 1923'te kesilmesinde, I. Kapitülasyonların kaldırılmas… | ✓I, II ve III
+tar-316 | Kurtuluş Savaşı | Birinci TBMM'de Mustafa Kemal'in, kendisini destekleyen milletvekilleriyle Mayıs 1921'de kurduğu ve 'Birinci … | ✓Anadolu ve Rumeli Müdafaa-i Hukuk Grubu
+tar-317 | Kurtuluş Savaşı | Türk Kurtuluş Savaşı'nın, sömürge durumundaki Asya ve Afrika ulusları tarafından yakından izlenmesi ve bu ulu… | ✓Emperyalizme karşı kazanılmış ilk büyük…
+tar-318 | Atatürk İlke ve İnkılapları | Atatürk'ün öncülüğünde 1931'de kurulan Türk Tarih Kurumu ve ortaya konan Türk Tarih Tezi ile, I. Türk tarihin… | ✓I, II ve III
+tar-319 | Atatürk İlke ve İnkılapları | Cumhuriyetin ilk yıllarında güzel sanatlar alanında atılan adımlardan biri olarak 1924'te Ankara'da açılan ve… | ✓Musiki Muallim Mektebi
+tar-320 | Atatürk İlke ve İnkılapları | Laiklik ilkesiyle ilgili, I. Din ve devlet işlerinin birbirinden ayrılmasını öngörür, II. Din ve vicdan özgür… | ✓I ve II
+tar-321 | Atatürk İlke ve İnkılapları | Devletçilik ilkesinin uygulandığı dönemde, yer altı kaynaklarını bilimsel yöntemlerle aramak ve incelemek ama… | ✓Maden Tetkik ve Arama Enstitüsü (MTA)
+tar-322 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin 1929'da katıldığı, savaşı ulusal politikaların aracı olmaktan çıkarmayı ve anlaşmazlıkların barış… | ✓Kellogg-Briand Paktı
+tar-323 | Atatürk Dönemi İç ve Dış Politika | 1930 dostluk antlaşmasının ardından hızla gelişen Türk-Yunan yakınlaşmasının ulaştığı düzeyi gösteren, 1934 t… | ✓Yunanistan Başbakanı Venizelos'un, Atat…
+tar-324 | Çağdaş Türk ve Dünya Tarihi | Türkiye ile Avrupa Ekonomik Topluluğu (AET) arasında ortaklık ilişkisi kuran ve Türkiye'nin Avrupa bütünleşme… | ✓Ankara Anlaşması
+tar-325 | İslamiyet Öncesi Türk Tarihi | Çin'de MÖ 3. yüzyılda mevcut savunma duvarlarının birleştirilmesiyle oluşturulan Çin Seddi'nin yapılmasının t… | ✓Hun akınlarına karşı ülkeyi savunmak
+tar-326 | İslamiyet Öncesi Türk Tarihi | Aşağıdakilerden hangisi İslamiyet öncesi Türk devletlerinde hükümdarlık (egemenlik) sembollerinden biri değil… | ✓Sagu
+tar-327 | İlk Türk-İslam Devletleri | Kaşgarlı Mahmud'un 1072-1074 yılları arasında yazarak Abbasi halifesine sunduğu Divanü Lügati't-Türk'ün yazıl… | ✓Araplara Türkçeyi öğretmek ve Türkçenin…
+tar-328 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'nde Ömer Hayyam başkanlığındaki bir bilim kurulunun güneş yılı esasına dayanan Celali … | ✓Melikşah
+tar-329 | İlk Türk-İslam Devletleri | Anadolu'da açılan ilk medrese olan Niksar'daki Yağıbasan Medresesi aşağıdaki beyliklerden hangisi tarafından … | ✓Danişmentliler
+tar-330 | Osmanlı Kuruluş ve Yükselme | Anadolu'daki beyliklerin çoğunu topraklarına katarak Anadolu Türk siyasi birliğini ilk kez büyük ölçüde sağla… | ✓Yıldırım Bayezid
+tar-331 | Osmanlı Kuruluş ve Yükselme | 1402 Ankara Savaşı'nın çıkmasında, I. Yıldırım Bayezid'in topraklarına kattığı beyliklerin beylerinin Timur'a… | ✓I, II ve III
+tar-332 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet döneminde Gedik Ahmet Paşa komutasındaki donanmayla İtalya'ya asker çıkarılarak alınan, a… | ✓Otranto
+tar-333 | Osmanlı Kültür ve Medeniyeti | Aşağıdakilerden hangisi Osmanlı ordusundaki Kapıkulu süvarileri arasında yer almaz? | ✓Humbaracılar
+tar-334 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nin ilk büyük tersanesi, Yıldırım Bayezid döneminde aşağıdaki yerlerden hangisinde kurulmuştu… | ✓Gelibolu
+tar-335 | Osmanlı Kültür ve Medeniyeti | Osmanlı ekonomi anlayışında, ülke pazarlarında halkın ve ordunun ihtiyaç duyduğu malların bol, ucuz ve kalite… | ✓İaşe (provizyonizm) ilkesi
+tar-336 | Osmanlı Dağılma ve Islahatlar | II. Mahmut döneminde eğitim alanında, I. İlköğretimin İstanbul'da zorunlu hâle getirilmesi, II. Mekteb-i Tıbb… | ✓I, II ve III
+tar-337 | Osmanlı Dağılma ve Islahatlar | 18. yüzyılda I. Mahmut döneminde Osmanlı hizmetine girerek Humbaracı Ocağı'nı Avrupa usullerine göre yeniden … | ✓Humbaracı Ahmet Paşa (Kont dö Bonneval)
+tar-338 | Osmanlı Dağılma ve Islahatlar | 1877-1878 Osmanlı-Rus Savaşı'nda (93 Harbi) Plevne'de yaptığı başarılı savunmayla Rus ordusunu aylarca durdur… | ✓Gazi Osman Paşa
+tar-339 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nin, 1783'te Rusya tarafından ilhak edilen Kırım'ın Rusya'ya ait olduğunu kesin olarak kabul … | ✓Yaş Antlaşması
+tar-340 | Millî Mücadele Hazırlık Dönemi | 30 Ekim 1918'de imzalanan Mondros Ateşkes Antlaşması'nda Osmanlı Devleti'ni temsil eden heyetin başkanı aşağı… | ✓Bahriye Nazırı Rauf (Orbay) Bey
+tar-341 | Millî Mücadele Hazırlık Dönemi | İzmir'in işgalini protesto etmek amacıyla İstanbul'da düzenlenen ve Halide Edip'in yaptığı konuşmayla tarihe … | ✓Sultanahmet Mitingi
+tar-342 | Millî Mücadele Hazırlık Dönemi | Mondros'tan sonra kurulan millî varlığa düşman (zararlı) cemiyetlerle ilgili aşağıdakilerden hangisi söylenem… | ✓Kuvay-ı Millîye hareketini destekleyere…
+tar-343 | Kurtuluş Savaşı | Londra Konferansı'nda (1921) İstanbul Hükûmeti temsilcisi Sadrazam Tevfik Paşa'nın 'Söz, milletin gerçek tems… | ✓İstanbul Hükûmeti'nin de milletin gerçe…
+tar-344 | Kurtuluş Savaşı | Düzenli ordunun kurulmasından sonra ikiye ayrılan Batı Cephesi'nin kuzey bölümü komutanlığına atanan ve İnönü… | ✓İsmet (İnönü) Bey
+tar-345 | Kurtuluş Savaşı | Kurtuluş Savaşı'nın mali kaynakları arasında, I. Tekalif-i Milliye Emirleri ile halktan sağlanan mal ve hizme… | ✓I, II ve III
+tar-346 | Atatürk İlke ve İnkılapları | Bir toplumun siyasi, sosyal, ekonomik ve kültürel kurumlarının köklü biçimde değiştirilerek yerlerine çağın g… | ✓İnkılap
+tar-347 | Atatürk İlke ve İnkılapları | 17 Şubat 1926'da Türk Medeni Kanunu'nun kabul edilmesinde, I. Mecelle'nin aile ve miras hukukunu kapsamaması … | ✓I ve II
+tar-348 | Atatürk İlke ve İnkılapları | 1924'te kabul edilen ve köylere tüzel kişilik kazandırarak muhtar ile ihtiyar meclisinin görevlerini düzenley… | ✓Köy Kanunu
+tar-349 | Atatürk İlke ve İnkılapları | 1934'te Bakanlar Kurulu kararıyla müzeye dönüştürülerek ziyarete açılan İstanbul'daki tarihî yapı aşağıdakile… | ✓Ayasofya
+tar-350 | Atatürk Dönemi İç ve Dış Politika | 1930'da kurulan Serbest Cumhuriyet Fırkası'nın, Cumhuriyet Halk Fırkası'ndan ayrıldığı temel ekonomi anlayışı… | ✓Ekonomide liberalizmi (serbest piyasayı…
+tar-351 | Çağdaş Türk ve Dünya Tarihi | 1955'te Türkiye, Irak, İran, Pakistan ve İngiltere arasında kurulan; 1958 darbesinden sonra Irak'ın ayrılması… | ✓Bağdat Paktı
+tar-352 | İslamiyet Öncesi Türk Tarihi | Türklerin Orta Asya'dan farklı coğrafyalara göç etmesinde, I. Kuraklık ve iklim değişikliği nedeniyle otlakla… | ✓I, II ve III
+tar-353 | İslamiyet Öncesi Türk Tarihi | II. Kök Türk (Kutluk) Devleti'nde İlteriş, Kapgan ve Bilge Kağan dönemlerinde vezirlik (aygucı) yapan; kendi … | ✓Tonyukuk
+tar-354 | İlk Türk-İslam Devletleri | Karadeniz'in kuzeyindeki Altın Orda Devleti'nin Timur'un seferleriyle zayıflayıp parçalanmasının dünya tarihi… | ✓Baskı altında tuttuğu Moskova Knezliği'…
+tar-355 | İlk Türk-İslam Devletleri | Malazgirt Zaferi'nden sonra İznik'i fethederek başkent yapan ve Anadolu (Türkiye) Selçuklu Devleti'ni kuran h… | ✓Kutalmışoğlu Süleyman Şah
+tar-356 | İlk Türk-İslam Devletleri | Türklerin İslamiyet'i kabul etmesini kolaylaştıran etkenler arasında, I. Gök Tanrı inancındaki tek tanrı anla… | ✓I, II ve III
+tar-357 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'nin, hükümdarının kızının şehzade Bayezid'le evlendirilmesi üzerine Kütahya ve çevresini çeyi… | ✓Germiyanoğulları
+tar-358 | Osmanlı Kuruluş ve Yükselme | Mısır Seferi'nin ardından kutsal beldeler Mekke ve Medine'nin koruyuculuğunu üstlenerek kendisine sunulan 'Ha… | ✓Yavuz Sultan Selim
+tar-359 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'nin fethettiği adalar ve dönemin padişahlarıyla ilgili aşağıdaki eşleştirmelerden hangisi yan… | ✓Girit - Kanuni Sultan Süleyman
+tar-360 | Osmanlı Kültür ve Medeniyeti | Kanuni Sultan Süleyman'ın Irakeyn Seferi'ne katılarak ordunun konakladığı menzilleri ve şehirleri minyatürler… | ✓Matrakçı Nasuh
+tar-361 | Osmanlı Kültür ve Medeniyeti | Yeniçeri Ocağı'nın 17. yüzyıldan itibaren bozulmasının göstergeleri arasında, I. Askerlikle ilgisi olmayan ki… | ✓I, II ve III
+tar-362 | Osmanlı Kültür ve Medeniyeti | Osmanlı padişahlarının her yıl hac mevsiminden önce Mekke ve Medine'deki kutsal makamlara ve halka dağıtılmak… | ✓Sürre alayı
+tar-363 | Osmanlı Dağılma ve Islahatlar | II. Mahmut döneminin başında Sadrazam Alemdar Mustafa Paşa'nın, dağıtılmış olan Nizam-ı Cedit ordusunun yerin… | ✓Sekban-ı Cedit Ocağı
+tar-364 | Osmanlı Dağılma ve Islahatlar | 1911'de İtalya'nın Trablusgarp'a saldırması üzerine Osmanlı Devleti'nin bölgeye ordu gönderememesinde, I. Don… | ✓I ve II
+tar-365 | Osmanlı Dağılma ve Islahatlar | Aşağıdaki okullardan hangisi Tanzimat Dönemi'nde (1839-1876) açılmamıştır? | ✓Mekteb-i Harbiye
+tar-366 | Osmanlı Dağılma ve Islahatlar | I. Dünya Savaşı'nda Hicaz-Yemen Cephesi'nde, İngilizlerin ve onların kışkırttığı isyancı Arap kuvvetlerinin k… | ✓Fahreddin Paşa
+tar-367 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal'in, İstanbul'un resmen işgali ve Mebusan Meclisi'nin dağıtılması üzerine 19 Mart 1920'de yayıml… | ✓Olağanüstü yetkiler taşıyan bir meclisi…
+tar-368 | Millî Mücadele Hazırlık Dönemi | Erzurum Kongresi kararlarında yer alan 'Kuvay-ı Millîye'yi etkin, millî iradeyi hâkim kılmak esastır.' ifades… | ✓Kurtuluşun milletin gücüne ve millet eg…
+tar-369 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkesi'nden sonra Kars merkez olmak üzere Elviye-i Selase bölgesinin Ermenistan'a ve Gürcistan'a ve… | ✓Cenubigarbi (Güneybatı) Kafkas Hükûmeti
+tar-370 | Kurtuluş Savaşı | Güney Cephesi'nde Fransız işgaline karşı Antep savunmasını örgütleyen ve şehit düşünceye kadar işgal kuvvetle… | ✓Şahin Bey
+tar-371 | Kurtuluş Savaşı | TBMM'nin açılmasından sonra 3 Mayıs 1920'de oluşturulan ilk İcra Vekilleri Heyeti'nin (hükûmetin) başkanlığın… | ✓Mustafa Kemal Paşa
+tar-372 | Kurtuluş Savaşı | Lozan Barış Antlaşması'nda Ege adaları konusunda varılan çözüm aşağıdakilerden hangisidir? | ✓Gökçeada ile Bozcaada'nın Türkiye'ye, A…
+tar-373 | Atatürk İlke ve İnkılapları | 2 Mart 1926'da kabul edilen Maarif Teşkilatı Kanunu ile ilgili aşağıdakilerden hangisi söylenebilir? | ✓Eğitim hizmetlerinin çağdaş esaslara gö…
+tar-374 | Atatürk İlke ve İnkılapları | Aşağıdakilerden hangisi Mustafa Kemal Atatürk'ün kaleme aldığı eserlerden biri değildir? | ✓Çalıkuşu
+tar-375 | Atatürk İlke ve İnkılapları | 1925'te havacılık sanayisini kurmak ve halkta havacılık bilincini geliştirmek amacıyla kurulan, günümüzdeki a… | ✓Türk Tayyare Cemiyeti
+tar-376 | Atatürk İlke ve İnkılapları | 3 Mart 1924'te Şeriye ve Evkaf Vekaletinin kaldırılmasıyla kurulan Diyanet İşleri Başkanlığının görevi aşağıd… | ✓Toplumun inanç ve ibadet hizmetlerini d…
+tar-377 | Atatürk Dönemi İç ve Dış Politika | Aşağıdakilerden hangisi Atatürk döneminde Türkiye ile Fransa arasında yaşanan sorunlardan biri değildir? | ✓Musul sorunu
+tar-378 | Atatürk Dönemi İç ve Dış Politika | Atatürk'ün, Terakkiperver Cumhuriyet Fırkası ve Serbest Cumhuriyet Fırkası gibi muhalefet partilerinin kurulm… | ✓Demokrasiyi tüm kurumlarıyla yerleştirm…
+tar-379 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk devletlerinde ülkenin doğu ve batı olmak üzere iki koldan yönetildiği, doğunun kutsal s… | ✓Devlet yönetiminde federatif (merkeziye…
+tar-380 | İslamiyet Öncesi Türk Tarihi | Asya Hun Devleti'nin MÖ 1. yüzyılda ikiye ayrılmasında etkili olan temel gelişme aşağıdakilerden hangisidir? | ✓Hükümdar Ho-han-yeh'in Çin egemenliğine…
+tar-381 | İlk Türk-İslam Devletleri | Hindistan'da kurulan; hükümdarı Şah Cihan'ın eşi için yaptırdığı Taç Mahal ile ünlü olan Türk-İslam devleti a… | ✓Babür Devleti
+tar-382 | İlk Türk-İslam Devletleri | Aşağıdakilerden hangisi 13. yüzyılda Anadolu'da halkın manevi dünyasını şekillendiren ve Türk-İslam kültürünü… | ✓Kaşgarlı Mahmud
+tar-383 | Osmanlı Kuruluş ve Yükselme | 1560'ta Piyale Paşa komutasındaki Osmanlı donanmasının, Turgut Reis'in de katkısıyla İspanya öncülüğündeki Ha… | ✓Cerbe Deniz Zaferi
+tar-384 | Osmanlı Kuruluş ve Yükselme | Ankara Savaşı'ndan sonra Anadolu'da beylikler yeniden kurulup şehzadeler taht kavgasına tutuşmuşken Balkanlar… | ✓Osmanlı Devleti'nin Balkanlarda izlediğ…
+tar-385 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet'in İstanbul'un fethinden sonra 'Kayser-i Rum' (Roma İmparatoru) unvanını kullanması aşağı… | ✓Kendisini Doğu Roma'nın varisi sayarak …
+tar-386 | Osmanlı Kültür ve Medeniyeti | Klasik Türk musikisinin en büyük bestekârlarından kabul edilen, bugün de okunan Segah Tekbir ve Salat-ı Ümmiy… | ✓Buhurizade Mustafa Itri
+tar-387 | Osmanlı Kültür ve Medeniyeti | 18. yüzyılda tamamlanan ve Osmanlı mimarisinde Avrupa kaynaklı barok üslubun ilk büyük örneği kabul edilen İs… | ✓Nuruosmaniye Camii
+tar-388 | Osmanlı Kültür ve Medeniyeti | 16. yüzyılda en parlak dönemini yaşayan Osmanlı çini sanatının; mercan kırmızısı ve lale, karanfil desenli ür… | ✓İznik
+tar-389 | Osmanlı Dağılma ve Islahatlar | Mustafa Kemal, I. Dünya Savaşı'nda, I. Çanakkale Cephesi'nde Anafartalar ve Conkbayırı'nda, II. Kafkas Cephes… | ✓I, II ve III
+tar-390 | Osmanlı Dağılma ve Islahatlar | I. Dünya Savaşı'nda Almanya'nın Osmanlı Devleti'ni kendi yanında savaşa sokmak istemesinde, I. Halifenin dinî… | ✓I, II ve III
+tar-391 | Osmanlı Dağılma ve Islahatlar | I. Balkan Savaşı'nın çıkmasında, I. Rusya'nın Panslavizm politikası doğrultusunda Balkan devletlerini Osmanlı… | ✓I ve II
+tar-392 | Osmanlı Dağılma ve Islahatlar | Kanun-i Esasi'nin, Balkan sorunlarını görüşmek üzere İstanbul'da toplanan Tersane Konferansı'nın açılış günün… | ✓Azınlıklara meşrutiyet yönetimiyle hakl…
+tar-393 | Millî Mücadele Hazırlık Dönemi | Sivas Kongresi'nde bazı delegelerin Amerikan mandasını savunmasının temel gerekçesi aşağıdakilerden hangisidi… | ✓Savaşlardan bitkin düşen ve ekonomik ka…
+tar-394 | Millî Mücadele Hazırlık Dönemi | Erzurum'dan milletvekili seçilen Mustafa Kemal'in, İstanbul'da toplanacak son Osmanlı Mebusan Meclisi'ne katı… | ✓İşgal tehdidi altındaki İstanbul'da mec…
+tar-395 | Millî Mücadele Hazırlık Dönemi | Birinci TBMM'nin 'kurucu meclis' niteliği taşıdığının en güçlü kanıtı aşağıdakilerden hangisidir? | ✓Yeni bir devlet düzeninin temelini atan…
+tar-396 | Kurtuluş Savaşı | Lozan Konferansı'na yalnızca Boğazlarla ilgili oturumlara katılmak üzere davet edilen devlet aşağıdakilerden … | ✓Sovyet Rusya
+tar-397 | Kurtuluş Savaşı | Lozan Barış Antlaşması'nda Türkiye'nin Suriye sınırının, daha önce Fransa ile imzalanmış olan hangi antlaşmay… | ✓1921 Ankara Antlaşması
+tar-398 | Kurtuluş Savaşı | Kurtuluş Savaşı boyunca Yunanistan'ın Anadolu'daki işgalini siyasi ve askerî bakımdan destekleyen, Yunan ordu… | ✓İngiltere
+tar-399 | Atatürk İlke ve İnkılapları | Türk tarihini ve Türk dilini kaynaklarından bilimsel yöntemlerle araştıracak uzmanlar yetiştirmek amacıyla At… | ✓Dil ve Tarih-Coğrafya Fakültesi
+tar-400 | Atatürk İlke ve İnkılapları | 21 Haziran 1934'te kabul edilen Soyadı Kanunu'nun çıkarılmasının temel amacı aşağıdakilerden hangisidir? | ✓Kişilerin resmî işlemlerde ve toplumsal…
+tar-401 | Atatürk İlke ve İnkılapları | Birinci Beş Yıllık Sanayi Planı'nın başarıyla uygulanmasının ardından 1938'de hazırlanan İkinci Beş Yıllık Sa… | ✓II. Dünya Savaşı'nın çıkması
+tar-402 | Atatürk İlke ve İnkılapları | Birinci Beş Yıllık Sanayi Planı kapsamında 1936'da üretime geçen ve Türkiye'nin kâğıt ihtiyacını yerli üretim… | ✓İzmit
+tar-403 | Atatürk Dönemi İç ve Dış Politika | Milletler Cemiyeti gözetiminde yapılan seçimlerin ardından 1938'de kurulan bağımsız Hatay Devleti'nin cumhurb… | ✓Tayfur Sökmen
+tar-404 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin, Birinci Beş Yıllık Sanayi Planı'nın hazırlanması ve Kayseri Bez Fabrikası gibi tesislerin kurulm… | ✓Sovyetler Birliği (SSCB)
+tar-405 | Çağdaş Türk ve Dünya Tarihi | Soğuk Savaş döneminin simgesi hâline gelen, 1961'de Doğu Almanya tarafından inşa edilen ve 1989'da yıkılması … | ✓Berlin Duvarı
+tar-406 | İslamiyet Öncesi Türk Tarihi | Kök Türklerin Çin egemenliği altında yaşadığı dönemde, 639 yılında kırk arkadaşıyla Çin sarayını basarak bağı… | ✓Kürşad
+tar-407 | İslamiyet Öncesi Türk Tarihi | İslamiyet öncesi Türk topluluklarının kullandığı, güneş yılı esasına dayanan ve her yılın bir hayvan adıyla a… | ✓On İki Hayvanlı Türk Takvimi
+tar-408 | İlk Türk-İslam Devletleri | Orta Asya'da yetişen, 'hikmet' adı verilen şiirleriyle İslamiyet'i Türklere sade bir Türkçeyle anlatan, 'Pir-… | ✓Hoca Ahmed Yesevi
+tar-409 | İlk Türk-İslam Devletleri | İran edebiyatının en ünlü eserlerinden olan Şehname'yi yazarak dönemin hükümdarına sunan Firdevsi, bu eserini… | ✓Gazneli Mahmut
+tar-410 | İlk Türk-İslam Devletleri | Anadolu Selçuklu hükümdarı II. Kılıç Arslan'ın, sağlığında ülke topraklarını on bir oğlu arasında paylaştırma… | ✓Şehzadeler arasında taht kavgalarının ç…
+tar-411 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'ni kuran hanedanın mensup olduğu, 13. yüzyılda Söğüt ve Domaniç yöresine yerleştirilen Oğuz b… | ✓Kayı
+tar-412 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'nin yönetim merkezi olarak kullandığı şehirlerin kronolojik sıralaması aşağıdakilerin hangisi… | ✓Söğüt - Bursa - Edirne - İstanbul
+tar-413 | Osmanlı Kuruluş ve Yükselme | Anadolu Selçuklu Devleti'nin mirasçısı olduğunu ileri sürerek Osmanlı Devleti'ni Anadolu'da en çok uğraştıran… | ✓Karamanoğulları
+tar-414 | Osmanlı Kültür ve Medeniyeti | Fatih Sultan Mehmet döneminde Amasya Darüşşifası'nda hekimlik yapan ve Türkçe kaleme aldığı Cerrahiyyetü'l-Ha… | ✓Sabuncuoğlu Şerefeddin
+tar-415 | Osmanlı Kültür ve Medeniyeti | Kanuni Sultan Süleyman'ın ölümü üzerine yazdığı mersiyeyle tanınan ve divan şiirindeki ustalığı nedeniyle 'Su… | ✓Baki
+tar-416 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde ilmiye sınıfının başı olan şeyhülislamlık makamına II. Murat döneminde getirilen ilk şeyh… | ✓Molla Fenari
+tar-417 | Osmanlı Dağılma ve Islahatlar | Osmanlı padişahının halifelik sıfatının uluslararası bir antlaşmada ilk kez kullanılarak Kırım Müslümanlarını… | ✓Küçük Kaynarca Antlaşması
+tar-418 | Osmanlı Dağılma ve Islahatlar | I. Dünya Savaşı'nda 18 Mart 1915'te kazanılan Çanakkale deniz zaferinde, döşediği mayınlarla İtilaf donanması… | ✓Nusret
+tar-419 | Osmanlı Dağılma ve Islahatlar | II. Mahmut döneminde memurlara fes ve pantolon giyme zorunluluğu getirilmesi, padişahın portresinin devlet da… | ✓Devlet ve toplum hayatında Batı tarzı b…
+tar-420 | Osmanlı Dağılma ve Islahatlar | Aşağıdaki devletlerden hangisi I. Dünya Savaşı'nda İtilaf Devletleri arasında yer almamıştır? | ✓Avusturya-Macaristan
+tar-421 | Millî Mücadele Hazırlık Dönemi | Damat Ferit Paşa Hükûmeti'nin, Sivas Kongresi'ni dağıtmakla görevlendirdiği ancak girişimi başarısızlıkla son… | ✓Ali Galip
+tar-422 | Millî Mücadele Hazırlık Dönemi | Mondros Ateşkes Antlaşması'ndan sonra işgalci güçlere karşı ilk silahlı direniş aşağıdakilerin hangisinde baş… | ✓Hatay Dörtyol'da Fransızlara karşı
+tar-423 | Millî Mücadele Hazırlık Dönemi | Mondros'tan sonra bazı aydınlar tarafından kurulan, kurtuluşun ancak Amerika Birleşik Devletleri'nin koruyucu… | ✓Wilson Prensipleri Cemiyeti
+tar-424 | Kurtuluş Savaşı | 1 Nisan 1923'te seçim kararı alınmasının ardından oluşan ve Lozan Barış Antlaşması'nı onaylayan, cumhuriyeti … | ✓İkinci TBMM
+tar-425 | Kurtuluş Savaşı | Kütahya-Eskişehir Muharebeleri'nde yenilgiye uğrayan Türk ordusunun Mustafa Kemal'in isteğiyle Sakarya Nehri'… | ✓Orduyu kesin bir yenilgiden ve imhadan …
+tar-426 | Kurtuluş Savaşı | Kurtuluş Savaşı sırasında Kastamonu-İnebolu hattında kağnısıyla cepheye cephane taşırken çocuğunu ve yükünü k… | ✓Şerife Bacı
+tar-427 | Atatürk İlke ve İnkılapları | Laik devlet düzenine geçiş sürecinde yaşanan, I. Saltanatın kaldırılması, II. Halifeliğin kaldırılması, III. … | ✓I - II - III - IV
+tar-428 | Atatürk İlke ve İnkılapları | Cumhuriyet Döneminde 1926'da üretime geçen ilk şeker fabrikaları aşağıdakilerin hangisinde birlikte verilmişt… | ✓Alpullu - Uşak
+tar-429 | Atatürk İlke ve İnkılapları | 1929 Dünya Ekonomik Bunalımı'nın etkisiyle Türk lirasının değerindeki dalgalanmaları önlemek ve millî parayı … | ✓Türk Parasının Kıymetini Koruma Kanunu
+tar-430 | Atatürk İlke ve İnkılapları | Atatürk'ün manevi kızı olan ve dünyanın ilk kadın savaş pilotu unvanını kazanan Türk havacısı aşağıdakilerden… | ✓Sabiha Gökçen
+tar-431 | Atatürk Dönemi İç ve Dış Politika | 1937'de İsmet İnönü'nün görevinden ayrılmasının ardından başbakanlığa getirilen ve Atatürk döneminin son başb… | ✓Celal Bayar
+tar-432 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin sınırlarını belirleyen antlaşmalarla ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Irak sınırı - Lozan Barış Antlaşması
+tar-433 | İslamiyet Öncesi Türk Tarihi | Aşağıdakilerden hangisi İslamiyet öncesi Türk devletlerinde hükümdarların kullandığı unvanlardan biri değildi… | ✓Tudun
+tar-434 | İslamiyet Öncesi Türk Tarihi | II. Kök Türk Devleti'nde Bilge Kağan'ın şehirleri surlarla çevirme ve Budizm ile Taoizm'i yayma düşüncesine, … | ✓Devlet yönetiminde danışma anlayışının …
+tar-435 | İlk Türk-İslam Devletleri | Anadolu Selçuklu Devleti'nin, I. Alaeddin Keykubat döneminde Karadeniz ticaretini güvence altına almak amacıy… | ✓Deniz aşırı sefer düzenlenmesinin
+tar-436 | İlk Türk-İslam Devletleri | Aşağıdakilerden hangisi Türklerin İslamiyet'i kabulünden sonra oluşan destan ve destansı eserlerden biri deği… | ✓Ergenekon Destanı
+tar-437 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'ni kuran hanedanın mensup olduğu Oğuz boyu aşağıdakilerden hangisidir? | ✓Kınık
+tar-438 | Osmanlı Kuruluş ve Yükselme | Fatih Sultan Mehmet'in, 1463-1479 savaşlarının ardından Venedik'e Osmanlı sularında ticaret yapma ve İstanbul… | ✓Hristiyan Avrupa birliğini parçalamak v…
+tar-439 | Osmanlı Kuruluş ve Yükselme | 1492'de İspanya'daki Gırnata (Granada) Emirliği'nin yıkılmasından sonra katliam ve zorla din değiştirme baskı… | ✓Kemal Reis - II. Bayezid
+tar-440 | Osmanlı Kuruluş ve Yükselme | Cezayir'i yönetimi altında tutan ünlü denizci Barbaros Hayrettin Paşa'nın 1533'te Osmanlı hizmetine girmesini… | ✓Cezayir'in Osmanlı topraklarına katılma…
+tar-441 | Osmanlı Kültür ve Medeniyeti | Evliya Çelebi'nin Seyahatname'sinde anlattığına göre IV. Murat döneminde kendi yaptığı kanatlarla Galata Kule… | ✓Hezarfen Ahmed Çelebi
+tar-442 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde medreselerde ders veren ve kadılık ile müftülüğe giden yolun ilk basamağını oluşturan ilm… | ✓Müderris
+tar-443 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde İslam devletinin egemenliğini kabul eden gayrimüslim tebaaya verilen ad aşağıdakilerden h… | ✓Zımmi
+tar-444 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nde Anadolu topraklarında yapılan ilk demiryolu hattı aşağıdakilerden hangisidir? | ✓İzmir-Aydın hattı
+tar-445 | Osmanlı Dağılma ve Islahatlar | 1848 İhtilalleri sırasında Avusturya ve Rusya'ya karşı bağımsızlık mücadelesi verip yenilen Macar ve Leh mült… | ✓İki devletin savaş tehdidine rağmen mül…
+tar-446 | Osmanlı Dağılma ve Islahatlar | Lale Devri'nde İbrahim Müteferrika öncülüğünde kurulan ilk Türk matbaasında aşağıdaki eser türlerinden hangis… | ✓Dinî kitaplar
+tar-447 | Osmanlı Dağılma ve Islahatlar | Tanzimat Döneminde Mithat Paşa'nın öncülüğünde çiftçiye ucuz kredi sağlamak amacıyla kurulan ve Ziraat Bankas… | ✓Memleket Sandıkları
+tar-448 | Millî Mücadele Hazırlık Dönemi | Mondros'tan sonra İstanbul'da kurulan; işgal altındaki şehirdeki silah ve cephane depolarından kaçırdığı malz… | ✓Karakol Cemiyeti
+tar-449 | Millî Mücadele Hazırlık Dönemi | Birinci TBMM'nin, saltanatın kaldırılması dışında köklü inkılaplara girişmemesinin temel nedeni aşağıdakilerd… | ✓Öncelikli hedefin vatanın kurtarılması …
+tar-450 | Millî Mücadele Hazırlık Dönemi | Sivas Kongresi'nin ardından Anadolu'nun İstanbul Hükûmeti ile haberleşmeyi kesmesi üzerine yaşanan ve Millî M… | ✓Damat Ferit Paşa Hükûmeti'nin istifa et…
+tar-451 | Kurtuluş Savaşı | İstanbul'un resmen işgalinden sonra İngilizlerin Malta Adası'na sürgün ettiği aydın ve devlet adamlarının ser… | ✓Sakarya Zaferi'nden sonra TBMM ile İngi…
+tar-452 | Kurtuluş Savaşı | Mudanya Ateşkes görüşmelerine katılan taraflarla ilgili aşağıdakilerden hangisi doğrudur? | ✓İstanbul Hükûmeti konferansa çağrılmamı…
+tar-453 | Kurtuluş Savaşı | İtilaf Devletleri'nin Büyük Taarruz'dan önce, Mart 1922'de TBMM Hükûmeti'ne ateşkes önerisinde bulunmasının t… | ✓Sakarya yenilgisiyle sarsılan Yunan ord…
+tar-454 | Atatürk İlke ve İnkılapları | Türkiye'nin 1929 yılına kadar gümrük vergilerini serbestçe belirleyememesinin nedeni aşağıdakilerden hangisid… | ✓Lozan Antlaşması'na ek ticaret sözleşme…
+tar-455 | Atatürk İlke ve İnkılapları | 3 Mart 1924 tarihli Tevhid-i Tedrisat Kanunu'nun uygulanması kapsamında, toplumun din hizmetlerini yürütecek … | ✓İmam Hatip Mektepleri ve Darülfünun İla…
+tar-456 | Atatürk İlke ve İnkılapları | Türkiye'de ilk radyo yayınlarının başladığı yıl ve şehirler aşağıdakilerin hangisinde doğru verilmiştir? | ✓1927 - İstanbul ve Ankara
+tar-457 | Atatürk İlke ve İnkılapları | 1924 Anayasası'na göre cumhurbaşkanının seçimiyle ilgili aşağıdakilerden hangisi doğrudur? | ✓TBMM tarafından kendi üyeleri arasından…
+tar-458 | Atatürk Dönemi İç ve Dış Politika | Atatürk dönemi dış politika gelişmelerinden, I. Milletler Cemiyeti'ne üye olunması, II. Musul'un Irak'a bırak… | ✓II - I - III - IV
+tar-459 | Çağdaş Türk ve Dünya Tarihi | II. Dünya Savaşı, aşağıdaki gelişmelerden hangisiyle başlamıştır? | ✓Almanya'nın 1 Eylül 1939'da Polonya'ya …
+tar-460 | İslamiyet Öncesi Türk Tarihi | Afganistan ve Maveraünnehir çevresinde devlet kuran, I. Kök Türk Devleti'nin Sasanilerle yaptığı iş birliği s… | ✓Akhunlar (Eftalitler)
+tar-461 | İslamiyet Öncesi Türk Tarihi | Asya Hun, Kök Türk ve Uygur devletlerinin yönetim merkezi olarak kullandığı, Türklerce kutsal sayılan ve 'bur… | ✓Ötüken
+tar-462 | İlk Türk-İslam Devletleri | Anadolu Selçuklu hükümdarı I. Gıyaseddin Keyhüsrev döneminde Kayseri'de kız kardeşi adına yaptırılan; bünyesi… | ✓Gevher Nesibe Darüşşifası ve Tıp Medres…
+tar-463 | İlk Türk-İslam Devletleri | Cengiz Han İmparatorluğu'nun parçalanmasıyla İran merkezli olarak kurulan, Kösedağ Savaşı'ndan sonra Anadolu … | ✓İlhanlılar
+tar-464 | Osmanlı Kuruluş ve Yükselme | Kutsal Roma-Germen İmparatoru Şarlken'e esir düşen Fransa Kralı I. Fransuva'nın annesinin Kanuni Sultan Süley… | ✓Osmanlı Devleti'nin Avrupa güçler denge…
+tar-465 | Osmanlı Kuruluş ve Yükselme | Osmanlı ordusunda topun ilk kez kullanıldığı kabul edilen savaş aşağıdakilerden hangisidir? | ✓I. Kosova Savaşı
+tar-466 | Osmanlı Kuruluş ve Yükselme | Kanuni Sultan Süleyman döneminde 1565'te büyük bir donanmayla kuşatılmasına rağmen alınamayan ve kuşatma sıra… | ✓Malta
+tar-467 | Osmanlı Kültür ve Medeniyeti | Osmanlı devlet anlayışında 'Devlet ordu ile ayakta durur, ordu hazine ile beslenir, hazine halkın ödediği ver… | ✓Daire-i adliye (adalet dairesi)
+tar-468 | Osmanlı Kültür ve Medeniyeti | Amasya'da yetişen, II. Bayezid'in himayesinde İstanbul'da eserler veren, Osmanlı hat ekolünün kurucusu sayıld… | ✓Şeyh Hamdullah
+tar-469 | Osmanlı Kültür ve Medeniyeti | Aşağıdakilerden hangisi Osmanlı toplumunun geleneksel seyirlik sanatlarından biri değildir? | ✓Tezhip
+tar-470 | Osmanlı Dağılma ve Islahatlar | I. Dünya Savaşı sonunda yenilen devletlerle imzalanan antlaşmalarla ilgili aşağıdaki eşleştirmelerden hangisi… | ✓Osmanlı Devleti - Versay Antlaşması
+tar-471 | Osmanlı Dağılma ve Islahatlar | Osmanlı tarihinde imzalandıkları hâlde yürürlüğe girmeden geçersiz kalan, bu yönüyle 'uygulanamayan antlaşmal… | ✓Ayastefanos ve Sevr
+tar-472 | Osmanlı Dağılma ve Islahatlar | 1869'da Süveyş Kanalı'nın açılmasıyla stratejik önemi artan Mısır'ı, Hindistan sömürge yolunun güvenliğini sa… | ✓İngiltere
+tar-473 | Osmanlı Dağılma ve Islahatlar | II. Meşrutiyet döneminde önce seçimlerde güç kazanan, ardından 1913 Bab-ı Ali Baskını'yla yönetime tümüyle el… | ✓İttihat ve Terakki Fırkası
+tar-474 | Millî Mücadele Hazırlık Dönemi | İstanbul Hükûmeti'ne bağlı Divan-ı Harp tarafından Mayıs 1920'de gıyaben idam cezasına çarptırılan ve kararı … | ✓Mustafa Kemal Paşa
+tar-475 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal, Nutuk'ta Mondros sonrasında ortaya atılan kurtuluş çarelerini İngiliz himayesi, Amerikan manda… | ✓Millî egemenliğe dayanan, kayıtsız şart…
+tar-476 | Millî Mücadele Hazırlık Dönemi | Erzurum Kongresi'nin toplanmasına öncülük eden cemiyetler aşağıdakilerin hangisinde birlikte verilmiştir? | ✓Doğu Anadolu Müdafaa-i Hukuk Cemiyeti -…
+tar-477 | Kurtuluş Savaşı | Büyük Taarruz öncesinde birliklerin gece yürüyüşleriyle taarruz bölgesine kaydırılması ve Mustafa Kemal'in An… | ✓Taarruzun yeri ve zamanı konusunda düşm…
+tar-478 | Kurtuluş Savaşı | Barış konferansının TBMM Hükûmeti'nin önerdiği İzmir yerine Lozan'da toplanmasının nedeni aşağıdakilerden han… | ✓İtilaf Devletleri'nin görüşmelerin tara…
+tar-479 | Kurtuluş Savaşı | Moskova ve Kars antlaşmalarıyla Azerbaycan'a bağlı özerk bir bölge statüsü kazanan ve bu statüsü Türkiye'nin … | ✓Nahçıvan
+tar-480 | Atatürk İlke ve İnkılapları | Aşağıdaki eğitim ve kültür kurumlarından hangisi Atatürk döneminde (1938 öncesinde) açılmamıştır? | ✓Köy Enstitüleri
+tar-481 | Atatürk İlke ve İnkılapları | Atatürk'ün, 5 Eylül 1938 tarihli vasiyetnamesinde Türkiye İş Bankası'ndaki hisselerinin gelirinden pay ayırdı… | ✓Türk Tarih Kurumu ve Türk Dil Kurumu
+tar-482 | Atatürk İlke ve İnkılapları | Cumhuriyet Döneminde gerçekleştirilen, I. Saltanatın kaldırılması, II. Cumhuriyetin ilan edilmesi, III. Kadın… | ✓I, II ve III
+tar-483 | Atatürk İlke ve İnkılapları | Mustafa Kemal'in 1919'da Millî Mücadele'yi başlatmak üzere Samsun'a çıktığı 19 Mayıs günü, 1938'de çıkarılan … | ✓Gençlik ve Spor Bayramı
+tar-484 | Atatürk Dönemi İç ve Dış Politika | Atatürk dönemi Türk dış politikasında 1923-1930 yılları arasındaki dönemin temel gündemi aşağıdakilerden hang… | ✓Lozan Antlaşması'ndan kalan sorunları (…
+tar-485 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin ilk ağır sanayi kuruluşu olan Karabük Demir-Çelik Fabrikası'nın 1937'de temeli atılırken finansma… | ✓İngiltere
+tar-486 | Çağdaş Türk ve Dünya Tarihi | 1964'te Kıbrıs'ta Rumların Türklere yönelik saldırıları üzerine Türkiye'nin adaya müdahale hazırlığına girişm… | ✓Johnson Mektubu
+tar-tufan-001 | Atatürk İlke ve İnkılapları | 1924 Anayasası ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Yargıyı bağımsızlıktan çıkarıp doğrudan…
+tar-tufan-002 | Atatürk İlke ve İnkılapları | 1924 Anayasası, yasama ve yürütme yetkilerini TBMM'de toplamakla birlikte yürütmeyi Cumhurbaşkanı ve Bakanlar… | ✓Güçler birliği ve görevler ayrılığı
+tar-tufan-003 | Osmanlı Dağılma ve Islahatlar | Mısır Valisi Kavalalı Mehmet Ali Paşa'nın isyanı karşısında zor durumda kalan II. Mahmut, 1833'te Rusya ile B… | ✓Hünkâr İskelesi Antlaşması
+tar-tufan-004 | Osmanlı Dağılma ve Islahatlar | Kavalalı Mehmet Ali Paşa isyanının ilk aşaması Kütahya Antlaşması (1833) ile geçici olarak çözülmüş; ancak Mı… | ✓Londra (Mısır) Antlaşması (1840)
+tar-tufan-005 | Osmanlı Kültür ve Medeniyeti | Osmanlı şehirlerinde aynı meslekten esnafın örgütlendiği lonca teşkilatı ile ilgili aşağıdakilerden hangisi s… | ✓Devletin dış ticaret politikasını belir…
+tar-tufan-006 | Osmanlı Kültür ve Medeniyeti | Osmanlı ekonomisinde, loncaların da katkısıyla satılan malların azami satış fiyatının devlet tarafından belir… | ✓Narh
+tar-tufan-007 | İlk Türk-İslam Devletleri | Büyük Selçuklularda küçük yaşta alınan çocukların sarayda özel eğitimle yetiştirilip doğrudan sultana bağlı, … | ✓Gulam sistemi
+tar-tufan-008 | İlk Türk-İslam Devletleri | Büyük Selçuklu Devleti'nde, asker ve devlet görevlilerine hizmetleri karşılığında belirli toprakların vergi g… | ✓İkta sistemi
+tar-tufan-009 | Atatürk İlke ve İnkılapları | 13 Ekim 1923'te Ankara'nın başkent ilan edilmesi, aşağıdaki gelişmelerden hangisinin hemen öncesinde gerçekle… | ✓Cumhuriyet'in ilanı
+tar-tufan-010 | Atatürk İlke ve İnkılapları | Ankara'nın başkent olarak belirlenmesinde aşağıdakilerden hangisi etkili olmamıştır? | ✓Ülkenin en kalabalık ve en sanayileşmiş…
+tar-tufan-011 | Osmanlı Dağılma ve Islahatlar | Tanzimat Dönemi'nde Ahmet Cevdet Paşa başkanlığındaki bir komisyon tarafından İslam hukuku (fıkıh) esas alına… | ✓Mecelle-i Ahkâm-ı Adliye
+tar-tufan-012 | Osmanlı Dağılma ve Islahatlar | Mecelle ile ilgili aşağıdakilerden hangisi doğrudur? | ✓İslam hukukuna dayanan ilk Osmanlı mede…
+tar-tufan-013 | Millî Mücadele Hazırlık Dönemi | Millî Mücadele'nin haklılığını ve gelişmeleri yurt içi ile yurt dışı kamuoyuna doğru biçimde duyurmak amacıyl… | ✓Anadolu Ajansı
+tar-tufan-014 | Millî Mücadele Hazırlık Dönemi | Aşağıdakilerden hangisi Millî Mücadele Dönemi'nde millî bilinci güçlendirmek ve kamuoyu oluşturmak için kulla… | ✓Ceride-i Havadis
+tar-tufan-015 | Millî Mücadele Hazırlık Dönemi | Erzurum Kongresi (23 Temmuz 1919) ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Yeni bir Türk devletinin kurulacağı açı…
+tar-tufan-016 | Millî Mücadele Hazırlık Dönemi | Erzurum Kongresi'ni Sivas Kongresi'nden ayıran temel özellik aşağıdakilerden hangisidir? | ✓Toplanış bakımından bölgesel bir kongre…
+tar-tufan-017 | Çağdaş Türk ve Dünya Tarihi | Soğuk Savaş Dönemi'nde ortaya çıkan aşağıdaki oluşumlardan hangisi Batı Bloku'na aittir? | ✓NATO
+tar-tufan-018 | Çağdaş Türk ve Dünya Tarihi | II. Dünya Savaşı sonrasında ABD'nin, Sovyet yayılmacılığına karşı Batı Avrupa ülkelerinin ekonomik olarak güç… | ✓Marshall Planı
+tar-tufan-019 | Atatürk İlke ve İnkılapları | Atatürk Dönemi'nde Türk kadınına tanınan aşağıdaki haklardan hangisi en son gerçekleşmiştir? | ✓Milletvekili seçme ve seçilme hakkı (19…
+tar-tufan-020 | Atatürk İlke ve İnkılapları | Türk kadınına milletvekili seçme ve seçilme hakkı hangi yıl tanınmıştır? | ✓1934
+tar-tufan-021 | Osmanlı Kültür ve Medeniyeti | Anadolu'da 13. yüzyılda Ahi Evran öncülüğünde kurulan; esnaf ve zanaatkârlara hem meslek eğitimi hem de dürüs… | ✓Ahilik
+tar-tufan-022 | Osmanlı Kültür ve Medeniyeti | Ahilik teşkilatı ile ilgili aşağıdakilerden hangisi söylenemez? | ✓Yalnızca askerî amaçla kurulmuş bir oca…
+tar-tufan-023 | Kurtuluş Savaşı | Sakarya Meydan Muharebesi öncesinde ordunun ihtiyaçlarını halkın katkısıyla karşılamak amacıyla Başkomutan Mu… | ✓Tekalif-i Milliye Emirleri
+tar-tufan-024 | Kurtuluş Savaşı | Tekalif-i Milliye Emirleri ile ilgili aşağıdakilerden hangisi söylenebilir? | ✓Ordunun ihtiyaçlarının halktan karşılan…
+tar-tufan-025 | İslamiyet Öncesi Türk Tarihi | Türklerin kendi alfabeleriyle yazdıkları, 'Türk' adının bir devlet adı olarak geçtiği ve Türk tarihinin ilk y… | ✓Orhun (Göktürk) Yazıtları
+tar-tufan-026 | İslamiyet Öncesi Türk Tarihi | 375 yılında Batı (Avrupa) Hunlarının harekete geçmesiyle Avrupa'daki kavimlerin yer değiştirmesine, Roma İmpa… | ✓Kavimler Göçü
+tar-tufan-027 | İlk Türk-İslam Devletleri | 751 yılında Araplarla Çinliler arasında yapılan; Türklerin Arapların yanında yer alması sonucu İslamiyet'in T… | ✓Talas Savaşı
+tar-tufan-028 | İlk Türk-İslam Devletleri | 1071'de Büyük Selçuklu Sultanı Alparslan ile Bizans İmparatoru Romen Diyojen arasında yapılan ve Anadolu'nun … | ✓Malazgirt Savaşı
+tar-tufan-029 | Osmanlı Kuruluş ve Yükselme | 1453'te Bizans İmparatorluğu'na son veren ve birçok tarihçiye göre Orta Çağ'ın kapanıp Yeni Çağ'ın başlamasın… | ✓İstanbul'un Fethi
+tar-tufan-030 | Osmanlı Kuruluş ve Yükselme | 1402'de Yıldırım Bayezid ile Timur arasında yapılan; Osmanlı Devleti'nde 'Fetret Devri' adı verilen taht kavg… | ✓Ankara Savaşı
+tar-tufan-031 | Osmanlı Kuruluş ve Yükselme | Yavuz Sultan Selim'in 1516-1517 Mısır Seferi sonucunda Osmanlı Devleti açısından gerçekleşen önemli gelişme a… | ✓Halifeliğin Osmanlı'ya geçmesi
+tar-tufan-032 | Osmanlı Kuruluş ve Yükselme | Kanuni Sultan Süleyman Dönemi'nde Fransa'ya Osmanlı topraklarında ticaret yapma ve düşük gümrük ödeme gibi ay… | ✓Kapitülasyonlar
+tar-tufan-033 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde devlet işlerinin görüşülüp karara bağlandığı, padişah ya da sadrazam başkanlığında toplan… | ✓Divan-ı Hümayun
+tar-tufan-034 | Osmanlı Kültür ve Medeniyeti | Osmanlı'da toprak gelirinin bir bölümünün, karşılığında savaşa hazır asker (tımarlı sipahi) yetiştirme koşulu… | ✓Tımar sistemi
+tar-tufan-035 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde gayrimüslim halkın din ve mezhep esasına göre örgütlenip kendi dinî ve toplumsal işlerind… | ✓Millet sistemi
+tar-tufan-036 | Osmanlı Dağılma ve Islahatlar | 1839'da Mustafa Reşit Paşa tarafından okunan; kanun önünde eşitlik ile herkesin can, mal ve namus güvenliğini… | ✓Tanzimat Fermanı
+tar-tufan-037 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nde ilk anayasa olan Kanun-i Esasi'nin ilan edildiği ve halkın seçtiği temsilcilerden oluşan … | ✓I. Meşrutiyet
+tar-tufan-038 | Osmanlı Dağılma ve Islahatlar | 1808'de padişah ile ayanlar arasında imzalanan; padişahın otoritesini sınırlandıran ilk belge olması yönüyle … | ✓Sened-i İttifak
+tar-tufan-039 | Osmanlı Dağılma ve Islahatlar | 1856'da, özellikle gayrimüslimlere Müslümanlarla eşit haklar tanımayı amaçlayan ve büyük ölçüde Avrupa devlet… | ✓Islahat Fermanı
+tar-tufan-040 | Millî Mücadele Hazırlık Dönemi | I. Dünya Savaşı sonunda imzalanan ve 7. maddesiyle İtilaf Devletleri'ne Osmanlı topraklarını işgal etme hakkı… | ✓Mondros Ateşkes Antlaşması
+tar-tufan-041 | Millî Mücadele Hazırlık Dönemi | 'Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.' ifadesiyle kurtuluşun millete dayanacağ… | ✓Amasya Genelgesi
+tar-tufan-042 | Millî Mücadele Hazırlık Dönemi | Manda ve himayenin kesin olarak reddedildiği; ülkedeki bütün millî cemiyetlerin 'Anadolu ve Rumeli Müdafaa-i … | ✓Sivas Kongresi
+tar-tufan-043 | Kurtuluş Savaşı | 'Hattı müdafaa yoktur, sathı müdafaa vardır.' emriyle yönetilen ve Türk ordusunun geri çekilişini durdurup sa… | ✓Sakarya Meydan Muharebesi
+tar-tufan-044 | Kurtuluş Savaşı | 30 Ağustos 1922'de Dumlupınar'da kazanılan ve düşman kuvvetlerinin Anadolu'dan kesin olarak atılmasını sağlay… | ✓Başkomutanlık Meydan Muharebesi
+tar-tufan-045 | Kurtuluş Savaşı | Yeni Türk Devleti'nin bağımsızlığının uluslararası alanda tanındığı ve kapitülasyonların kaldırıldığı antlaşm… | ✓Lozan Antlaşması
+tar-tufan-046 | Atatürk İlke ve İnkılapları | 1 Kasım 1922'de gerçekleştirilen; millî egemenlik yolunda atılan ve halifelik ile saltanatı birbirinden ayıra… | ✓Saltanatın kaldırılması
+tar-tufan-047 | Atatürk İlke ve İnkılapları | 1928'de Arap harflerinin bırakılıp Latin kökenli yeni Türk alfabesinin kabul edildiği; okuma yazmayı kolaylaş… | ✓Harf İnkılabı
+tar-tufan-048 | Atatürk İlke ve İnkılapları | 3 Mart 1924'te gerçekleştirilen ve laik devlet düzenine geçişte en önemli adımlardan biri sayılan inkılap aşa… | ✓Halifeliğin kaldırılması
+tar-tufan-049 | Atatürk Dönemi İç ve Dış Politika | Atatürk'ün büyük önem verdiği ve onun ölümünden kısa bir süre sonra, 1939'da bir devlet olarak anavatana katı… | ✓Hatay
+tar-tufan-050 | Atatürk Dönemi İç ve Dış Politika | 1936'da imzalanan ve Boğazlar üzerindeki Türk egemenliği ile denetimini yeniden tam olarak sağlayan sözleşme … | ✓Montrö Boğazlar Sözleşmesi
+tar-tufan-051 | Çağdaş Türk ve Dünya Tarihi | II. Dünya Savaşı'ndan sonra 1945'te, dünya barışını ve güvenliğini korumak amacıyla kurulan ve Türkiye'nin de… | ✓Birleşmiş Milletler
+tar-tufan-052 | İslamiyet Öncesi Türk Tarihi | Yerleşik hayata geçen ilk Türk topluluğu olarak bilinen; Mani ve Budizm dinlerini benimseyen, kâğıt ve matbaa… | ✓Uygurlar
+tar-tufan-053 | İslamiyet Öncesi Türk Tarihi | Türk tarihinde ilk düzenli ve disiplinli orduyu, onlu sisteme dayanan teşkilatıyla kurduğu kabul edilen Asya … | ✓Mete Han
+tar-tufan-054 | İlk Türk-İslam Devletleri | İslamiyet'i topluca kabul eden ilk Türk devleti olan ve resmî dil olarak Türkçeyi kullanan devlet aşağıdakile… | ✓Karahanlılar
+tar-tufan-055 | İlk Türk-İslam Devletleri | Hindistan'a düzenlediği seferlerle İslamiyet'in bu bölgede yayılmasını sağlayan ve 'Sultan' unvanını kullanan… | ✓Gazneli Mahmud
+tar-tufan-056 | Osmanlı Kuruluş ve Yükselme | Osmanlı Devleti'nin kurucusu olan ve devlete adını veren kişi aşağıdakilerden hangisidir? | ✓Osman Bey
+tar-tufan-057 | Osmanlı Kuruluş ve Yükselme | Osmanlıların Rumeli'ye (Avrupa yakasına) geçerek Çimpe Kalesi'ni üs edinmesi ve Balkanlarda ilk toprakların k… | ✓Orhan Bey
+tar-tufan-058 | Osmanlı Kuruluş ve Yükselme | I. Murat döneminde 1389'da Sırplara karşı kazanılan ve Balkanlarda Osmanlı egemenliğini güçlendiren savaş aşa… | ✓I. Kosova Savaşı
+tar-tufan-059 | Osmanlı Kuruluş ve Yükselme | Kanuni Sultan Süleyman döneminde 1526'da kazanılan ve Macaristan'ın büyük bölümünün Osmanlı topraklarına katı… | ✓Mohaç Meydan Muharebesi
+tar-tufan-060 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde devşirilen gençlerden oluşan, doğrudan padişaha bağlı ve maaşlı (ulufeli) yaya ordusu aşa… | ✓Yeniçeri Ocağı
+tar-tufan-061 | Osmanlı Kültür ve Medeniyeti | Osmanlı Devleti'nde sarayda, yönetici ve devlet adamı yetiştirmek amacıyla kurulan okul aşağıdakilerden hangi… | ✓Enderun
+tar-tufan-062 | Osmanlı Kültür ve Medeniyeti | Osmanlı'da varlıklı kişilerin mallarını ya da gelirlerini cami, han, hamam, imaret ve çeşme gibi kurumlara ba… | ✓Vakıf sistemi
+tar-tufan-063 | Osmanlı Dağılma ve Islahatlar | 1699'da imzalanan; Osmanlı Devleti'nin ilk kez büyük ölçüde toprak kaybettiği ve Gerileme Dönemi'nin başlangı… | ✓Karlofça Antlaşması
+tar-tufan-064 | Osmanlı Dağılma ve Islahatlar | 1774'te Rusya ile imzalanan; Kırım'a bağımsızlık verilmesi ve Rusya'ya geniş ayrıcalıklar tanınması nedeniyle… | ✓Küçük Kaynarca Antlaşması
+tar-tufan-065 | Osmanlı Dağılma ve Islahatlar | 1908'de İttihat ve Terakki Cemiyeti'nin baskısıyla ilan edilen ve meşruti yönetime yeniden geçilen dönem aşağ… | ✓II. Meşrutiyet
+tar-tufan-066 | Osmanlı Dağılma ve Islahatlar | Osmanlı Devleti'nin dış borçlarını ödeyemez duruma gelmesi üzerine 1881'de kurulan ve devlet gelirlerinin öne… | ✓Duyun-u Umumiye İdaresi
+tar-tufan-067 | Millî Mücadele Hazırlık Dönemi | Mustafa Kemal'in Samsun'a çıktıktan sonra yayımladığı; işgalleri protesto etmek amacıyla mitingler düzenlenme… | ✓Havza Genelgesi
+tar-tufan-068 | Millî Mücadele Hazırlık Dönemi | Son Osmanlı Mebusan Meclisi'nde 1920'de kabul edilen; ulusal sınırları ve tam bağımsızlığı ilan eden kararlar… | ✓Misak-ı Millî
+tar-tufan-069 | Millî Mücadele Hazırlık Dönemi | Millî egemenliğe dayanan yeni Türk Devleti'nin temellerinin atıldığı, Türkiye Büyük Millet Meclisi'nin açıldı… | ✓23 Nisan 1920
+tar-tufan-070 | Kurtuluş Savaşı | Düzenli ordunun Batı Cephesi'nde kazandığı ilk askeri başarı olan; Teşkilat-ı Esasiye'nin (1921 Anayasası) ka… | ✓I. İnönü Muharebesi
+tar-tufan-071 | Kurtuluş Savaşı | Kurtuluş Savaşı'nı askeri açıdan sona erdiren; Doğu Trakya ve İstanbul'un savaş yapılmadan geri alınmasını sa… | ✓Mudanya Ateşkes Antlaşması
+tar-tufan-072 | Kurtuluş Savaşı | TBMM'nin uluslararası alanda imzaladığı ilk antlaşma olan ve Doğu Cephesi'nde Ermenistan ile yapılan antlaşma… | ✓Gümrü Antlaşması
+tar-tufan-073 | Atatürk İlke ve İnkılapları | Devlet başkanlığı sorununu kesin biçimde çözüme kavuşturan ve 29 Ekim 1923'te gerçekleştirilen inkılap aşağıd… | ✓Cumhuriyet'in ilanı
+tar-tufan-074 | Atatürk İlke ve İnkılapları | 1926'da İsviçre'den alınarak kabul edilen; kadın-erkek eşitliğini, resmî nikâhı ve mirasta eşitliği getiren k… | ✓Türk Medeni Kanunu
+tar-tufan-075 | Atatürk İlke ve İnkılapları | 3 Mart 1924'te kabul edilen; ülkedeki bütün okulları Millî Eğitim Bakanlığına bağlayarak eğitimde birliği sağ… | ✓Tevhid-i Tedrisat Kanunu
+tar-tufan-076 | Atatürk Dönemi İç ve Dış Politika | 1926'da imzalanan Ankara Antlaşması ile İngiltere yönetimindeki Irak'a bırakılan ve Misak-ı Millî'den taviz v… | ✓Musul
+tar-tufan-077 | Atatürk Dönemi İç ve Dış Politika | Türkiye'nin dünya barışına verdiği önemin bir göstergesi olarak 1932'de üye olduğu uluslararası örgüt aşağıda… | ✓Milletler Cemiyeti
+tar-tufan-078 | Çağdaş Türk ve Dünya Tarihi | Türkiye'nin, Kore Savaşı'na asker göndermesinin de etkisiyle 1952'de üye olduğu Batı savunma örgütü aşağıdaki… | ✓NATO

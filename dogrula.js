@@ -112,6 +112,24 @@ dersler.forEach(function (d) {
 });
 if (!kopyaBulundu) console.log("  ✅ Kopya veya aşırı benzer soru bulunamadı.");
 
+// 6) Endeks üretimi — yapay zekâ ajanları kopya kontrolü için tam dosyalar yerine
+// bu kompakt envanteri okur (satır başına: id | konu | soru özü | doğru cevap).
+if (hata === 0) {
+  var endeksDir = path.join(dir, "endeks");
+  if (!fs.existsSync(endeksDir)) fs.mkdirSync(endeksDir);
+  var kirp = function (s, n) {
+    s = String(s).replace(/\s+/g, " ").trim();
+    return s.length > n ? s.slice(0, n - 1) + "…" : s;
+  };
+  dersler.forEach(function (d) {
+    var satirlar = window.KPSS_BANK[d].map(function (q) {
+      return q.id + " | " + q.konu + " | " + kirp(q.soru, 110) + " | ✓" + kirp(q.secenekler[q.dogru], 40);
+    });
+    fs.writeFileSync(path.join(endeksDir, d + ".txt"), satirlar.join("\n") + "\n", "utf8");
+  });
+  console.log("🗂️  Endeks güncellendi: sorular/endeks/ (" + dersler.length + " ders dosyası)");
+}
+
 console.log("");
 if (hata > 0) {
   console.log("❌ " + hata + " hata" + (uyari > 0 ? ", " + uyari + " uyarı" : "") + " bulundu. Düzeltmeden push etmeyin!");

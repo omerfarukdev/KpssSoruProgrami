@@ -28,11 +28,11 @@ Dosya yoksa normal dengeli üretim yap. Kişiselleştirme, format ve kalite kura
 
 1. `git pull` — önce diğerlerinin eklediklerini al.
 2. Kullanıcına adını sor (örn. Ali). Dosya adı: `<ders>-<isim>-<sıra>.js` (örn. `turkce-ali-1.js`). Soru id'leri: `<önek>-<isim>-<numara>` (örn. `tur-ali-001`). **İsimsiz id üretme** — çakışmayı bu kural önler.
-3. **KOPYA KONTROLÜ (zorunlu):** Yeni soru yazmadan önce o dersin depodaki TÜM soru dosyalarını oku. Aynı bilgiyi, aynı paragrafı, aynı kurguyu soran soru üretme — sadece sayıları değiştirilmiş matematik sorusu da kopyadır.
+3. **KOPYA KONTROLÜ (zorunlu):** Yeni soru yazmadan önce o dersin `sorular/endeks/<ders>.txt` endeksini oku — her satır bir sorunun özetidir (`id | konu | soru özü | doğru cevap`). Endeksteki kurgu ve kavramlarla çakışan soru üretme; aynı bilgiyi, aynı paragrafı, aynı kurguyu soran soru kopyadır — sadece sayıları değiştirilmiş matematik sorusu da kopyadır. (Endeks, tam dosyaları okumaktan ~5 kat ucuzdur; endeks yoksa veya bir satırdan emin olamazsan ilgili tam soru dosyasına bak. `node dogrula.js` endeksi otomatik tazeler.)
 4. Formata birebir uy (aşağıda). Tam 5 şık, tek savunulabilir doğru cevap, `dogru` alanı 0-4 indeks (0=A … 4=E), `aciklama` zorunlu.
 5. `konu` alanına aşağıdaki listeden BİREBİR bir ad yaz — serbest konu adı uydurma (konu analizi bozulur).
 6. Dosya adını `sorular/manifest.js` listesinin **sonuna** ekle (başkasının satırına dokunma).
-7. **`node dogrula.js` çalıştır** — hata (❌) ve benzerlik uyarısı (⚠️) sıfır olana kadar düzelt. Bu araç şema hatalarını, id çakışmalarını ve kopya/benzer soruları yakalar.
+7. **`node dogrula.js` çalıştır** — hata (❌) ve benzerlik uyarısı (⚠️) sıfır olana kadar düzelt. Bu araç şema hatalarını, id çakışmalarını ve kopya/benzer soruları yakalar; başarılı çalıştığında `sorular/endeks/` altındaki ders endekslerini de otomatik günceller — **güncellenen endeks dosyalarını da commit'e dahil et**.
 8. Commit + `git push`. Push reddedilirse: `git pull --rebase` sonra tekrar push. `manifest.js`'te çakışma çıkarsa iki tarafın satırlarını da koru.
 
 ## Soru Formatı

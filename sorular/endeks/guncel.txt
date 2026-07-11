@@ -1,0 +1,102 @@
+gun-001 | Uluslararası Gündem | Kasım 2025'te düzenlenen G20 Liderler Zirvesi, teşkilat tarihinde ilk kez Afrika kıtasında gerçekleştirilmişt… | ✓Güney Afrika Cumhuriyeti
+gun-002 | Uluslararası Gündem | 24-25 Haziran 2025 tarihlerinde düzenlenen ve müttefiklerin savunma harcamalarını gayrisafi yurt içi hasılala… | ✓Lahey
+gun-003 | Uluslararası Gündem | Kasım 2025'te Birleşmiş Milletler İklim Değişikliği Taraflar Konferansı'nın 30.su (COP30), Amazon bölgesindek… | ✓Brezilya
+gun-004 | Uluslararası Gündem | Papa Franciscus'un Nisan 2025'te vefatının ardından toplanan konklavda Katolik Kilisesi'nin yeni ruhani lider… | ✓Amerika Birleşik Devletleri
+gun-005 | Türkiye Gündemi | Türkiye'de aile kurumunun güçlendirilmesi ve nüfus yapısının korunması amacıyla 2025 yılı, Cumhurbaşkanlığı t… | ✓Aile Yılı
+gun-006 | Türkiye Gündemi | Türkiye'nin ev sahipliği ve dönem başkanlığı yapacağı Birleşmiş Milletler İklim Değişikliği Taraflar Konferan… | ✓Antalya
+gun-007 | Türkiye Gündemi | Temmuz 2026'da düzenlenen NATO Devlet ve Hükûmet Başkanları Zirvesi ile Türkiye, 2004'ten sonra ikinci kez bi… | ✓Ankara
+gun-008 | Türkiye Gündemi | İslam İşbirliği Teşkilatı Dışişleri Bakanları Konseyi'nin "Dönüşen Dünyada İslam İşbirliği Teşkilatı" temalı … | ✓İstanbul
+gun-009 | Türkiye Gündemi | Papa 14. Leo, Kasım 2025'te ilk yurt dışı ziyaretini Türkiye'ye gerçekleştirmiş ve bu kapsamda Bursa'nın İzni… | ✓İznik Konsili'nin toplanması
+gun-010 | Bilim ve Teknoloji | Türkiye'nin yerli otomobil markası Togg'un Eylül 2025'te ön siparişe açılan, markanın ilk sedan (fastback) mo… | ✓T10F
+gun-011 | Bilim ve Teknoloji | 2025 yılında imzalanan ve Türk savunma sanayii tarihinin tek kalemdeki en büyük ihracat sözleşmesi olarak kay… | ✓Endonezya
+gun-012 | Bilim ve Teknoloji | 14 Ocak 2025'te uzaya fırlatılarak yörüngesine başarıyla yerleşen millî uydu FGN-100-d1'i geliştiren Fergani … | ✓Baykar
+gun-013 | Bilim ve Teknoloji | Rusya ile iş birliği içinde inşa edilen ve ilk ünitesinde elektrik üretimine 2026 yılında başlanması planlana… | ✓Mersin
+gun-014 | Spor | 2025 Avrupa Basketbol Şampiyonası'nda (EuroBasket 2025) finale yükselerek gümüş madalya kazanan A Millî Erkek… | ✓Almanya
+gun-015 | Spor | 2025 FIVB Kadınlar Dünya Voleybol Şampiyonası'nda tarihinde ilk kez finale yükselerek dünya ikincisi olan Fil… | ✓İtalya
+gun-016 | Spor | A Millî Futbol Takımı, Mart 2026'da oynanan Avrupa elemeleri play-off finalini deplasmanda 1-0 kazanarak 24 y… | ✓Kosova
+gun-017 | Spor | Açılış töreni 6 Şubat 2026'da Milano'daki San Siro Stadyumu'nda yapılan ve Milano ile Cortina d'Ampezzo kentl… | ✓İtalya
+gun-018 | Kültür-Sanat | Temmuz 2025'te Paris'te toplanan 47. Dünya Mirası Komitesi kararıyla UNESCO Dünya Mirası Listesi'ne alınan ve… | ✓Manisa
+gun-019 | Kültür-Sanat | Aralık 2025'te UNESCO İnsanlığın Somut Olmayan Kültürel Mirası Temsilî Listesi'ne kaydedilen ve Türkiye'nin b… | ✓Antep işi nakışı
+gun-020 | Kültür-Sanat | Mayıs 2025'te İsviçre'nin Basel kentinde düzenlenen 69. Eurovision Şarkı Yarışması'nı, "Wasted Love" adlı şar… | ✓Avusturya
+gun-021 | Kültür-Sanat | "Geleceğin Toplumunu Yaşamlarımız İçin Tasarlamak" temasıyla 13 Nisan - 13 Ekim 2025 tarihleri arasında düzen… | ✓Osaka
+gun-022 | Ödüller | 2025 Nobel Barış Ödülü, "Venezuela halkının demokratik haklarını savunmak için verdiği mücadele" gerekçesiyle… | ✓Maria Corina Machado
+gun-023 | Ödüller | 2025 Nobel Edebiyat Ödülü, "kıyametvari bir dehşetin ortasında sanatın gücünü yeniden teyit eden çarpıcı ve v… | ✓Laszlo Krasznahorkai
+gun-024 | Ödüller | Eylül 2025'te düzenlenen törenle, dünyanın en prestijli bireysel futbol ödülü kabul edilen Ballon d'Or'u (Alt… | ✓Ousmane Dembele
+gun-025 | Spor | 11 Haziran 2026'da Meksika'nın başkentindeki Azteca Stadyumu'nda oynanan açılış maçıyla başlayan 2026 FIFA Dü… | ✓Güney Afrika Cumhuriyeti
+gun-026 | Spor | 30 Mayıs 2026'da Budapeşte'deki Puskas Arena'da oynanan 2026 UEFA Şampiyonlar Ligi finalini, uzatmalar sonund… | ✓Paris Saint-Germain
+gun-027 | Uluslararası Gündem | 15-17 Haziran 2026 tarihlerinde Evian kentinde düzenlenen ve dönem başkanlığını Emmanuel Macron'un yürüttüğü … | ✓Fransa
+gun-028 | Uluslararası Gündem | Birleşmiş Milletler Genel Kurulu, tarım ve gıda sistemlerinde kadınların çoğu zaman göz ardı edilen rolüne di… | ✓Uluslararası Kadın Çiftçiler Yılı
+gun-029 | Türkiye Gündemi | Türkiye'de mobil iletişimde, 4.5G'ye kıyasla veri hızını en az on kat artıran 5G teknolojisi, 81 il merkezind… | ✓1 Nisan 2026
+gun-030 | Türkiye Gündemi | Türkiye İstatistik Kurumu'nun (TÜİK) Şubat 2026'da açıkladığı Adrese Dayalı Nüfus Kayıt Sistemi sonuçlarına g… | ✓86 milyon
+gun-031 | Bilim ve Teknoloji | 1 Temmuz 2025'te Şili'deki ATLAS teleskobuyla keşfedilen ve güneş sistemimize dışarıdan gelerek tespit edilen… | ✓3I/ATLAS
+gun-032 | Bilim ve Teknoloji | 28 Ekim 2025'te ilk teslimatı yapılarak Kara Kuvvetleri Komutanlığı envanterine giren ve TSK'nın yaklaşık 50 … | ✓Altay
+gun-033 | Kültür-Sanat | Mayıs 2026'da Viyana'daki Wiener Stadthalle'de düzenlenen 70. Eurovision Şarkı Yarışması'nı, Dara'nın seslend… | ✓Bulgaristan
+gun-034 | Kültür-Sanat | Uluslararası Türk Kültürü Teşkilatı (TÜRKSOY) tarafından 2026 Türk Dünyası Kültür Başkenti ilan edilen ve Bab… | ✓Özbekistan
+gun-035 | Ödüller | 2025 Nobel Fizyoloji veya Tıp Ödülü; Mary Brunkow, Fred Ramsdell ve Shimon Sakaguchi'ye, bağışıklık sistemini… | ✓Düzenleyici T hücreleri (regülatör T hü…
+gun-036 | Ödüller | 2025 Nobel Kimya Ödülü; Susumu Kitagawa, Richard Robson ve Omar Yaghi'ye, gazların depolanması ve ayrıştırılm… | ✓Metal-organik kafesler (MOF'lar)
+gun-037 | Ödüller | 2025 Nobel Fizik Ödülü; John Clarke, Michel Devoret ve John Martinis'e aşağıdaki çalışmalardan hangisi nedeni… | ✓Bir elektrik devresinde makroskobik kua…
+gun-038 | Ödüller | 2025 Nobel Ekonomi Ödülü; Joel Mokyr, Philippe Aghion ve Peter Howitt'e aşağıdaki alanların hangisindeki çalı… | ✓Yeniliğe (inovasyona) dayalı ekonomik b…
+gun-039 | Spor | Şubat 2026'da İtalya'da düzenlenen Milano-Cortina 2026 Kış Olimpiyat Oyunları'nı, 18 altın madalya kazanarak … | ✓Norveç
+gun-040 | Spor | Mart 2025'te Uluslararası Olimpiyat Komitesi'nin (IOC) 10. başkanı seçilerek teşkilatın 131 yıllık tarihindek… | ✓Zimbabve
+gun-041 | Uluslararası Gündem | Ekim 2025'te Sanae Takaichi'nin parlamento tarafından başbakan seçilmesiyle tarihinde ilk kez bir kadın başba… | ✓Japonya
+gun-042 | Uluslararası Gündem | 13 Ekim 2025'te, Gazze'de sağlanan ateşkesin ardından düzenlenen ve Türkiye, ABD, Mısır ve Katar liderlerinin… | ✓Şarm el-Şeyh
+gun-043 | Türkiye Gündemi | "Terörsüz Türkiye" hedefi doğrultusunda toplumsal bütünleşmenin güçlendirilmesi amacıyla TBMM çatısı altında … | ✓Millî Dayanışma, Kardeşlik ve Demokrasi…
+gun-044 | Türkiye Gündemi | Bağımlılıklarla mücadele kapsamında "Bağımsız Gelecek, Sağlıklı Nesiller" anlayışıyla, Aralık 2025'te Yeşilay… | ✓Bağımsızlık Yılı
+gun-045 | Bilim ve Teknoloji | 27 Ağustos 2025'te ASELSAN'daki törenle 47 araçlık ilk büyük teslimatı Türk Silahlı Kuvvetlerine yapılan; SİP… | ✓Çelik Kubbe
+gun-046 | Bilim ve Teknoloji | 1 Nisan 2026'da fırlatılan ve Apollo programının 1972'de sona ermesinden bu yana ilk kez astronotları Ay'ın ç… | ✓Artemis II
+gun-047 | Kültür-Sanat | Mayıs 2025'te düzenlenen 78. Cannes Film Festivali'nde festivalin en büyük ödülü olan Altın Palmiye'yi "Basit… | ✓İran
+gun-048 | Kültür-Sanat | Kasım 2025'te Semerkant'ta toplanan 43. UNESCO Genel Konferansı'nda teşkilatın yeni Genel Direktörü seçilen v… | ✓Mısır
+gun-049 | Uluslararası Gündem | Avrupa Birliği'ne 2007'de katılırken ortak para birimini benimseme taahhüdünde bulunan ve 1 Ocak 2026 itibarı… | ✓Bulgaristan
+gun-050 | Uluslararası Gündem | Suriye'de Baas rejiminin 8 Aralık 2024'te devrilmesinin ardından, 29 Ocak 2025'te Şam'da düzenlenen "Devrim Z… | ✓Ahmed eş-Şara
+gun-051 | Türkiye Gündemi | TBMM'de 2 Temmuz 2025'te kabul edilen ve 9 Temmuz 2025'te Resmî Gazete'de yayımlanarak yürürlüğe giren, Türki… | ✓Emisyon Ticaret Sistemi (ETS)
+gun-052 | Türkiye Gündemi | 16-27 Haziran 2027 tarihlerinde İstanbul'da düzenlenecek olan ve Ev Sahibi Şehir Sözleşmesi 28 Şubat 2025'te … | ✓4.
+gun-053 | Bilim ve Teknoloji | Birleşmiş Milletler Genel Kurulu, 2025 yılını "Uluslararası Kuantum Bilimi ve Teknolojisi Yılı" ilan etmiştir… | ✓Werner Heisenberg'in kuantum mekaniğini…
+gun-054 | Bilim ve Teknoloji | Türkiye'nin en büyük havacılık, uzay ve teknoloji festivali TEKNOFEST'in 2025 yılı ana etkinliği, 17-21 Eylül… | ✓İstanbul Atatürk Havalimanı
+gun-055 | Spor | Basketbolda THY EuroLeague Dörtlü Finali, 2025 yılında organizasyon tarihinde ilk kez Avrupa kıtası dışında d… | ✓Abu Dabi
+gun-056 | Spor | 2025 Formula 1 Dünya Şampiyonası'nda, sezonun son yarışı olan Abu Dabi Grand Prix'sini üçüncü sırada tamamlay… | ✓Lando Norris
+gun-057 | Kültür-Sanat | 1 Kasım 2025'te düzenlenen resmî törenle tam olarak açılan; tek bir uygarlığa adanmış dünyanın en büyük müzes… | ✓Gize
+gun-058 | Kültür-Sanat | UNESCO tarafından, 2025'te bu unvanı taşıyan Rio de Janeiro'nun ardından "2026 Dünya Kitap Başkenti" ilan edi… | ✓Rabat
+gun-059 | Ödüller | 15 Mart 2026'da düzenlenen 98. Akademi Ödülleri (Oscar) töreninde "En İyi Film" ve "En İyi Yönetmen" (Paul Th… | ✓One Battle After Another
+gun-060 | Ödüller | 2025 Uluslararası Booker Ödülü'nü, Kannada dilinden çevrilen ilk eser ve ödül tarihinde kazanan ilk öykü derl… | ✓Banu Mushtaq
+gun-061 | Uluslararası Gündem | Ocak 2025'te, Brezilya'nın dönem başkanlığı sırasında yükselen ekonomilerin oluşturduğu BRICS grubuna tam üye… | ✓Endonezya
+gun-062 | Uluslararası Gündem | Mayıs 2025'te Cenevre'de toplanan 78. Dünya Sağlık Asamblesi'nde, Kovid-19 salgınında yaşanan eşitsizliklerde… | ✓Pandemi Anlaşması
+gun-063 | Türkiye Gündemi | Cumhurbaşkanı Erdoğan tarafından 24 Ekim 2025'te "Ev Sahibi Türkiye" sloganıyla tanıtılan; TOKİ eliyle 81 ild… | ✓Yüzyılın Konut Projesi
+gun-064 | Türkiye Gündemi | 27 Ekim 2025'te İngiltere Başbakanı Keir Starmer'ın Ankara ziyareti sırasında imzalanan yaklaşık 8 milyar ste… | ✓Eurofighter Typhoon
+gun-065 | Bilim ve Teknoloji | 23 Haziran 2025'te ilk gökyüzü görüntülerini yayımlayan; 3.200 megapiksellik dünyanın en büyük dijital kamera… | ✓Şili
+gun-066 | Bilim ve Teknoloji | Haziran 2025'te özel uzay şirketi Axiom Space'in düzenlediği Axiom-4 göreviyle Uluslararası Uzay İstasyonu'na… | ✓Hindistan
+gun-067 | Spor | Haziran-Temmuz 2025'te Amerika Birleşik Devletleri'nde ilk kez 32 takımın katılımıyla düzenlenen FIFA Kulüple… | ✓Chelsea
+gun-068 | Spor | 31 Ekim - 13 Kasım 2026 tarihlerinde Dakar'da düzenlenecek olan 4. Yaz Gençlik Olimpiyat Oyunları ile tarihte… | ✓Senegal
+gun-069 | Kültür-Sanat | Avrupa Birliği'nin 1985'ten beri sürdürdüğü ve İstanbul'un 2010'da taşıdığı unvan kapsamında, 2026 yılının "A… | ✓Oulu (Finlandiya) ve Trençin (Slovakya)
+gun-070 | Kültür-Sanat | Eylül 2025'te düzenlenen 82. Venedik Film Festivali'nde, festivalin en büyük ödülü olan Altın Aslan'ı "Father… | ✓Jim Jarmusch
+gun-071 | Ödüller | İngilizce yazılmış romanlara verilen dünyanın en prestijli edebiyat ödüllerinden 2025 Booker Ödülü'nü, "Flesh… | ✓David Szalay
+gun-072 | Ödüller | Mart 2025'te açıklanan ve "bilişimin Nobel'i" olarak anılan 2024 ACM Turing Ödülü; Andrew Barto ile Richard S… | ✓Pekiştirmeli öğrenmenin (reinforcement …
+gun-073 | Uluslararası Gündem | 3 Haziran 2025'te Birleşmiş Milletler Genel Kurulunda yapılan seçimle; Bahreyn, Kolombiya, Kongo Demokratik C… | ✓Letonya
+gun-074 | Uluslararası Gündem | Şubat 2025'teki erken genel seçimin ardından 6 Mayıs 2025'te Federal Meclis'te (Bundestag) yapılan oylamayla … | ✓Friedrich Merz
+gun-075 | Türkiye Gündemi | 19 Ekim 2025'te yapılan cumhurbaşkanlığı seçiminde geçerli oyların yaklaşık yüzde 63'ünü alarak görevdeki Cum… | ✓Tufan Erhürman
+gun-076 | Türkiye Gündemi | Aralık 2024'te Malta'da düzenlenen 31. Bakanlar Konseyi toplantısında 57 üye ülkenin mutabakatıyla Avrupa Güv… | ✓Feridun Sinirlioğlu
+gun-077 | Bilim ve Teknoloji | Birleşmiş Milletler Genel Kurulu, dünyadaki tatlı su kaynaklarının yaklaşık yüzde 70'ini depolayan ancak ikli… | ✓Uluslararası Buzulların Korunması Yılı
+gun-078 | Bilim ve Teknoloji | Temmuz 2025'te İstanbul'da düzenlenen Uluslararası Savunma Sanayii Fuarı'nda (IDEF 2025) ROKETSAN tarafından … | ✓TAYFUN Blok-4
+gun-079 | Spor | 7 Haziran 2026'da oynanan Roland Garros (Fransa Açık) tek erkekler finalinde İtalyan Flavio Cobolli'yi beş se… | ✓Alexander Zverev
+gun-080 | Spor | Kasım 2025'te Suudi Arabistan'ın başkenti Riyad'da düzenlenen 6. İslami Dayanışma Oyunları'nı 72 altın ve top… | ✓Türkiye
+gun-081 | Kültür-Sanat | Şubat 2026'da düzenlenen 76. Berlin Film Festivali'nde (Berlinale) en iyi filme verilen Altın Ayı ödülünü, iş… | ✓İlker Çatak
+gun-082 | Kültür-Sanat | Mayıs 2026'da düzenlenen 79. Cannes Film Festivali'nde festivalin en büyük ödülü olan Altın Palmiye'yi, başro… | ✓Cristian Mungiu
+gun-083 | Ödüller | 1 Şubat 2026'da düzenlenen 68. Grammy Ödülleri'nde "Debí Tirar Más Fotos" adlı albümüyle gecenin en büyük ödü… | ✓Bad Bunny
+gun-084 | Ödüller | "Mimarlığın Nobel'i" olarak anılan Pritzker Mimarlık Ödülü'nün 2026 sahibi, 12 Mart 2026'da açıklanan kararla… | ✓Şili
+gun-tufan-001 | Uluslararası Gündem | 2025 Nobel Barış Ödülü, ülkesinde demokratik haklar ve diktatörlükten barışçıl geçiş için yürüttüğü mücadeley… | ✓María Corina Machado
+gun-tufan-002 | Türkiye Gündemi | Türkiye'nin havacılık, uzay ve teknoloji festivali TEKNOFEST'in 2026 yılında düzenleneceği il aşağıdakilerden… | ✓Şanlıurfa
+gun-tufan-003 | Bilim ve Teknoloji | Türkiye'nin yerli ve millî imkânlarla geliştirilen ilk haberleşme uydusu aşağıdakilerden hangisidir? | ✓TÜRKSAT 6A
+gun-tufan-004 | Spor | 2025 Formula 1 Dünya Şampiyonluğunu kazanarak kariyerinin ilk şampiyonluğuna ulaşan ve Max Verstappen'in üst … | ✓Lando Norris
+gun-tufan-005 | Kültür-Sanat | 2025 Eurovision Şarkı Yarışması'nı 'Wasted Love' adlı şarkısıyla kazanan ülke aşağıdakilerden hangisidir? | ✓Avusturya
+gun-tufan-006 | Ödüller | 2025'te düzenlenen 97. Akademi Ödülleri'nde (Oscar) En İyi Film ödülünü kazanan yapım aşağıdakilerden hangisi… | ✓Anora
+gun-tufan-007 | Uluslararası Gündem | 2024 Yaz Olimpiyat Oyunları hangi şehirde düzenlenmiştir? | ✓Paris
+gun-tufan-008 | Türkiye Gündemi | 2025 yılında UNESCO Dünya Mirası Listesi'ne eklenerek Türkiye'nin bu listedeki alan sayısını 22'ye çıkaran; t… | ✓Sardes (Sart) Antik Kenti
+gun-tufan-009 | Bilim ve Teknoloji | 2025 Nobel Fizik Ödülü, aşağıdaki alanların hangisindeki keşiflere verilmiştir? | ✓Elektrik devrelerinde makroskobik kuant…
+gun-tufan-010 | Spor | 2024 Avrupa Futbol Şampiyonası'nı (EURO 2024) kazanan ülke aşağıdakilerden hangisidir? | ✓İspanya
+gun-tufan-011 | Kültür-Sanat | 2025 Nobel Edebiyat Ödülü aşağıdaki yazarlardan hangisine verilmiştir? | ✓László Krasznahorkai
+gun-tufan-012 | Ödüller | 2025 Nobel Kimya Ödülü, aşağıdaki alanların hangisindeki gelişmelere verilmiştir? | ✓Metal-organik çerçevelerin (MOF) gelişt…
+gun-tufan-013 | Spor | 2025 Avrupa Basketbol Şampiyonası'nda (EuroBasket) Türkiye A Milli Erkek Takımı finale yükselmiş, ancak final… | ✓Almanya
+gun-tufan-014 | Türkiye Gündemi | 2025 Kadın Voleybol Dünya Şampiyonası'nda Türkiye A Milli Kadın Voleybol Takımı, finalde İtalya'ya yenilerek … | ✓İkinci
+gun-tufan-015 | Bilim ve Teknoloji | Türkiye'nin ikinci astronotu olarak, Türk Uzay Bilim Misyonu kapsamında yörünge altı araştırma uçuşunu gerçek… | ✓Tuva Cihangir Atasever
+gun-tufan-016 | Kültür-Sanat | 2025 Cannes Film Festivali'nde en büyük ödül olan Altın Palmiye'yi kazanan yönetmen aşağıdakilerden hangisidi… | ✓Jafar Panahi
+gun-tufan-017 | Ödüller | 2025 Nobel Ekonomi Ödülü, aşağıdaki alanların hangisindeki çalışmalara verilmiştir? | ✓Yenilik (inovasyon) odaklı ekonomik büy…
+gun-tufan-018 | Bilim ve Teknoloji | 2025 Nobel Fizyoloji veya Tıp Ödülü, aşağıdaki alanların hangisindeki keşiflere verilmiştir? | ✓Periferik bağışıklık toleransı

@@ -1,0 +1,270 @@
+mat-001 | Temel Kavramlar ve Sayılar | Dört basamaklı 53A4 sayısı 12 ile tam bölünebildiğine göre, A yerine gelebilecek rakamların toplamı kaçtır? | ✓6
+mat-002 | Problemler | Bir sayının 3 katının 5 fazlası, aynı sayının 5 katının 7 eksiğine eşittir. Bu sayı kaçtır? | ✓6
+mat-003 | Geometri | Bir açının tümlerinin ölçüsü, aynı açının bütünlerinin ölçüsünün 1/4'üne eşittir. Bu açının ölçüsü kaç derece… | ✓60
+mat-004 | Temel Kavramlar ve Sayılar | 2 üzeri x = 5 olduğuna göre, 8 üzeri x ifadesinin değeri kaçtır? | ✓125
+mat-005 | Problemler | Ali'nin yaşı, oğlunun yaşının 4 katıdır. 5 yıl sonra Ali'nin yaşı, oğlunun yaşının 3 katı olacaktır. Buna gör… | ✓40
+mat-006 | Temel Kavramlar ve Sayılar | İki pozitif tam sayının OKEK'i 84, OBEB'i 7'dir. Sayılardan biri 21 olduğuna göre diğer sayı kaçtır? | ✓28
+mat-007 | Denklem ve Oran-Orantı | x/3 + x/4 = 14 denklemini sağlayan x değeri kaçtır? | ✓24
+mat-008 | Problemler | Bir işi Ayşe tek başına 12 günde, Betül tek başına 24 günde bitirebilmektedir. İkisi birlikte çalışırlarsa ay… | ✓8
+mat-009 | Küme-Fonksiyon-İşlem | A ve B kümeleri için s(A) = 12, s(B) = 9 ve s(A∪B) = 16 olduğuna göre, s(A∩B) kaçtır? | ✓5
+mat-010 | Temel Kavramlar ve Sayılar | |x − 3| = 7 denklemini sağlayan x değerlerinin toplamı kaçtır? | ✓6
+mat-011 | Sayısal Mantık | Bir koşu yarışını Ahmet, Burak, Cem, Deniz ve Emre adlı beş sporcu ilk beş sırada tamamlamıştır. Emre yarışı … | ✓5.
+mat-012 | Problemler | Bir ürün %20 kârla 180 TL'ye satılmaktadır. Bu ürünün alış fiyatı kaç TL'dir? | ✓150
+mat-013 | Temel Kavramlar ve Sayılar | √48 + √27 − √75 işleminin sonucu kaçtır? | ✓2√3
+mat-014 | Geometri | Bir üçgenin iç açılarının ölçüleri 2, 3 ve 4 sayılarıyla doğru orantılıdır. Buna göre en büyük açının ölçüsü … | ✓80
+mat-015 | Permütasyon-Kombinasyon-Olasılık | Bütün harfleri birbirinden farklı olan KALEM kelimesinin harflerinin yerleri değiştirilerek, anlamlı ya da an… | ✓120
+mat-016 | Problemler | Saatte 60 km hızla giden bir araç, iki şehir arasındaki yolu 4 saatte almaktadır. Aynı yolu 3 saatte almak is… | ✓80
+mat-017 | Denklem ve Oran-Orantı | a/b = 3/5 ve a + b = 48 olduğuna göre, b − a farkı kaçtır? | ✓12
+mat-018 | Temel Kavramlar ve Sayılar | x² − y² = 40 ve x − y = 4 olduğuna göre, x + y toplamı kaçtır? | ✓10
+mat-019 | Problemler | Bir sınıftaki öğrencilerin 2/5'i erkektir. Kız öğrencilerin sayısı erkek öğrencilerin sayısından 9 fazla oldu… | ✓45
+mat-020 | Geometri | Bir dikdörtgenin uzun kenarı, kısa kenarının 3 katıdır. Dikdörtgenin çevresi 48 cm olduğuna göre, alanı kaç c… | ✓108
+mat-021 | Temel Kavramlar ve Sayılar | −3 < x ≤ 5 eşitsizliğini sağlayan kaç farklı x tam sayısı vardır? | ✓8
+mat-022 | Problemler | Şeker oranı %20 olan 30 litre şerbet ile şeker oranı %50 olan 30 litre şerbet karıştırılıyor. Elde edilen kar… | ✓35
+mat-023 | Küme-Fonksiyon-İşlem | f(x) = 2x + 3 fonksiyonu veriliyor. Buna göre f(f(1)) değeri kaçtır? | ✓13
+mat-024 | Problemler | Bir satıcı 200 TL'ye aldığı bir ürünü %30 zararla satmıştır. Buna göre satış fiyatı kaç TL'dir? | ✓140
+mat-025 | Sayısal Mantık | Beş katlı bir apartmanın her katında bir daire vardır ve dairelerde Kerem, Leyla, Murat, Nur ve Selin oturmak… | ✓4
+mat-026 | Temel Kavramlar ve Sayılar | (3/4 + 1/6) ÷ (11/24) işleminin sonucu kaçtır? | ✓2
+mat-027 | Denklem ve Oran-Orantı | 3(x − 2) − 2(x + 1) = 7 denklemini sağlayan x değeri kaçtır? | ✓15
+mat-028 | Permütasyon-Kombinasyon-Olasılık | İki zar birlikte havaya atılıyor. Üst yüze gelen sayıların toplamının 5 olma olasılığı kaçtır? | ✓1/9
+mat-029 | Problemler | Bir musluk boş bir havuzu 6 saatte doldurmakta, havuzun dibindeki tahliye musluğu ise dolu havuzu 12 saatte b… | ✓12
+mat-030 | Geometri | Bir ayrıtının uzunluğu 4 cm olan küpün tüm yüzeylerinin alanları toplamı kaç cm²'dir? | ✓96
+mat-031 | Problemler | Bir anne ile kızının yaşları toplamı 48'dir. Anne, kızından 28 yaş büyük olduğuna göre kızı kaç yaşındadır? | ✓10
+mat-032 | Temel Kavramlar ve Sayılar | 3⁴ × 3² ÷ 3⁵ işleminin sonucu kaçtır? | ✓3
+mat-033 | Geometri | Yarıçapının uzunluğu 6 cm olan bir çemberin çevresi kaç π cm'dir? | ✓12
+mat-034 | Temel Kavramlar ve Sayılar | 72 sayısının kaç tane pozitif tam sayı böleni vardır? | ✓12
+mat-035 | Problemler | Aralarında 450 km uzaklık bulunan iki araç, birbirlerine doğru aynı anda harekete geçiyor. Araçlardan birinin… | ✓5
+mat-036 | Denklem ve Oran-Orantı | 2x + 3y = 24 ve x = 3y olduğuna göre, x kaçtır? | ✓8
+mat-037 | Temel Kavramlar ve Sayılar | √0,04 + √0,09 işleminin sonucu kaçtır? | ✓0,5
+mat-038 | Problemler | Bir mağaza, bir ürünün etiket fiyatı üzerinden %25 indirim yaparak ürünü 240 TL'ye satmaktadır. Bu ürünün eti… | ✓320
+mat-039 | Sayısal Mantık | Ali, Berk, Can ve Duru bir sınavdan birbirinden farklı puanlar almıştır. Ali'nin puanı Berk'in puanından yüks… | ✓Can
+mat-040 | Küme-Fonksiyon-İşlem | Bir sınıftaki 30 öğrenciden 18'i basketbol, 15'i voleybol oynamaktadır. Her öğrenci bu sporlardan en az birin… | ✓3
+mat-041 | Temel Kavramlar ve Sayılar | |−7| − |3 − 8| işleminin sonucu kaçtır? | ✓2
+mat-042 | Problemler | Bir işi Ahmet tek başına 10 günde, Mehmet tek başına 15 günde yapabilmektedir. İkisi birlikte 3 gün çalıştıkt… | ✓5
+mat-043 | Geometri | Bir dik üçgenin dik kenarlarının uzunlukları 6 cm ve 8 cm'dir. Bu üçgenin hipotenüsünün uzunluğu kaç cm'dir? | ✓10
+mat-044 | Temel Kavramlar ve Sayılar | x² + 5x + 6 ifadesinin çarpanlarından biri aşağıdakilerden hangisidir? | ✓x + 3
+mat-045 | Permütasyon-Kombinasyon-Olasılık | 6 kişilik bir gruptan 2 kişilik bir ekip kaç farklı şekilde seçilebilir? | ✓15
+mat-046 | Problemler | Bir esnaf 320 TL'ye aldığı bir malı %25 kârla satmıştır. Buna göre satış fiyatı kaç TL'dir? | ✓400
+mat-047 | Temel Kavramlar ve Sayılar | 48 ve 60 sayılarının en büyük ortak böleni (OBEB) kaçtır? | ✓12
+mat-048 | Denklem ve Oran-Orantı | x ile y doğru orantılıdır. x = 12 iken y = 8 olduğuna göre, x = 18 iken y kaçtır? | ✓12
+mat-049 | Problemler | Ardışık üç çift sayının toplamı 78 olduğuna göre, bu sayıların en büyüğü kaçtır? | ✓28
+mat-050 | Geometri | Koordinat düzleminde A(2, 3) ve B(6, 6) noktaları arasındaki uzaklık kaç birimdir? | ✓5
+mat-051 | Temel Kavramlar ve Sayılar | 2x − 5 < 7 eşitsizliğini sağlayan en büyük tam sayı kaçtır? | ✓5
+mat-052 | Problemler | Boş bir havuzu birinci musluk tek başına 8 saatte, ikinci musluk tek başına 24 saatte doldurabilmektedir. İki… | ✓6
+mat-053 | Küme-Fonksiyon-İşlem | Gerçek sayılar üzerinde a Δ b = 2a + b − 3 işlemi tanımlanıyor. Buna göre 4 Δ 5 işleminin sonucu kaçtır? | ✓10
+mat-054 | Sayısal Mantık | Kaan, Lale, Mert ve Nil'in boyları birbirinden farklıdır. Kaan, Lale'den uzundur. Mert, Nil'den kısadır ama e… | ✓Lale
+mat-055 | Problemler | Tuz oranı %10 olan 40 gram tuzlu su ile tuz oranı %25 olan 20 gram tuzlu su karıştırılıyor. Elde edilen karış… | ✓15
+mat-056 | Permütasyon-Kombinasyon-Olasılık | Bir madeni para art arda üç kez havaya atılıyor. Üç atışın da tura gelme olasılığı kaçtır? | ✓1/8
+mat-057 | Temel Kavramlar ve Sayılar | 0,25 × 0,4 işleminin sonucu kaçtır? | ✓0,1
+mat-058 | Denklem ve Oran-Orantı | 5x − 3 = 2x + 12 denklemini sağlayan x değeri kaçtır? | ✓5
+mat-059 | Problemler | Bir araç, gideceği yolun yarısını saatte 60 km, kalan yarısını saatte 90 km hızla gitmiştir. Bu aracın tüm yo… | ✓72
+mat-060 | Geometri | Bir düzgün altıgenin bir iç açısının ölçüsü kaç derecedir? | ✓120
+mat-061 | Temel Kavramlar ve Sayılar | Üç basamaklı 4A2 sayısı 9 ile tam bölünebildiğine göre, A kaçtır? | ✓3
+mat-062 | Problemler | Bugün bir babanın yaşı, oğlunun yaşının 5 katıdır. İkisinin yaşları toplamı 42 olduğuna göre, baba oğlundan k… | ✓28
+mat-063 | Geometri | Ölçüleri (2x + 10) derece ve (3x − 30) derece olan iki açı, kesişen iki doğrunun oluşturduğu ters açılardır. … | ✓40
+mat-064 | Problemler | Bir depodaki suyun önce 1/3'ü, sonra kalan suyun 1/4'ü kullanılıyor. Depoda 36 litre su kaldığına göre, başla… | ✓72
+mat-065 | Temel Kavramlar ve Sayılar | 5¹² ÷ 25⁵ işleminin sonucu kaçtır? | ✓25
+mat-066 | Denklem ve Oran-Orantı | a/3 = b/5 ve a + b = 32 olduğuna göre, a kaçtır? | ✓12
+mat-067 | Problemler | Bir işçinin maaşına önce %20 zam, daha sonra yeni maaşı üzerinden %10 zam yapılmıştır. Buna göre işçinin maaş… | ✓32
+mat-068 | Sayısal Mantık | Ayşe, Bora ve Ceren'in her biri Ankara, Bursa ve Konya şehirlerinden birinde, her şehirde yalnız biri olacak … | ✓Bursa
+mat-069 | Temel Kavramlar ve Sayılar | √5 × √20 işleminin sonucu kaçtır? | ✓10
+mat-070 | Problemler | Bir işi 6 işçi 12 günde bitirmektedir. Aynı güçte 9 işçi bu işi kaç günde bitirir? | ✓8
+mat-071 | Küme-Fonksiyon-İşlem | A = {1, 2, 3, 4} kümesinin kaç tane alt kümesi vardır? | ✓16
+mat-072 | Problemler | Aynı noktadan aynı anda zıt yönlere doğru harekete geçen iki araçtan birinin hızı saatte 55 km, diğerinin hız… | ✓5
+mat-073 | Temel Kavramlar ve Sayılar | a² − b² = 24 ve a + b = 6 olduğuna göre, a kaçtır? | ✓5
+mat-074 | Geometri | Bir üçgenin bir kenarının uzunluğu 12 cm, bu kenara ait yüksekliğinin uzunluğu 7 cm'dir. Bu üçgenin alanı kaç… | ✓42
+mat-075 | Problemler | İki sayının toplamı 45, farkı 13'tür. Buna göre büyük sayı kaçtır? | ✓29
+mat-076 | Permütasyon-Kombinasyon-Olasılık | 1, 2, 3, 4, 5 rakamları her sayıda en fazla birer kez kullanılarak üç basamaklı kaç farklı sayı yazılabilir? | ✓60
+mat-077 | Temel Kavramlar ve Sayılar | |x| < 4 eşitsizliğini sağlayan kaç farklı x tam sayısı vardır? | ✓7
+mat-078 | Problemler | Bir tüccar, 500 TL'ye aldığı bir malın etiket fiyatını alış fiyatının %40 fazlası olarak belirliyor. Daha son… | ✓60
+mat-079 | Temel Kavramlar ve Sayılar | a = 3/5, b = 2/3 ve c = 7/10 sayılarının küçükten büyüğe doğru sıralanışı aşağıdakilerden hangisidir? | ✓a < b < c
+mat-080 | Problemler | Limon suyu oranı %30 olan 20 litre limonataya 5 litre su ekleniyor. Buna göre yeni karışımın limon suyu oranı… | ✓24
+mat-081 | Sayısal Mantık | Bir sayı dizisinde her terim, kendinden önceki terimin 2 katının 1 eksiğine eşittir. Dizinin ilk terimi 3 old… | ✓17
+mat-082 | Geometri | Yarıçapının uzunluğu 5 cm olan bir dairenin alanı kaç π cm²'dir? | ✓25
+mat-083 | Küme-Fonksiyon-İşlem | f(x) = 3x − 4 fonksiyonu veriliyor. f(a) = 11 olduğuna göre, a kaçtır? | ✓5
+mat-084 | Problemler | İki musluk birlikte açıldığında boş bir havuzu 4 saatte doldurmaktadır. Musluklardan biri tek başına aynı hav… | ✓12
+mat-085 | Temel Kavramlar ve Sayılar | 8, 12 ve 18 sayılarının her üçüne de tam bölünebilen en küçük pozitif tam sayı kaçtır? | ✓72
+mat-086 | Denklem ve Oran-Orantı | x + 2y = 11 ve x − y = 2 olduğuna göre, y kaçtır? | ✓3
+mat-087 | Permütasyon-Kombinasyon-Olasılık | 1'den 20'ye kadar numaralandırılmış 20 karttan rastgele bir kart çekiliyor. Çekilen kartın üzerindeki sayının… | ✓1/4
+mat-088 | Problemler | Ardışık dört tek sayının toplamı 64 olduğuna göre, bu sayıların en küçüğü kaçtır? | ✓13
+mat-089 | Temel Kavramlar ve Sayılar | (√2)⁶ işleminin sonucu kaçtır? | ✓8
+mat-090 | Geometri | Dikdörtgenler prizması şeklindeki bir deponun ayrıt uzunlukları 3 m, 4 m ve 5 m'dir. Bu deponun hacmi kaç m³'… | ✓60
+mat-091 | Temel Kavramlar ve Sayılar | 5! − 4! işleminin sonucu kaçtır? | ✓96
+mat-092 | Problemler | Bir çiftlikte tavuklar ve koyunlar bulunmaktadır. Hayvanların baş sayısı toplam 30, ayak sayısı toplam 84 old… | ✓18
+mat-093 | Geometri | Bir ikizkenar üçgende tepe açısının ölçüsü 40 derecedir. Buna göre taban açılarından her birinin ölçüsü kaç d… | ✓70
+mat-094 | Temel Kavramlar ve Sayılar | 1 + 2 + 3 + ... + 40 işleminin sonucu kaçtır? | ✓820
+mat-095 | Problemler | Bir miktar para Ali, Berk ve Cem arasında paylaştırılıyor. Ali paranın 1/2'sini, Berk paranın 1/3'ünü, Cem is… | ✓180
+mat-096 | Küme-Fonksiyon-İşlem | f(x) = x² + 1 fonksiyonu veriliyor. Buna göre f(2) + f(3) değeri kaçtır? | ✓15
+mat-097 | Problemler | Bir kasabanın nüfusu bir yılda %15 artarak 4600 olmuştur. Buna göre kasabanın bir yıl önceki nüfusu kaçtır? | ✓4000
+mat-098 | Temel Kavramlar ve Sayılar | İki basamaklı bir sayının rakamlarının yerleri değiştirildiğinde sayı 27 artmaktadır. Bu sayının rakamları ar… | ✓3
+mat-099 | Sayısal Mantık | Ela, Fatih ve Gül adlı üç arkadaştan her biri çay, kahve ve limonatadan yalnızca birini içmiştir ve hiçbiri d… | ✓Kahve
+mat-100 | Problemler | Saatte 80 km sabit hızla giden bir araç 45 dakikada kaç km yol alır? | ✓60
+mat-101 | Temel Kavramlar ve Sayılar | (1/3)⁻² + 5⁰ işleminin sonucu kaçtır? | ✓10
+mat-102 | Geometri | Çevresi 36 cm olan bir karenin alanı kaç cm²'dir? | ✓81
+mat-103 | Problemler | Bir pastanede her biri saatte 24 simit hazırlayan 3 usta birlikte çalışmaktadır. Bu üç usta toplam 720 simidi… | ✓10
+mat-104 | Temel Kavramlar ve Sayılar | Birbirinden farklı iki basamaklı üç doğal sayının toplamı en çok kaçtır? | ✓294
+mat-105 | Problemler | Ali ile Veli'nin bugünkü yaşları toplamı 40'tır. 4 yıl önce Ali'nin yaşı Veli'nin yaşının 3 katı olduğuna gör… | ✓28
+mat-106 | Permütasyon-Kombinasyon-Olasılık | Bir torbada 4 kırmızı, 5 mavi ve 3 sarı top vardır. Torbadan rastgele çekilen bir topun mavi olma olasılığı k… | ✓5/12
+mat-107 | Problemler | Bir manav, tanesini 2 TL'den aldığı 100 karpuzdan 20 tanesini satamadan çürüttü. Kalan karpuzların tanesini 3… | ✓40
+mat-108 | Denklem ve Oran-Orantı | x ile y ters orantılıdır. x = 4 iken y = 15 olduğuna göre, x = 6 iken y kaçtır? | ✓10
+mat-109 | Temel Kavramlar ve Sayılar | Rakamları birbirinden farklı üç basamaklı en küçük doğal sayı ile iki basamaklı en büyük doğal sayının toplam… | ✓201
+mat-110 | Sayısal Mantık | Bir kurs Salı günü başlamış ve başladığı gün dahil olmak üzere 45 gün sürmüştür. Buna göre kurs hangi gün son… | ✓Perşembe
+mat-111 | Temel Kavramlar ve Sayılar | 20 ile 40 arasında kaç tane asal sayı vardır? | ✓4
+mat-112 | Problemler | Tuz oranı %25 olan 32 kg tuzlu su karışımına 8 kg tuz ekleniyor. Buna göre yeni karışımın tuz oranı yüzde kaç… | ✓40
+mat-113 | Geometri | Sekiz kenarlı bir çokgenin (sekizgenin) toplam kaç köşegeni vardır? | ✓20
+mat-114 | Problemler | Bir duvar saati her saatte 2 dakika geri kalmaktadır. Saat sabah 08.00'de doğru zamana ayarlandığına göre, ge… | ✓19.36
+mat-115 | Küme-Fonksiyon-İşlem | Gerçek sayılar üzerinde a ⊕ b = a × b − a işlemi tanımlanıyor. Buna göre 3 ⊕ (2 ⊕ 4) işleminin sonucu kaçtır? | ✓15
+mat-116 | Permütasyon-Kombinasyon-Olasılık | 3 farklı matematik kitabı ile 2 farklı Türkçe kitabı, Türkçe kitapları yan yana olmak koşuluyla düz bir rafa … | ✓48
+mat-117 | Temel Kavramlar ve Sayılar | Uzunlukları 72 metre ve 90 metre olan iki kumaş topu, hiç kumaş artmayacak biçimde birbirine eşit ve mümkün o… | ✓9
+mat-118 | Problemler | Bir çalışan maaşının %40'ını kiraya ödemekte, kalan paranın %25'ini ise faturalara ayırmaktadır. Geriye 2700 … | ✓6000
+mat-119 | Denklem ve Oran-Orantı | Bir sayının yarısının 6 fazlası, aynı sayının üçte birinin 10 fazlasına eşittir. Bu sayı kaçtır? | ✓24
+mat-120 | Geometri | Alanı 64 cm² olan bir karenin çevresi kaç cm'dir? | ✓32
+mat-121 | Temel Kavramlar ve Sayılar | 7! / 5! işleminin sonucu kaçtır? | ✓42
+mat-122 | Problemler | Bir dede ile torununun yaşları farkı 54'tür. 6 yıl sonra dedenin yaşı torununun yaşının 4 katı olacağına göre… | ✓12
+mat-123 | Geometri | Bir üçgenin iç açılarından ikisinin ölçüleri 55 derece ve 65 derecedir. Buna göre üçüncü açıya ait dış açının… | ✓120
+mat-124 | Temel Kavramlar ve Sayılar | 2 üzeri (x − 1) = 32 olduğuna göre, x kaçtır? | ✓6
+mat-125 | Problemler | Bir işi Hasan tek başına 18 günde bitirmektedir. Hasan bu işte 6 gün çalıştıktan sonra işin kalanını Kemal te… | ✓12
+mat-126 | Denklem ve Oran-Orantı | 2(x + 3) = 3x − 5 denklemini sağlayan x değeri kaçtır? | ✓11
+mat-127 | Problemler | Aynı yönde ilerleyen iki araçtan arkadaki saatte 70 km, öndeki saatte 55 km hızla gitmektedir. Aralarında 30 … | ✓2
+mat-128 | Temel Kavramlar ve Sayılar | (√3 + √2) × (√3 − √2) işleminin sonucu kaçtır? | ✓1
+mat-129 | Sayısal Mantık | Okan, Pelin ve Rıza'dan biri doktor, biri öğretmen, biri mühendistir. Okan doktor değildir. Pelin ne doktor n… | ✓Rıza doktordur
+mat-130 | Problemler | Bir ürün %25 zararla 90 TL'ye satılmıştır. Bu ürün %15 kârla satılsaydı, satış fiyatı kaç TL olurdu? | ✓138
+mat-131 | Küme-Fonksiyon-İşlem | Bir apartmandaki 40 aileden 25'i A gazetesini, 18'i B gazetesini almakta, 7 aile ise hiçbir gazete almamaktad… | ✓10
+mat-132 | Temel Kavramlar ve Sayılar | Beş basamaklı 24A36 sayısı 3 ile tam bölünebildiğine göre, A yerine kaç farklı rakam yazılabilir? | ✓4
+mat-133 | Problemler | Kilogramı 80 TL olan çaydan 3 kg ile kilogramı 120 TL olan çaydan 2 kg karıştırılarak bir harman elde ediliyo… | ✓96
+mat-134 | Geometri | Bir eşkenar üçgen ile bir karenin çevre uzunlukları birbirine eşittir. Eşkenar üçgenin bir kenarının uzunluğu… | ✓9
+mat-135 | Temel Kavramlar ve Sayılar | |2x − 6| = 10 denklemini sağlayan x değerlerinin çarpımı kaçtır? | ✓-16
+mat-136 | Problemler | Bir okuldaki öğrencilerin %45'i kızdır. Erkek öğrenci sayısı kız öğrenci sayısından 40 fazla olduğuna göre, o… | ✓400
+mat-137 | Permütasyon-Kombinasyon-Olasılık | 5 kişi, yuvarlak bir masanın etrafına kaç farklı şekilde oturabilir? | ✓24
+mat-138 | Temel Kavramlar ve Sayılar | a çift, b tek birer doğal sayıdır. Buna göre aşağıdaki ifadelerden hangisi her zaman tek sayıdır? | ✓a + b
+mat-139 | Problemler | İki sayıdan büyük olanı, küçük olanının 3 katından 5 fazladır. İki sayının toplamı 45 olduğuna göre, büyük sa… | ✓35
+mat-140 | Denklem ve Oran-Orantı | Bir pastacı, un ve şekeri kütlece 7/2 oranında karıştırarak bir hamur hazırlıyor. Hamurdaki un, şekerden 20 k… | ✓36
+mat-141 | Temel Kavramlar ve Sayılar | -3/4, -2/3, -4/5, -5/6 ve -1 sayılarından en büyüğü hangisidir? | ✓-2/3
+mat-142 | Problemler | Boş bir havuzu A musluğu tek başına 12 saatte, B musluğu tek başına 8 saatte, C musluğu tek başına 24 saatte … | ✓4
+mat-143 | Geometri | Taban yarıçapı 3 cm, yüksekliği 10 cm olan bir silindirin hacmi kaç π cm³'tür? | ✓90
+mat-144 | Küme-Fonksiyon-İşlem | f(x) = 4x − 5 fonksiyonu veriliyor. f(2a) = 19 olduğuna göre, a kaçtır? | ✓3
+mat-145 | Problemler | Bir tiyatroda tam bilet 60 TL, öğrenci bileti 40 TL'dir. Bir gösterimde toplam 25 bilet satılmış ve 1240 TL g… | ✓13
+mat-146 | Temel Kavramlar ve Sayılar | Ardışık 5 tam sayının toplamı 95 olduğuna göre, bu sayıların en küçüğü kaçtır? | ✓17
+mat-147 | Sayısal Mantık | 3, 4, 7, 12, 19, ? dizisinde terimler belirli bir kurala göre ilerlemektedir. Buna göre soru işareti yerine h… | ✓28
+mat-148 | Geometri | Bir açının bütünlerinin ölçüsü, bu açının ölçüsünün 3 katına eşittir. Buna göre bu açının ölçüsü kaç derecedi… | ✓45
+mat-149 | Permütasyon-Kombinasyon-Olasılık | 12 kız ve 8 erkek öğrencinin bulunduğu bir sınıftan rastgele bir öğrenci seçiliyor. Seçilen öğrencinin erkek … | ✓2/5
+mat-150 | Denklem ve Oran-Orantı | Bir haritada 1 cm uzunluk, gerçekte 5 km'lik uzaklığı göstermektedir. Bu haritada arası 7,2 cm olarak ölçülen… | ✓36
+mat-151 | Temel Kavramlar ve Sayılar | Bir otobüs durağından A otobüsü 12 dakikada bir, B otobüsü 18 dakikada bir kalkmaktadır. İki otobüs saat 09.0… | ✓09.36
+mat-152 | Problemler | Ayşe bugün 8 yaşında, annesi ise 38 yaşındadır. Kaç yıl sonra annesinin yaşı Ayşe'nin yaşının 3 katı olur? | ✓7
+mat-153 | Geometri | Bir üçgenin iki kenarının uzunlukları 4 cm ve 9 cm'dir. Üçüncü kenarın uzunluğu bir tam sayı olduğuna göre, e… | ✓12
+mat-154 | Temel Kavramlar ve Sayılar | 3 üzeri x + 3 üzeri x + 3 üzeri x = 81 olduğuna göre, x kaçtır? | ✓3
+mat-155 | Problemler | Ali ile Veli bir işi birlikte 12 günde bitirmektedir. Ali'nin çalışma hızı Veli'nin çalışma hızının 2 katı ol… | ✓36
+mat-156 | Denklem ve Oran-Orantı | (x − 4)/3 = (x + 2)/5 denklemini sağlayan x değeri kaçtır? | ✓13
+mat-157 | Problemler | Uzunluğu 200 metre olan bir tren, saatte 72 km hızla ilerleyerek 400 metre uzunluğundaki bir tünelden tamamen… | ✓30
+mat-158 | Temel Kavramlar ve Sayılar | (−2)³ + (−3)² − (−4) işleminin sonucu kaçtır? | ✓5
+mat-159 | Sayısal Mantık | 5, 10, 8, 16, 14, 28, ? dizisi belirli bir kurala göre ilerlemektedir. Buna göre soru işareti yerine hangi sa… | ✓26
+mat-160 | Problemler | Bir mağaza, bir ürünün etiket fiyatını alış fiyatının %60 fazlası olarak belirlemiş, ürünü etiket fiyatı üzer… | ✓200
+mat-161 | Küme-Fonksiyon-İşlem | 5 elemanlı bir kümenin öz alt küme sayısı kaçtır? | ✓31
+mat-162 | Temel Kavramlar ve Sayılar | İki basamaklı bir sayının rakamlarının toplamı 9'dur. Rakamlarının yerleri değiştirildiğinde sayı 45 küçüldüğ… | ✓72
+mat-163 | Problemler | Şeker oranı %20 olan 50 gram şerbetten bir miktar su buharlaştırıldığında şeker oranı %25 oluyor. Buna göre k… | ✓10
+mat-164 | Geometri | Bir paralelkenarın bir kenarının uzunluğu 14 cm, bu kenara ait yüksekliğinin uzunluğu 6 cm'dir. Bu paralelken… | ✓84
+mat-165 | Temel Kavramlar ve Sayılar | 40 sayısının birbirinden farklı asal çarpanlarının toplamı kaçtır? | ✓7
+mat-166 | Problemler | 80 soruluk bir denemede bir öğrenci soruların %65'ini doğru, %25'ini yanlış cevaplamış, kalan soruları boş bı… | ✓8
+mat-167 | Permütasyon-Kombinasyon-Olasılık | 4 farklı gömleği ve 3 farklı pantolonu olan bir kişi, bir gömlek ve bir pantolondan oluşan kaç farklı kıyafet… | ✓12
+mat-168 | Temel Kavramlar ve Sayılar | (2/3) ÷ (4/9) × (1/2) işleminin sonucu kaçtır? | ✓3/4
+mat-169 | Problemler | Bir öğretmen elindeki kalemleri öğrencilerine 4'er 4'er dağıtırsa 3 kalem artıyor; 5'er 5'er dağıtmak istediğ… | ✓9
+mat-170 | Denklem ve Oran-Orantı | Üç sayı sırasıyla 2, 3 ve 4 sayılarıyla doğru orantılıdır. En büyük sayı ile en küçük sayının farkı 14 olduğu… | ✓63
+mat-171 | Temel Kavramlar ve Sayılar | x ve y tam sayılardır. −4 ≤ x < 3 ve −1 < y ≤ 5 olduğuna göre, x + y toplamının alabileceği en büyük değer ka… | ✓7
+mat-172 | Problemler | Bir öğrencinin girdiği 5 denemenin puan ortalaması 72'dir. Öğrencinin 6 denemedeki puan ortalamasının 75 olab… | ✓90
+mat-173 | Geometri | Çevresinin uzunluğu 20π cm olan bir çemberin çapının uzunluğu kaç cm'dir? | ✓20
+mat-174 | Küme-Fonksiyon-İşlem | Gerçek sayılar üzerinde x ∗ y = x + y − x × y işlemi tanımlanıyor. Buna göre 2 ∗ 5 işleminin sonucu kaçtır? | ✓-3
+mat-175 | Problemler | Bir kırtasiyede 3 defter ile 2 kalemin fiyatı 39 TL, 1 defter ile 1 kalemin fiyatı 15 TL'dir. Buna göre bir d… | ✓9
+mat-176 | Temel Kavramlar ve Sayılar | √72 ÷ √2 işleminin sonucu kaçtır? | ✓6
+mat-177 | Sayısal Mantık | Bir öğrenci pazartesi günü 20 soru çözmüş ve her gün bir önceki günden 5 soru fazla çözmüştür. Buna göre öğre… | ✓40
+mat-178 | Geometri | Hacmi 125 cm³ olan bir küpün bir yüzünün alanı kaç cm²'dir? | ✓25
+mat-179 | Permütasyon-Kombinasyon-Olasılık | Bir zar havaya atılıyor. Üst yüze gelen sayının asal sayı olma olasılığı kaçtır? | ✓1/2
+mat-180 | Denklem ve Oran-Orantı | 4 kilogram elma 72 TL'ye satılmaktadır. Aynı fiyat üzerinden 7 kilogram elma kaç TL'ye satılır? | ✓126
+mat-tufan-001 | Problemler | Bir manav, kilogramını 20 TL'ye aldığı elmanın yarısını kilogramı 30 TL'den, kalan yarısını kilogramı 24 TL'd… | ✓%35
+mat-tufan-002 | Problemler | Bir baba ile oğlunun yaşları toplamı 56'dır. 4 yıl önce babanın yaşı, oğlunun yaşının 5 katıydı. Oğlun bugünk… | ✓12
+mat-tufan-003 | Problemler | Bir araç 240 km'lik yolu belli bir hızla gidiyor. Hızını 20 km/sa artırsaydı yolu 1 saat erken tamamlayacaktı… | ✓60
+mat-tufan-004 | Problemler | Bir işi tek başına Ali 12 günde, Veli 6 günde bitirebiliyor. İkisi birlikte çalışırsa bu işi kaç günde bitiri… | ✓4
+mat-tufan-005 | Problemler | İçinde %20 tuz bulunan 40 litre tuzlu suya kaç litre saf su eklenirse karışımdaki tuz oranı %16 olur? | ✓10
+mat-tufan-006 | Problemler | İki sayının toplamı 84'tür. Büyük sayı, küçük sayının 3 katından 4 fazladır. Büyük sayı kaçtır? | ✓64
+mat-tufan-007 | Problemler | Bir ürünün fiyatı önce %20 artırılıyor, sonra yeni fiyat üzerinden %20 indirim yapılıyor. Ürünün son fiyatı i… | ✓%4 azalır
+mat-tufan-008 | Temel Kavramlar ve Sayılar | İki basamaklı en büyük çift sayı ile iki basamaklı en küçük tek sayının farkı kaçtır? | ✓87
+mat-tufan-009 | Temel Kavramlar ve Sayılar | 24 ve 36 sayılarının EBOB'u ile EKOK'unun toplamı kaçtır? | ✓84
+mat-tufan-010 | Temel Kavramlar ve Sayılar | 2³ · 2⁴ / 2⁵ işleminin sonucu kaçtır? | ✓4
+mat-tufan-011 | Temel Kavramlar ve Sayılar | Ardışık üç tek sayının toplamı 51'dir. Bu sayıların en büyüğü kaçtır? | ✓19
+mat-tufan-012 | Temel Kavramlar ve Sayılar | |−7| + |3 − 8| işleminin sonucu kaçtır? | ✓12
+mat-tufan-013 | Sayısal Mantık | 2, 5, 11, 23, 47, ... biçiminde devam eden dizinin altıncı terimi kaçtır? | ✓95
+mat-tufan-014 | Sayısal Mantık | 3, 4, 7, 11, 18, 29, ... biçiminde devam eden dizide bir sonraki terim kaçtır? | ✓47
+mat-tufan-015 | Sayısal Mantık | Bir torbada 3 kırmızı ve 5 mavi bilye vardır. Karanlıkta, kesinlikle 2 kırmızı bilye elde etmek için en az ka… | ✓7
+mat-tufan-016 | Sayısal Mantık | 1, 4, 9, 16, 25, ... biçiminde devam eden dizinin altıncı terimi kaçtır? | ✓36
+mat-tufan-017 | Geometri | Dik kenar uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsü kaç cm'dir? | ✓10
+mat-tufan-018 | Geometri | Çevresi 36 cm olan bir karenin alanı kaç cm²'dir? | ✓81
+mat-tufan-019 | Geometri | İç açılarının ölçüleri toplamı 720° olan bir çokgen kaç kenarlıdır? | ✓6
+mat-tufan-020 | Geometri | Yarıçapı 5 cm olan bir dairenin alanı kaç cm²'dir? | ✓25π
+mat-tufan-021 | Denklem ve Oran-Orantı | 3x − 7 = 2x + 5 denklemini sağlayan x değeri kaçtır? | ✓12
+mat-tufan-022 | Denklem ve Oran-Orantı | a/b = 3/5 ve a + b = 40 olduğuna göre a kaçtır? | ✓15
+mat-tufan-023 | Denklem ve Oran-Orantı | Bir sayının 2/5'i 12'dir. Bu sayının 3/5'i kaçtır? | ✓18
+mat-tufan-024 | Denklem ve Oran-Orantı | 4 özdeş kalemin fiyatı 12 TL ise, aynı kalemlerden 7 tanesinin fiyatı kaç TL'dir? | ✓21
+mat-tufan-025 | Permütasyon-Kombinasyon-Olasılık | 5 farklı kitap bir rafa yan yana kaç değişik biçimde dizilebilir? | ✓120
+mat-tufan-026 | Küme-Fonksiyon-İşlem | f(x) = 2x − 3 fonksiyonu için f(5) değeri kaçtır? | ✓7
+mat-tufan-027 | Küme-Fonksiyon-İşlem | 30 kişilik bir sınıfta 18 öğrenci İngilizce, 15 öğrenci Almanca kursuna gidiyor. Her öğrenci en az bir kursa … | ✓3
+mat-tufan-028 | Küme-Fonksiyon-İşlem | A = {1, 2, 3, 4} ve B = {3, 4, 5, 6} kümeleri veriliyor. A ∩ B kümesinin eleman sayısı kaçtır? | ✓2
+mat-tufan-029 | Permütasyon-Kombinasyon-Olasılık | Bir torbada 4 kırmızı ve 6 mavi top vardır. Torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır? | ✓2/5
+mat-tufan-030 | Permütasyon-Kombinasyon-Olasılık | 6 kişi arasından 2 kişilik bir komisyon kaç değişik biçimde seçilebilir? | ✓15
+mat-tufan-031 | Problemler | Bir ürünün fiyatı %25 artırılınca 200 TL oluyor. Ürünün zamdan önceki fiyatı kaç TL'dir? | ✓160
+mat-tufan-032 | Problemler | Ayşe'nin yaşı, kardeşinin yaşının 3 katıdır. İkisinin yaşları toplamı 32 ise Ayşe kaç yaşındadır? | ✓24
+mat-tufan-033 | Problemler | Bir havuzu birinci musluk tek başına 6 saatte, ikinci musluk tek başına 12 saatte dolduruyor. İki musluk birl… | ✓4
+mat-tufan-034 | Problemler | 40 kişilik bir sınıfın %35'i kız öğrencidir. Bu sınıftaki erkek öğrenci sayısı kaçtır? | ✓26
+mat-tufan-035 | Problemler | Bir sayının 4 katının 6 eksiği 26'dır. Bu sayı kaçtır? | ✓8
+mat-tufan-036 | Problemler | Bir esnaf 80 TL'ye aldığı bir malı 100 TL'ye satmaktadır. Bu esnaf yüzde kaç kâr etmiştir? | ✓%25
+mat-tufan-037 | Problemler | 5 işçi bir işi 12 günde bitirebiliyor. Aynı işi 10 işçi kaç günde bitirir? (İşçilerin gücü eşittir.) | ✓6
+mat-tufan-038 | Temel Kavramlar ve Sayılar | Üç basamaklı 4A6 sayısı 3 ile tam bölünebildiğine göre, A yerine yazılabilecek rakamların toplamı kaçtır? | ✓15
+mat-tufan-039 | Temel Kavramlar ve Sayılar | Boyutları 24 cm ve 36 cm olan dikdörtgen bir zemin, aralarında boşluk kalmadan, kenar uzunluğu mümkün olan en… | ✓12
+mat-tufan-040 | Temel Kavramlar ve Sayılar | Bir duraktan otobüslerden biri 15 dakikada, diğeri 20 dakikada bir kalkmaktadır. İki otobüs birlikte kalktıkt… | ✓60
+mat-tufan-041 | Temel Kavramlar ve Sayılar | Ardışık dört doğal sayının toplamı 38'dir. Bu sayıların en küçüğü kaçtır? | ✓8
+mat-tufan-042 | Temel Kavramlar ve Sayılar | 3² + 4² işleminin sonucu kaçtır? | ✓25
+mat-tufan-043 | Sayısal Mantık | 1, 2, 4, 8, 16, ... biçiminde devam eden dizinin altıncı terimi kaçtır? | ✓32
+mat-tufan-044 | Sayısal Mantık | 2, 3, 5, 8, 12, ... biçiminde devam eden dizide bir sonraki terim kaçtır? | ✓17
+mat-tufan-045 | Sayısal Mantık | Bir torbada 5 kırmızı, 4 mavi ve 3 sarı bilye vardır. Karanlıkta, kesinlikle aynı renkten 3 bilye elde etmek … | ✓7
+mat-tufan-046 | Sayısal Mantık | 4, 9, 16, 25, 36, ... biçiminde devam eden dizinin bir sonraki terimi kaçtır? | ✓49
+mat-tufan-047 | Geometri | Uzun kenarı 12 cm, kısa kenarı 5 cm olan bir dikdörtgenin çevresi kaç cm'dir? | ✓34
+mat-tufan-048 | Geometri | Bir üçgenin iç açılarından ikisi 40° ve 75° olduğuna göre, üçüncü açı kaç derecedir? | ✓65
+mat-tufan-049 | Geometri | Bir kenarının uzunluğu 6 cm olan eşkenar üçgenin çevresi kaç cm'dir? | ✓18
+mat-tufan-050 | Geometri | Yarıçapı 7 cm olan bir dairenin çevresi kaç π cm'dir? | ✓14π
+mat-tufan-051 | Denklem ve Oran-Orantı | 2(x + 3) = x + 10 denklemini sağlayan x değeri kaçtır? | ✓4
+mat-tufan-052 | Denklem ve Oran-Orantı | 12/2 = 18/3 = x/5 orantısında x kaçtır? | ✓30
+mat-tufan-053 | Denklem ve Oran-Orantı | Bir sınıfta kız öğrencilerin erkek öğrencilere oranı 2/3'tür. Sınıf mevcudu 30 kişi olduğuna göre sınıfta kaç… | ✓12
+mat-tufan-054 | Denklem ve Oran-Orantı | 3 kg elmanın fiyatı 45 TL ise, aynı elmadan 5 kg kaç TL'dir? | ✓75
+mat-tufan-055 | Küme-Fonksiyon-İşlem | A = {a, b, c} kümesinin alt kümelerinin sayısı kaçtır? | ✓8
+mat-tufan-056 | Küme-Fonksiyon-İşlem | f(x) = x² − 1 fonksiyonu için f(3) değeri kaçtır? | ✓8
+mat-tufan-057 | Küme-Fonksiyon-İşlem | 20 kişilik bir grupta 12 kişi çay, 9 kişi kahve içmektedir. 3 kişi hiçbirini içmediğine göre, hem çay hem kah… | ✓4
+mat-tufan-058 | Permütasyon-Kombinasyon-Olasılık | ANKARA kelimesinin harfleri kaç farklı biçimde sıralanabilir? | ✓120
+mat-tufan-059 | Permütasyon-Kombinasyon-Olasılık | Bir zar atıldığında üste gelen sayının asal sayı olma olasılığı kaçtır? | ✓1/2
+mat-tufan-060 | Permütasyon-Kombinasyon-Olasılık | 8 kişilik bir gruptan 3 kişilik bir takım kaç farklı biçimde seçilebilir? | ✓56
+mat-tufan-061 | Problemler | Bir kırtasiyeci defterleri tanesi 15 TL'ye alıp 18 TL'ye satmaktadır. 40 defter sattığında toplam kaç TL kâr … | ✓120
+mat-tufan-062 | Problemler | Bir baba 45, oğlu 15 yaşındadır. Kaç yıl sonra babanın yaşı oğlunun yaşının 2 katı olur? | ✓15
+mat-tufan-063 | Problemler | Saatte 5 km hızla yürüyen bir kişi, 20 km'lik bir yolu kaç saatte tamamlar? | ✓4
+mat-tufan-064 | Problemler | Bir sınıfın 3/5'i kız öğrencidir. Sınıfta 12 erkek öğrenci bulunduğuna göre sınıf mevcudu kaçtır? | ✓30
+mat-tufan-065 | Problemler | Ardışık iki tek sayının toplamı 36'dır. Bu sayılardan büyük olanı kaçtır? | ✓19
+mat-tufan-066 | Problemler | Bir malın fiyatı %40 indirim yapılınca 120 TL'ye düşmüştür. Malın indirimden önceki fiyatı kaç TL'dir? | ✓200
+mat-tufan-067 | Problemler | 6 işçi bir işi 10 günde bitirebiliyor. Aynı işi 4 işçi kaç günde bitirir? (İşçilerin gücü eşittir.) | ✓15
+mat-tufan-068 | Temel Kavramlar ve Sayılar | 36 sayısının pozitif tam bölenlerinin sayısı kaçtır? | ✓9
+mat-tufan-069 | Temel Kavramlar ve Sayılar | Rakamları toplamı 9 olan iki basamaklı en büyük doğal sayı kaçtır? | ✓90
+mat-tufan-070 | Temel Kavramlar ve Sayılar | 48 ve 72 sayılarının en büyük ortak böleni (EBOB) kaçtır? | ✓24
+mat-tufan-071 | Temel Kavramlar ve Sayılar | (−3)² + (−2)³ işleminin sonucu kaçtır? | ✓1
+mat-tufan-072 | Temel Kavramlar ve Sayılar | 0,5 + 1/4 işleminin sonucu kaçtır? | ✓0,75
+mat-tufan-073 | Sayısal Mantık | 3, 6, 12, 24, 48, ... biçiminde devam eden dizinin altıncı terimi kaçtır? | ✓96
+mat-tufan-074 | Sayısal Mantık | 1, 4, 9, 16, 25, 36, ... biçiminde devam eden tam kareler dizisinin sekizinci terimi kaçtır? | ✓64
+mat-tufan-075 | Sayısal Mantık | 5, 8, 11, 14, ... biçiminde devam eden dizinin 10. terimi kaçtır? | ✓32
+mat-tufan-076 | Sayısal Mantık | 2, 6, 12, 20, 30, ... biçiminde devam eden dizinin altıncı terimi kaçtır? | ✓42
+mat-tufan-077 | Geometri | Alanı 64 cm² olan bir karenin çevresi kaç cm'dir? | ✓32
+mat-tufan-078 | Geometri | Dik kenarları 9 cm ve 12 cm olan bir dik üçgenin hipotenüsü kaç cm'dir? | ✓15
+mat-tufan-079 | Geometri | Bir üçgenin iç açılarının ölçüleri 2, 3 ve 4 sayılarıyla orantılıdır. Bu üçgenin en büyük açısı kaç derecedir? | ✓80
+mat-tufan-080 | Geometri | Çevresi 30 cm olan bir eşkenar üçgenin bir kenarının uzunluğu kaç cm'dir? | ✓10
+mat-tufan-081 | Denklem ve Oran-Orantı | 3(x − 2) = x + 4 denklemini sağlayan x değeri kaçtır? | ✓5
+mat-tufan-082 | Denklem ve Oran-Orantı | Bir sayının yarısı ile üçte birinin toplamı 25'tir. Bu sayı kaçtır? | ✓30
+mat-tufan-083 | Denklem ve Oran-Orantı | 12 kg'lık bir karışımda şekerin una oranı 1/3'tür. Bu karışımda kaç kg şeker vardır? | ✓3
+mat-tufan-084 | Denklem ve Oran-Orantı | Ölçeği 1/500000 olan bir haritada iki şehir arası uzaklık 3 cm ölçülmüştür. Bu iki şehir arasındaki gerçek uz… | ✓15
+mat-tufan-085 | Küme-Fonksiyon-İşlem | A = {1, 2, 3, 4, 5} ve B = {2, 4, 6} kümeleri için A ∪ B kümesinin eleman sayısı kaçtır? | ✓6
+mat-tufan-086 | Küme-Fonksiyon-İşlem | f(x) = 3x + 2 fonksiyonunda f(a) = 14 olduğuna göre a kaçtır? | ✓4
+mat-tufan-087 | Küme-Fonksiyon-İşlem | 40 kişilik bir grupta 25 kişi futbol, 20 kişi basketbol oynuyor. 10 kişi hem futbol hem basketbol oynadığına … | ✓5
+mat-tufan-088 | Permütasyon-Kombinasyon-Olasılık | 4 kişi bir sıraya yan yana kaç farklı biçimde oturabilir? | ✓24
+mat-tufan-089 | Permütasyon-Kombinasyon-Olasılık | Bir torbada 3 kırmızı, 2 mavi ve 5 yeşil top vardır. Rastgele çekilen bir topun yeşil olma olasılığı kaçtır? | ✓1/2
+mat-tufan-090 | Permütasyon-Kombinasyon-Olasılık | 10 kişilik bir gruptan 2 kişilik bir ekip kaç farklı biçimde seçilebilir? | ✓45
