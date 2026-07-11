@@ -82,6 +82,18 @@ gun-081 | Kültür-Sanat | Şubat 2026'da düzenlenen 76. Berlin Film Festivali'
 gun-082 | Kültür-Sanat | Mayıs 2026'da düzenlenen 79. Cannes Film Festivali'nde festivalin en büyük ödülü olan Altın Palmiye'yi, başro… | ✓Cristian Mungiu
 gun-083 | Ödüller | 1 Şubat 2026'da düzenlenen 68. Grammy Ödülleri'nde "Debí Tirar Más Fotos" adlı albümüyle gecenin en büyük ödü… | ✓Bad Bunny
 gun-084 | Ödüller | "Mimarlığın Nobel'i" olarak anılan Pritzker Mimarlık Ödülü'nün 2026 sahibi, 12 Mart 2026'da açıklanan kararla… | ✓Şili
+gun-085 | Uluslararası Gündem | Ulusal yetki alanları dışında kalan açık denizlerdeki biyolojik çeşitliliğin korunmasını ve deniz genetik kay… | ✓Birleşmiş Milletler Deniz Hukuku Sözleş…
+gun-086 | Uluslararası Gündem | 26 Ekim 2025'te Kuala Lumpur'da düzenlenen 47. ASEAN Zirvesi'nde imzalanan bildiriyle Güneydoğu Asya Uluslar … | ✓Doğu Timor (Timor-Leste)
+gun-087 | Türkiye Gündemi | 2025 yılında günlük ham petrol üretimi 80 bin varilin üzerine çıkarak Cumhuriyet tarihi rekoru kıran ve bulun… | ✓Şırnak
+gun-088 | Türkiye Gündemi | Kültür ve Turizm Bakanlığının Ocak 2026'da açıkladığı verilere göre Türkiye, 2025 yılında yaklaşık 64 milyon … | ✓4.
+gun-089 | Bilim ve Teknoloji | ABD Gıda ve İlaç Dairesi (FDA) tarafından Haziran 2025'te onaylanan ve yılda yalnızca iki kez uygulanan enjek… | ✓HIV/AIDS
+gun-090 | Bilim ve Teknoloji | Çin'in 29 Mayıs 2025'te fırlattığı ve yaklaşık 400 günlük yolculuğun ardından Temmuz 2026'da hedef gök cismin… | ✓Dünya'nın yarı uydusu konumundaki Kamo'…
+gun-091 | Spor | Temmuz 2026'da oynanan Wimbledon Tenis Turnuvası tek kadınlar finalinde, iki Çek oyuncuyu karşı karşıya getir… | ✓Linda Noskova
+gun-092 | Spor | 23 Mayıs 2026'da Oslo'daki Ullevaal Stadı'nda oynanan 2026 UEFA Kadınlar Şampiyonlar Ligi finalinde Fransız e… | ✓Barcelona
+gun-093 | Kültür-Sanat | 2025 yılında Ankara'nın Polatlı ilçesindeki Gordion Antik Kenti'nde, MÖ 8. yüzyıla tarihlenen, içinden 100'de… | ✓Frigya
+gun-094 | Kültür-Sanat | 31 Ekim 2025 Dünya Şehirler Günü'nde UNESCO Yaratıcı Şehirler Ağı'na katılan 58 yeni kent arasında yer alarak… | ✓Kahramanmaraş
+gun-095 | Ödüller | Norveç Bilim ve Edebiyat Akademisi tarafından verilen ve 'matematiğin Nobel'i' olarak anılan 2026 Abel Ödülü'… | ✓Gerd Faltings
+gun-096 | Ödüller | İngilizceye çevrilen kurgu eserlere verilen 2026 Uluslararası Booker Ödülü'nü, 19 Mayıs 2026'da Londra'da düz… | ✓Tayvan Mandarini (Mandarin Çincesi)
 gun-tufan-001 | Uluslararası Gündem | 2025 Nobel Barış Ödülü, ülkesinde demokratik haklar ve diktatörlükten barışçıl geçiş için yürüttüğü mücadeley… | ✓María Corina Machado
 gun-tufan-002 | Türkiye Gündemi | Türkiye'nin havacılık, uzay ve teknoloji festivali TEKNOFEST'in 2026 yılında düzenleneceği il aşağıdakilerden… | ✓Şanlıurfa
 gun-tufan-003 | Bilim ve Teknoloji | Türkiye'nin yerli ve millî imkânlarla geliştirilen ilk haberleşme uydusu aşağıdakilerden hangisidir? | ✓TÜRKSAT 6A

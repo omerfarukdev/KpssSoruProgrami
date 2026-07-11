@@ -322,6 +322,60 @@ cog-321 | Ulaşım, Ticaret ve Turizm | Türkiye'nin 1996 yılında Gümrük Bir
 cog-322 | Ulaşım, Ticaret ve Turizm | Golf turizminin Türkiye'deki en önemli merkezi olan ve uluslararası golf turnuvalarına ev sahipliği yapan Bel… | ✓Antalya
 cog-323 | Bölgeler ve Projeler | Güneydoğu Anadolu Projesi'nin (GAP) hayata geçirilmesiyle birlikte bölgede; I. sulanabilen tarım alanlarının … | ✓I, II ve III
 cog-324 | Bölgeler ve Projeler | Bir limanın art bölgesi (hinterlandı) ya da büyük bir şehrin günlük iş gücü çekim alanı gibi, bir merkez ile … | ✓İşlevsel (fonksiyonel) bölge
+cog-325 | Coğrafi Konum | Türkiye'nin en batı ucu olan Avlaka Burnu'nun üzerinde bulunduğu Gökçeada aşağıdaki illerin hangisine bağlıdı… | ✓Çanakkale
+cog-326 | Coğrafi Konum | Türkiye'nin en kısa kara sınırına sahip olduğu komşu ülke aşağıdakilerden hangisidir? | ✓Azerbaycan
+cog-327 | Coğrafi Konum | Türkiye'de batıdan doğuya doğru gidildikçe; I. ortalama yükseltinin artması, II. yıllık sıcaklık farklarının … | ✓I, II ve III
+cog-328 | İklim ve Bitki Örtüsü | Aşağıdakilerden hangisi iklim elemanlarından biri değildir? | ✓Yükselti
+cog-329 | İklim ve Bitki Örtüsü | Açık ve durgun gecelerde, havadaki su buharının sıcaklığı çiy noktasının altına inen ancak 0 derecenin üzerin… | ✓Çiy
+cog-330 | İklim ve Bitki Örtüsü | 30 derece enlemlerindeki dinamik yüksek basınç kuşaklarından 60 derece enlemlerindeki dinamik alçak basınç ku… | ✓Batı rüzgârları
+cog-331 | İklim ve Bitki Örtüsü | Akdeniz ve Ege kıyı kuşağının alçak kesimlerinde geniş yayılış gösteren; ışık isteği fazla, hızlı büyüyen ve … | ✓Kızılçam
+cog-332 | Yer Şekilleri | Dağların kıyıya paralel uzandığı alanlarda, dağ sıraları arasındaki vadilerin deniz suları altında kalmasıyla… | ✓Dalmaçya tipi kıyı
+cog-333 | Yer Şekilleri | Koy ve körfez önlerinin, dalga ve akıntıların taşıdığı malzemelerden oluşan kıyı setleriyle kapanması sonucun… | ✓Lagün (deniz kulağı)
+cog-334 | Yer Şekilleri | Kurak ve yarı kurak bölgelerde, bitki örtüsünden yoksun eğimli yamaçların sağanak yağışlarla oluşan sel sular… | ✓Kırgıbayır (badlands)
+cog-335 | Yer Şekilleri | Buzulların aşındırarak taşıdığı malzemeleri, eriyip geri çekildikleri sahalarda biriktirmesiyle oluşan yer şe… | ✓Moren (buzultaş)
+cog-336 | Nüfus ve Yerleşme | Doğu ve Güneydoğu Anadolu'da yaygın olan; genellikle köyden ayrılan birkaç ailenin, tarlalarına ve bahçelerin… | ✓Mezra
+cog-337 | Nüfus ve Yerleşme | Türkiye'de 2007 yılından itibaren uygulanan; kişilerin yerleşim yeri bilgilerini kimlik numaralarıyla eşleşti… | ✓Adrese Dayalı Nüfus Kayıt Sistemi (ADNK…
+cog-338 | Nüfus ve Yerleşme | Büyük şehirlerin çevresindeki yerleşmelerde oturan çok sayıda kişinin her sabah çalışmak amacıyla şehir merke… | ✓Günübirlik (sarkaç) hareket
+cog-339 | Tarım ve Hayvancılık | Türkiye, dünya çam balı üretiminin yaklaşık yüzde doksanını tek başına karşılamaktadır. Kızılçam ormanlarında… | ✓Muğla
+cog-340 | Tarım ve Hayvancılık | Yüksek yaz sıcaklığına ve kuraklığa dayanıklı bir ağaç olan Antep fıstığının Türkiye üretiminde ilk sıralarda… | ✓Gaziantep - Şanlıurfa
+cog-341 | Tarım ve Hayvancılık | Türkiye'nin dünya üretiminde ve ihracatında ilk sırada yer aldığı kuru incirin üretimi büyük ölçüde Büyük Men… | ✓Aydın
+cog-342 | Tarım ve Hayvancılık | Aşağıdaki tarım ürünlerinden hangisinin yetiştirilebilmesi için kışların ılık geçmesi zorunlu değildir? | ✓Arpa
+cog-343 | Madenler, Enerji ve Sanayi | Türkiye'nin en zengin ve en kaliteli demir yataklarının bulunduğu, çıkarılan cevherin demir-çelik fabrikaları… | ✓Sivas
+cog-344 | Madenler, Enerji ve Sanayi | Alüminyumun ham maddesi olan boksitin çıkarıldığı ve Türkiye'nin ilk alüminyum tesisinin kurulduğu Seydişehir… | ✓Konya
+cog-345 | Madenler, Enerji ve Sanayi | Bir maden yatağındaki cevherin içerdiği saf metal (işe yarar mineral) oranına ne ad verilir? | ✓Tenör
+cog-346 | Madenler, Enerji ve Sanayi | Aşağıdaki elektrik santrallerinden hangisi fosil yakıt kullanan termik santrallerden biri değildir? | ✓Oymapınar Santrali
+cog-347 | Ulaşım, Ticaret ve Turizm | 2016 yılında hizmete giren, İzmit Körfezi'nin iki yakasını birbirine bağlayarak İstanbul-İzmir otoyolunda yol… | ✓Osmangazi Köprüsü
+cog-348 | Ulaşım, Ticaret ve Turizm | Antik Çağ'ın en önemli liman ve ticaret kentlerinden biri olan, Celsus Kütüphanesi ve büyük tiyatrosuyla tanı… | ✓İzmir
+cog-349 | Ulaşım, Ticaret ve Turizm | Bir ülkenin belirli bir dönemde yaptığı ihracat ile ithalatın parasal değerlerinin toplamına ne ad verilir? | ✓Dış ticaret hacmi
+cog-350 | Bölgeler ve Projeler | İklim, yer şekilleri, bitki örtüsü ya da ekonomik faaliyet gibi belirli bir özelliğin benzerlik gösterdiği al… | ✓Şekilsel (formal) bölge
+cog-351 | Bölgeler ve Projeler | Aşağıdaki illerden hangisi Ege Bölgesi'nde yer almaz? | ✓Bilecik
+cog-352 | Coğrafi Konum | Topoğrafya haritalarında kullanılan izohipslerle (eş yükselti eğrileriyle) ilgili aşağıdaki ifadelerden hangi… | ✓İç içe kapalı izohipslerin merkezine do…
+cog-353 | Coğrafi Konum | Türkiye'de öğle vakti cisimlerin gölge boyunun yıl içindeki en kısa değerine ulaştığı tarih aşağıdakilerden h… | ✓21 Haziran
+cog-354 | Coğrafi Konum | Türkiye'nin doğusu ile batısı arasında yaklaşık 76 dakikalık yerel saat farkı bulunmasına karşın ülke genelin… | ✓Ulaşım, haberleşme ve resmî işlerde ülk…
+cog-355 | İklim ve Bitki Örtüsü | Kuvvetli yükselici hava hareketleriyle atmosferin yüksek ve soğuk katlarına taşınan su damlacıklarının donmas… | ✓Dolu
+cog-356 | İklim ve Bitki Örtüsü | Türkiye'de yerel rüzgârlar estikleri yöne göre adlandırılır. Buna göre aşağıdaki rüzgâr - estiği yön eşleştir… | ✓Yıldız - Güneybatı
+cog-357 | İklim ve Bitki Örtüsü | Dağların orman üst sınırından sonra başlayan yüksek kesimlerinde görülen; ilkbahar ve yaz aylarında yeşeren, … | ✓Alpin çayırlar
+cog-358 | İklim ve Bitki Örtüsü | İç Anadolu'daki bozkırların ilkbaharda yeşerip yaz ortasında sarararak kurumasının temel nedeni aşağıdakilerd… | ✓Yağışın en çok ilkbaharda düşmesi ve ya…
+cog-359 | Yer Şekilleri | Volkanik patlamalarla oluşan çukurluklarda suların birikmesi sonucunda meydana gelen ve Konya'nın Karapınar i… | ✓Maar gölü
+cog-360 | Yer Şekilleri | Akarsuların çağlayan (şelale) hâlinde döküldükleri yerlerde, düşen suyun ve sürüklediği malzemenin zemini oym… | ✓Dev kazanı
+cog-361 | Yer Şekilleri | Akdeniz ikliminin görüldüğü alanlarda, kalkerli araziler üzerinde oluşan; içerdiği demir oksitler nedeniyle k… | ✓Terra rossa
+cog-362 | Yer Şekilleri | Yer kabuğunun geniş alanlı ve yavaş yükselme ya da alçalma hareketlerine verilen ad aşağıdakilerden hangisidi… | ✓Epirojenez
+cog-363 | Nüfus ve Yerleşme | Bir ülkede bir yıl içinde gerçekleşen canlı doğum sayısının o yılın toplam nüfusuna oranlanmasıyla elde edile… | ✓Kaba doğum hızı
+cog-364 | Nüfus ve Yerleşme | Aşağıdakilerden hangisi Türkiye'de yerleşmeyi sınırlandıran doğal koşullardan biri değildir? | ✓Verimli delta ovaları
+cog-365 | Nüfus ve Yerleşme | Tarım ve hayvancılıkla geçinen nüfusun, tarım alanlarına bölünmesiyle elde edilen nüfus yoğunluğu türü aşağıd… | ✓Tarımsal nüfus yoğunluğu
+cog-366 | Nüfus ve Yerleşme | Bodrum, Marmaris ve Alanya gibi kıyı ilçelerinde yaz aylarındaki nüfusun kış aylarındaki nüfusun birkaç katın… | ✓Kıyı turizmine bağlı mevsimlik nüfus ha…
+cog-367 | Tarım ve Hayvancılık | Türkiye'de barajlar, sulama kanalları ve taşkın koruma tesisleri inşa ederek su kaynaklarını geliştirmekle gö… | ✓Devlet Su İşleri (DSİ)
+cog-368 | Tarım ve Hayvancılık | Suyun borularla taşınarak bitkinin kök bölgesine damlalar hâlinde verildiği; buharlaşma ve sızma kayıplarını … | ✓Damla sulama
+cog-369 | Tarım ve Hayvancılık | Türkiye'de koyun yetiştiriciliğinin en çok İç Anadolu, Doğu Anadolu ve Güneydoğu Anadolu'nun bozkırlarla kapl… | ✓Koyunun kısa boylu ot ve bozkır meralar…
+cog-370 | Madenler, Enerji ve Sanayi | Türkiye'nin kurulu gücü en yüksek güneş enerjisi santrali olan Karapınar (YEKA) Güneş Enerjisi Santrali aşağı… | ✓Konya
+cog-371 | Madenler, Enerji ve Sanayi | Doğal gaz arz güvenliğini artırmak amacıyla, yer altındaki kaya tuzu katmanlarında eritme yöntemiyle açılan b… | ✓Aksaray
+cog-372 | Madenler, Enerji ve Sanayi | Türkiye'de otomotiv sanayisinin Bursa, Kocaeli ve Sakarya gibi Marmara Bölgesi illerinde yoğunlaşmasında; I. … | ✓I, II ve III
+cog-373 | Madenler, Enerji ve Sanayi | Aşağıdakilerden hangisi bir sanayi tesisinin kuruluş yeri belirlenirken göz önünde bulundurulan faktörlerden … | ✓Kuruluş yerinin başlangıç meridyenine o…
+cog-374 | Ulaşım, Ticaret ve Turizm | Hristiyan dünyasında Noel Baba olarak bilinen Aziz Nikolaos'un adına yapılmış kilisenin bulunduğu ve inanç tu… | ✓Antalya
+cog-375 | Ulaşım, Ticaret ve Turizm | Fethiye'deki Ölüdeniz kıyısından yükselen ve dünyanın en önemli yamaç paraşütü merkezlerinden biri kabul edil… | ✓Muğla
+cog-376 | Ulaşım, Ticaret ve Turizm | Bir yükün çıkış noktasından varış noktasına ulaştırılmasında deniz yolu, demir yolu ve kara yolu gibi birden … | ✓Kombine taşımacılık
+cog-377 | Bölgeler ve Projeler | Aşağıdakilerden hangisi Doğu Anadolu Bölgesi'nin bölümlerinden biri değildir? | ✓Ergene Bölümü
+cog-378 | Bölgeler ve Projeler | Türkiye'de 2006 yılında çıkarılan yasayla kurulmaya başlanan ve 26 ayrı bölgede faaliyet gösteren kalkınma aj… | ✓Bölgeler arası gelişmişlik farklarını a…
 cog-tufan-001 | Coğrafi Konum | Türkiye'nin 36° - 42° kuzey paralelleri (enlemleri) arasında yer alması aşağıdakilerden hangisine neden olmaz? | ✓Doğusu ile batısı arasında yerel saat f…
 cog-tufan-002 | Coğrafi Konum | Türkiye'nin doğusu ile batısı arasında yaklaşık 76 dakikalık yerel saat farkı bulunması aşağıdakilerden hangi… | ✓Boylamları (meridyenleri) arasında yakl…
 cog-tufan-003 | İklim ve Bitki Örtüsü | Türkiye'de Karadeniz kıyılarının her mevsim yağış almasının temel nedeni aşağıdakilerden hangisidir? | ✓Dağların kıyıya paralel uzanması ve nem…
