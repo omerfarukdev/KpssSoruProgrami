@@ -94,6 +94,18 @@ gun-093 | Kültür-Sanat | 2025 yılında Ankara'nın Polatlı ilçesindeki Gord
 gun-094 | Kültür-Sanat | 31 Ekim 2025 Dünya Şehirler Günü'nde UNESCO Yaratıcı Şehirler Ağı'na katılan 58 yeni kent arasında yer alarak… | ✓Kahramanmaraş
 gun-095 | Ödüller | Norveç Bilim ve Edebiyat Akademisi tarafından verilen ve 'matematiğin Nobel'i' olarak anılan 2026 Abel Ödülü'… | ✓Gerd Faltings
 gun-096 | Ödüller | İngilizceye çevrilen kurgu eserlere verilen 2026 Uluslararası Booker Ödülü'nü, 19 Mayıs 2026'da Londra'da düz… | ✓Tayvan Mandarini (Mandarin Çincesi)
+gun-097 | Uluslararası Gündem | Türk Devletleri Teşkilatının "Bölgesel Barış ve Güvenlik" temalı 12. Devlet Başkanları Zirvesi 7 Ekim 2025'te… | ✓Azerbaycan
+gun-098 | Uluslararası Gündem | Mart 2025'te, istifa eden Justin Trudeau'nun yerine Liberal Parti lideri ve başbakan olan; siyasete girmeden … | ✓Kanada
+gun-099 | Türkiye Gündemi | 17 Nisan 2025'te "eş zamanlı üçlü bağımsız pist operasyonu"nu başlatarak bu sistemi kullanan Avrupa'daki ilk,… | ✓İstanbul Havalimanı
+gun-100 | Türkiye Gündemi | Mayıs 2025'te yayımlanan Cumhurbaşkanı kararıyla millî park ilan edilerek Türkiye'nin 50. millî parkı olan, 8… | ✓Kahramanmaraş
+gun-101 | Bilim ve Teknoloji | 2025 yılı sonunda Sinop açıklarında yapılan testte, ASELSAN yapımı MURAD AESA radarının işaretlediği hava hed… | ✓Bayraktar Kızılelma
+gun-102 | Bilim ve Teknoloji | 2 Mart 2025'te "Blue Ghost" adlı aracını Ay'ın Mare Crisium bölgesine indirerek tarihte tamamen başarılı ilk … | ✓Firefly Aerospace
+gun-103 | Spor | 20 Mayıs 2026'da İstanbul'daki Beşiktaş Tüpraş Stadyumu'nda oynanan 2026 UEFA Avrupa Ligi finalinde Almanya t… | ✓Aston Villa
+gun-104 | Spor | Eylül 2025'te Tokyo'da düzenlenen Dünya Atletizm Şampiyonası'nda 6.30 metrelik derecesiyle kariyerinin 14. dü… | ✓Sırıkla atlama
+gun-105 | Kültür-Sanat | Osmaniye'deki açık hava müzesinde bulunan; Fenike ve Luvi (hiyeroglif) dillerinde yazılmış bilinen en uzun çi… | ✓Dünya Belleği Uluslararası Kütüğü
+gun-106 | Kültür-Sanat | Eylül 2025'te düzenlenen 77. Emmy Ödülleri'nde "En İyi Mini Dizi" dâhil çok sayıda dalda ödül kazanan; 15 yaş… | ✓Adolescence
+gun-107 | Ödüller | "Mimarlığın Nobel'i" olarak anılan Pritzker Mimarlık Ödülü'nün 2025 sahibi, Chengdu kentindeki "West Village"… | ✓Çin
+gun-108 | Ödüller | 2025 Sakharov Düşünce Özgürlüğü Ödülü, Belarus'ta tutuklu bulunan gazeteci Andrzej Poczobut ile Gürcistan'da … | ✓Avrupa Parlamentosu
 gun-tufan-001 | Uluslararası Gündem | 2025 Nobel Barış Ödülü, ülkesinde demokratik haklar ve diktatörlükten barışçıl geçiş için yürüttüğü mücadeley… | ✓María Corina Machado
 gun-tufan-002 | Türkiye Gündemi | Türkiye'nin havacılık, uzay ve teknoloji festivali TEKNOFEST'in 2026 yılında düzenleneceği il aşağıdakilerden… | ✓Şanlıurfa
 gun-tufan-003 | Bilim ve Teknoloji | Türkiye'nin yerli ve millî imkânlarla geliştirilen ilk haberleşme uydusu aşağıdakilerden hangisidir? | ✓TÜRKSAT 6A
