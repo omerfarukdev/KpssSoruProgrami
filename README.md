@@ -16,14 +16,14 @@ Gerçek KPSS soru dağılımıyla birebir aynı:
 
 | Ders | Testte Soru | Bankada Soru |
 |---|---|---|
-| 📖 Türkçe | 30 | 720 |
+| 📖 Türkçe | 30 | 810 |
 | 🔢 Matematik | 30 | 270 |
-| 🏛️ Tarih | 27 | 726 |
-| 🌍 Coğrafya | 18 | 486 |
-| ⚖️ Vatandaşlık | 9 | 315 |
+| 🏛️ Tarih | 27 | 807 |
+| 🌍 Coğrafya | 18 | 540 |
+| ⚖️ Vatandaşlık | 9 | 333 |
 | 📰 Güncel Bilgiler | 6 | 126 |
 
-**Toplam: 2.643 soru** — banka düzenli olarak büyütülmektedir.
+**Toplam: 2.886 soru** — banka düzenli olarak büyütülmektedir.
 
 Tüm sorular ÖSYM tarzında hazırlanmış ve çok aşamalı kalite denetiminden geçirilmiştir. Vatandaşlık soruları 2017 sonrası güncel mevzuata göredir.
 
