@@ -484,6 +484,60 @@ cog-537 | Ulaşım, Ticaret ve Turizm | Aşağıdaki turizm türü - Türkiye'de
 cog-538 | Ulaşım, Ticaret ve Turizm | İstanbul, Kapadokya ve Efes gibi merkezlerde turizm hareketliliğinin yaz sezonuyla sınırlı kalmayıp yıl boyu … | ✓Tarihî ve kültürel değerlere dayalı tur…
 cog-539 | Bölgeler ve Projeler | 1941 Birinci Coğrafya Kongresi'nde Türkiye'nin coğrafi bölgeleri belirlenirken; I. iklim, yer şekilleri ve bi… | ✓I ve II
 cog-540 | Bölgeler ve Projeler | Karadeniz Bölgesi'nde kıyı kesimi ile iç kesimler arasında iklim, doğal bitki örtüsü ve tarımsal ürün deseni … | ✓Kıyıya paralel uzanan dağların, denizin…
+cog-541 | Coğrafi Konum | Türkiye'nin bulunduğu enlemlerde birbirini izleyen iki meridyen arasındaki uzaklık yaklaşık 85 km'dir. Buna g… | ✓510
+cog-542 | Coğrafi Konum | Türkiye, ortak (ulusal) saat uygulamasında topraklarının doğusundan geçen 45° doğu meridyeninin yerel saatini… | ✓Ülkenin büyük bölümünde resmî saat, o y…
+cog-543 | Coğrafi Konum | Kuzey Yarım Küre'de bir gözlemcinin gördüğü Kutup (Demirkazık) Yıldızı'nın ufuk üzerindeki açısal yüksekliği,… | ✓Sinop
+cog-544 | İklim ve Bitki Örtüsü | Akdeniz kıyılarında yıllık güneşlenme süresinin Karadeniz kıyılarına göre belirgin biçimde uzun olması; I. Ak… | ✓I, II ve III
+cog-545 | İklim ve Bitki Örtüsü | Kıyılarda gündüz denizden karaya esen deniz meltemleri ile Güney ve Güneydoğu Asya'da yazın denizden karaya e… | ✓Kara ve denizlerin güneş ışınları karşı…
+cog-546 | İklim ve Bitki Örtüsü | Nemli hava kütlelerinin bir dağ yamacı boyunca yükselirken soğuyup yoğuşması sonucunda oluşan ve Türkiye'de d… | ✓Yamaç (orografik-yükselim) yağışı
+cog-547 | İklim ve Bitki Örtüsü | Büyük şehirlerde beton, asfalt ve yoğun yapılaşmanın gündüz depoladığı ısıyı geceleri yavaş salması sonucu, ş… | ✓Kentsel ısı adası
+cog-548 | Yer Şekilleri | Aşağıdaki göllerden hangisi, bir akarsu vadisinin heyelan (toprak kayması) sonucu önünün kapanmasıyla oluşmuş… | ✓Tortum Gölü
+cog-549 | Yer Şekilleri | Bir akarsuyun taban seviyesinin alçalması ya da bölgenin yükselmesiyle yeniden derine kazması sonucunda, eski… | ✓Akarsu sekisi (taraça)
+cog-550 | Yer Şekilleri | Ege ve Karadeniz kıyılarının karşılaştırılmasıyla ilgili; I. Ege'de dağların kıyıya dik uzanması kıyıların gi… | ✓I, II ve III
+cog-551 | Yer Şekilleri | İklim ve doğal bitki örtüsünün etkisiyle ana kaya üzerinde uzun sürede yatay katmanlar (horizon) hâlinde geli… | ✓Zonal (yerli) topraklar
+cog-552 | Nüfus ve Yerleşme | Bir ilde aritmetik nüfus yoğunluğu (toplam nüfus / yüz ölçümü) düşük olduğu hâlde, tarımsal nüfus yoğunluğu (… | ✓Tarıma elverişli alanların sınırlı oldu…
+cog-553 | Nüfus ve Yerleşme | Şehirler baskın ekonomik işlevlerine göre sınıflandırılır. Buna göre aşağıdaki şehir - işlev eşleştirmelerind… | ✓Nevşehir - Turizm şehri
+cog-554 | Nüfus ve Yerleşme | Nüfusu ve ekonomik gücüyle çevresindeki geniş bir alana yön veren; yönetim, ticaret, sanayi, eğitim ve hizmet… | ✓Metropol (ana kent)
+cog-555 | Nüfus ve Yerleşme | Toplam nüfusu 3.000.000 kişi olan bir ilin ekili-dikili (tarım) alanı 15.000 km²'dir. Buna göre bu ilin fizyo… | ✓200
+cog-556 | Tarım ve Hayvancılık | Aynı tarım arazisinde toprağın besin dengesini korumak ve verimi sürdürmek amacıyla ürünlerin (ör. buğday ile… | ✓Münavebe (ekim nöbeti)
+cog-557 | Tarım ve Hayvancılık | Aşağıdaki tarım ürünü gruplarından hangisi, kışların ılık geçmesini gerektiren benzer iklim istekleri nedeniy… | ✓Turunçgil - muz - sera sebzeciliği
+cog-558 | Tarım ve Hayvancılık | Yumuşak, uzun ve parlak kıllarından (tiftik/moher) dokuma sanayisinde yararlanılan; asıl yetiştirme alanı Ank… | ✓Ankara (tiftik) keçisi
+cog-559 | Madenler, Enerji ve Sanayi | Türkiye'nin elektrik enerjisi üretiminde kullanılan kaynaklar içinde, yenilenebilir kaynaklar arasında en büy… | ✓Hidroelektrik enerji
+cog-560 | Madenler, Enerji ve Sanayi | Aşağıdaki yer altı kaynaklarından hangisi metalik maden grubunda yer almaz? | ✓Bor
+cog-561 | Madenler, Enerji ve Sanayi | Türkiye'de tekstil (dokuma) sanayisinin İstanbul, Bursa, Denizli, Gaziantep ve Kahramanmaraş gibi merkezlerde… | ✓I, II ve III
+cog-562 | Madenler, Enerji ve Sanayi | Aşağıdaki yenilenebilir enerji kaynağı - Türkiye'de en elverişli olduğu alan eşleştirmelerinden hangisi yanlı… | ✓Jeotermal enerji - Doğu Karadeniz kıyıl…
+cog-563 | Ulaşım, Ticaret ve Turizm | Aşağıdaki ulaşım türlerinden hangisi, uzun mesafelerde ağır ve hacimli yüklerin taşınmasında birim başına mal… | ✓Deniz yolu
+cog-564 | Ulaşım, Ticaret ve Turizm | Yurt dışından çok sayıda kişinin saç ekimi, diş ve göz tedavisi, estetik ve tıbbi operasyonlar için Türkiye'y… | ✓Sağlık (medikal) turizmi
+cog-565 | Ulaşım, Ticaret ve Turizm | Bir ülkenin belirli bir yıldaki ihracatı 200 milyar dolar, ithalatı 250 milyar dolar olarak gerçekleşmiştir. … | ✓80
+cog-566 | Bölgeler ve Projeler | Karadeniz Bölgesi'nin coğrafi bölümleri aşağıdakilerin hangisinde birlikte ve doğru olarak verilmiştir? | ✓Batı Karadeniz - Orta Karadeniz - Doğu …
+cog-567 | Bölgeler ve Projeler | Yalnızca tek bir özelliğe göre (ör. yağış miktarı, tarım ürünü, deprem riski) sınırları çizilen bölgelere tek… | ✓Türkiye'nin birinci derece deprem kuşağı
+cog-568 | Coğrafi Konum | Türkiye'de öğle vakti bir cismin gölge boyu, güneş ışınlarının geliş açısına bağlı olarak yıl içinde değişir.… | ✓21 Aralık
+cog-569 | Coğrafi Konum | Aynı boylam üzerinde yer alan aşağıdaki illerden hangisinde, 21 Haziran öğle vakti güneş ışınları yere en büy… | ✓Hatay
+cog-570 | Coğrafi Konum | Aşağıdakilerden hangisi Türkiye'nin matematik konumunun (enlem ve boylamının) bir sonucudur? | ✓Dört mevsimin belirgin biçimde yaşandığ…
+cog-571 | İklim ve Bitki Örtüsü | Havanın ısınıp soğumasından değil, alçalıp yükselmesi gibi mekanik nedenlerden kaynaklanan basınç merkezlerin… | ✓Dönenceler (30° enlemler) çevresindeki …
+cog-572 | İklim ve Bitki Örtüsü | Rüzgârlar estikleri yöne göre adlandırılır. Buna göre kuzeybatıdan esen ve Türkiye'de özellikle kış aylarında… | ✓Karayel
+cog-573 | İklim ve Bitki Örtüsü | Bol su ve yüksek nem isteyen; Karadeniz'in nemli ormanlarında ve akarsu boylarında yetişen bitkilere ne ad ve… | ✓Higrofit (nemcil bitki)
+cog-574 | İklim ve Bitki Örtüsü | Türkiye'de sıcaklık dağılışıyla ilgili; I. güneyden kuzeye gidildikçe enlem etkisiyle sıcaklık ortalamaları g… | ✓I, II ve III
+cog-575 | Yer Şekilleri | Yan basınçlarla kıvrılan esnek tortul tabakaların aşağı doğru tekne (çukur) biçiminde bükülen kesimine ne ad … | ✓Senklinal
+cog-576 | Yer Şekilleri | Karstik (kalkerli) arazilerde yüzey sularının, çatlak ve erime boşluklarından yer altına daldığı doğal delikl… | ✓Düden (subatan)
+cog-577 | Yer Şekilleri | Akarsu vadileri enine kesitte 'V' biçiminde iken buzul vadileri 'U' biçimindedir. Buna göre bir dağlık alanda… | ✓Buzul aşındırmasının
+cog-578 | Yer Şekilleri | Kurak bölgelerde rüzgârın taşıdığı kumları biriktirmesiyle oluşan; hâkim rüzgâr yönüne göre hilal (ay) biçimi… | ✓Barkan (hilal kumul)
+cog-579 | Nüfus ve Yerleşme | Türkiye'de izlenen nüfus politikalarıyla ilgili aşağıdaki dönem - politika eşleştirmelerinden hangisi doğrudu… | ✓1965-1983 arası - doğum oranını düşürüc…
+cog-580 | Nüfus ve Yerleşme | Bir ülkede ortanca (medyan) yaşın yıllar içinde yükselmesi aşağıdakilerden hangisinin göstergesidir? | ✓Nüfusun giderek yaşlanmakta olduğunun
+cog-581 | Nüfus ve Yerleşme | Türkiye'de kentli nüfus oranının Marmara Bölgesi'nde en yüksek, Karadeniz Bölgesi'nde ise görece düşük olması… | ✓Marmara'da sanayi ve hizmet sektörlerin…
+cog-582 | Tarım ve Hayvancılık | Yağışın yetersiz olduğu İç Anadolu ve çevresinde, sulama yapılmadan yalnızca doğal yağışa dayalı olarak ve ço… | ✓Kuru (nadaslı) tarım
+cog-583 | Tarım ve Hayvancılık | Aşağıdaki tarım ürünü - dayandığı sanayi kolu eşleştirmelerinden hangisi doğrudur? | ✓Ayçiçeği - bitkisel yağ sanayisi
+cog-584 | Tarım ve Hayvancılık | Türkiye'de küçükbaş hayvancılığın (koyun-keçi) İç Anadolu, Doğu ve Güneydoğu Anadolu'da; büyükbaş hayvancılığ… | ✓Küçükbaş hayvanların bozkır ve kısa boy…
+cog-585 | Tarım ve Hayvancılık | Türkiye'de deniz balıkçılığının (avcılığın) en fazla Karadeniz'de yapılmasının temel nedeni aşağıdakilerden h… | ✓Kıta sahanlığının geniş, sularının az t…
+cog-586 | Madenler, Enerji ve Sanayi | Aşağıdaki maden - çıkarıldığı il eşleştirmelerinden hangisi doğrudur? | ✓Krom - Elazığ (Guleman)
+cog-587 | Madenler, Enerji ve Sanayi | Üretim araçları ve ara malları (makine, demir-çelik gibi) üreten sanayi koluna ağır sanayi denir. Buna göre a… | ✓Demir-çelik sanayisi
+cog-588 | Madenler, Enerji ve Sanayi | Türkiye'nin enerjide dışa bağımlılığının yüksek olmasının temel nedeni aşağıdakilerden hangisidir? | ✓Tükettiği petrol ve doğal gazın büyük b…
+cog-589 | Madenler, Enerji ve Sanayi | Fırat Nehri üzerinde kurulu olan, gölünün büyüklüğü ve kurulu gücüyle GAP'ın en büyük barajı olan Atatürk Bar… | ✓Sulama ve hidroelektrik enerji üretmek
+cog-590 | Ulaşım, Ticaret ve Turizm | İstanbul Boğazı'nın altından geçerek iki yakayı karayoluyla (özel araç trafiğine) bağlayan ve 2016 yılında hi… | ✓Avrasya Tüneli
+cog-591 | Ulaşım, Ticaret ve Turizm | Yolcu gemileriyle limandan limana gezerek yapılan ve Türkiye'de Kuşadası, İstanbul ile İzmir limanlarının öne… | ✓Kruvaziyer (deniz turu) turizmi
+cog-592 | Ulaşım, Ticaret ve Turizm | Bir devletin kendi limanları arasında yük ve yolcu taşıma hakkını yalnızca kendi bayrağını taşıyan gemilere t… | ✓Kabotaj
+cog-593 | Bölgeler ve Projeler | İç Anadolu Bölgesi'nin coğrafi bölümleri aşağıdakilerin hangisinde birlikte ve doğru olarak verilmiştir? | ✓Konya - Yukarı Sakarya - Orta Kızılırma…
+cog-594 | Bölgeler ve Projeler | Aşağıdaki bölgesel kalkınma projesi - ilgili olduğu akarsu ya da havza eşleştirmelerinden hangisi doğrudur? | ✓GAP - Fırat ve Dicle havzaları
 cog-tufan-001 | Coğrafi Konum | Türkiye'nin 36° - 42° kuzey paralelleri (enlemleri) arasında yer alması aşağıdakilerden hangisine neden olmaz? | ✓Doğusu ile batısı arasında yerel saat f…
 cog-tufan-002 | Coğrafi Konum | Türkiye'nin doğusu ile batısı arasında yaklaşık 76 dakikalık yerel saat farkı bulunması aşağıdakilerden hangi… | ✓Boylamları (meridyenleri) arasında yakl…
 cog-tufan-003 | İklim ve Bitki Örtüsü | Türkiye'de Karadeniz kıyılarının her mevsim yağış almasının temel nedeni aşağıdakilerden hangisidir? | ✓Dağların kıyıya paralel uzanması ve nem…
