@@ -124,3 +124,15 @@ gun-tufan-015 | Bilim ve Teknoloji | Türkiye'nin ikinci astronotu olarak, Türk
 gun-tufan-016 | Kültür-Sanat | 2025 Cannes Film Festivali'nde en büyük ödül olan Altın Palmiye'yi kazanan yönetmen aşağıdakilerden hangisidi… | ✓Jafar Panahi
 gun-tufan-017 | Ödüller | 2025 Nobel Ekonomi Ödülü, aşağıdaki alanların hangisindeki çalışmalara verilmiştir? | ✓Yenilik (inovasyon) odaklı ekonomik büy…
 gun-tufan-018 | Bilim ve Teknoloji | 2025 Nobel Fizyoloji veya Tıp Ödülü, aşağıdaki alanların hangisindeki keşiflere verilmiştir? | ✓Periferik bağışıklık toleransı
+gun-109 | Spor | 12 Temmuz 2026'da oynanan Wimbledon Tenis Turnuvası tek erkekler finalinde Alman rakibi Alexander Zverev'i ye… | ✓Jannik Sinner
+gun-110 | Spor | İlk kez katıldığı 2026 FIFA Dünya Kupası'nda grubunu ikinci sırada tamamlayıp eleme aşamasına (son 32 turu) y… | ✓Cabo Verde (Yeşil Burun Adaları)
+gun-111 | Uluslararası Gündem | 12 Nisan 2026'da yapılan parlamento seçimini Tisza Partisi'yle kazanarak Viktor Orbán'ın 2010'dan beri süren … | ✓Péter Magyar
+gun-112 | Uluslararası Gündem | Ekim 2025'te yapılan devlet başkanlığı seçiminin ikinci turunu Rodrigo Paz'ın kazanmasıyla yaklaşık 20 yıllık… | ✓Bolivya
+gun-113 | Kültür-Sanat | Ocak 2026'da 'Geleceğe Miras' projesi kapsamındaki kazılarda, Bouleuterion (meclis binası) girişinde mermerde… | ✓Laodikeia
+gun-114 | Kültür-Sanat | 2026'da Almanya'nın başkenti Berlin'de açılan uluslararası bir sergiyle Neolitik Çağ buluntuları dünyaya tanı… | ✓Göbeklitepe
+gun-115 | Ödüller | 'Bilişimin Nobel'i' olarak anılan 2025 ACM A.M. Turing Ödülü; Charles H. Bennett ve Gilles Brassard'a, 1984't… | ✓Kuantum bilişim ve kuantum kriptografi
+gun-116 | Ödüller | Time dergisinin, 'düşünen makineler çağını başlattıkları' vurgusuyla belirlediği ve kapağında Sam Altman, Jen… | ✓Yapay Zekânın Mimarları (Architects of …
+gun-117 | Türkiye Gündemi | 2025'in 'Aile Yılı' ilan edilmesiyle başlayan çalışmaların uzun vadeli ve bütüncül biçimde sürdürülmesi amacı… | ✓Aile ve Nüfus On Yılı
+gun-118 | Türkiye Gündemi | Türkiye İhracatçılar Meclisi (TİM) verilerine göre Türkiye'nin 2025 yılı mal ihracatı, Cumhuriyet tarihinin r… | ✓273,4 milyar dolar
+gun-119 | Bilim ve Teknoloji | Türkiye'nin savunma ve havacılık sanayii ihracatı, 2025 yılında bir önceki yıla göre yaklaşık %48 artışla tar… | ✓10 milyar dolar
+gun-120 | Bilim ve Teknoloji | Eylül 2025'te Türk Silahlı Kuvvetleri envanterine giren; katlanabilir kanat yapısı sayesinde TCG Anadolu gemi… | ✓Bayraktar TB3
