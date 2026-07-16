@@ -592,6 +592,60 @@ cog-645 | Ulaşım, Ticaret ve Turizm | Homeros'un İlyada destanına konu olan 
 cog-646 | Ulaşım, Ticaret ve Turizm | Taş işçiliğiyle bezenmiş geleneksel mimarisi, Deyrulzafaran Manastırı gibi yapıları ve çok kültürlü dokusuyla… | ✓Mardin
 cog-647 | Bölgeler ve Projeler | Muğla çevresindeki Menteşe Yöresi ile Adana-Mersin çevresindeki Çukurova, Türkiye coğrafyasında kullanılan yö… | ✓Ege - Akdeniz
 cog-648 | Bölgeler ve Projeler | Türkiye'de Marmara ve Ege bölgeleri sanayi ve hizmetlerde ileri düzeydeyken Doğu ve Güneydoğu Anadolu'nun gör… | ✓Geri kalmış bölgelerin kaynaklarını har…
+cog-649 | Coğrafi Konum | Türkiye, ortak saat uygulamasında yıl boyunca Greenwich (başlangıç meridyeni) saatinin 3 saat ilerisini (GMT+… | ✓13.00
+cog-650 | İklim ve Bitki Örtüsü | Yükseltiye bağlı olarak sıcaklık, her 100 metrede ortalama 0,5 °C azalır. Deniz seviyesindeki bir merkezde sı… | ✓14
+cog-651 | Yer Şekilleri | Kayaçlar oluşumlarına göre püskürük (magmatik), tortul ve başkalaşım (metamorfik) olmak üzere üç gruba ayrılı… | ✓Tortul kayaç
+cog-652 | Nüfus ve Yerleşme | Bir ülkede 0-14 yaş grubunda 3 milyon, 15-64 yaş grubunda 6 milyon, 65 yaş ve üzeri grupta 1,5 milyon kişi bu… | ✓75
+cog-653 | Tarım ve Hayvancılık | Rakı ve benzeri içkiler ile pastacılıkta aroma verici olarak kullanılan; kurağa dayanıklı, sıcak ve güneşli i… | ✓Denizli - Burdur - Antalya
+cog-654 | Madenler, Enerji ve Sanayi | Paslanmaz çelik yapımı ve elektrikli araç bataryalarında kullanımı giderek artan; Türkiye'de en önemli lateri… | ✓Nikel
+cog-655 | Ulaşım, Ticaret ve Turizm | Karadeniz kıyısında yer alan ve Türkiye'yi kara yoluyla Gürcistan'a bağlayan sınır kapısı aşağıdaki illerin h… | ✓Artvin
+cog-656 | Bölgeler ve Projeler | Türkiye'nin yedi coğrafi bölgesi içinde, sınırları içinde en fazla sayıda il bulunduran bölge aşağıdakilerden… | ✓Karadeniz Bölgesi
+cog-657 | Coğrafi Konum | Bir haritada uzunlukların, üzerine gerçek yer değerleri yazılmış bölmeli bir çizgi (cetvel) üzerinde gösteril… | ✓Çizgi (grafik) ölçek
+cog-658 | İklim ve Bitki Örtüsü | Atmosfer basıncı ile hava olayları arasındaki ilişki göz önüne alındığında, alçak basınç alanları için aşağıd… | ✓Hava yükselir, bulutlanma ve yağış olas…
+cog-659 | Yer Şekilleri | Şanlıurfa ve Diyarbakır çevresinde geniş alanlar kaplayan bazalt platolarının oluşumu aşağıdakilerden hangisi… | ✓Yeryüzüne çıkan akıcı lavların geniş al…
+cog-660 | Nüfus ve Yerleşme | Türkiye'de nüfus; kıyı ovaları ve sanayileşmiş alanlarda yoğunlaşırken, yüksek ve engebeli iç kesimlerde seyr… | ✓I, II ve III
+cog-661 | Tarım ve Hayvancılık | Aşağıdaki coğrafi bölge - o bölgede yaygın olarak yetiştirilen tarım ürünü eşleştirmelerinden hangisi yanlışt… | ✓İç Anadolu - turunçgil
+cog-662 | Madenler, Enerji ve Sanayi | Fırat Nehri üzerinde kurulan, 1974'te tamamlanarak dönemin en büyük hidroelektrik santrali olan ve daha sonra… | ✓Keban Barajı
+cog-663 | Ulaşım, Ticaret ve Turizm | Efes Antik Kenti yakınında yer alan, Hz. Meryem'in son yıllarını geçirdiğine inanılan ve hem Hristiyanlarca h… | ✓İzmir
+cog-664 | Bölgeler ve Projeler | Türkiye'nin coğrafi bölgeleri arasında, ülkenin ortasında yer aldığı için en fazla sayıda bölgeyle (beş bölge… | ✓İç Anadolu Bölgesi
+cog-665 | Coğrafi Konum | Dünya batıdan doğuya döndüğü için doğudaki yerler güneşi daha önce görür. Buna göre, aşağıdaki illerden hangi… | ✓İzmir
+cog-666 | İklim ve Bitki Örtüsü | Türkiye'de iğne yapraklı ormanları oluşturan çam türlerinden biri, kışları soğuk ve yazları kurak geçen iç ve… | ✓Karaçam
+cog-667 | Yer Şekilleri | Aşağıdaki yer şekli - onu oluşturan dış kuvvet eşleştirmelerinden hangisi yanlıştır? | ✓Lapya - akarsu
+cog-668 | Nüfus ve Yerleşme | Bir ülkede çalışan nüfusun büyük bölümünün tarım sektöründe yer alması, o ülke hakkında öncelikle aşağıdakile… | ✓Ekonomik gelişmişlik düzeyinin düşük ol…
+cog-669 | Tarım ve Hayvancılık | Türkiye'de verimli tarım arazilerinin alanının giderek azalmasına yol açan etkenlerle ilgili olarak, aşağıdak… | ✓Sulama olanaklarının geliştirilip moder…
+cog-670 | Madenler, Enerji ve Sanayi | Türkiye'de hidroelektrik santrallerin (HES) yıllık elektrik üretiminin yıldan yıla değişkenlik göstermesinin … | ✓Üretimin akarsu akımına, dolayısıyla ya…
+cog-671 | Ulaşım, Ticaret ve Turizm | Kara, demir ve deniz yolu gibi farklı ulaşım türlerinin bir arada bulunduğu; yüklerin toplandığı, depolandığı… | ✓Lojistik merkez (lojistik köy)
+cog-672 | İklim ve Bitki Örtüsü | Bir merkezin iklim verileri şöyledir: yıllık yağış tutarı 1200 mm ve yağış her mevsime dağılmış, en sıcak ay … | ✓Karadeniz kıyısı (Rize-Trabzon çevresi)
+cog-673 | Yer Şekilleri | İç Anadolu gibi yarı kurak, bozkır (step) örtüsüyle kaplı alanlarda; yağışın azlığı nedeniyle yıkanmanın az o… | ✓Kahverengi bozkır (step) toprağı
+cog-674 | Nüfus ve Yerleşme | Ülkelerinde yaşanan savaş, iç çatışma ya da baskı nedeniyle can güvenliğini kaybeden insanların başka ülkeler… | ✓Uluslararası zorunlu (mülteci) göç
+cog-675 | Madenler, Enerji ve Sanayi | Aşağıdaki yer altı kaynaklarından hangisi, diğerlerinin aksine bir enerji (yakıt) ham maddesi değildir? | ✓Krom
+cog-676 | Yer Şekilleri | Ege Bölgesi'nde yer kabuğunun kırılmasıyla oluşan bloklardan bir kısmı yükselerek dağları, aralarında çöken b… | ✓Graben
+cog-677 | Tarım ve Hayvancılık | Parfüm ve kozmetik sanayisinin değerli ham maddesi olan gül yağının elde edildiği yağ gülü üretiminde ve gül … | ✓Isparta
+cog-678 | Coğrafi Konum | Türkiye'nin en doğu ucu, İran sınırına yakın Dilucu (Aralık) çevresindedir. Buna göre bu nokta aşağıdaki ille… | ✓Iğdır
+cog-679 | İklim ve Bitki Örtüsü | Bir merkezin iklim verileri şöyledir: en sıcak ay ortalaması 28 °C, en soğuk ay ortalaması 10 °C, yıllık yağı… | ✓Antalya çevresi (Akdeniz kıyısı)
+cog-680 | Madenler, Enerji ve Sanayi | Rusya'dan çıkan doğal gazı Karadeniz'in tabanından geçirerek Samsun yakınlarından Türkiye'ye ulaştıran doğal … | ✓Mavi Akım
+cog-681 | Nüfus ve Yerleşme | İç Anadolu ve çevresinde, köyden ayrı olarak tarlaların yakınına kurulan; yalnızca ekim ve hasat döneminde ge… | ✓Dam
+cog-682 | Ulaşım, Ticaret ve Turizm | Mimar Sinan'ın 'ustalık eserim' dediği ve UNESCO Dünya Mirası Listesi'nde yer alan Selimiye Camii, kültür tur… | ✓Edirne
+cog-683 | Bölgeler ve Projeler | Türkiye'nin yedi coğrafi bölgesinden kaç tanesinin denize kıyısı yoktur? | ✓3
+cog-684 | Yer Şekilleri | Dağ ve yamaç eteklerinde, yamaç yukarısından kopan materyalin sel suları ve yer çekimiyle kısa mesafeye taşın… | ✓Kolüvyal topraklar
+cog-685 | İklim ve Bitki Örtüsü | Aşağıdaki rüzgârlardan hangisi, yeryüzündeki sürekli basınç kuşakları arasında yıl boyunca esen sürekli (plan… | ✓Alizeler
+cog-686 | Tarım ve Hayvancılık | Türkiye'de üretimi Ege ile Akdeniz'in geçiş kuşağında (Denizli, Antalya, Burdur çevresinde) yoğunlaşan; tohum… | ✓Anason
+cog-687 | Madenler, Enerji ve Sanayi | Ekmek, günlük gazete ve cam şişe gibi ürünler ya çabuk tüketilir ya da üretim sırasında ağırlık/hacim kazandı… | ✓Büyük tüketim (pazar) merkezlerine
+cog-688 | Coğrafi Konum | Aşağıda verilen eş değer eğrisi - gösterdiği coğrafi özellik eşleştirmelerinden hangisi yanlıştır? | ✓İzobat - Rüzgâr hızı
+cog-689 | Nüfus ve Yerleşme | Ülkelerinde savaş, iç karışıklık ya da zulüm nedeniyle can güvenliği kalmayan insanların başka bir ülkeye sığ… | ✓Mülteci (sığınma) göçü
+cog-690 | Ulaşım, Ticaret ve Turizm | Bilimsel toplantı, iş görüşmesi, fuar ve organizasyonlara katılmak amacıyla gelen ziyaretçilere dayalı olan v… | ✓Kongre (iş) turizmi
+cog-691 | İklim ve Bitki Örtüsü | Karadeniz kıyısındaki dağların denize bakan yamaçları bol yağış alırken, aynı dağların iç kesime (güneye) bak… | ✓Nemli havanın denize bakan yamaçta yağı…
+cog-692 | Yer Şekilleri | Aşağıdakilerden hangisi dalga ve kıyı akıntılarının biriktirme faaliyetiyle oluşan kıyı şekillerinden biri de… | ✓Falez
+cog-693 | Tarım ve Hayvancılık | Suyun tarlaya bol miktarda yayılarak verildiği geleneksel salma sulama yönteminin, damla sulamaya göre en öne… | ✓Aşırı su tüketimine yol açması ve taban…
+cog-694 | Madenler, Enerji ve Sanayi | Türkiye, dünya bor rezervlerinin büyük bölümüne sahiptir. Bu stratejik madenin çıkarılması ve işlenmesi devle… | ✓Eti Maden
+cog-695 | Coğrafi Konum | Türkiye'nin kara sınırı bulunan komşu ülke sayısı aşağıdakilerden hangisidir? | ✓8
+cog-696 | Nüfus ve Yerleşme | Bir ülkede 0-14 yaş grubu 4 milyon, 15-64 yaş grubu (çalışma çağı) 10 milyon, 65 yaş ve üzeri grup 1 milyon k… | ✓50
+cog-697 | İklim ve Bitki Örtüsü | Aşağıdaki iklim tipi - Türkiye'de görüldüğü yöre eşleştirmelerinden hangisi yanlıştır? | ✓Akdeniz iklimi - Sinop çevresi
+cog-698 | Bölgeler ve Projeler | Türkiye'nin coğrafi bölgeleri içinde, diğer bölgelerle en fazla sınır komşuluğu bulunan (beş bölgeye komşu) v… | ✓İç Anadolu Bölgesi
+cog-699 | Yer Şekilleri | Türkiye'nin engebeli ve yüksek bir ülke olması, akarsuların hızlı akmasına ve aşındırma gücünün artmasına yol… | ✓Akarsular
+cog-700 | Tarım ve Hayvancılık | Akdeniz kıyı kuşağında kışların ılık geçmesi sayesinde sebzelerin diğer yörelere göre daha erken yetiştirilip… | ✓Turfanda (erkenci) sebzecilik
+cog-701 | Madenler, Enerji ve Sanayi | Demir cevherinden başlayarak ham demir, çelik ve haddelenmiş ürünlerin tümünü tek bir tesiste üreten büyük ku… | ✓Karabük - Zonguldak (Ereğli) - Hatay (İ…
+cog-702 | Ulaşım, Ticaret ve Turizm | Kara yolu, demir yolu ve liman gibi farklı ulaşım türlerinin birbirine bağlandığı; malların depolandığı, gümr… | ✓Lojistik köy (merkez)
 cog-tufan-001 | Coğrafi Konum | Türkiye'nin 36° - 42° kuzey paralelleri (enlemleri) arasında yer alması aşağıdakilerden hangisine neden olmaz? | ✓Doğusu ile batısı arasında yerel saat f…
 cog-tufan-002 | Coğrafi Konum | Türkiye'nin doğusu ile batısı arasında yaklaşık 76 dakikalık yerel saat farkı bulunması aşağıdakilerden hangi… | ✓Boylamları (meridyenleri) arasında yakl…
 cog-tufan-003 | İklim ve Bitki Örtüsü | Türkiye'de Karadeniz kıyılarının her mevsim yağış almasının temel nedeni aşağıdakilerden hangisidir? | ✓Dağların kıyıya paralel uzanması ve nem…
