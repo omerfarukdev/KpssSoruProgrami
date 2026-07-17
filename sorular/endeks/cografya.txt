@@ -646,6 +646,60 @@ cog-699 | Yer Şekilleri | Türkiye'nin engebeli ve yüksek bir ülke olması, a
 cog-700 | Tarım ve Hayvancılık | Akdeniz kıyı kuşağında kışların ılık geçmesi sayesinde sebzelerin diğer yörelere göre daha erken yetiştirilip… | ✓Turfanda (erkenci) sebzecilik
 cog-701 | Madenler, Enerji ve Sanayi | Demir cevherinden başlayarak ham demir, çelik ve haddelenmiş ürünlerin tümünü tek bir tesiste üreten büyük ku… | ✓Karabük - Zonguldak (Ereğli) - Hatay (İ…
 cog-702 | Ulaşım, Ticaret ve Turizm | Kara yolu, demir yolu ve liman gibi farklı ulaşım türlerinin birbirine bağlandığı; malların depolandığı, gümr… | ✓Lojistik köy (merkez)
+cog-703 | Coğrafi Konum | Bir yerin Dünya üzerindeki yerini başka hiçbir noktayla karışmayacak biçimde tam olarak belirlemek için aşağı… | ✓Enlemi ve boylamı (coğrafi koordinatlar…
+cog-704 | İklim ve Bitki Örtüsü | Haritalarda sıcaklık dağılışını göstermek amacıyla, aynı (eşit) sıcaklık değerine sahip noktaların birleştiri… | ✓İzoterm
+cog-705 | Yer Şekilleri | Yamaç boyunca sızan yağış ve kar sularının, geçirimli bir tabaka altındaki geçirimsiz tabaka üzerinde toplana… | ✓Yamaç kaynağı
+cog-706 | Nüfus ve Yerleşme | Bir ülkenin sahip olduğu doğal kaynakları ve teknolojik olanaklarıyla en yüksek verimi sağlayabildiği, kişi b… | ✓Optimum (ideal) nüfus
+cog-707 | Tarım ve Hayvancılık | Aşağıdaki tarım ürünlerinden hangisi, iklim istekleri Türkiye'nin koşullarına uymadığı için ülkemizde ekonomi… | ✓Şeker kamışı
+cog-708 | Madenler, Enerji ve Sanayi | Bataklık ortamında biriken bitki artıklarının kömürleşme sürecinin ilk aşamasında oluşan; nem oranı yüksek, k… | ✓Turba
+cog-709 | Ulaşım, Ticaret ve Turizm | İstanbul Boğazı üzerinde inşa edilen ve 1973 yılında hizmete açılan ilk köprü, bugün aşağıdaki adlardan hangi… | ✓15 Temmuz Şehitler Köprüsü (Boğaziçi Kö…
+cog-710 | Bölgeler ve Projeler | Avrupa Birliği'ne uyum sürecinde, bölgesel istatistiklerin toplanması ve bölgesel kalkınma politikalarının uy… | ✓İstatistiki Bölge Birimleri Sınıflandır…
+cog-711 | Coğrafi Konum | Bir bölgenin deprem riskini, nüfus dağılışını ya da tarım ürünlerini göstermek üzere belirli bir amaca yöneli… | ✓Özel (tematik) harita
+cog-712 | İklim ve Bitki Örtüsü | Bol su ve yüksek nem koşullarına uyum sağlamış; kökleri ya da tüm gövdesi su içinde bulunan, sürekli sulak or… | ✓Hidrofit
+cog-713 | Yer Şekilleri | Aşağıdakilerden hangisi bir akarsuyun aşındırma faaliyeti sonucunda oluşan yer şekillerinden biridir? | ✓Dev kazanı
+cog-714 | Nüfus ve Yerleşme | Bir nüfus sayımında, sayımın yapıldığı anda bir yerde fiilen (o an) bulunan herkesin o yerin nüfusuna dahil e… | ✓Fiili (de facto) nüfus
+cog-715 | Tarım ve Hayvancılık | Tarımsal üretimi etkileyen doğal ve beşeri (insan kaynaklı) faktörler vardır. Buna göre aşağıdakilerden hangi… | ✓Sulama ve gübreleme
+cog-716 | Madenler, Enerji ve Sanayi | Nükleer enerji santrallerinin, fosil yakıtlı termik santrallere göre en önemli üstünlüklerinden biri aşağıdak… | ✓Az miktarda yakıtla çok yüksek enerji ü…
+cog-717 | Ulaşım, Ticaret ve Turizm | Selçuklu dönemi taş işçiliğinin en görkemli örneklerinden sayılan ve UNESCO Dünya Mirası Listesi'nde yer alan… | ✓Sivas
+cog-718 | Bölgeler ve Projeler | Sınırları, bir merkezle onun etkilediği çevre arasındaki işlevsel bağa (etkileşime) göre çizilen bölgelere iş… | ✓Bir büyükşehrin ulaşım ve hizmet ağıyla…
+cog-719 | Coğrafi Konum | Bir alanın kuş bakışı görünümünün, herhangi bir ölçek kullanılmadan ve kabaca (yaklaşık oranlarla) kâğıda çiz… | ✓Kroki
+cog-720 | İklim ve Bitki Örtüsü | Türkiye'de yerel rüzgârlar estikleri yöne göre adlandırılır. Buna göre güneydoğudan esen, genellikle sıcak ve… | ✓Keşişleme
+cog-721 | Yer Şekilleri | Taban suyu seviyesinin yüksek olduğu bataklık ve sürekli sulak alanlarda, toprağın uzun süre su ile doygun ka… | ✓Hidromorfik topraklar
+cog-722 | Nüfus ve Yerleşme | Gelişmiş bir ülke ile az gelişmiş bir ülke karşılaştırıldığında, bağımlı nüfusu (0-14 yaş ile 65 yaş ve üzeri… | ✓Az gelişmiş ülkede bağımlı nüfusun çoğu…
+cog-723 | Tarım ve Hayvancılık | Doğal çayır ve otlaklara dayanan, hayvanların büyük ölçüde açıkta otlatıldığı, birim hayvandan alınan verimin… | ✓Ekstansif (mera) hayvancılık
+cog-724 | Madenler, Enerji ve Sanayi | Türkiye'de tuz; göl suyundan, kaya tuzu yataklarından ve deniz suyunun buharlaştırılmasından elde edilir. Ülk… | ✓İzmir
+cog-725 | Ulaşım, Ticaret ve Turizm | Bir ülkenin, dış pazarda rakip firmaları saf dışı bırakmak amacıyla bir malını iç piyasadaki fiyatının ya da … | ✓Damping
+cog-726 | İklim ve Bitki Örtüsü | Türkiye'de yaklaşık aynı yükseltide bulunmalarına karşın Doğu Karadeniz kıyılarında gür ormanlar, İç Anadolu'… | ✓İki alanın aldığı yıllık yağış miktarın…
+cog-727 | Yer Şekilleri | Kalkerli (karstik) arazilerde erimeyle oluşan çukurluklar, küçükten büyüğe doğru dolin, uvala ve polye biçimi… | ✓Polye
+cog-728 | Nüfus ve Yerleşme | Doğu ve Güneydoğu Anadolu'da hayvancılıkla uğraşan toplulukların, soğuk kış aylarında hayvanlarını barındırma… | ✓Kışla (kışlak)
+cog-729 | Madenler, Enerji ve Sanayi | Rusya'dan çıkan doğal gazı Karadeniz'in tabanından geçirerek Kırklareli'nin Kıyıköy açıklarından Türkiye'ye u… | ✓TürkAkım (TurkStream)
+cog-730 | İklim ve Bitki Örtüsü | Bir harita üzerinde sıcaklık değeri aynı olan noktaların birleştirilmesiyle elde edilen eğrilere ne ad verili… | ✓İzoterm
+cog-731 | Yer Şekilleri | Rüzgârın kurak alanlardan taşıyıp nemli-yağışlı sahalarda biriktirdiği; ince taneli, sarımsı renkli ve tarıma… | ✓Lös
+cog-732 | Coğrafi Konum | Türkiye'nin uç noktaları ile ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓En batı uç (Avlaka Burnu) - Edirne
+cog-733 | Tarım ve Hayvancılık | Türkiye'de tarımda makineleşmenin yaygınlaşması aşağıdaki sonuçlardan hangisine yol açmaz? | ✓Nadasa bırakılan alanların giderek geni…
+cog-734 | Madenler, Enerji ve Sanayi | Rusya'dan çıkarılan doğal gazı Karadeniz'in tabanından geçirerek Kıyıköy (Kırklareli) yakınından Türkiye'ye u… | ✓TürkAkım
+cog-735 | Nüfus ve Yerleşme | Bir ülkede kentsel nüfus oranının yıllar içinde artmasına kentleşme denir. Kente göç eden bireylerin zamanla … | ✓Kentlileşme
+cog-736 | Ulaşım, Ticaret ve Turizm | Aşağıdaki UNESCO Dünya Mirası Listesi'ndeki değer - il eşleştirmelerinden hangisi yanlıştır? | ✓Efes - Aydın
+cog-737 | İklim ve Bitki Örtüsü | Aşağıdakilerden hangisi, atmosferdeki su buharının yeryüzüne katı ya da sıvı hâlde düşmesi anlamındaki 'yağış… | ✓Çiy
+cog-738 | Yer Şekilleri | Volkanik bir dağın tepesinde, lav, kül ve gazların yeryüzüne çıktığı huni biçimli çukurluğa ne ad verilir? | ✓Krater
+cog-739 | Bölgeler ve Projeler | Türkiye'nin yedi coğrafi bölgesi içinde sınırları içinde en az sayıda il bulunduran bölge aşağıdakilerden han… | ✓Güneydoğu Anadolu
+cog-740 | Tarım ve Hayvancılık | Aşağıdaki tarım ürünü - başlıca üretim alanı eşleştirmelerinden hangisi yanlıştır? | ✓Şeker pancarı - Akdeniz kıyı ovaları
+cog-741 | Coğrafi Konum | Türkiye'nin yaklaşık 36°-42° kuzey paralelleri arasında, orta kuşakta yer alması aşağıdakilerden hangisine yo… | ✓Dört mevsimin belirgin biçimde yaşanmas…
+cog-742 | Madenler, Enerji ve Sanayi | Seramik ve cam sanayisinin önemli ham maddelerinden olan ve Türkiye'nin dünya ihracatında ilk sırada yer aldı… | ✓Feldspat
+cog-743 | İklim ve Bitki Örtüsü | Deniz seviyesinden yukarı çıkıldıkça hava basıncının azalmasının temel nedeni aşağıdakilerden hangisidir? | ✓Yükseldikçe üstte kalan hava sütununun …
+cog-744 | Nüfus ve Yerleşme | Bir ülkede 15-64 yaş arasındaki çalışabilir nüfustan, fiilen çalışan ya da iş arayan kesime ne ad verilir? | ✓Faal (aktif) nüfus
+cog-745 | Yer Şekilleri | Geriye (kaynağa doğru) aşındırması güçlü olan bir akarsuyun, su bölümü çizgisini aşarak komşu bir akarsuyun s… | ✓Akarsu kapması
+cog-746 | Tarım ve Hayvancılık | Aşağıdaki tarım ürünlerinden hangisinde Türkiye, dünya üretiminde ilk sırada yer almaz? | ✓Çay
+cog-747 | Ulaşım, Ticaret ve Turizm | Geniş bir art bölgeye (hinterlant) sahip olup Çukurova ve Güneydoğu Anadolu'nun (GAP) dış ticaretine hizmet e… | ✓Mersin Limanı
+cog-748 | Madenler, Enerji ve Sanayi | Aşağıdaki maden - başlıca kullanım alanı eşleştirmelerinden hangisi yanlıştır? | ✓Boksit - çimento
+cog-749 | İklim ve Bitki Örtüsü | Türkiye'de kısa mesafelerde maki, kızılçam ormanı, bozkır ve alpin çayır gibi çok farklı bitki topluluklarını… | ✓İklim ve yer şekillerinin (yükseltinin)…
+cog-750 | Coğrafi Konum | Aşağıdaki illerimizden hangisinin İran ile kara sınırı vardır? | ✓Van
+cog-751 | Yer Şekilleri | Yağmur ve yer altı sularının eritmesiyle mağara, dolin, obruk ve düden gibi karstik şekillerin oluştuğu kayaç… | ✓Kalker (kireç taşı)
+cog-752 | Nüfus ve Yerleşme | Şehirler öne çıkan ekonomik işlevlerine göre sınıflandırılabilir. Buna göre aşağıdaki şehir - baskın işlev eş… | ✓Rize - otomotiv sanayisi
+cog-753 | Tarım ve Hayvancılık | Türkiye'de bir zamanlar yaygın olan manda (su sığırı) yetiştiriciliğinin son yıllarda büyük ölçüde azalmasını… | ✓Tarımda makineleşme ve bataklıkların ku…
+cog-754 | Madenler, Enerji ve Sanayi | Türkiye'de çıkarılan ham petrolün büyük bölümü aşağıdaki bölgelerin hangisinden elde edilmektedir? | ✓Güneydoğu Anadolu
+cog-755 | Ulaşım, Ticaret ve Turizm | Bir ülkede belirli bir yıl ihracat 180 milyar dolar, ithalat 240 milyar dolar olarak gerçekleşmiştir. Buna gö… | ✓75
+cog-756 | Bölgeler ve Projeler | Türkiye coğrafyasında kimi alanlar yöre adlarıyla anılır. Buna göre aşağıdaki yöre - bulunduğu bölge eşleştir… | ✓Ergene (Trakya) - Ege
 cog-tufan-001 | Coğrafi Konum | Türkiye'nin 36° - 42° kuzey paralelleri (enlemleri) arasında yer alması aşağıdakilerden hangisine neden olmaz? | ✓Doğusu ile batısı arasında yerel saat f…
 cog-tufan-002 | Coğrafi Konum | Türkiye'nin doğusu ile batısı arasında yaklaşık 76 dakikalık yerel saat farkı bulunması aşağıdakilerden hangi… | ✓Boylamları (meridyenleri) arasında yakl…
 cog-tufan-003 | İklim ve Bitki Örtüsü | Türkiye'de Karadeniz kıyılarının her mevsim yağış almasının temel nedeni aşağıdakilerden hangisidir? | ✓Dağların kıyıya paralel uzanması ve nem…
