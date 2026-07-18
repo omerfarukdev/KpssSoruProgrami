@@ -1128,7 +1128,7 @@ tur-tufan-047 | Cümlede Anlam | 'Öğretmen, derste en çok soru soran öğrenc
 tur-tufan-048 | Cümlede Anlam | Aşağıdaki cümlelerin hangisinde abartma (mübalağa) anlamı vardır? | ✓O kadar güldük ki gülmekten yerlere yat…
 tur-tufan-049 | Sözcükte Anlam | 'Soğuk' sözcüğü aşağıdaki cümlelerin hangisinde mecaz anlamda kullanılmıştır? | ✓Bizi çok soğuk bir tavırla karşıladı.
 tur-tufan-050 | Sözcükte Anlam | Aşağıdaki cümlelerin hangisinde 'kök' sözcüğü terim anlamıyla kullanılmıştır? | ✓Bu sözcüğün kökü Arapçadır.
-tur-tufan-051 | Sözcükte Anlam | Aşağıdaki sözcük çiftlerinden hangisi eş anlamlı (anlamdaş) değildir? | ✓siyah - beyaz
+tur-tufan-051 | Sözcükte Anlam | Aşağıdaki cümlelerin hangisinde eş anlamlı sözcükler bir arada kullanılmıştır? | ✓Yıllardır gördüğü o güzel rüyayı, o düş…
 tur-tufan-052 | Dil Bilgisi | Aşağıdaki cümlelerin hangisinde yüklem şimdiki zaman kipiyle çekimlenmiştir? | ✓Şu anda odasında kitap okuyor.
 tur-tufan-053 | Dil Bilgisi | Aşağıdaki cümlelerin hangisinde sıfat-fiil (ortaç) vardır? | ✓Okunacak kitapları rafa dizdi.
 tur-tufan-054 | Dil Bilgisi | Aşağıdaki cümlelerin hangisinde bağlaç kullanılmıştır? | ✓Hem dersine çalıştı hem de kitap okudu.
@@ -1158,7 +1158,7 @@ tur-tufan-077 | Cümlede Anlam | 'Ali, sınıfın en uzun boylu öğrencisidir.'
 tur-tufan-078 | Cümlede Anlam | Aşağıdaki cümlelerden hangisi bir tanım cümlesidir? | ✓Sözlük, kelimelerin anlamlarını açıklay…
 tur-tufan-079 | Sözcükte Anlam | 'Acı' sözcüğü aşağıdaki cümlelerin hangisinde mecaz anlamda kullanılmıştır? | ✓Acı haberi duyunca yıkıldı.
 tur-tufan-080 | Sözcükte Anlam | Aşağıdaki cümlelerin hangisinde bir deyim kullanılmıştır? | ✓Zor haberi alınca etekleri tutuştu.
-tur-tufan-081 | Sözcükte Anlam | Aşağıdaki sözcük çiftlerinden hangisi zıt (karşıt) anlamlıdır? | ✓ileri - geri
+tur-tufan-081 | Sözcükte Anlam | Aşağıdaki cümlelerin hangisinde zıt anlamlı sözcükler bir arada kullanılmıştır? | ✓Sınavın kolay mı yoksa zor mu olduğunu …
 tur-tufan-082 | Dil Bilgisi | Aşağıdaki cümlelerin hangisinde yüklem gelecek zaman kipiyle çekimlenmiştir? | ✓Yarın öğleden sonra seninle görüşeceğim.
 tur-tufan-083 | Dil Bilgisi | Aşağıdaki cümlelerin hangisinde zarf-fiil (ulaç) vardır? | ✓Koşarak otobüse yetişti.
 tur-tufan-084 | Dil Bilgisi | Aşağıdaki cümlelerin hangisinde edat (ilgeç) kullanılmıştır? | ✓Seni gördüğüm için çok mutlu oldum.
